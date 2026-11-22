@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VA Corporation — AI agents · Games · Software</title>
+<meta name="description" content="VA Corporation builds AI agents, games and software.">
+<meta property="og:title" content="VA Corporation — AI agents · Games · Software">
+<meta property="og:description" content="We build AI agents, games and software.">
+<meta property="og:image" content="https://benzogamesltd-ops.github.io/va-media/banners/2026-11-22-example-nebula.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3CradialGradient id='g' cx='.42' cy='.35'%3E%3Cstop offset='0' stop-color='%23FFF7DE'/%3E%3Cstop offset='.5' stop-color='%23FFC15E'/%3E%3Cstop offset='1' stop-color='%23F07A1A'/%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='32' cy='32' r='30' fill='url(%23g)'/%3E%3Ctext x='32' y='40' font-family='Arial' font-weight='800' font-size='22' text-anchor='middle' fill='%233A1A00'%3EVA%3C/text%3E%3C/svg%3E">
+<style>
+:root{--bg:#070A22;--bg2:#0B1033;--indigo:#1E2A78;--cyan:#22D3EE;--cyan2:#67E8F9;--gold:#FACC15;--amber:#FFC15E;--orange:#F07A1A;--text:#F2F5FA;--muted:#AAB4D4;--glass:rgba(255,255,255,.07);--line:rgba(255,255,255,.14)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{font-family:Inter,Montserrat,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.55;overflow-x:hidden}
+a{color:var(--cyan2);text-decoration:none}a:hover{color:#fff}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+/* background */
+.sky{position:fixed;inset:0;z-index:-1;background:radial-gradient(90% 60% at 70% 0%,#1E2A78 0%,#0B1033 45%,#070A22 100%)}
+.blob{position:absolute;border-radius:50%;filter:blur(120px);opacity:.45}
+.b1{width:520px;height:520px;left:-160px;top:20%;background:#0891B2;animation:drift 18s ease-in-out infinite alternate}
+.b2{width:600px;height:600px;right:-200px;top:55%;background:#4C1D95;animation:drift 22s ease-in-out infinite alternate-reverse}
+@keyframes drift{to{transform:translate(80px,-120px)}}
+.star{position:absolute;border-radius:50%;background:#fff;animation:tw 4s ease-in-out infinite alternate}
+@keyframes tw{to{opacity:.15}}
+/* nav */
+header{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);background:rgba(7,10,34,.6);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;height:72px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:12px;color:#fff;font-weight:800;font-size:20px;font-family:Montserrat,Inter,sans-serif}
+.sun{width:42px;height:42px;border-radius:50%;background:radial-gradient(circle at 42% 35%,#FFF7DE 0%,#FFC15E 48%,#F07A1A 100%);box-shadow:0 0 24px 6px rgba(255,190,90,.45);display:flex;align-items:center;justify-content:center;color:#3A1A00;font-weight:800;font-size:14px;flex:none}
+nav.links{display:flex;gap:26px;font-weight:600;font-size:15px}
+nav.links a{color:var(--muted)}nav.links a:hover{color:#fff}
+.langs{display:flex;gap:4px;padding:4px;border:1px solid var(--line);border-radius:999px}
+.langs button{background:none;border:0;color:var(--muted);font:600 13px Inter,sans-serif;padding:8px 12px;border-radius:999px;cursor:pointer;min-height:36px}
+.langs button[aria-pressed="true"]{background:var(--cyan);color:#06122B}
+/* hero */
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:96px 24px 80px}
+.kicker{font:700 13px Inter,monospace;letter-spacing:.22em;color:var(--cyan2);text-transform:uppercase}
+h1{font-family:Montserrat,Inter,sans-serif;font-weight:900;font-size:clamp(40px,6vw,76px);line-height:1.02;letter-spacing:-.02em;margin:18px 0 22px}
+.grad{background:linear-gradient(90deg,var(--gold),var(--amber),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:19px;color:var(--muted);max-width:560px}
+.ctas{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 26px;border-radius:999px;font-weight:800;font-size:16px;min-height:48px}
+.btn.primary{background:linear-gradient(90deg,var(--gold),var(--amber));color:#0B1033}
+.btn.primary:hover{color:#0B1033;filter:brightness(1.08)}
+.btn.ghost{border:1.5px solid var(--line);color:#fff;background:var(--glass)}
+/* orbit visual */
+.orbit{position:relative;aspect-ratio:1/1;width:calc(100% - 60px);max-width:440px;margin:30px auto}
+.ring{position:absolute;border-radius:50%;border:1.5px solid rgba(103,232,249,.28)}
+.r1{inset:14%}.r2{inset:0}
+.core{position:absolute;inset:34%;border-radius:50%;background:radial-gradient(circle at 42% 35%,#FFF7DE 0%,#FFC15E 48%,#F07A1A 100%);box-shadow:0 0 90px 30px rgba(255,190,90,.45);display:flex;align-items:center;justify-content:center;font:800 clamp(28px,4vw,46px) Montserrat,sans-serif;color:#3A1A00}
+.spin{position:absolute;inset:0;animation:spin 18s linear infinite}.spin.s2{inset:14%;animation-duration:12s;animation-direction:reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.node{position:absolute;width:54px;height:54px;margin:-27px;border-radius:50%;background:rgba(7,10,34,.85);border:2px solid var(--gold);box-shadow:0 0 22px rgba(250,204,21,.5);display:flex;align-items:center;justify-content:center;font:800 11px Inter,sans-serif;color:var(--gold)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+/* sections */
+section{padding:84px 0}
+h2{font-family:Montserrat,Inter,sans-serif;font-weight:900;font-size:clamp(30px,4vw,48px);letter-spacing:-.01em;margin:12px 0 18px}
+.sub{color:var(--muted);max-width:640px;font-size:18px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:44px}
+.card{padding:32px;border-radius:26px;background:var(--glass);border:1px solid var(--line);backdrop-filter:blur(12px);transition:transform .3s cubic-bezier(.2,.8,.2,1),border-color .3s}
+.card:hover{transform:translateY(-6px);border-color:rgba(103,232,249,.5)}
+.ico{width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center;background:rgba(34,211,238,.12);border:1px solid rgba(34,211,238,.35);margin-bottom:22px}
+.card h3{font:800 22px Montserrat,Inter,sans-serif;margin-bottom:10px}
+.card p{color:var(--muted)}
+.tag{display:inline-block;margin-top:16px;font:700 12px Inter,monospace;letter-spacing:.14em;color:var(--cyan2)}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-top:44px;counter-reset:s}
+.step{padding:26px;border-radius:22px;border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02))}
+.step b{display:block;font:900 36px Montserrat,sans-serif;color:var(--gold);margin-bottom:6px}
+.step h3{font:800 19px Montserrat,Inter,sans-serif;margin-bottom:6px}.step p{color:var(--muted);font-size:15px}
+.reels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:44px;max-width:900px}
+.reels video{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:20px;border:1px solid var(--line);background:#0B1033}
+.cta{margin-top:20px;padding:56px;border-radius:32px;text-align:center;background:radial-gradient(120% 140% at 50% 0%,rgba(34,211,238,.22),rgba(30,42,120,.35) 50%,rgba(7,10,34,.6));border:1px solid rgba(103,232,249,.35)}
+.socials{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:30px}
+.soc{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:999px;border:1px solid var(--line);background:var(--glass);color:#fff;font-weight:700;min-height:48px}
+.soc:hover{border-color:var(--cyan)}
+footer{border-top:1px solid var(--line);padding:34px 0;color:var(--muted);font-size:14px}
+footer .row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+[data-l]{display:none}
+html[lang="en"] [data-l="en"],html[lang="de"] [data-l="de"],html[lang="ru"] [data-l="ru"]{display:revert}
+@media (max-width:900px){.nav{height:auto;padding:12px 24px}.logo{font-size:17px}.langs button{padding:8px 10px}h1{word-break:normal;overflow-wrap:anywhere}.hero{grid-template-columns:1fr;padding-top:56px}.grid3{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,minmax(0,1fr))}.reels{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}nav.links{display:none}.cta{padding:34px 22px}}
+</style>
+</head>
+<body>
+<div class="sky" aria-hidden="true"><div class="blob b1"></div><div class="blob b2"></div></div>
+
+<header><div class="wrap nav">
+ <a class="logo" href="#top" aria-label="VA Corporation"><span class="sun">VA</span>VA Corporation</a>
+ <nav class="links" aria-label="Main">
+  <a href="#services"><span data-l="en">Services</span><span data-l="de">Leistungen</span><span data-l="ru">Услуги</span></a>
+  <a href="#process"><span data-l="en">Process</span><span data-l="de">Ablauf</span><span data-l="ru">Процесс</span></a>
+  <a href="#work"><span data-l="en">Work</span><span data-l="de">Arbeiten</span><span data-l="ru">Работы</span></a>
+  <a href="#contact"><span data-l="en">Contact</span><span data-l="de">Kontakt</span><span data-l="ru">Контакты</span></a>
+ </nav>
+ <div class="langs" role="group" aria-label="Language">
+  <button type="button" data-set="en" aria-pressed="true">EN</button><button type="button" data-set="de" aria-pressed="false">DE</button><button type="button" data-set="ru" aria-pressed="false">RU</button>
+ </div>
+</div></header>
+
+<main id="top">
+<div class="wrap hero">
+ <div>
+  <div class="kicker">AI agents · Games · Software</div>
+  <h1><span data-l="en">We build <span class="grad">AI agents</span>, games and software.</span><span data-l="de">Wir entwickeln <span class="grad">KI-Agenten</span>, Spiele und Software.</span><span data-l="ru">Создаём <span class="grad">AI-агентов</span>, игры и софт.</span></h1>
+  <p class="lead"><span data-l="en">VA Corporation is a technology studio at the intersection of artificial intelligence, game development and digital products.</span><span data-l="de">VA Corporation ist ein Technologiestudio an der Schnittstelle von künstlicher Intelligenz, Spieleentwicklung und digitalen Produkten.</span><span data-l="ru">VA Corporation — технологическая студия на стыке искусственного интеллекта, разработки игр и цифровых продуктов.</span></p>
+  <div class="ctas">
+   <a class="btn primary" href="#contact"><span data-l="en">Start a project</span><span data-l="de">Projekt starten</span><span data-l="ru">Обсудить проект</span> →</a>
+   <a class="btn ghost" href="#work"><span data-l="en">See our work</span><span data-l="de">Unsere Arbeiten</span><span data-l="ru">Наши работы</span></a>
+  </div>
+ </div>
+ <div class="orbit" aria-hidden="true">
+  <div class="ring r2"></div><div class="ring r1"></div>
+  <div class="spin"><div class="node" style="left:50%;top:0">AI</div><div class="node" style="left:100%;top:50%">GAME</div><div class="node" style="left:50%;top:100%">WEB</div><div class="node" style="left:0;top:50%">DATA</div></div>
+  <div class="spin s2"><div class="node" style="left:85%;top:15%">01</div><div class="node" style="left:15%;top:85%">02</div></div>
+  <div class="core">VA</div>
+ </div>
+</div>
+
+<section id="services"><div class="wrap">
+ <div class="kicker"><span data-l="en">What we do</span><span data-l="de">Was wir tun</span><span data-l="ru">Что мы делаем</span></div>
+ <h2><span data-l="en">Three directions. One studio.</span><span data-l="de">Drei Richtungen. Ein Studio.</span><span data-l="ru">Три направления. Одна студия.</span></h2>
+ <div class="grid3">
+  <article class="card"><div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#67E8F9" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><circle cx="4" cy="6" r="2"/><circle cx="20" cy="6" r="2"/><circle cx="4" cy="18" r="2"/><circle cx="20" cy="18" r="2"/><path d="M6 7l4 3M18 7l-4 3M6 17l4-3M18 17l-4-3"/></svg></div>
+   <h3><span data-l="en">AI agents</span><span data-l="de">KI-Agenten</span><span data-l="ru">AI-агенты</span></h3>
+   <p><span data-l="en">Autonomous assistants that take over routine work: handling requests, answering customers, working with data and documents.</span><span data-l="de">Autonome Assistenten, die Routinearbeit übernehmen: Anfragen bearbeiten, Kunden antworten, mit Daten und Dokumenten arbeiten.</span><span data-l="ru">Автономные помощники, которые берут на себя рутину: обработку заявок, ответы клиентам, работу с данными и документами.</span></p>
+   <span class="tag">AUTOMATION · ASSISTANTS</span></article>
+  <article class="card"><div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#67E8F9" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 11v3M5.5 12.5h3"/><circle cx="16" cy="11.5" r=".8"/><circle cx="18" cy="13.5" r=".8"/></svg></div>
+   <h3><span data-l="en">Games</span><span data-l="de">Spiele</span><span data-l="ru">Игры</span></h3>
+   <p><span data-l="en">Game design, mechanics and production — from the first prototype to release.</span><span data-l="de">Game Design, Mechaniken und Produktion — vom ersten Prototyp bis zum Release.</span><span data-l="ru">Геймдизайн, механики и продакшн — от первого прототипа до релиза.</span></p>
+   <span class="tag">GAME DESIGN · PRODUCTION</span></article>
+  <article class="card"><div class="ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#67E8F9" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></div>
+   <h3><span data-l="en">Software</span><span data-l="de">Software</span><span data-l="ru">Софт</span></h3>
+   <p><span data-l="en">Web and IT products, automation and integrations built around your business.</span><span data-l="de">Web- und IT-Produkte, Automatisierung und Integrationen, zugeschnitten auf Ihr Business.</span><span data-l="ru">Веб- и IT-продукты, автоматизация и интеграции под задачи вашего бизнеса.</span></p>
+   <span class="tag">WEB · INTEGRATIONS</span></article>
+ </div>
+</div></section>
+
+<section id="process"><div class="wrap">
+ <div class="kicker"><span data-l="en">How we work</span><span data-l="de">So arbeiten wir</span><span data-l="ru">Как мы работаем</span></div>
+ <h2><span data-l="en">From idea to launch</span><span data-l="de">Von der Idee zum Launch</span><span data-l="ru">От идеи до запуска</span></h2>
+ <div class="steps">
+  <div class="step"><b>01</b><h3><span data-l="en">Idea</span><span data-l="de">Idee</span><span data-l="ru">Идея</span></h3><p><span data-l="en">We clarify the goal and the task.</span><span data-l="de">Wir klären Ziel und Aufgabe.</span><span data-l="ru">Разбираемся в цели и задаче.</span></p></div>
+  <div class="step"><b>02</b><h3><span data-l="en">Prototype</span><span data-l="de">Prototyp</span><span data-l="ru">Прототип</span></h3><p><span data-l="en">A first working version to test the concept.</span><span data-l="de">Eine erste funktionierende Version zum Testen.</span><span data-l="ru">Первая рабочая версия, чтобы проверить идею.</span></p></div>
+  <div class="step"><b>03</b><h3><span data-l="en">Build</span><span data-l="de">Entwicklung</span><span data-l="ru">Разработка</span></h3><p><span data-l="en">Development, design and testing.</span><span data-l="de">Entwicklung, Design und Tests.</span><span data-l="ru">Разработка, дизайн и тестирование.</span></p></div>
+  <div class="step"><b>04</b><h3><span data-l="en">Launch</span><span data-l="de">Launch</span><span data-l="ru">Запуск</span></h3><p><span data-l="en">Release and ongoing support.</span><span data-l="de">Veröffentlichung und laufender Support.</span><span data-l="ru">Релиз и дальнейшая поддержка.</span></p></div>
+ </div>
+</div></section>
+
+<section id="work"><div class="wrap">
+ <div class="kicker"><span data-l="en">Made by our AI studio</span><span data-l="de">Aus unserem KI-Studio</span><span data-l="ru">Сделано нашей AI-студией</span></div>
+ <h2><span data-l="en">Motion &amp; content</span><span data-l="de">Motion &amp; Content</span><span data-l="ru">Видео и контент</span></h2>
+ <p class="sub"><span data-l="en">These reels were designed, animated and scored by AI — the same technology we build for our clients.</span><span data-l="de">Diese Reels wurden von KI gestaltet, animiert und vertont — mit derselben Technologie, die wir für Kunden bauen.</span><span data-l="ru">Эти ролики придумал, анимировал и озвучил ИИ — та же технология, которую мы делаем для клиентов.</span></p>
+ <div class="reels">
+  <video src="https://benzogamesltd-ops.github.io/va-media/reels/2026-11-22-tiktok-empire.mp4" poster="https://benzogamesltd-ops.github.io/va-media/covers/2026-11-22-tiktok-empire.jpg" muted loop playsinline autoplay preload="metadata" aria-label="Reel: Build your AI agent empire"></video>
+  <video src="https://benzogamesltd-ops.github.io/va-media/reels/va-solar-subs.mp4" poster="https://benzogamesltd-ops.github.io/va-media/covers/va-solar.jpg" muted loop playsinline autoplay preload="metadata" aria-label="Reel: Solar system"></video>
+  <video src="https://benzogamesltd-ops.github.io/va-media/reels/va-sunrise.mp4" muted loop playsinline autoplay preload="metadata" aria-label="Reel: Sunrise"></video>
+ </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+ <div class="cta">
+  <div class="kicker"><span data-l="en">Let's talk</span><span data-l="de">Lass uns reden</span><span data-l="ru">Давайте обсудим</span></div>
+  <h2><span data-l="en">Have an idea? Let's build it.</span><span data-l="de">Eine Idee? Lass sie uns bauen.</span><span data-l="ru">Есть идея? Давайте её создадим.</span></h2>
+  <p class="sub" style="margin:0 auto"><span data-l="en">Write to us on any channel — we reply in English, German and Russian.</span><span data-l="de">Schreib uns auf einem beliebigen Kanal — wir antworten auf Deutsch, Englisch und Russisch.</span><span data-l="ru">Пишите в любой канал — отвечаем на русском, немецком и английском.</span></p>
+  <div class="socials">
+   <a class="soc" href="https://www.instagram.com/va_video_maker/" target="_blank" rel="noopener">Instagram</a>
+   <a class="soc" href="https://www.facebook.com/1496590173530340" target="_blank" rel="noopener">Facebook</a>
+   <a class="soc" href="https://www.tiktok.com/@benzogames.ltd" target="_blank" rel="noopener">TikTok</a>
+  </div>
+ </div>
+</div></section>
+</main>
+
+<footer><div class="wrap row">
+ <span>© 2026 VA Corporation</span>
+ <span>AI agents · Games · Software</span>
+</div></footer>
+
+<script>
+(function(){
+ var sky=document.querySelector('.sky'),seed=7;function r(){seed=(seed*16807)%2147483647;return seed/2147483647}
+ for(var i=0;i<140;i++){var d=document.createElement('div');d.className='star';var z=r()*2.2+.5;d.style.cssText='left:'+(r()*100)+'%;top:'+(r()*100)+'%;width:'+z+'px;height:'+z+'px;opacity:'+(.2+r()*.7)+';animation-delay:'+(r()*4)+'s';sky.appendChild(d)}
+ function setLang(l){document.documentElement.lang=l;document.querySelectorAll('.langs button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});try{localStorage.setItem('va-lang',l)}catch(e){}}
+ document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set)})});
+ var saved=null;try{saved=localStorage.getItem('va-lang')}catch(e){}
+ var nav=(navigator.language||'en').slice(0,2);setLang(saved||(nav==='de'||nav==='ru'?nav:'en'));
+})();
+</script>
+</body>
+</html>
