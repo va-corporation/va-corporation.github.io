@@ -15,7 +15,7 @@
 <link rel="alternate" hreflang="it" href="https://va-corporation.github.io/it/">
 <link rel="alternate" hreflang="fr" href="https://va-corporation.github.io/fr/">
 <link rel="alternate" hreflang="ru" href="https://va-corporation.github.io/ru/">
-<link rel="alternate" hreflang="be" href="https://va-corporation.github.io/be/">
+<link rel="alternate" hreflang="be" href="https://va-corporation.github.io/by/">
 <link rel="alternate" hreflang="x-default" href="https://va-corporation.github.io/">
 <meta property="og:locale" content="fr_FR"><meta property="og:locale:alternate" content="en_US"><meta property="og:locale:alternate" content="de_DE"><meta property="og:locale:alternate" content="es_ES"><meta property="og:locale:alternate" content="it_IT"><meta property="og:locale:alternate" content="ru_RU"><meta property="og:locale:alternate" content="be_BY">
 <meta property="og:type" content="website">
@@ -31,9 +31,15 @@
 <meta name="twitter:description" content="We build AI agents, games and software.">
 <meta name="twitter:image" content="https://va-corporation.github.io/assets/og.jpg">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://va-corporation.github.io/#org", "name": "VA Corporation", "url": "https://va-corporation.github.io/", "logo": "https://va-corporation.github.io/assets/logo.png", "image": "https://va-corporation.github.io/assets/og.jpg", "description": "VA Corporation builds AI agents, games and software.", "slogan": "AI agents · Games · Software", "knowsLanguage": ["en", "de", "ru", "es", "it", "fr", "be"], "sameAs": ["https://www.instagram.com/va_video_maker/", "https://www.facebook.com/1496590173530340", "https://www.tiktok.com/@benzogames.ltd", "https://t.me/va_corporation_bot", "https://github.com/va-corporation"], "knowsAbout": ["AI agents", "Artificial intelligence", "Automation", "Game development", "Web development", "Video automation", "Social media automation"]}, {"@type": "WebSite", "@id": "https://va-corporation.github.io/#site", "url": "https://va-corporation.github.io/", "name": "VA Corporation", "inLanguage": ["en", "de", "ru"], "publisher": {"@id": "https://va-corporation.github.io/#org"}}]}</script>
+<link rel="preload" href="/assets/fonts/montserrat-var.woff" as="font" type="font/woff" crossorigin>
 <link rel="apple-touch-icon" href="/assets/logo.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3CradialGradient id='g' cx='.42' cy='.35'%3E%3Cstop offset='0' stop-color='%23FFF7DE'/%3E%3Cstop offset='.5' stop-color='%23FFC15E'/%3E%3Cstop offset='1' stop-color='%23F07A1A'/%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='32' cy='32' r='30' fill='url(%23g)'/%3E%3Ctext x='32' y='40' font-family='Arial' font-weight='800' font-size='22' text-anchor='middle' fill='%233A1A00'%3EVA%3C/text%3E%3C/svg%3E">
 <style>
+@font-face{font-family:Montserrat;src:url(/assets/fonts/montserrat-var.woff) format("woff");font-weight:100 900;font-display:swap}
+@font-face{font-family:Inter;src:url(/assets/fonts/inter-regular.woff) format("woff");font-weight:400;font-display:swap}
+@font-face{font-family:Inter;src:url(/assets/fonts/inter-medium.woff) format("woff");font-weight:500;font-display:swap}
+@font-face{font-family:Inter;src:url(/assets/fonts/inter-semibold.woff) format("woff");font-weight:600;font-display:swap}
+@font-face{font-family:Inter;src:url(/assets/fonts/inter-bold.woff) format("woff");font-weight:700 900;font-display:swap}
 :root{--bg:#070A22;--bg2:#0B1033;--indigo:#1E2A78;--cyan:#22D3EE;--cyan2:#67E8F9;--gold:#FACC15;--amber:#FFC15E;--orange:#F07A1A;--text:#F2F5FA;--muted:#AAB4D4;--glass:rgba(255,255,255,.07);--line:rgba(255,255,255,.14)}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;overflow-x:hidden}
@@ -181,7 +187,7 @@ html[lang="en"] [data-l="en"],html[lang="de"] [data-l="de"],html[lang="ru"] [dat
 .rv.in{opacity:1;transform:none}
 /* section planets */
 section{position:relative}
-.sp{position:absolute;border-radius:50%;pointer-events:none;z-index:0;animation:float 13s ease-in-out infinite}
+.sp{position:absolute;opacity:.9;border-radius:50%;pointer-events:none;z-index:0;animation:float 13s ease-in-out infinite}
 .sp.ring::after{content:"";position:absolute;left:-45%;top:40%;width:190%;height:20%;border:3px solid rgba(103,232,249,.7);border-radius:50%;transform:rotate(-18deg)}
 section>.wrap{position:relative;z-index:1}
 /* rocket */
@@ -209,6 +215,40 @@ section>.wrap{position:relative;z-index:1}
 .spin.s2 .node{animation:unspin2 12s linear infinite}
 @keyframes unspin{to{transform:rotate(-360deg)}}
 @keyframes unspin2{to{transform:rotate(360deg)}}
+@media (max-width:1300px){.sp{display:none}}
+
+.va-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center;margin-top:40px}
+.vsteps{display:flex;flex-direction:column;gap:14px;margin:28px 0 30px}
+.vstep{display:flex;gap:16px;align-items:center;padding:16px 18px;border-radius:18px;background:var(--glass);border:1px solid var(--line)}
+.vstep b{flex:none;width:44px;height:44px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:22px;background:rgba(34,211,238,.12);border:1px solid rgba(34,211,238,.35)}
+.vstep h3{font:800 17px Montserrat,Inter,sans-serif}.vstep p{color:var(--muted);font-size:14px}
+.vphone{position:relative;max-width:330px;margin:0 auto;border-radius:36px;padding:10px;background:linear-gradient(160deg,rgba(255,255,255,.2),rgba(255,255,255,.04));border:1px solid var(--line);box-shadow:0 30px 90px rgba(34,211,238,.18)}
+.vphone video{display:block;width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:28px;background:#0B1033}
+.vbadge{position:absolute;top:22px;left:-18px;background:linear-gradient(90deg,var(--gold),var(--amber));color:#0B1033;font:800 13px Inter,sans-serif;padding:8px 14px;border-radius:999px;transform:rotate(-6deg);box-shadow:0 10px 30px rgba(250,204,21,.4)}
+.pk{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:40px}
+.pkc{padding:30px;border-radius:26px;background:var(--glass);border:1px solid var(--line);display:flex;flex-direction:column;gap:12px}
+.pkc.hl{border-color:rgba(250,204,21,.55);background:linear-gradient(180deg,rgba(250,204,21,.10),rgba(255,255,255,.04))}
+.pkc h3{font:800 22px Montserrat,Inter,sans-serif}.pkc p{color:var(--muted)}
+.pkc .pr{margin-top:auto;font:700 13px Inter,monospace;letter-spacing:.12em;color:var(--cyan2);text-transform:uppercase}
+.pkc .btn{align-self:flex-start;padding:12px 22px;min-height:44px}
+.faq{margin-top:34px;display:flex;flex-direction:column;gap:12px;max-width:860px}
+.faq details{border:1px solid var(--line);border-radius:18px;background:var(--glass);padding:0 22px}
+.faq summary{cursor:pointer;list-style:none;padding:20px 0;font:800 18px Montserrat,Inter,sans-serif;display:flex;justify-content:space-between;gap:16px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:26px;color:var(--cyan2);transition:transform .25s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{color:var(--muted);padding:0 0 20px;max-width:720px}
+.lead-form{margin:34px auto 0;max-width:620px;display:flex;flex-direction:column;gap:14px;text-align:left}
+.lead-form label{font:700 14px Inter,sans-serif;color:#E9EEFF;display:flex;flex-direction:column;gap:8px}
+.lead-form input,.lead-form textarea{font:500 16px Inter,sans-serif;color:#fff;background:rgba(7,10,34,.6);border:1px solid var(--line);border-radius:14px;padding:14px 16px;min-height:48px}
+.lead-form input:focus,.lead-form textarea:focus{outline:2px solid var(--cyan);outline-offset:1px;border-color:transparent}
+.lead-form textarea{min-height:110px;resize:vertical}
+.lf-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:4px}
+.lf-btns .btn{border:0;cursor:pointer;font-family:Inter,sans-serif}
+.btn.tgb{background:#229ED9;color:#fff}.btn.tgb:hover{color:#fff}
+.lf-note{color:var(--muted);font-size:13px}
+.lf-ok{color:#A3E635;font-weight:700;font-size:14px;min-height:20px}
+@media (max-width:900px){.va-grid{grid-template-columns:1fr}.pk{grid-template-columns:1fr}.vbadge{left:4px}}
 </style>
 </head>
 <body style="position:relative">
@@ -219,12 +259,14 @@ section>.wrap{position:relative;z-index:1}
  <a class="logo" href="#top" aria-label="VA Corporation"><span class="sun">VA</span>VA Corporation</a>
  <nav class="links" aria-label="Main">
   <a href="#services"><span data-l="fr">Services</span></a>
+  <a href="#video-agent"><span data-l="fr">Vidéo IA</span></a>
   <a href="#process"><span data-l="fr">Processus</span></a>
   <a href="#work"><span data-l="fr">Réalisations</span></a>
+  <a href="#faq"><span data-l="fr">FAQ</span></a>
   <a href="#contact"><span data-l="fr">Contact</span></a>
  </nav>
  <label class="langsel"><span class="sr">Language</span><select id="langSel" aria-label="Language">
-  <option value="en">EN · English</option><option value="de">DE · Deutsch</option><option value="es">ES · Español</option><option value="it">IT · Italiano</option><option value="fr" selected>FR · Français</option><option value="ru">RU · Русский</option><option value="be">BE · Беларуская</option>
+  <option value="en">EN · English</option><option value="de">DE · Deutsch</option><option value="es">ES · Español</option><option value="it">IT · Italiano</option><option value="fr" selected>FR · Français</option><option value="ru">RU · Русский</option><option value="be">BY · Беларуская</option>
  </select></label>
 </div></header>
 
@@ -247,7 +289,7 @@ section>.wrap{position:relative;z-index:1}
  </div>
 </div>
 
-<section id="services"><div class="sp ring" aria-hidden="true" style="width:90px;height:90px;right:5%;top:40px;background:radial-gradient(circle at 32% 30%,#E0F2FE,#22D3EE 45%,#1E3A8A);box-shadow:0 0 50px rgba(34,211,238,.4)"></div><div class="wrap">
+<section id="services"><div class="sp ring" aria-hidden="true" style="width:90px;height:90px;right:1.5%;top:-30px;background:radial-gradient(circle at 32% 30%,#E0F2FE,#22D3EE 45%,#1E3A8A);box-shadow:0 0 50px rgba(34,211,238,.4)"></div><div class="wrap">
  <div class="kicker"><span data-l="fr">Ce que nous faisons</span></div>
  <h2><span data-l="fr">Trois directions. Un studio.</span></h2>
  <div class="grid3">
@@ -266,6 +308,16 @@ section>.wrap{position:relative;z-index:1}
  </div>
 </div></section>
 
+<section id="video-agent"><div class="wrap">
+ <div class="kicker"><span data-l="fr">À la une · Agent IA de montage vidéo</span></div>
+ <h2><span data-l="fr">Votre monteur vidéo IA. Il ne dort jamais.</span></h2>
+ <div class="va-grid">
+  <div><p class="sub"><span data-l="fr">Notre propre agent écrit le script, anime chaque scène, ajoute les sous-titres et une musique originale — puis publie sur Instagram, Facebook et TikTok. Tous les reels de cette page ont été créés par lui.</span></p>
+   <div class="vsteps"><div class="vstep"><b aria-hidden="true">✍️</b><div><h3><span data-l="fr">Script</span></h3><p><span data-l="fr">Choisit un sujet et écrit l&#x27;accroche.</span></p></div></div><div class="vstep"><b aria-hidden="true">🎬</b><div><h3><span data-l="fr">Animation</span></h3><p><span data-l="fr">Conçoit et anime chaque scène.</span></p></div></div><div class="vstep"><b aria-hidden="true">💬</b><div><h3><span data-l="fr">Sous-titres</span></h3><p><span data-l="fr">Ajoute les sous-titres dans les bonnes langues.</span></p></div></div><div class="vstep"><b aria-hidden="true">🎧</b><div><h3><span data-l="fr">Musique</span></h3><p><span data-l="fr">Compose un morceau techno original.</span></p></div></div><div class="vstep"><b aria-hidden="true">🚀</b><div><h3><span data-l="fr">Publication</span></h3><p><span data-l="fr">Publie sur Instagram, Facebook et TikTok.</span></p></div></div></div>
+   <a class="btn primary" href="#contact"><span data-l="fr">Je veux un agent comme ça</span> →</a></div>
+  <div class="vphone"><span class="vbadge">Made by AI</span><video src="https://benzogamesltd-ops.github.io/va-media/reels/2026-11-22-tiktok-empire.mp4" poster="https://benzogamesltd-ops.github.io/va-media/covers/2026-11-22-tiktok-empire.jpg" muted loop playsinline autoplay preload="metadata" aria-label="AI-made reel"></video></div>
+ </div>
+</div></section>
 <section id="process"><div class="wrap">
  <div class="kicker"><span data-l="fr">Notre méthode</span></div>
  <h2><span data-l="fr">De l&#x27;idée au lancement</span></h2>
@@ -277,7 +329,7 @@ section>.wrap{position:relative;z-index:1}
  </div>
 </div></section>
 
-<section id="work"><div class="sp" aria-hidden="true" style="width:140px;height:140px;left:-40px;top:120px;background:radial-gradient(circle at 32% 30%,#FDE68A,#FB923C 35%,#7C3AED 75%,#1E1B4B);box-shadow:0 0 70px rgba(251,146,60,.35);animation-duration:17s"></div><div class="sp" aria-hidden="true" style="width:40px;height:40px;right:8%;top:60px;background:radial-gradient(circle at 35% 30%,#ECFCCB,#84CC16 50%,#14532D)"></div><div class="wrap">
+<section id="work"><div class="sp" aria-hidden="true" style="width:140px;height:140px;left:-80px;top:40px;background:radial-gradient(circle at 32% 30%,#FDE68A,#FB923C 35%,#7C3AED 75%,#1E1B4B);box-shadow:0 0 70px rgba(251,146,60,.35);animation-duration:17s"></div><div class="sp" aria-hidden="true" style="width:40px;height:40px;right:3%;top:20px;background:radial-gradient(circle at 35% 30%,#ECFCCB,#84CC16 50%,#14532D)"></div><div class="wrap">
  <div class="kicker"><span data-l="fr">Portfolio</span></div>
  <h2><span data-l="fr">Projets et concepts</span></h2>
  <p class="sub"><span data-l="fr">Des projets réels de notre équipe et des concepts du studio qui montrent ce que nous pouvons créer pour vous.</span></p>
@@ -295,11 +347,30 @@ section>.wrap{position:relative;z-index:1}
  </div>
 </div></section>
 
+<section id="packages"><div class="wrap">
+ <div class="kicker"><span data-l="fr">Offres</span></div>
+ <h2><span data-l="fr">Comment commencer</span></h2>
+ <div class="pk"><article class="pkc"><h3><span data-l="fr">Pilote d&#x27;agent IA</span></h3><p><span data-l="fr">Un agent pour une tâche de votre entreprise : nous le créons, le testons avec vous et le lançons.</span></p><span class="pr"><span data-l="fr">Prix sur demande</span></span><a class="btn ghost" href="#contact"><span data-l="fr">En parler</span> →</a></article><article class="pkc hl"><h3><span data-l="fr">Agent IA vidéo &amp; réseaux sociaux</span></h3><p><span data-l="fr">Des reels, bannières et publications chaque jour pour votre marque, créés et publiés automatiquement.</span></p><span class="pr"><span data-l="fr">Prix sur demande</span></span><a class="btn primary" href="#contact"><span data-l="fr">En parler</span> →</a></article><article class="pkc"><h3><span data-l="fr">Jeu ou produit web</span></h3><p><span data-l="fr">De l&#x27;idée et du prototype à un jeu, un site ou un bot terminé.</span></p><span class="pr"><span data-l="fr">Prix sur demande</span></span><a class="btn ghost" href="#contact"><span data-l="fr">En parler</span> →</a></article></div>
+</div></section>
+<section id="faq"><div class="wrap">
+ <div class="kicker"><span data-l="fr">FAQ</span></div>
+ <h2><span data-l="fr">Questions &amp; réponses</span></h2>
+ <div class="faq"><details><summary><span data-l="fr">Qu&#x27;est-ce qu&#x27;un agent IA ?</span></summary><p><span data-l="fr">Un programme basé sur l&#x27;intelligence artificielle qui accomplit des tâches seul — répondre aux clients, traiter les demandes, créer du contenu ou travailler sur des données — selon les règles que vous fixez.</span></p></details><details><summary><span data-l="fr">Dans quelles langues travaillez-vous ?</span></summary><p><span data-l="fr">Notre équipe communique en anglais, allemand et russe. Les agents que nous créons peuvent travailler dans bien d&#x27;autres langues.</span></p></details><details><summary><span data-l="fr">Comment démarre un projet ?</span></summary><p><span data-l="fr">Parlez-nous de votre besoin. Nous discutons de l&#x27;objectif, proposons une solution et, si elle vous convient, commençons par un petit pilote.</span></p></details><details><summary><span data-l="fr">Combien ça coûte ?</span></summary><p><span data-l="fr">Cela dépend de la tâche : nous estimons chaque projet individuellement après un court échange. La première consultation est gratuite.</span></p></details><details><summary><span data-l="fr">Puis-je voir des exemples ?</span></summary><p><span data-l="fr">Oui — le portfolio et les reels de cette page sont nos réalisations. Les vidéos ont été entièrement créées par notre agent IA.</span></p></details></div>
+</div></section>
 <section id="contact"><div class="rocket" aria-hidden="true">🚀</div><div class="wrap">
  <div class="cta">
   <div class="kicker"><span data-l="fr">Parlons-en</span></div>
   <h2><span data-l="fr">Une idée ? Réalisons-la.</span></h2>
   <p class="sub" style="margin:0 auto"><span data-l="fr">Écrivez-nous sur n&#x27;importe quel canal — nous répondons en anglais, allemand et russe.</span></p>
+  
+  <form class="lead-form" id="leadForm" novalidate>
+   <label><span data-l="fr">Votre nom</span><input name="name" autocomplete="name" required></label>
+   <label><span data-l="fr">Comment vous joindre ? (Telegram, Instagram ou e-mail)</span><input name="contact" required></label>
+   <label><span data-l="fr">De quoi avez-vous besoin ?</span><textarea name="task" required></textarea></label>
+   <div class="lf-btns"><button type="submit" class="btn tgb" data-to="tg"><span data-l="fr">Envoyer via Telegram</span></button><button type="submit" class="btn ghost" data-to="ig"><span data-l="fr">Envoyer via Instagram</span></button></div>
+   <p class="lf-note"><span data-l="fr">Votre message est copié automatiquement — collez-le simplement dans le chat et envoyez-le.</span></p>
+   <p class="lf-ok" id="lfOk" role="status" aria-live="polite"></p>
+  </form>
   <div class="socials">
    <a class="soc" href="https://www.instagram.com/va_video_maker/" target="_blank" rel="noopener">Instagram</a>
    <a class="soc" href="https://www.facebook.com/1496590173530340" target="_blank" rel="noopener">Facebook</a>
@@ -333,7 +404,7 @@ section>.wrap{position:relative;z-index:1}
  var sky=document.querySelector('.sky'),seed=7;function r(){seed=(seed*16807)%2147483647;return seed/2147483647}
  for(var i=0;i<140;i++){var d=document.createElement('div');d.className='star';var z=r()*2.2+.5;d.style.cssText='left:'+(r()*100)+'%;top:'+(r()*100)+'%;width:'+z+'px;height:'+z+'px;opacity:'+(.2+r()*.7)+';animation-delay:'+(r()*4)+'s';sky.appendChild(d)}
  var SUP=['en','de','es','it','fr','ru','be'];var sel=document.getElementById('langSel');var cur=document.documentElement.lang||'en';
- function path(l){return l==='en'?'/':'/'+l+'/'}
+ function path(l){return l==='en'?'/':(l==='be'?'/by/':'/'+l+'/')}
  function remember(l){try{localStorage.setItem('va-lang',l)}catch(e){}}
  if(sel)sel.addEventListener('change',function(){remember(sel.value);location.href=path(sel.value)});
  function device(){var list=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'en']);for(var i=0;i<list.length;i++){var c=String(list[i]).toLowerCase().slice(0,2);if(SUP.indexOf(c)>-1)return c}return 'en'}
@@ -377,6 +448,17 @@ section>.wrap{position:relative;z-index:1}
  /* hero parallax */
  var orb=document.querySelector('.orbit');
  if(orb&&window.matchMedia('(pointer:fine)').matches){window.addEventListener('mousemove',function(ev){var x=(ev.clientX/innerWidth-.5)*24,y=(ev.clientY/innerHeight-.5)*24;orb.style.transform='translate('+x+'px,'+y+'px)'})}
+
+ /* lead form: copy message, open Telegram / Instagram DM */
+ var lf=document.getElementById('leadForm'),lfOk=document.getElementById('lfOk'),OK={en:'Copied! Paste it into the chat.',de:'Kopiert! Im Chat einfügen.',es:'¡Copiado! Pégalo en el chat.',it:'Copiato! Incollalo nella chat.',fr:'Copié ! Collez-le dans le chat.',ru:'Скопировано! Вставьте в чат.',be:'Скапіравана! Устаўце ў чат.'},who='tg';
+ if(lf){lf.querySelectorAll('button[data-to]').forEach(function(b){b.addEventListener('click',function(){who=b.dataset.to})});
+  lf.addEventListener('submit',function(e){e.preventDefault();var f=new FormData(lf);
+   if(!f.get('name')||!f.get('contact')||!f.get('task')){lf.reportValidity();return}
+   var msg='VA Corporation — '+location.pathname+'\n'+f.get('name')+'\n'+f.get('contact')+'\n\n'+f.get('task');
+   var url=who==='ig'?'https://ig.me/m/va_video_maker':'https://t.me/va_corporation_bot';
+   function go(){lfOk.textContent=OK[document.documentElement.lang]||OK.en;window.open(url,'_blank','noopener')}
+   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(msg).then(go,go)}else{go()}
+  })}
 })();
 </script>
 </body>

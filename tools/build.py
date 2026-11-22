@@ -26,8 +26,10 @@ META = {
            "VA Corporation стварае AI-агентаў, гульні і софт: AI-асістэнты для бізнесу, AI-відэаагенты, аўтаматызацыя, сайты і боты."),
 }
 
+PATH = {"be": "by"}
+
 def url(l):
-    return BASE if l == "en" else f"{BASE}{l}/"
+    return BASE if l == "en" else f"{BASE}{PATH.get(l, l)}/"
 
 # a data-l span: inner content may contain one level of nested <span>…</span>
 SPAN = re.compile(r'<span data-l="(\w+)">((?:[^<]|<span[^>]*>[^<]*</span>|<(?!/?span\b)[^>]*>)*?)</span>')
@@ -59,7 +61,7 @@ def build(tpl, lang):
 def main():
     tpl = open("src/site.html", encoding="utf-8").read()
     for l in LANGS:
-        out = "index.html" if l == "en" else f"{l}/index.html"
+        out = "index.html" if l == "en" else f"{PATH.get(l, l)}/index.html"
         os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
         open(out, "w", encoding="utf-8").write(build(tpl, l))
     today = datetime.date.today().isoformat()
