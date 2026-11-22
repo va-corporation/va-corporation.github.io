@@ -195,6 +195,11 @@ section>.wrap{position:relative;z-index:1}
 .langsel select:focus{outline:2px solid var(--cyan);outline-offset:2px}
 .langsel option{background:#0B1033;color:#fff}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+.spin .node{animation:unspin 18s linear infinite}
+.spin.s2 .node{animation:unspin2 12s linear infinite}
+@keyframes unspin{to{transform:rotate(-360deg)}}
+@keyframes unspin2{to{transform:rotate(360deg)}}
 </style>
 </head>
 <body style="position:relative">
