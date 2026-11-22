@@ -1,0 +1,52 @@
+[
+ {
+  "id": "2026-11-22-en",
+  "date": "2026-11-22",
+  "lang": "en",
+  "title": "How an AI agent thinks: see, plan, act, check",
+  "description": "Four steps of an AI agent — see, plan, act, check — animated by our AI video agent, with original techno music.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-22-en.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-22-en.jpg",
+  "duration": 14
+ },
+ {
+  "id": "2026-11-22-tiktok-empire",
+  "date": "2026-11-22",
+  "lang": "en",
+  "title": "Build your AI agent empire",
+  "description": "The AI revolution has already started: a cinematic reel about building a team of AI agents, made entirely by AI.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-22-tiktok-empire.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-22-tiktok-empire.jpg",
+  "duration": 12
+ },
+ {
+  "id": "va-viral-ai",
+  "date": "2026-11-22",
+  "lang": "ru",
+  "title": "Этот рилс сделал ИИ. Даже этот текст",
+  "description": "Яркий рилс с быстрыми сменами цвета: всё в нём — от идеи до текста и музыки — создал ИИ.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/va-viral-ai.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/va-viral-ai.jpg",
+  "duration": 10
+ },
+ {
+  "id": "va-solar-subs",
+  "date": "2026-11-22",
+  "lang": "ru",
+  "title": "Всё вращается вокруг идеи",
+  "description": "Солнечная система VA Corporation: планеты-идеи вращаются вокруг золотого солнца. Рилс с субтитрами, созданный ИИ.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/va-solar-subs.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/va-solar.jpg",
+  "duration": 12
+ },
+ {
+  "id": "va-sunrise",
+  "date": "2026-11-22",
+  "lang": "ru",
+  "title": "Каждый день — новый восход для идей",
+  "description": "Восход над планетой и появление логотипа VA Corporation — первый рилс нашего ИИ-видеоагента.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/va-sunrise.mp4",
+  "cover": "",
+  "duration": 12
+ }
+]
