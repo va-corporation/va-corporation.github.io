@@ -64,7 +64,7 @@ header{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);background:rg
 .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;height:72px;flex-wrap:wrap}
 .logo{display:flex;align-items:center;gap:12px;color:#fff;font-weight:800;font-size:20px;font-family:Montserrat,Inter,"Noto Sans Georgian","Noto Sans Armenian",system-ui,sans-serif}
 .sun{width:42px;height:42px;border-radius:50%;background:radial-gradient(circle at 42% 35%,#FFF7DE 0%,#FFC15E 48%,#F07A1A 100%);box-shadow:0 0 24px 6px rgba(255,190,90,.45);display:flex;align-items:center;justify-content:center;color:#3A1A00;font-weight:800;font-size:14px;flex:none}
-nav.links{display:flex;gap:26px;font-weight:600;font-size:15px}
+nav.links{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 20px;font-weight:600;font-size:14px;flex:1;min-width:0}.links a{white-space:nowrap}@media (min-width:901px){.nav{flex-wrap:nowrap}.logo,.langsel{flex-shrink:0}}
 nav.links a{color:var(--muted)}nav.links a:hover{color:#fff}
 .langs{display:flex;gap:4px;padding:4px;border:1px solid var(--line);border-radius:999px}
 .langs button{background:none;border:0;color:var(--muted);font:600 13px Inter,sans-serif;padding:8px 12px;border-radius:999px;cursor:pointer;min-height:36px}
