@@ -4,7 +4,7 @@ Run from the repo root:  python3 tools/build.py
 Output: index.html (English, x-default) and <lang>/index.html for every other language,
 plus sitemap.xml with hreflang alternates.
 """
-import re, datetime, os
+import news, re, datetime, os
 
 BASE = "https://va-corporation.github.io/"
 LANGS = ["en", "de", "es", "it", "fr", "pl", "uk", "ru", "be", "ka", "hy"]
@@ -68,16 +68,20 @@ def build(tpl, lang):
 
 def main():
     tpl = open("src/site.html", encoding="utf-8").read()
+    nentries, arts = news.build_all(LANGS)
     for l in LANGS:
         out = "index.html" if l == "en" else f"{PATH.get(l, l)}/index.html"
         os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
-        open(out, "w", encoding="utf-8").write(build(tpl, l))
+        open(out, "w", encoding="utf-8").write(build(tpl, l).replace("<!--NEWS-->", news.latest_block(arts, l)))
     today = datetime.date.today().isoformat()
     links = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{o}" href="{url(o)}"/>' for o in LANGS) + f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{BASE}"/>'
     urls = "".join(f"\n  <url>\n    <loc>{url(l)}</loc>\n    <lastmod>{today}</lastmod>{links}\n  </url>" for l in LANGS)
+    for loc, mod, alts in nentries:
+        al = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{o}" href="{h}"/>' for o, h in alts)
+        urls += f"\n  <url>\n    <loc>{loc}</loc>\n    <lastmod>{mod}</lastmod>{al}\n  </url>"
     open("sitemap.xml", "w", encoding="utf-8").write(
         f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">{urls}\n</urlset>\n')
-    print("built", LANGS)
+    print("built", LANGS, "news pages:", len(nentries))
 
 if __name__ == "__main__":
     main()

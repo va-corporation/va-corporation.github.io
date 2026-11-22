@@ -1,0 +1,358 @@
+{
+ "date": "2026-11-22",
+ "slug": "gpt-6-2-gemini-4-neon-signal",
+ "sources": [
+  {
+   "name": "OpenAI",
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+  },
+  {
+   "name": "Google",
+   "title": "Introducing Gemini 4 Neon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+  },
+  {
+   "name": "Microsoft AI",
+   "title": "MAI Code 2 and Code 2 Flash",
+   "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/"
+  },
+  {
+   "name": "TechCrunch",
+   "title": "Signal restricts mobile screenshots as it confronts 'existential threat' of AI surveillance",
+   "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+  }
+ ],
+ "i18n": {
+  "en": {
+   "title": "AI digest: cheaper GPT-6.2, Gemini 4 Neon and why Signal is blocking screenshots",
+   "desc": "OpenAI cuts flagship prices, Google and Microsoft push cheaper coding models, and Signal fights back against on-screen AI agents.",
+   "body": [
+    {
+     "h": "OpenAI releases GPT-6.2 Astra and Sol"
+    },
+    {
+     "p": "OpenAI introduced a new pair of models: Astra for the hardest projects and Sol for everyday work. According to OpenAI, the flagship Astra is 20% cheaper than GPT-6 Astra and is better at documents, spreadsheets, coding and computer use. The company also added stricter cybersecurity safeguards, which may limit some legitimate security testing."
+    },
+    {
+     "h": "Coding agents get cheaper: Gemini 4 Neon and MAI Code 2"
+    },
+    {
+     "p": "Google answered with Gemini 4 Neon, a mid-tier model with a 1-million-token context window. Google says it ranks first on the Artificial Analysis Coding Agent Index at $3 per million input tokens. Microsoft launched MAI Code 2 in GitHub Copilot and claims it comes close to top models on coding tasks at a fraction of the cost — while noting that results depend on the task and that the price is promotional."
+    },
+    {
+     "h": "Signal blocks screenshots because of phone AI agents"
+    },
+    {
+     "p": "Signal is now restricting screenshots in its Android and iOS apps. The reason: AI agents built into phone operating systems can read everything on screen, including private chats. Signal's president Meredith Whittaker called this an existential threat to private messaging and admitted that the fix is not complete."
+    },
+    {
+     "h": "What it means for business"
+    },
+    {
+     "p": "Top AI capability is getting cheaper every month, so custom AI agents are becoming affordable even for small companies. At the same time, privacy and control over what an agent can see are becoming key questions. A good AI agent should get only the access it really needs — that is the principle we follow when we design agents."
+    }
+   ]
+  },
+  "de": {
+   "title": "KI-Überblick: günstigeres GPT-6.2, Gemini 4 Neon und warum Signal Screenshots blockiert",
+   "desc": "OpenAI senkt die Preise seines Topmodells, Google und Microsoft bringen günstigere Coding-Modelle, und Signal wehrt sich gegen KI-Agenten auf dem Bildschirm.",
+   "body": [
+    {
+     "h": "OpenAI veröffentlicht GPT-6.2 Astra und Sol"
+    },
+    {
+     "p": "OpenAI hat ein neues Modellpaar vorgestellt: Astra für die anspruchsvollsten Projekte und Sol für die tägliche Arbeit. Laut OpenAI ist das Topmodell Astra 20 % günstiger als GPT-6 Astra und besser bei Dokumenten, Tabellen, Programmierung und Computerbedienung. Zudem gelten strengere Cybersecurity-Schutzmaßnahmen, die auch manche legitime Sicherheitstests einschränken können."
+    },
+    {
+     "h": "Coding-Agenten werden günstiger: Gemini 4 Neon und MAI Code 2"
+    },
+    {
+     "p": "Google antwortet mit Gemini 4 Neon, einem Mittelklassemodell mit einem Kontextfenster von 1 Million Tokens. Laut Google liegt es im Artificial Analysis Coding Agent Index auf Platz 1 – bei 3 $ pro Million Eingabe-Tokens. Microsoft hat MAI Code 2 in GitHub Copilot gestartet und gibt an, beim Programmieren nahe an Spitzenmodelle heranzukommen – zu einem Bruchteil der Kosten. Microsoft weist allerdings darauf hin, dass die Ergebnisse von der Aufgabe abhängen und der Preis ein Aktionspreis ist."
+    },
+    {
+     "h": "Signal blockiert Screenshots wegen KI-Agenten auf Smartphones"
+    },
+    {
+     "p": "Signal schränkt Screenshots in seinen Apps für Android und iOS ein. Der Grund: KI-Agenten, die in Smartphone-Betriebssysteme eingebaut sind, können alles auf dem Bildschirm lesen – auch private Chats. Signal-Präsidentin Meredith Whittaker nennt das eine existenzielle Bedrohung für private Kommunikation und räumt ein, dass die Lösung nicht vollständig ist."
+    },
+    {
+     "h": "Was das für Unternehmen bedeutet"
+    },
+    {
+     "p": "Spitzen-KI wird jeden Monat günstiger – damit werden individuelle KI-Agenten auch für kleine Unternehmen erschwinglich. Gleichzeitig werden Datenschutz und die Kontrolle darüber, was ein Agent sehen darf, zu zentralen Fragen. Ein guter KI-Agent bekommt nur den Zugriff, den er wirklich braucht – nach diesem Prinzip entwickeln wir unsere Agenten."
+    }
+   ]
+  },
+  "es": {
+   "title": "Resumen de IA: GPT-6.2 más barato, Gemini 4 Neon y por qué Signal bloquea las capturas",
+   "desc": "OpenAI baja el precio de su modelo principal, Google y Microsoft lanzan modelos de programación más baratos y Signal se defiende de los agentes de IA en pantalla.",
+   "body": [
+    {
+     "h": "OpenAI lanza GPT-6.2 Astra y Sol"
+    },
+    {
+     "p": "OpenAI presentó una nueva pareja de modelos: Astra para los proyectos más exigentes y Sol para el trabajo diario. Según OpenAI, Astra es un 20 % más barato que GPT-6 Astra y mejora en documentos, hojas de cálculo, programación y uso del ordenador. La empresa también añadió protecciones de ciberseguridad más estrictas que pueden limitar algunas pruebas de seguridad legítimas."
+    },
+    {
+     "h": "Los agentes de programación se abaratan: Gemini 4 Neon y MAI Code 2"
+    },
+    {
+     "p": "Google respondió con Gemini 4 Neon, un modelo de gama media con una ventana de contexto de 1 millón de tokens. Según Google, ocupa el primer puesto del Coding Agent Index de Artificial Analysis por 3 $ por millón de tokens de entrada. Microsoft lanzó MAI Code 2 en GitHub Copilot y afirma que se acerca a los mejores modelos en programación por una fracción del coste, aunque advierte que los resultados dependen de la tarea y que el precio es promocional."
+    },
+    {
+     "h": "Signal bloquea las capturas por los agentes de IA del móvil"
+    },
+    {
+     "p": "Signal restringe ahora las capturas de pantalla en sus apps de Android e iOS. El motivo: los agentes de IA integrados en los sistemas operativos móviles pueden leer todo lo que aparece en pantalla, incluidos los chats privados. Su presidenta, Meredith Whittaker, lo calificó de amenaza existencial para la mensajería privada y admitió que la solución no es completa."
+    },
+    {
+     "h": "Qué significa para las empresas"
+    },
+    {
+     "p": "La IA de primer nivel se abarata cada mes, así que los agentes de IA a medida ya están al alcance incluso de pequeñas empresas. Al mismo tiempo, la privacidad y el control sobre lo que puede ver un agente se vuelven cuestiones clave. Un buen agente de IA debe tener solo el acceso que realmente necesita: ese es el principio que seguimos al diseñar agentes."
+    }
+   ]
+  },
+  "it": {
+   "title": "Digest IA: GPT-6.2 più economico, Gemini 4 Neon e perché Signal blocca gli screenshot",
+   "desc": "OpenAI taglia i prezzi del modello di punta, Google e Microsoft spingono modelli di coding più economici e Signal si difende dagli agenti IA sullo schermo.",
+   "body": [
+    {
+     "h": "OpenAI rilascia GPT-6.2 Astra e Sol"
+    },
+    {
+     "p": "OpenAI ha presentato una nuova coppia di modelli: Astra per i progetti più impegnativi e Sol per il lavoro quotidiano. Secondo OpenAI, Astra costa il 20% in meno di GPT-6 Astra ed è migliore con documenti, fogli di calcolo, programmazione e uso del computer. L'azienda ha anche introdotto protezioni di cybersicurezza più severe, che possono limitare alcuni test di sicurezza legittimi."
+    },
+    {
+     "h": "Gli agenti di coding costano meno: Gemini 4 Neon e MAI Code 2"
+    },
+    {
+     "p": "Google ha risposto con Gemini 4 Neon, un modello di fascia media con una finestra di contesto da 1 milione di token. Secondo Google è primo nel Coding Agent Index di Artificial Analysis, a 3 $ per milione di token in input. Microsoft ha lanciato MAI Code 2 in GitHub Copilot e afferma che si avvicina ai modelli migliori nella programmazione a una frazione del costo, precisando però che i risultati dipendono dal compito e che il prezzo è promozionale."
+    },
+    {
+     "h": "Signal blocca gli screenshot a causa degli agenti IA sugli smartphone"
+    },
+    {
+     "p": "Signal ora limita gli screenshot nelle sue app per Android e iOS. Il motivo: gli agenti IA integrati nei sistemi operativi dei telefoni possono leggere tutto ciò che appare sullo schermo, comprese le chat private. La presidente Meredith Whittaker l'ha definita una minaccia esistenziale per la messaggistica privata, ammettendo che la soluzione non è completa."
+    },
+    {
+     "h": "Cosa significa per le aziende"
+    },
+    {
+     "p": "L'IA di alto livello costa meno ogni mese, quindi gli agenti IA su misura diventano accessibili anche alle piccole imprese. Allo stesso tempo, privacy e controllo su ciò che un agente può vedere diventano questioni centrali. Un buon agente IA deve avere solo gli accessi di cui ha davvero bisogno: è il principio che seguiamo quando progettiamo agenti."
+    }
+   ]
+  },
+  "fr": {
+   "title": "Digest IA : GPT-6.2 moins cher, Gemini 4 Neon et pourquoi Signal bloque les captures d'écran",
+   "desc": "OpenAI baisse le prix de son modèle phare, Google et Microsoft lancent des modèles de code moins chers, et Signal se protège des agents IA à l'écran.",
+   "body": [
+    {
+     "h": "OpenAI lance GPT-6.2 Astra et Sol"
+    },
+    {
+     "p": "OpenAI a présenté un nouveau duo de modèles : Astra pour les projets les plus exigeants et Sol pour le travail quotidien. Selon OpenAI, Astra coûte 20 % de moins que GPT-6 Astra et progresse sur les documents, les tableurs, le code et l'utilisation de l'ordinateur. L'entreprise a aussi renforcé ses protections de cybersécurité, ce qui peut limiter certains tests de sécurité légitimes."
+    },
+    {
+     "h": "Les agents de code deviennent moins chers : Gemini 4 Neon et MAI Code 2"
+    },
+    {
+     "p": "Google a répondu avec Gemini 4 Neon, un modèle milieu de gamme doté d'une fenêtre de contexte d'un million de tokens. Selon Google, il se classe premier du Coding Agent Index d'Artificial Analysis, pour 3 $ par million de tokens en entrée. Microsoft a lancé MAI Code 2 dans GitHub Copilot et affirme qu'il approche les meilleurs modèles en programmation pour une fraction du coût, tout en précisant que les résultats dépendent de la tâche et que le prix est promotionnel."
+    },
+    {
+     "h": "Signal bloque les captures d'écran à cause des agents IA des smartphones"
+    },
+    {
+     "p": "Signal restreint désormais les captures d'écran dans ses applications Android et iOS. La raison : les agents IA intégrés aux systèmes d'exploitation des téléphones peuvent lire tout ce qui s'affiche, y compris les conversations privées. Sa présidente, Meredith Whittaker, y voit une menace existentielle pour la messagerie privée et reconnaît que la parade n'est pas complète."
+    },
+    {
+     "h": "Ce que cela change pour les entreprises"
+    },
+    {
+     "p": "L'IA de pointe devient moins chère chaque mois : les agents IA sur mesure deviennent accessibles même aux petites entreprises. En même temps, la confidentialité et le contrôle de ce qu'un agent peut voir deviennent des questions clés. Un bon agent IA ne doit avoir que les accès dont il a vraiment besoin : c'est le principe que nous suivons pour concevoir nos agents."
+    }
+   ]
+  },
+  "pl": {
+   "title": "Przegląd AI: tańszy GPT-6.2, Gemini 4 Neon i dlaczego Signal blokuje zrzuty ekranu",
+   "desc": "OpenAI obniża ceny flagowego modelu, Google i Microsoft wprowadzają tańsze modele do programowania, a Signal broni się przed agentami AI czytającymi ekran.",
+   "body": [
+    {
+     "h": "OpenAI wypuszcza GPT-6.2 Astra i Sol"
+    },
+    {
+     "p": "OpenAI zaprezentowało nową parę modeli: Astra do najtrudniejszych projektów i Sol do codziennej pracy. Według OpenAI flagowy Astra jest o 20% tańszy od GPT-6 Astra i lepiej radzi sobie z dokumentami, arkuszami, programowaniem i obsługą komputera. Firma wprowadziła też surowsze zabezpieczenia cyberbezpieczeństwa, które mogą ograniczać część legalnych testów bezpieczeństwa."
+    },
+    {
+     "h": "Agenci programistyczni tanieją: Gemini 4 Neon i MAI Code 2"
+    },
+    {
+     "p": "Google odpowiedziało modelem Gemini 4 Neon ze średniej półki, z oknem kontekstu 1 miliona tokenów. Według Google zajmuje pierwsze miejsce w Coding Agent Index serwisu Artificial Analysis przy cenie 3 $ za milion tokenów wejściowych. Microsoft uruchomił MAI Code 2 w GitHub Copilot i twierdzi, że w programowaniu zbliża się do najlepszych modeli za ułamek kosztów — zaznaczając, że wyniki zależą od zadania, a cena jest promocyjna."
+    },
+    {
+     "h": "Signal blokuje zrzuty ekranu przez agentów AI w telefonach"
+    },
+    {
+     "p": "Signal ogranicza teraz zrzuty ekranu w aplikacjach na Androida i iOS. Powód: agenci AI wbudowani w systemy telefonów mogą odczytać wszystko, co jest na ekranie, w tym prywatne czaty. Prezeska Signala Meredith Whittaker nazwała to egzystencjalnym zagrożeniem dla prywatnej komunikacji i przyznała, że rozwiązanie nie jest pełne."
+    },
+    {
+     "h": "Co to oznacza dla firm"
+    },
+    {
+     "p": "Najlepsza AI tanieje z miesiąca na miesiąc, więc dedykowani agenci AI stają się dostępni nawet dla małych firm. Jednocześnie prywatność i kontrola nad tym, co agent może zobaczyć, stają się kluczowymi kwestiami. Dobry agent AI powinien mieć tylko taki dostęp, jakiego naprawdę potrzebuje — tej zasady trzymamy się, projektując agentów."
+    }
+   ]
+  },
+  "uk": {
+   "title": "AI-дайджест: дешевший GPT-6.2, Gemini 4 Neon і чому Signal блокує скриншоти",
+   "desc": "OpenAI знижує ціни на флагманську модель, Google і Microsoft випускають дешевші моделі для коду, а Signal захищається від AI-агентів, що читають екран.",
+   "body": [
+    {
+     "h": "OpenAI випустила GPT-6.2 Astra і Sol"
+    },
+    {
+     "p": "OpenAI представила нову пару моделей: Astra для найскладніших проєктів і Sol для щоденної роботи. За даними OpenAI, флагманська Astra на 20% дешевша за GPT-6 Astra і краще працює з документами, таблицями, кодом і керуванням комп'ютером. Компанія також посилила захист у сфері кібербезпеки, що може обмежувати частину легітимних тестів безпеки."
+    },
+    {
+     "h": "AI-агенти для коду дешевшають: Gemini 4 Neon і MAI Code 2"
+    },
+    {
+     "p": "Google відповіла моделлю Gemini 4 Neon середнього класу з контекстним вікном на 1 мільйон токенів. За словами Google, вона посідає перше місце в Coding Agent Index від Artificial Analysis за ціною 3 $ за мільйон вхідних токенів. Microsoft запустила MAI Code 2 у GitHub Copilot і стверджує, що в програмуванні вона наближається до топових моделей за частку вартості, — водночас зазначаючи, що результати залежать від задачі, а ціна акційна."
+    },
+    {
+     "h": "Signal блокує скриншоти через AI-агентів у смартфонах"
+    },
+    {
+     "p": "Signal тепер обмежує скриншоти у своїх застосунках для Android та iOS. Причина: AI-агенти, вбудовані в операційні системи телефонів, можуть читати все, що є на екрані, зокрема приватні чати. Президентка Signal Мередіт Віттакер назвала це екзистенційною загрозою для приватного листування і визнала, що рішення неповне."
+    },
+    {
+     "h": "Що це означає для бізнесу"
+    },
+    {
+     "p": "Топовий AI дешевшає щомісяця, тож індивідуальні AI-агенти стають доступними навіть для малого бізнесу. Водночас приватність і контроль над тим, що бачить агент, стають ключовими питаннями. Хороший AI-агент має отримувати лише той доступ, який йому справді потрібен, — саме цього принципу ми дотримуємося, коли створюємо агентів."
+    }
+   ]
+  },
+  "ru": {
+   "title": "ИИ-дайджест: дешевле GPT-6.2, Gemini 4 Neon и почему Signal блокирует скриншоты",
+   "desc": "OpenAI снижает цены на флагманскую модель, Google и Microsoft выпускают более дешёвые модели для кода, а Signal защищается от ИИ-агентов, читающих экран.",
+   "body": [
+    {
+     "h": "OpenAI выпустила GPT-6.2 Astra и Sol"
+    },
+    {
+     "p": "OpenAI представила новую пару моделей: Astra для самых сложных проектов и Sol для повседневной работы. По данным OpenAI, флагманская Astra на 20% дешевле GPT-6 Astra и лучше справляется с документами, таблицами, кодом и управлением компьютером. Компания также ужесточила защиту в области кибербезопасности, что может ограничивать часть легитимных тестов безопасности."
+    },
+    {
+     "h": "ИИ-агенты для кода дешевеют: Gemini 4 Neon и MAI Code 2"
+    },
+    {
+     "p": "Google ответила моделью Gemini 4 Neon среднего класса с контекстным окном на 1 миллион токенов. По словам Google, она занимает первое место в Coding Agent Index от Artificial Analysis при цене 3 $ за миллион входных токенов. Microsoft запустила MAI Code 2 в GitHub Copilot и утверждает, что в программировании она приближается к топовым моделям за долю стоимости, — при этом оговаривая, что результаты зависят от задачи, а цена акционная."
+    },
+    {
+     "h": "Signal блокирует скриншоты из-за ИИ-агентов в смартфонах"
+    },
+    {
+     "p": "Signal теперь ограничивает скриншоты в своих приложениях для Android и iOS. Причина: ИИ-агенты, встроенные в операционные системы телефонов, могут читать всё, что есть на экране, включая личные переписки. Президент Signal Мередит Уиттакер назвала это экзистенциальной угрозой для приватного общения и признала, что решение неполное."
+    },
+    {
+     "h": "Что это значит для бизнеса"
+    },
+    {
+     "p": "Топовый ИИ дешевеет каждый месяц, поэтому собственные ИИ-агенты становятся доступными даже для небольших компаний. В то же время приватность и контроль над тем, что видит агент, становятся ключевыми вопросами. Хороший ИИ-агент должен получать только тот доступ, который ему действительно нужен, — этого принципа мы придерживаемся, когда проектируем агентов."
+    }
+   ]
+  },
+  "be": {
+   "title": "AI-дайджэст: таннейшы GPT-6.2, Gemini 4 Neon і чаму Signal блакуе скрыншоты",
+   "desc": "OpenAI зніжае цэны на флагманскую мадэль, Google і Microsoft выпускаюць танныя мадэлі для кода, а Signal абараняецца ад AI-агентаў, якія чытаюць экран.",
+   "body": [
+    {
+     "h": "OpenAI выпусціла GPT-6.2 Astra і Sol"
+    },
+    {
+     "p": "OpenAI прадставіла новую пару мадэляў: Astra для самых складаных праектаў і Sol для штодзённай працы. Паводле OpenAI, флагманская Astra на 20% таннейшая за GPT-6 Astra і лепш працуе з дакументамі, табліцамі, кодам і кіраваннем камп'ютарам. Кампанія таксама ўзмацніла абарону ў сферы кібербяспекі, што можа абмяжоўваць частку легітымных тэстаў бяспекі."
+    },
+    {
+     "h": "AI-агенты для кода танеюць: Gemini 4 Neon і MAI Code 2"
+    },
+    {
+     "p": "Google адказала мадэллю Gemini 4 Neon сярэдняга класа з кантэкстным акном на 1 мільён токенаў. Паводле Google, яна займае першае месца ў Coding Agent Index ад Artificial Analysis пры цане 3 $ за мільён уваходных токенаў. Microsoft запусціла MAI Code 2 у GitHub Copilot і сцвярджае, што ў праграмаванні яна набліжаецца да топавых мадэляў за долю кошту, — пры гэтым агаворвае, што вынікі залежаць ад задачы, а цана акцыйная."
+    },
+    {
+     "h": "Signal блакуе скрыншоты з-за AI-агентаў у смартфонах"
+    },
+    {
+     "p": "Signal цяпер абмяжоўвае скрыншоты ў сваіх праграмах для Android і iOS. Прычына: AI-агенты, убудаваныя ў аперацыйныя сістэмы тэлефонаў, могуць чытаць усё, што ёсць на экране, у тым ліку асабістыя перапіскі. Прэзідэнтка Signal Мерэдзіт Уітакер назвала гэта экзістэнцыйнай пагрозай для прыватных зносін і прызнала, што рашэнне няпоўнае."
+    },
+    {
+     "h": "Што гэта значыць для бізнесу"
+    },
+    {
+     "p": "Топавы штучны інтэлект танее кожны месяц, таму ўласныя AI-агенты становяцца даступнымі нават для невялікіх кампаній. Адначасова прыватнасць і кантроль над тым, што бачыць агент, становяцца ключавымі пытаннямі. Добры AI-агент павінен атрымліваць толькі той доступ, які яму сапраўды патрэбны, — гэтага прынцыпу мы прытрымліваемся, калі праектуем агентаў."
+    }
+   ]
+  },
+  "ka": {
+   "title": "AI დაიჯესტი: უფრო იაფი GPT-6.2, Gemini 4 Neon და რატომ ბლოკავს Signal სქრინშოტებს",
+   "desc": "OpenAI ამცირებს ფლაგმანი მოდელის ფასს, Google და Microsoft უშვებენ უფრო იაფ მოდელებს კოდისთვის, Signal კი თავს იცავს ეკრანის წამკითხველი AI აგენტებისგან.",
+   "body": [
+    {
+     "h": "OpenAI-მ გამოუშვა GPT-6.2 Astra და Sol"
+    },
+    {
+     "p": "OpenAI-მ წარადგინა მოდელების ახალი წყვილი: Astra ყველაზე რთული პროექტებისთვის და Sol ყოველდღიური სამუშაოსთვის. OpenAI-ს თქმით, ფლაგმანი Astra 20%-ით იაფია GPT-6 Astra-ზე და უკეთ მუშაობს დოკუმენტებთან, ცხრილებთან, კოდთან და კომპიუტერის მართვასთან. კომპანიამ ასევე გაამკაცრა კიბერუსაფრთხოების დაცვა, რამაც შეიძლება ზოგიერთი ლეგიტიმური უსაფრთხოების ტესტი შეზღუდოს."
+    },
+    {
+     "h": "კოდის AI აგენტები იაფდება: Gemini 4 Neon და MAI Code 2"
+    },
+    {
+     "p": "Google-მა უპასუხა Gemini 4 Neon-ით — საშუალო კლასის მოდელით, რომელსაც 1 მილიონი ტოკენის კონტექსტური ფანჯარა აქვს. Google-ის თქმით, ის პირველ ადგილზეა Artificial Analysis-ის Coding Agent Index-ში, მილიონ შემავალ ტოკენზე 3 დოლარად. Microsoft-მა GitHub Copilot-ში გაუშვა MAI Code 2 და აცხადებს, რომ პროგრამირებაში ის საუკეთესო მოდელებს უახლოვდება ღირებულების მცირე ნაწილად, თუმცა აღნიშნავს, რომ შედეგები ამოცანაზეა დამოკიდებული, ფასი კი აქციურია."
+    },
+    {
+     "h": "Signal ბლოკავს სქრინშოტებს სმარტფონების AI აგენტების გამო"
+    },
+    {
+     "p": "Signal ახლა ზღუდავს სქრინშოტებს თავის Android და iOS აპლიკაციებში. მიზეზი: ტელეფონის ოპერაციულ სისტემებში ჩაშენებულ AI აგენტებს შეუძლიათ წაიკითხონ ყველაფერი, რაც ეკრანზეა, მათ შორის პირადი მიმოწერა. Signal-ის პრეზიდენტმა მერედით უიტაკერმა ეს პირადი კომუნიკაციისთვის ეგზისტენციურ საფრთხედ მოიხსენია და აღიარა, რომ გადაწყვეტა არასრულია."
+    },
+    {
+     "h": "რას ნიშნავს ეს ბიზნესისთვის"
+    },
+    {
+     "p": "საუკეთესო AI ყოველთვიურად იაფდება, ამიტომ ინდივიდუალური AI აგენტები მცირე კომპანიებისთვისაც ხელმისაწვდომი ხდება. ამავდროულად, კონფიდენციალურობა და კონტროლი იმაზე, თუ რას ხედავს აგენტი, მთავარ საკითხებად იქცევა. კარგ AI აგენტს მხოლოდ ის წვდომა უნდა ჰქონდეს, რაც ნამდვილად სჭირდება — ამ პრინციპით ვქმნით ჩვენს აგენტებს."
+    }
+   ]
+  },
+  "hy": {
+   "title": "AI ամփոփում՝ ավելի էժան GPT-6.2, Gemini 4 Neon և ինչու է Signal-ն արգելափակում սքրինշոթները",
+   "desc": "OpenAI-ն իջեցնում է առաջատար մոդելի գինը, Google-ն ու Microsoft-ը թողարկում են ավելի էժան մոդելներ կոդի համար, իսկ Signal-ը պաշտպանվում է էկրանը կարդացող AI գործակալներից։",
+   "body": [
+    {
+     "h": "OpenAI-ն թողարկեց GPT-6.2 Astra և Sol"
+    },
+    {
+     "p": "OpenAI-ն ներկայացրեց մոդելների նոր զույգ՝ Astra ամենաբարդ նախագծերի և Sol ամենօրյա աշխատանքի համար։ Ըստ OpenAI-ի՝ առաջատար Astra-ն 20%-ով էժան է GPT-6 Astra-ից և ավելի լավ է աշխատում փաստաթղթերի, աղյուսակների, կոդի և համակարգչի կառավարման հետ։ Ընկերությունը նաև խստացրել է կիբեռանվտանգության պաշտպանությունը, ինչը կարող է սահմանափակել որոշ օրինական անվտանգության թեստեր։"
+    },
+    {
+     "h": "Կոդի AI գործակալներն էժանանում են՝ Gemini 4 Neon և MAI Code 2"
+    },
+    {
+     "p": "Google-ը պատասխանեց Gemini 4 Neon-ով՝ միջին դասի մոդել 1 միլիոն թոքենի համատեքստային պատուհանով։ Ըստ Google-ի՝ այն առաջին տեղում է Artificial Analysis-ի Coding Agent Index-ում՝ մեկ միլիոն մուտքային թոքենի համար 3 դոլար գնով։ Microsoft-ը GitHub Copilot-ում գործարկեց MAI Code 2-ը և պնդում է, որ ծրագրավորման մեջ այն մոտենում է լավագույն մոդելներին արժեքի մի փոքր մասով, սակայն նշում է, որ արդյունքները կախված են խնդրից, իսկ գինն ակցիոն է։"
+    },
+    {
+     "h": "Signal-ն արգելափակում է սքրինշոթները սմարթֆոնների AI գործակալների պատճառով"
+    },
+    {
+     "p": "Signal-ն այժմ սահմանափակում է սքրինշոթները Android-ի և iOS-ի իր հավելվածներում։ Պատճառը՝ հեռախոսների օպերացիոն համակարգերում ներկառուցված AI գործակալները կարող են կարդալ էկրանին եղած ամեն ինչ, այդ թվում՝ անձնական նամակագրությունը։ Signal-ի նախագահ Մերեդիթ Ուիթաքերն այն անվանեց գաղտնի հաղորդակցության համար էկզիստենցիալ սպառնալիք և խոստովանեց, որ լուծումը թերի է։"
+    },
+    {
+     "h": "Ինչ է սա նշանակում բիզնեսի համար"
+    },
+    {
+     "p": "Լավագույն AI-ն ամեն ամիս էժանանում է, ուստի անհատական AI գործակալները հասանելի են դառնում նույնիսկ փոքր ընկերությունների համար։ Միաժամանակ գաղտնիությունը և վերահսկողությունն այն բանի նկատմամբ, թե ինչ է տեսնում գործակալը, դառնում են առանցքային հարցեր։ Լավ AI գործակալը պետք է ստանա միայն այն հասանելիությունը, որն իրեն իսկապես անհրաժեշտ է․ այս սկզբունքով ենք մենք նախագծում գործակալներ։"
+    }
+   ]
+  }
+ }
+}
