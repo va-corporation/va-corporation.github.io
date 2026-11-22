@@ -1,0 +1,405 @@
+{
+ "id": "game-development",
+ "path": "game-development/",
+ "kind": "service",
+ "order": 4,
+ "updated": "2026-11-22",
+ "i18n": {
+  "en": {
+   "title": "Game development — browser games for phone and PC | VA Corporation",
+   "desc": "Game design, mechanics and production from the first prototype to release: browser games that run on phones and computers.",
+   "h1": "Game development",
+   "lead": "From the first idea and prototype to a finished game that runs in the browser on phones and computers.",
+   "body": [
+    {
+     "h": "Game design and mechanics"
+    },
+    {
+     "p": "We design the core gameplay loop, characters, progression and the small details that make a game fun to play again and again."
+    },
+    {
+     "h": "Prototype first"
+    },
+    {
+     "p": "A playable prototype comes first, so ideas can be tested early — before big investments."
+    },
+    {
+     "h": "Example: Kulak Kombat"
+    },
+    {
+     "p": "Our satirical browser fighting game has 10 heroes, a world tour, combo attacks, shields and a shop, and runs on phones and computers."
+    }
+   ],
+   "faq": [
+    [
+     "Which platforms do you develop for?",
+     "Browser games (HTML5) that work on phones and computers without installation; other platforms depend on the project."
+    ],
+    [
+     "Can AI be used in games?",
+     "Yes — for example for characters that react to players, for content generation or for automated testing."
+    ]
+   ]
+  },
+  "de": {
+   "title": "Spieleentwicklung — Browserspiele für Smartphone und PC | VA Corporation",
+   "desc": "Game Design, Mechaniken und Produktion vom ersten Prototyp bis zum Release: Browserspiele, die auf Smartphones und Computern laufen.",
+   "h1": "Spieleentwicklung",
+   "lead": "Von der ersten Idee und dem Prototyp bis zum fertigen Spiel, das im Browser auf Smartphones und Computern läuft.",
+   "body": [
+    {
+     "h": "Game Design und Mechaniken"
+    },
+    {
+     "p": "Wir entwerfen den zentralen Spielablauf, Figuren, Fortschritt und die kleinen Details, die ein Spiel immer wieder spielenswert machen."
+    },
+    {
+     "h": "Zuerst der Prototyp"
+    },
+    {
+     "p": "Am Anfang steht ein spielbarer Prototyp, damit Ideen früh getestet werden — vor großen Investitionen."
+    },
+    {
+     "h": "Beispiel: Kulak Kombat"
+    },
+    {
+     "p": "Unser satirisches Browser-Kampfspiel bietet 10 Helden, eine Welttournee, Kombos, Schilde und einen Shop und läuft auf Smartphones und Computern."
+    }
+   ],
+   "faq": [
+    [
+     "Für welche Plattformen entwickeln Sie?",
+     "Browserspiele (HTML5), die ohne Installation auf Smartphones und Computern laufen; andere Plattformen je nach Projekt."
+    ],
+    [
+     "Kann KI in Spielen eingesetzt werden?",
+     "Ja — etwa für Figuren, die auf Spieler reagieren, für die Erstellung von Inhalten oder für automatisierte Tests."
+    ]
+   ]
+  },
+  "es": {
+   "title": "Desarrollo de videojuegos — juegos de navegador para móvil y PC | VA Corporation",
+   "desc": "Diseño de juegos, mecánicas y producción del primer prototipo al lanzamiento: juegos de navegador que funcionan en móviles y ordenadores.",
+   "h1": "Desarrollo de videojuegos",
+   "lead": "De la primera idea y el prototipo a un juego terminado que funciona en el navegador, en móviles y ordenadores.",
+   "body": [
+    {
+     "h": "Diseño y mecánicas"
+    },
+    {
+     "p": "Diseñamos el bucle de juego principal, los personajes, la progresión y los pequeños detalles que hacen que apetezca volver a jugar."
+    },
+    {
+     "h": "Primero, el prototipo"
+    },
+    {
+     "p": "Primero llega un prototipo jugable para probar las ideas pronto, antes de grandes inversiones."
+    },
+    {
+     "h": "Ejemplo: Kulak Kombat"
+    },
+    {
+     "p": "Nuestro juego de lucha satírico para navegador tiene 10 héroes, una gira mundial, combos, escudos y una tienda, y funciona en móviles y ordenadores."
+    }
+   ],
+   "faq": [
+    [
+     "¿Para qué plataformas desarrolláis?",
+     "Juegos de navegador (HTML5) que funcionan en móviles y ordenadores sin instalación; otras plataformas según el proyecto."
+    ],
+    [
+     "¿Se puede usar IA en los juegos?",
+     "Sí, por ejemplo para personajes que reaccionan al jugador, generación de contenido o pruebas automáticas."
+    ]
+   ]
+  },
+  "it": {
+   "title": "Sviluppo di videogiochi — giochi browser per smartphone e PC | VA Corporation",
+   "desc": "Game design, meccaniche e produzione dal primo prototipo al lancio: giochi browser che funzionano su smartphone e computer.",
+   "h1": "Sviluppo di videogiochi",
+   "lead": "Dalla prima idea e dal prototipo a un gioco finito che gira nel browser su smartphone e computer.",
+   "body": [
+    {
+     "h": "Game design e meccaniche"
+    },
+    {
+     "p": "Progettiamo il ciclo di gioco principale, i personaggi, la progressione e i piccoli dettagli che fanno venire voglia di rigiocare."
+    },
+    {
+     "h": "Prima il prototipo"
+    },
+    {
+     "p": "Si parte da un prototipo giocabile per mettere alla prova le idee presto, prima di grandi investimenti."
+    },
+    {
+     "h": "Esempio: Kulak Kombat"
+    },
+    {
+     "p": "Il nostro picchiaduro satirico per browser ha 10 eroi, un tour mondiale, combo, scudi e un negozio, e funziona su smartphone e computer."
+    }
+   ],
+   "faq": [
+    [
+     "Per quali piattaforme sviluppate?",
+     "Giochi browser (HTML5) che funzionano su smartphone e computer senza installazione; altre piattaforme in base al progetto."
+    ],
+    [
+     "Si può usare l'IA nei giochi?",
+     "Sì, ad esempio per personaggi che reagiscono al giocatore, generazione di contenuti o test automatici."
+    ]
+   ]
+  },
+  "fr": {
+   "title": "Développement de jeux — jeux navigateur pour mobile et PC | VA Corporation",
+   "desc": "Game design, mécaniques et production du premier prototype à la sortie : des jeux navigateur qui tournent sur mobiles et ordinateurs.",
+   "h1": "Développement de jeux",
+   "lead": "De la première idée et du prototype à un jeu fini qui tourne dans le navigateur, sur mobile comme sur ordinateur.",
+   "body": [
+    {
+     "h": "Game design et mécaniques"
+    },
+    {
+     "p": "Nous concevons la boucle de jeu principale, les personnages, la progression et les petits détails qui donnent envie de rejouer."
+    },
+    {
+     "h": "D'abord un prototype"
+    },
+    {
+     "p": "Un prototype jouable arrive en premier pour tester les idées tôt, avant de gros investissements."
+    },
+    {
+     "h": "Exemple : Kulak Kombat"
+    },
+    {
+     "p": "Notre jeu de combat satirique pour navigateur propose 10 héros, une tournée mondiale, des combos, des boucliers et une boutique, et tourne sur mobiles et ordinateurs."
+    }
+   ],
+   "faq": [
+    [
+     "Pour quelles plateformes développez-vous ?",
+     "Des jeux navigateur (HTML5) qui fonctionnent sur mobiles et ordinateurs sans installation ; d'autres plateformes selon le projet."
+    ],
+    [
+     "Peut-on utiliser l'IA dans les jeux ?",
+     "Oui, par exemple pour des personnages qui réagissent au joueur, la génération de contenu ou les tests automatisés."
+    ]
+   ]
+  },
+  "pl": {
+   "title": "Tworzenie gier — gry przeglądarkowe na telefon i PC | VA Corporation",
+   "desc": "Projektowanie gier, mechaniki i produkcja od pierwszego prototypu do premiery: gry przeglądarkowe działające na telefonach i komputerach.",
+   "h1": "Tworzenie gier",
+   "lead": "Od pierwszego pomysłu i prototypu do gotowej gry, która działa w przeglądarce na telefonach i komputerach.",
+   "body": [
+    {
+     "h": "Projektowanie i mechaniki"
+    },
+    {
+     "p": "Projektujemy główną pętlę rozgrywki, postacie, progresję i drobne detale, dzięki którym chce się wracać do gry."
+    },
+    {
+     "h": "Najpierw prototyp"
+    },
+    {
+     "p": "Na początku powstaje grywalny prototyp, by sprawdzić pomysł wcześnie — przed dużymi inwestycjami."
+    },
+    {
+     "h": "Przykład: Kulak Kombat"
+    },
+    {
+     "p": "Nasza satyryczna bijatyka w przeglądarce ma 10 bohaterów, światową trasę, kombosy, tarcze i sklep, a działa na telefonach i komputerach."
+    }
+   ],
+   "faq": [
+    [
+     "Na jakie platformy tworzycie?",
+     "Gry przeglądarkowe (HTML5), które działają na telefonach i komputerach bez instalacji; inne platformy zależnie od projektu."
+    ],
+    [
+     "Czy AI można wykorzystać w grach?",
+     "Tak — na przykład do postaci reagujących na gracza, generowania treści czy automatycznych testów."
+    ]
+   ]
+  },
+  "uk": {
+   "title": "Розробка ігор — браузерні ігри для телефона й ПК | VA Corporation",
+   "desc": "Геймдизайн, механіки та продакшн від першого прототипу до релізу: браузерні ігри, що працюють на телефонах і комп'ютерах.",
+   "h1": "Розробка ігор",
+   "lead": "Від першої ідеї та прототипу до готової гри, яка запускається в браузері на телефоні й комп'ютері.",
+   "body": [
+    {
+     "h": "Геймдизайн і механіки"
+    },
+    {
+     "p": "Продумуємо основний ігровий цикл, персонажів, прогресію та дрібні деталі, через які до гри хочеться повертатися."
+    },
+    {
+     "h": "Спершу прототип"
+    },
+    {
+     "p": "Насамперед робимо прототип, у який можна грати, щоб перевірити ідею заздалегідь — до великих вкладень."
+    },
+    {
+     "h": "Приклад: Кулак Комбат"
+    },
+    {
+     "p": "Наш сатиричний браузерний файтинг: 10 героїв, світовий тур, комбо-удари, щити й магазин. Працює на телефоні та комп'ютері."
+    }
+   ],
+   "faq": [
+    [
+     "Під які платформи ви розробляєте?",
+     "Браузерні ігри (HTML5), що працюють на телефонах і комп'ютерах без встановлення; інші платформи — залежно від проєкту."
+    ],
+    [
+     "Чи можна використовувати AI в іграх?",
+     "Так — наприклад, для персонажів, що реагують на гравця, генерації контенту чи автоматичного тестування."
+    ]
+   ]
+  },
+  "ru": {
+   "title": "Разработка игр — браузерные игры для телефона и ПК | VA Corporation",
+   "desc": "Геймдизайн, механики и продакшн от первого прототипа до релиза: браузерные игры, которые работают на телефонах и компьютерах.",
+   "h1": "Разработка игр",
+   "lead": "От первой идеи и прототипа до готовой игры, которая запускается в браузере на телефоне и компьютере.",
+   "body": [
+    {
+     "h": "Геймдизайн и механики"
+    },
+    {
+     "p": "Продумываем основной игровой цикл, персонажей, прогрессию и мелкие детали, из-за которых в игру хочется возвращаться."
+    },
+    {
+     "h": "Сначала прототип"
+    },
+    {
+     "p": "Первым делом делаем играбельный прототип, чтобы проверить идею заранее — до больших вложений."
+    },
+    {
+     "h": "Пример: Кулак Комбат"
+    },
+    {
+     "p": "Наш сатирический браузерный файтинг: 10 героев, мировой тур, комбо-удары, щиты и магазин. Работает на телефоне и компьютере."
+    }
+   ],
+   "faq": [
+    [
+     "Под какие платформы вы разрабатываете?",
+     "Браузерные игры (HTML5), которые работают на телефонах и компьютерах без установки; другие платформы — в зависимости от проекта."
+    ],
+    [
+     "Можно ли использовать ИИ в играх?",
+     "Да — например, для персонажей, которые реагируют на игрока, генерации контента или автоматического тестирования."
+    ]
+   ]
+  },
+  "be": {
+   "title": "Распрацоўка гульняў — браўзерныя гульні для тэлефона і ПК | VA Corporation",
+   "desc": "Геймдызайн, механікі і прадакшн ад першага прататыпа да рэлізу: браўзерныя гульні, якія працуюць на тэлефонах і камп'ютарах.",
+   "h1": "Распрацоўка гульняў",
+   "lead": "Ад першай ідэі і прататыпа да гатовай гульні, якая запускаецца ў браўзеры на тэлефоне і камп'ютары.",
+   "body": [
+    {
+     "h": "Геймдызайн і механікі"
+    },
+    {
+     "p": "Прадумваем асноўны гульнявы цыкл, персанажаў, прагрэсію і дробныя дэталі, з-за якіх у гульню хочацца вяртацца."
+    },
+    {
+     "h": "Спачатку прататып"
+    },
+    {
+     "p": "Перш за ўсё робім прататып, у які можна гуляць, каб праверыць ідэю загадзя — да вялікіх укладанняў."
+    },
+    {
+     "h": "Прыклад: Кулак Комбат"
+    },
+    {
+     "p": "Наш сатырычны браўзерны файтынг: 10 герояў, сусветны тур, комба-ўдары, шчыты і крама. Працуе на тэлефоне і камп'ютары."
+    }
+   ],
+   "faq": [
+    [
+     "Пад якія платформы вы распрацоўваеце?",
+     "Браўзерныя гульні (HTML5), якія працуюць на тэлефонах і камп'ютарах без усталёўкі; іншыя платформы — у залежнасці ад праекта."
+    ],
+    [
+     "Ці можна выкарыстоўваць AI у гульнях?",
+     "Так — напрыклад, для персанажаў, якія рэагуюць на гульца, генерацыі кантэнту ці аўтаматычнага тэставання."
+    ]
+   ]
+  },
+  "ka": {
+   "title": "თამაშების შექმნა — ბრაუზერული თამაშები ტელეფონისა და PC-სთვის | VA Corporation",
+   "desc": "თამაშის დიზაინი, მექანიკა და წარმოება პირველი პროტოტიპიდან გამოშვებამდე: ბრაუზერული თამაშები, რომლებიც ტელეფონებსა და კომპიუტერებზე მუშაობს.",
+   "h1": "თამაშების შექმნა",
+   "lead": "პირველი იდეიდან და პროტოტიპიდან მზა თამაშამდე, რომელიც ბრაუზერში ეშვება ტელეფონსა და კომპიუტერზე.",
+   "body": [
+    {
+     "h": "თამაშის დიზაინი და მექანიკა"
+    },
+    {
+     "p": "ვგეგმავთ მთავარ სათამაშო ციკლს, პერსონაჟებს, პროგრესს და მცირე დეტალებს, რის გამოც თამაშთან დაბრუნება გინდება."
+    },
+    {
+     "h": "ჯერ პროტოტიპი"
+    },
+    {
+     "p": "პირველ რიგში ვქმნით სათამაშო პროტოტიპს, რათა იდეა ადრევე შემოწმდეს — დიდ ინვესტიციებამდე."
+    },
+    {
+     "h": "მაგალითი: Kulak Kombat"
+    },
+    {
+     "p": "ჩვენი სატირული ბრაუზერული ფაიტინგი: 10 გმირი, მსოფლიო ტური, კომბო დარტყმები, ფარები და მაღაზია. მუშაობს ტელეფონსა და კომპიუტერზე."
+    }
+   ],
+   "faq": [
+    [
+     "რომელი პლატფორმებისთვის ქმნით?",
+     "ბრაუზერული თამაშები (HTML5), რომლებიც ინსტალაციის გარეშე მუშაობს ტელეფონებსა და კომპიუტერებზე; სხვა პლატფორმები — პროექტის მიხედვით."
+    ],
+    [
+     "შეიძლება AI-ს გამოყენება თამაშებში?",
+     "დიახ — მაგალითად, მოთამაშეზე რეაგირებადი პერსონაჟებისთვის, კონტენტის გენერაციისთვის ან ავტომატური ტესტირებისთვის."
+    ]
+   ]
+  },
+  "hy": {
+   "title": "Խաղերի մշակում — բրաուզերային խաղեր հեռախոսի և PC-ի համար | VA Corporation",
+   "desc": "Խաղի դիզայն, մեխանիկա և արտադրություն առաջին նախատիպից մինչև թողարկում՝ բրաուզերային խաղեր, որոնք աշխատում են հեռախոսներում և համակարգիչներում։",
+   "h1": "Խաղերի մշակում",
+   "lead": "Առաջին գաղափարից և նախատիպից մինչև պատրաստի խաղ, որը գործարկվում է բրաուզերում՝ հեռախոսում և համակարգչում։",
+   "body": [
+    {
+     "h": "Խաղի դիզայն և մեխանիկա"
+    },
+    {
+     "p": "Մշակում ենք խաղի հիմնական ցիկլը, կերպարները, առաջընթացը և այն մանրուքները, որոնց պատճառով ուզում ես վերադառնալ խաղին։"
+    },
+    {
+     "h": "Նախ՝ նախատիպ"
+    },
+    {
+     "p": "Սկզբում ստեղծում ենք խաղալի նախատիպ, որպեսզի գաղափարը ստուգվի վաղ՝ մեծ ներդրումներից առաջ։"
+    },
+    {
+     "h": "Օրինակ՝ Kulak Kombat"
+    },
+    {
+     "p": "Մեր երգիծական բրաուզերային մարտախաղը՝ 10 հերոս, համաշխարհային տուր, կոմբո հարվածներ, վահաններ և խանութ։ Աշխատում է հեռախոսում և համակարգչում։"
+    }
+   ],
+   "faq": [
+    [
+     "Ինչ հարթակների համար եք մշակում",
+     "Բրաուզերային խաղեր (HTML5), որոնք աշխատում են հեռախոսներում և համակարգիչներում առանց տեղադրման. այլ հարթակներ՝ ըստ նախագծի։"
+    ],
+    [
+     "Կարելի՞ է AI օգտագործել խաղերում",
+     "Այո, օրինակ՝ խաղացողին արձագանքող կերպարների, բովանդակության գեներացման կամ ավտոմատ թեստավորման համար։"
+    ]
+   ]
+  }
+ }
+}

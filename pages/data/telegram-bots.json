@@ -1,0 +1,405 @@
+{
+ "id": "telegram-bots",
+ "path": "telegram-bots/",
+ "kind": "service",
+ "order": 3,
+ "updated": "2026-11-22",
+ "i18n": {
+  "en": {
+   "title": "Telegram bot development and AI chatbots | VA Corporation",
+   "desc": "We build Telegram bots and AI chatbots for websites: answering questions, collecting requests, bookings and connections to your services.",
+   "h1": "Telegram bots & AI chatbots",
+   "lead": "Bots that talk to your customers where they already are — in Telegram, on your website and in other messengers.",
+   "body": [
+    {
+     "h": "What a bot can do"
+    },
+    {
+     "p": "Answer frequent questions, collect requests and contact details, take bookings, send reminders and notify your team about new leads."
+    },
+    {
+     "h": "Smart answers with AI"
+    },
+    {
+     "p": "With an AI model inside, the bot understands questions written in free form and replies in the customer's language, using your own information about products and services."
+    },
+    {
+     "h": "Connected to your tools"
+    },
+    {
+     "p": "The bot can pass data to spreadsheets, CRMs, e-mail or automation platforms, so no request gets lost."
+    }
+   ],
+   "faq": [
+    [
+     "Do I need a website for a bot?",
+     "No. A Telegram bot works on its own, and it can also be connected to a chat on your website."
+    ],
+    [
+     "Can I try a bot first?",
+     "Yes — write to our own bot @va_corporation_bot on Telegram."
+    ]
+   ]
+  },
+  "de": {
+   "title": "Telegram-Bot-Entwicklung und KI-Chatbots | VA Corporation",
+   "desc": "Wir entwickeln Telegram-Bots und KI-Chatbots für Websites: Fragen beantworten, Anfragen sammeln, Buchungen und Anbindung an Ihre Dienste.",
+   "h1": "Telegram-Bots & KI-Chatbots",
+   "lead": "Bots, die mit Ihren Kunden dort sprechen, wo sie ohnehin sind — in Telegram, auf Ihrer Website und in anderen Messengern.",
+   "body": [
+    {
+     "h": "Was ein Bot kann"
+    },
+    {
+     "p": "Häufige Fragen beantworten, Anfragen und Kontaktdaten sammeln, Buchungen annehmen, Erinnerungen senden und Ihr Team über neue Leads informieren."
+    },
+    {
+     "h": "Kluge Antworten mit KI"
+    },
+    {
+     "p": "Mit einem KI-Modell versteht der Bot frei formulierte Fragen und antwortet in der Sprache des Kunden — auf Basis Ihrer eigenen Informationen zu Produkten und Leistungen."
+    },
+    {
+     "h": "Verbunden mit Ihren Tools"
+    },
+    {
+     "p": "Der Bot übergibt Daten an Tabellen, CRMs, E-Mail oder Automatisierungsplattformen, damit keine Anfrage verloren geht."
+    }
+   ],
+   "faq": [
+    [
+     "Brauche ich für einen Bot eine Website?",
+     "Nein. Ein Telegram-Bot funktioniert eigenständig und kann zusätzlich mit einem Chat auf Ihrer Website verbunden werden."
+    ],
+    [
+     "Kann ich einen Bot ausprobieren?",
+     "Ja — schreiben Sie unserem eigenen Bot @va_corporation_bot in Telegram."
+    ]
+   ]
+  },
+  "es": {
+   "title": "Desarrollo de bots de Telegram y chatbots con IA | VA Corporation",
+   "desc": "Creamos bots de Telegram y chatbots con IA para webs: respuestas a preguntas, captación de solicitudes, reservas y conexión con tus servicios.",
+   "h1": "Bots de Telegram y chatbots con IA",
+   "lead": "Bots que hablan con tus clientes donde ya están: en Telegram, en tu web y en otras apps de mensajería.",
+   "body": [
+    {
+     "h": "Qué puede hacer un bot"
+    },
+    {
+     "p": "Responder preguntas frecuentes, recoger solicitudes y datos de contacto, gestionar reservas, enviar recordatorios y avisar a tu equipo de nuevos clientes."
+    },
+    {
+     "h": "Respuestas inteligentes con IA"
+    },
+    {
+     "p": "Con un modelo de IA dentro, el bot entiende preguntas escritas libremente y responde en el idioma del cliente usando tu propia información sobre productos y servicios."
+    },
+    {
+     "h": "Conectado a tus herramientas"
+    },
+    {
+     "p": "El bot envía datos a hojas de cálculo, CRM, correo o plataformas de automatización para que no se pierda ninguna solicitud."
+    }
+   ],
+   "faq": [
+    [
+     "¿Necesito una web para tener un bot?",
+     "No. Un bot de Telegram funciona por sí solo y también puede conectarse a un chat en tu web."
+    ],
+    [
+     "¿Puedo probar un bot primero?",
+     "Sí: escribe a nuestro propio bot @va_corporation_bot en Telegram."
+    ]
+   ]
+  },
+  "it": {
+   "title": "Sviluppo di bot Telegram e chatbot IA | VA Corporation",
+   "desc": "Creiamo bot Telegram e chatbot IA per siti web: risposte alle domande, raccolta di richieste, prenotazioni e collegamento ai tuoi servizi.",
+   "h1": "Bot Telegram e chatbot IA",
+   "lead": "Bot che parlano con i tuoi clienti dove si trovano già: su Telegram, sul tuo sito e in altre app di messaggistica.",
+   "body": [
+    {
+     "h": "Cosa può fare un bot"
+    },
+    {
+     "p": "Rispondere alle domande frequenti, raccogliere richieste e contatti, gestire prenotazioni, inviare promemoria e avvisare il team di nuovi clienti."
+    },
+    {
+     "h": "Risposte intelligenti con l'IA"
+    },
+    {
+     "p": "Con un modello IA all'interno, il bot capisce domande scritte liberamente e risponde nella lingua del cliente usando le tue informazioni su prodotti e servizi."
+    },
+    {
+     "h": "Collegato ai tuoi strumenti"
+    },
+    {
+     "p": "Il bot invia i dati a fogli di calcolo, CRM, e-mail o piattaforme di automazione, così nessuna richiesta va persa."
+    }
+   ],
+   "faq": [
+    [
+     "Serve un sito web per avere un bot?",
+     "No. Un bot Telegram funziona da solo e può anche essere collegato a una chat sul tuo sito."
+    ],
+    [
+     "Posso provare prima un bot?",
+     "Sì: scrivi al nostro bot @va_corporation_bot su Telegram."
+    ]
+   ]
+  },
+  "fr": {
+   "title": "Création de bots Telegram et de chatbots IA | VA Corporation",
+   "desc": "Nous créons des bots Telegram et des chatbots IA pour sites web : réponses aux questions, collecte de demandes, réservations et liaison avec vos services.",
+   "h1": "Bots Telegram et chatbots IA",
+   "lead": "Des bots qui parlent à vos clients là où ils se trouvent déjà : sur Telegram, sur votre site et dans d'autres messageries.",
+   "body": [
+    {
+     "h": "Ce que fait un bot"
+    },
+    {
+     "p": "Répondre aux questions fréquentes, recueillir demandes et coordonnées, prendre des réservations, envoyer des rappels et prévenir votre équipe des nouveaux prospects."
+    },
+    {
+     "h": "Des réponses intelligentes grâce à l'IA"
+    },
+    {
+     "p": "Avec un modèle d'IA intégré, le bot comprend les questions rédigées librement et répond dans la langue du client, en s'appuyant sur vos propres informations produits et services."
+    },
+    {
+     "h": "Relié à vos outils"
+    },
+    {
+     "p": "Le bot transmet les données à des tableurs, CRM, e-mails ou plateformes d'automatisation, pour qu'aucune demande ne se perde."
+    }
+   ],
+   "faq": [
+    [
+     "Faut-il un site web pour avoir un bot ?",
+     "Non. Un bot Telegram fonctionne seul et peut aussi être relié à un chat sur votre site."
+    ],
+    [
+     "Puis-je d'abord essayer un bot ?",
+     "Oui : écrivez à notre bot @va_corporation_bot sur Telegram."
+    ]
+   ]
+  },
+  "pl": {
+   "title": "Tworzenie botów Telegram i chatbotów AI | VA Corporation",
+   "desc": "Tworzymy boty Telegram i chatboty AI na strony: odpowiedzi na pytania, zbieranie zgłoszeń, rezerwacje i połączenie z Twoimi usługami.",
+   "h1": "Boty Telegram i chatboty AI",
+   "lead": "Boty, które rozmawiają z Twoimi klientami tam, gdzie już są — w Telegramie, na Twojej stronie i w innych komunikatorach.",
+   "body": [
+    {
+     "h": "Co potrafi bot"
+    },
+    {
+     "p": "Odpowiada na częste pytania, zbiera zgłoszenia i dane kontaktowe, przyjmuje rezerwacje, wysyła przypomnienia i powiadamia zespół o nowych klientach."
+    },
+    {
+     "h": "Mądre odpowiedzi dzięki AI"
+    },
+    {
+     "p": "Z modelem AI w środku bot rozumie pytania pisane własnymi słowami i odpowiada w języku klienta, korzystając z Twoich informacji o produktach i usługach."
+    },
+    {
+     "h": "Połączony z Twoimi narzędziami"
+    },
+    {
+     "p": "Bot przekazuje dane do arkuszy, CRM, e-maila lub platform automatyzacji, żeby żadne zgłoszenie nie zginęło."
+    }
+   ],
+   "faq": [
+    [
+     "Czy do bota potrzebuję strony?",
+     "Nie. Bot Telegram działa samodzielnie, a w razie potrzeby można go też podłączyć do czatu na stronie."
+    ],
+    [
+     "Czy mogę najpierw wypróbować bota?",
+     "Tak — napisz do naszego bota @va_corporation_bot w Telegramie."
+    ]
+   ]
+  },
+  "uk": {
+   "title": "Розробка Telegram-ботів і AI-чат-ботів | VA Corporation",
+   "desc": "Створюємо Telegram-ботів і AI-чат-ботів для сайтів: відповіді на запитання, збір заявок, бронювання та зв'язок із вашими сервісами.",
+   "h1": "Telegram-боти та AI-чат-боти",
+   "lead": "Боти, які спілкуються з вашими клієнтами там, де вони вже є, — у Telegram, на сайті та в інших месенджерах.",
+   "body": [
+    {
+     "h": "Що вміє бот"
+    },
+    {
+     "p": "Відповідає на часті запитання, збирає заявки й контакти, приймає бронювання, надсилає нагадування та повідомляє команду про нових клієнтів."
+    },
+    {
+     "h": "Розумні відповіді з AI"
+    },
+    {
+     "p": "З AI-моделлю всередині бот розуміє запитання, написані своїми словами, і відповідає мовою клієнта, спираючись на вашу інформацію про товари й послуги."
+    },
+    {
+     "h": "Зв'язок із вашими сервісами"
+    },
+    {
+     "p": "Бот передає дані в таблиці, CRM, пошту або платформи автоматизації, щоб жодна заявка не загубилася."
+    }
+   ],
+   "faq": [
+    [
+     "Чи потрібен для бота сайт?",
+     "Ні. Telegram-бот працює самостійно, а за бажання його можна підключити й до чату на сайті."
+    ],
+    [
+     "Чи можна спершу спробувати бота?",
+     "Так — напишіть нашому власному боту @va_corporation_bot у Telegram."
+    ]
+   ]
+  },
+  "ru": {
+   "title": "Разработка Telegram-ботов и ИИ-чат-ботов | VA Corporation",
+   "desc": "Создаём Telegram-ботов и ИИ-чат-ботов для сайтов: ответы на вопросы, сбор заявок, бронирования и связь с вашими сервисами.",
+   "h1": "Telegram-боты и ИИ-чат-боты",
+   "lead": "Боты, которые общаются с вашими клиентами там, где они уже есть, — в Telegram, на сайте и в других мессенджерах.",
+   "body": [
+    {
+     "h": "Что умеет бот"
+    },
+    {
+     "p": "Отвечает на частые вопросы, собирает заявки и контакты, принимает бронирования, отправляет напоминания и сообщает команде о новых клиентах."
+    },
+    {
+     "h": "Умные ответы с ИИ"
+    },
+    {
+     "p": "С ИИ-моделью внутри бот понимает вопросы, написанные своими словами, и отвечает на языке клиента, опираясь на вашу информацию о товарах и услугах."
+    },
+    {
+     "h": "Связь с вашими сервисами"
+    },
+    {
+     "p": "Бот передаёт данные в таблицы, CRM, почту или платформы автоматизации, чтобы ни одна заявка не потерялась."
+    }
+   ],
+   "faq": [
+    [
+     "Нужен ли для бота сайт?",
+     "Нет. Telegram-бот работает самостоятельно, а при желании его можно подключить и к чату на сайте."
+    ],
+    [
+     "Можно сначала попробовать бота?",
+     "Да — напишите нашему собственному боту @va_corporation_bot в Telegram."
+    ]
+   ]
+  },
+  "be": {
+   "title": "Распрацоўка Telegram-ботаў і AI-чат-ботаў | VA Corporation",
+   "desc": "Ствараем Telegram-ботаў і AI-чат-ботаў для сайтаў: адказы на пытанні, збор заявак, браніраванні і сувязь з вашымі сэрвісамі.",
+   "h1": "Telegram-боты і AI-чат-боты",
+   "lead": "Боты, якія размаўляюць з вашымі кліентамі там, дзе яны ўжо ёсць, — у Telegram, на сайце і ў іншых мэсэнджарах.",
+   "body": [
+    {
+     "h": "Што ўмее бот"
+    },
+    {
+     "p": "Адказвае на частыя пытанні, збірае заяўкі і кантакты, прымае браніраванні, дасылае напаміны і паведамляе камандзе пра новых кліентаў."
+    },
+    {
+     "h": "Разумныя адказы з AI"
+    },
+    {
+     "p": "З AI-мадэллю ўнутры бот разумее пытанні, напісаныя сваімі словамі, і адказвае на мове кліента, абапіраючыся на вашу інфармацыю пра тавары і паслугі."
+    },
+    {
+     "h": "Сувязь з вашымі сэрвісамі"
+    },
+    {
+     "p": "Бот перадае даныя ў табліцы, CRM, пошту або платформы аўтаматызацыі, каб ніводная заяўка не згубілася."
+    }
+   ],
+   "faq": [
+    [
+     "Ці патрэбны для бота сайт?",
+     "Не. Telegram-бот працуе самастойна, а пры жаданні яго можна падключыць і да чата на сайце."
+    ],
+    [
+     "Ці можна спачатку паспрабаваць бота?",
+     "Так — напішыце нашаму ўласнаму боту @va_corporation_bot у Telegram."
+    ]
+   ]
+  },
+  "ka": {
+   "title": "Telegram ბოტებისა და AI ჩატბოტების შექმნა | VA Corporation",
+   "desc": "ვქმნით Telegram ბოტებს და AI ჩატბოტებს საიტებისთვის: პასუხები კითხვებზე, მოთხოვნების შეგროვება, დაჯავშნა და თქვენს სერვისებთან კავშირი.",
+   "h1": "Telegram ბოტები და AI ჩატბოტები",
+   "lead": "ბოტები, რომლებიც თქვენს მომხმარებლებს ესაუბრებიან იქ, სადაც ისინი უკვე არიან — Telegram-ში, თქვენს საიტზე და სხვა მესენჯერებში.",
+   "body": [
+    {
+     "h": "რა შეუძლია ბოტს"
+    },
+    {
+     "p": "პასუხობს ხშირ კითხვებს, აგროვებს მოთხოვნებსა და კონტაქტებს, იღებს ჯავშნებს, აგზავნის შეხსენებებს და გუნდს ატყობინებს ახალი კლიენტების შესახებ."
+    },
+    {
+     "h": "ჭკვიანი პასუხები AI-ით"
+    },
+    {
+     "p": "შიგნით AI მოდელით ბოტს ესმის თავისუფლად დაწერილი კითხვები და პასუხობს კლიენტის ენაზე, თქვენს ინფორმაციაზე დაყრდნობით პროდუქტებისა და სერვისების შესახებ."
+    },
+    {
+     "h": "კავშირი თქვენს ინსტრუმენტებთან"
+    },
+    {
+     "p": "ბოტი გადასცემს მონაცემებს ცხრილებს, CRM-ს, ელფოსტას ან ავტომატიზაციის პლატფორმებს, რათა არცერთი მოთხოვნა არ დაიკარგოს."
+    }
+   ],
+   "faq": [
+    [
+     "საჭიროა თუ არა ბოტისთვის საიტი?",
+     "არა. Telegram ბოტი დამოუკიდებლად მუშაობს, სურვილის შემთხვევაში კი საიტის ჩატსაც შეიძლება დაუკავშირდეს."
+    ],
+    [
+     "შეიძლება ჯერ ბოტის გამოცდა?",
+     "დიახ — მისწერეთ ჩვენს ბოტს @va_corporation_bot Telegram-ში."
+    ]
+   ]
+  },
+  "hy": {
+   "title": "Telegram բոտերի և AI չատբոտերի մշակում | VA Corporation",
+   "desc": "Ստեղծում ենք Telegram բոտեր և AI չատբոտեր կայքերի համար՝ պատասխաններ հարցերին, հայտերի հավաքում, ամրագրումներ և կապ ձեր ծառայությունների հետ։",
+   "h1": "Telegram բոտեր և AI չատբոտեր",
+   "lead": "Բոտեր, որոնք խոսում են ձեր հաճախորդների հետ այնտեղ, որտեղ նրանք արդեն կան՝ Telegram-ում, ձեր կայքում և այլ մեսենջերներում։",
+   "body": [
+    {
+     "h": "Ինչ կարող է անել բոտը"
+    },
+    {
+     "p": "Պատասխանում է հաճախակի հարցերին, հավաքում հայտեր և կոնտակտներ, ընդունում ամրագրումներ, ուղարկում հիշեցումներ և տեղեկացնում թիմին նոր հաճախորդների մասին։"
+    },
+    {
+     "h": "Խելացի պատասխաններ AI-ով"
+    },
+    {
+     "p": "Ներսում AI մոդելով բոտը հասկանում է ազատ ձևով գրված հարցերը և պատասխանում հաճախորդի լեզվով՝ հենվելով ապրանքների և ծառայությունների մասին ձեր տեղեկատվության վրա։"
+    },
+    {
+     "h": "Կապ ձեր գործիքների հետ"
+    },
+    {
+     "p": "Բոտը տվյալները փոխանցում է աղյուսակներին, CRM-ին, էլ. փոստին կամ ավտոմատացման հարթակներին, որպեսզի ոչ մի հայտ չկորչի։"
+    }
+   ],
+   "faq": [
+    [
+     "Բոտի համար կայք պե՞տք է",
+     "Ոչ։ Telegram բոտն աշխատում է ինքնուրույն, իսկ ցանկության դեպքում այն կարելի է միացնել նաև կայքի չատին։"
+    ],
+    [
+     "Կարո՞ղ եմ նախ փորձել բոտը",
+     "Այո՝ գրեք մեր բոտին @va_corporation_bot Telegram-ում։"
+    ]
+   ]
+  }
+ }
+}

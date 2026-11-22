@@ -1,0 +1,319 @@
+{
+ "id": "kulak-kombat",
+ "path": "work/kulak-kombat/",
+ "kind": "case",
+ "order": 1,
+ "updated": "2026-11-22",
+ "i18n": {
+  "en": {
+   "title": "Kulak Kombat — satirical browser fighting game | VA Corporation",
+   "desc": "Kulak Kombat: a satirical browser fighting game with 10 heroes, a world tour, combos, shields and a shop. Plays on phones and computers.",
+   "h1": "Kulak Kombat",
+   "lead": "A satirical browser fighting game made by our team — play it right in your browser, on a phone or a computer.",
+   "body": [
+    {
+     "h": "The game"
+    },
+    {
+     "p": "10 heroes, a world tour of opponents, combo attacks, shields and an in-game shop."
+    },
+    {
+     "h": "No installation"
+    },
+    {
+     "p": "The game runs in the browser and works on phones and computers."
+    },
+    {
+     "h": "What this project shows"
+    },
+    {
+     "p": "How we take a game from concept to a playable release: mechanics, characters, balance and interface."
+    }
+   ],
+   "faq": [],
+   "link_label": "Play"
+  },
+  "de": {
+   "title": "Kulak Kombat — satirisches Browser-Kampfspiel | VA Corporation",
+   "desc": "Kulak Kombat: ein satirisches Browser-Kampfspiel mit 10 Helden, Welttournee, Kombos, Schilden und Shop. Läuft auf Smartphone und Computer.",
+   "h1": "Kulak Kombat",
+   "lead": "Ein satirisches Browser-Kampfspiel unseres Teams — direkt im Browser spielbar, auf Smartphone oder Computer.",
+   "body": [
+    {
+     "h": "Das Spiel"
+    },
+    {
+     "p": "10 Helden, eine Welttournee voller Gegner, Kombo-Angriffe, Schilde und ein Shop im Spiel."
+    },
+    {
+     "h": "Ohne Installation"
+    },
+    {
+     "p": "Das Spiel läuft im Browser und funktioniert auf Smartphones und Computern."
+    },
+    {
+     "h": "Was das Projekt zeigt"
+    },
+    {
+     "p": "Wie wir ein Spiel vom Konzept bis zum spielbaren Release bringen: Mechaniken, Figuren, Balancing und Oberfläche."
+    }
+   ],
+   "faq": [],
+   "link_label": "Spielen"
+  },
+  "es": {
+   "title": "Kulak Kombat — juego de lucha satírico para navegador | VA Corporation",
+   "desc": "Kulak Kombat: un juego de lucha satírico para navegador con 10 héroes, gira mundial, combos, escudos y tienda. Juega en móvil y ordenador.",
+   "h1": "Kulak Kombat",
+   "lead": "Un juego de lucha satírico creado por nuestro equipo: juega directamente en el navegador, en el móvil o el ordenador.",
+   "body": [
+    {
+     "h": "El juego"
+    },
+    {
+     "p": "10 héroes, una gira mundial de rivales, ataques combo, escudos y una tienda dentro del juego."
+    },
+    {
+     "h": "Sin instalación"
+    },
+    {
+     "p": "El juego funciona en el navegador, en móviles y ordenadores."
+    },
+    {
+     "h": "Qué demuestra el proyecto"
+    },
+    {
+     "p": "Cómo llevamos un juego del concepto a un lanzamiento jugable: mecánicas, personajes, equilibrio e interfaz."
+    }
+   ],
+   "faq": [],
+   "link_label": "Jugar"
+  },
+  "it": {
+   "title": "Kulak Kombat — picchiaduro satirico per browser | VA Corporation",
+   "desc": "Kulak Kombat: un picchiaduro satirico per browser con 10 eroi, tour mondiale, combo, scudi e negozio. Si gioca su smartphone e computer.",
+   "h1": "Kulak Kombat",
+   "lead": "Un picchiaduro satirico creato dal nostro team: si gioca direttamente nel browser, su smartphone o computer.",
+   "body": [
+    {
+     "h": "Il gioco"
+    },
+    {
+     "p": "10 eroi, un tour mondiale di avversari, attacchi combo, scudi e un negozio interno al gioco."
+    },
+    {
+     "h": "Nessuna installazione"
+    },
+    {
+     "p": "Il gioco gira nel browser e funziona su smartphone e computer."
+    },
+    {
+     "h": "Cosa dimostra il progetto"
+    },
+    {
+     "p": "Come portiamo un gioco dall'idea a un lancio giocabile: meccaniche, personaggi, bilanciamento e interfaccia."
+    }
+   ],
+   "faq": [],
+   "link_label": "Gioca"
+  },
+  "fr": {
+   "title": "Kulak Kombat — jeu de combat satirique pour navigateur | VA Corporation",
+   "desc": "Kulak Kombat : un jeu de combat satirique pour navigateur avec 10 héros, une tournée mondiale, des combos, des boucliers et une boutique. Sur mobile et ordinateur.",
+   "h1": "Kulak Kombat",
+   "lead": "Un jeu de combat satirique créé par notre équipe : jouez directement dans le navigateur, sur mobile ou ordinateur.",
+   "body": [
+    {
+     "h": "Le jeu"
+    },
+    {
+     "p": "10 héros, une tournée mondiale d'adversaires, des attaques combo, des boucliers et une boutique en jeu."
+    },
+    {
+     "h": "Sans installation"
+    },
+    {
+     "p": "Le jeu tourne dans le navigateur, sur mobiles et ordinateurs."
+    },
+    {
+     "h": "Ce que montre le projet"
+    },
+    {
+     "p": "Comment nous menons un jeu du concept à une sortie jouable : mécaniques, personnages, équilibrage et interface."
+    }
+   ],
+   "faq": [],
+   "link_label": "Jouer"
+  },
+  "pl": {
+   "title": "Kulak Kombat — satyryczna bijatyka w przeglądarce | VA Corporation",
+   "desc": "Kulak Kombat: satyryczna bijatyka w przeglądarce z 10 bohaterami, światową trasą, kombosami, tarczami i sklepem. Graj na telefonie i komputerze.",
+   "h1": "Kulak Kombat",
+   "lead": "Satyryczna bijatyka naszego zespołu — graj bezpośrednio w przeglądarce, na telefonie lub komputerze.",
+   "body": [
+    {
+     "h": "Gra"
+    },
+    {
+     "p": "10 bohaterów, światowa trasa z przeciwnikami, ataki kombo, tarcze i sklep w grze."
+    },
+    {
+     "h": "Bez instalacji"
+    },
+    {
+     "p": "Gra działa w przeglądarce na telefonach i komputerach."
+    },
+    {
+     "h": "Co pokazuje projekt"
+    },
+    {
+     "p": "Jak prowadzimy grę od koncepcji do grywalnej premiery: mechaniki, postacie, balans i interfejs."
+    }
+   ],
+   "faq": [],
+   "link_label": "Graj"
+  },
+  "uk": {
+   "title": "Кулак Комбат — сатиричний браузерний файтинг | VA Corporation",
+   "desc": "Кулак Комбат: сатиричний браузерний файтинг із 10 героями, світовим туром, комбо, щитами й магазином. Грайте на телефоні та комп'ютері.",
+   "h1": "Кулак Комбат",
+   "lead": "Сатиричний браузерний файтинг від нашої команди — грайте просто в браузері, на телефоні чи комп'ютері.",
+   "body": [
+    {
+     "h": "Гра"
+    },
+    {
+     "p": "10 героїв, світовий тур із суперниками, комбо-удари, щити та внутрішньоігровий магазин."
+    },
+    {
+     "h": "Без встановлення"
+    },
+    {
+     "p": "Гра запускається в браузері й працює на телефонах і комп'ютерах."
+    },
+    {
+     "h": "Що показує проєкт"
+    },
+    {
+     "p": "Як ми доводимо гру від концепції до релізу: механіки, персонажі, баланс та інтерфейс."
+    }
+   ],
+   "faq": [],
+   "link_label": "Грати"
+  },
+  "ru": {
+   "title": "Кулак Комбат — сатирический браузерный файтинг | VA Corporation",
+   "desc": "Кулак Комбат: сатирический браузерный файтинг с 10 героями, мировым туром, комбо, щитами и магазином. Играйте на телефоне и компьютере.",
+   "h1": "Кулак Комбат",
+   "lead": "Сатирический браузерный файтинг от нашей команды — играйте прямо в браузере, на телефоне или компьютере.",
+   "body": [
+    {
+     "h": "Игра"
+    },
+    {
+     "p": "10 героев, мировой тур с соперниками, комбо-удары, щиты и внутриигровой магазин."
+    },
+    {
+     "h": "Без установки"
+    },
+    {
+     "p": "Игра запускается в браузере и работает на телефонах и компьютерах."
+    },
+    {
+     "h": "Что показывает проект"
+    },
+    {
+     "p": "Как мы доводим игру от концепции до играбельного релиза: механики, персонажи, баланс и интерфейс."
+    }
+   ],
+   "faq": [],
+   "link_label": "Играть"
+  },
+  "be": {
+   "title": "Кулак Комбат — сатырычны браўзерны файтынг | VA Corporation",
+   "desc": "Кулак Комбат: сатырычны браўзерны файтынг з 10 героямі, сусветным турам, комба, шчытамі і крамай. Гуляйце на тэлефоне і камп'ютары.",
+   "h1": "Кулак Комбат",
+   "lead": "Сатырычны браўзерны файтынг ад нашай каманды — гуляйце проста ў браўзеры, на тэлефоне ці камп'ютары.",
+   "body": [
+    {
+     "h": "Гульня"
+    },
+    {
+     "p": "10 герояў, сусветны тур з супернікамі, комба-ўдары, шчыты і ўнутрыгульнявая крама."
+    },
+    {
+     "h": "Без усталёўкі"
+    },
+    {
+     "p": "Гульня запускаецца ў браўзеры і працуе на тэлефонах і камп'ютарах."
+    },
+    {
+     "h": "Што паказвае праект"
+    },
+    {
+     "p": "Як мы даводзім гульню ад канцэпцыі да рэлізу: механікі, персанажы, баланс і інтэрфейс."
+    }
+   ],
+   "faq": [],
+   "link_label": "Гуляць"
+  },
+  "ka": {
+   "title": "Kulak Kombat — სატირული ბრაუზერული ფაიტინგი | VA Corporation",
+   "desc": "Kulak Kombat: სატირული ბრაუზერული ფაიტინგი 10 გმირით, მსოფლიო ტურით, კომბოებით, ფარებითა და მაღაზიით. ითამაშეთ ტელეფონსა და კომპიუტერზე.",
+   "h1": "Kulak Kombat",
+   "lead": "ჩვენი გუნდის სატირული ბრაუზერული ფაიტინგი — ითამაშეთ პირდაპირ ბრაუზერში, ტელეფონზე ან კომპიუტერზე.",
+   "body": [
+    {
+     "h": "თამაში"
+    },
+    {
+     "p": "10 გმირი, მსოფლიო ტური მოწინააღმდეგეებით, კომბო დარტყმები, ფარები და სათამაშო მაღაზია."
+    },
+    {
+     "h": "ინსტალაციის გარეშე"
+    },
+    {
+     "p": "თამაში ბრაუზერში ეშვება და მუშაობს ტელეფონებსა და კომპიუტერებზე."
+    },
+    {
+     "h": "რას აჩვენებს პროექტი"
+    },
+    {
+     "p": "როგორ მიგვყავს თამაში კონცეფციიდან სათამაშო გამოშვებამდე: მექანიკა, პერსონაჟები, ბალანსი და ინტერფეისი."
+    }
+   ],
+   "faq": [],
+   "link_label": "თამაში"
+  },
+  "hy": {
+   "title": "Kulak Kombat — երգիծական բրաուզերային մարտախաղ | VA Corporation",
+   "desc": "Kulak Kombat՝ երգիծական բրաուզերային մարտախաղ 10 հերոսով, համաշխարհային տուրով, կոմբոներով, վահաններով և խանութով։ Խաղացեք հեռախոսում և համակարգչում։",
+   "h1": "Kulak Kombat",
+   "lead": "Մեր թիմի երգիծական բրաուզերային մարտախաղը՝ խաղացեք անմիջապես բրաուզերում, հեռախոսում կամ համակարգչում։",
+   "body": [
+    {
+     "h": "Խաղը"
+    },
+    {
+     "p": "10 հերոս, համաշխարհային տուր մրցակիցներով, կոմբո հարվածներ, վահաններ և ներխաղային խանութ։"
+    },
+    {
+     "h": "Առանց տեղադրման"
+    },
+    {
+     "p": "Խաղը գործարկվում է բրաուզերում և աշխատում հեռախոսներում և համակարգիչներում։"
+    },
+    {
+     "h": "Ինչ է ցույց տալիս նախագիծը"
+    },
+    {
+     "p": "Ինչպես ենք խաղը հասցնում կոնցեպտից մինչև խաղալի թողարկում՝ մեխանիկա, կերպարներ, հավասարակշռություն և ինտերֆեյս։"
+    }
+   ],
+   "faq": [],
+   "link_label": "Խաղալ"
+  }
+ },
+ "image": "/assets/kulak-kombat.jpg",
+ "link": "https://benzogamesltd-ops.github.io/kulak-kombat/"
+}

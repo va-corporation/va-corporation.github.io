@@ -4,7 +4,7 @@ Run from the repo root:  python3 tools/build.py
 Output: index.html (English, x-default) and <lang>/index.html for every other language,
 plus sitemap.xml with hreflang alternates.
 """
-import news, re, datetime, os
+import news, pages, re, datetime, os
 
 BASE = "https://va-corporation.github.io/"
 LANGS = ["en", "de", "es", "it", "fr", "pl", "uk", "ru", "be", "ka", "hy"]
@@ -66,13 +66,26 @@ def build(tpl, lang):
     s = s.replace('src="assets/', 'src="/assets/').replace('href="assets/', 'href="/assets/')
     return s
 
+def home(tpl, l, arts, pgs):
+    h = build(tpl, l).replace("<!--NEWS-->", news.latest_block(arts, l))
+    svc, case = pages.home_links(pgs, l)
+    h = h.replace("<!--SVCLINKS-->", svc).replace("<!--CASELINKS-->", case)
+    foot = '<nav class="footlinks">' + "".join(
+        f'<a href="/{news.prefix(l)}{p["path"]}">{news.e(p["i18n"][l]["h1"])}</a>' for p in pgs if l in p["i18n"]) + \
+        f'<a href="/{news.prefix(l)}news/">{news.e(news.UI[l]["news"])}</a></nav>'
+    h = h.replace("<!--FOOTLINKS-->", foot)
+    h = h.replace("</head>", pages.faq_ld(h, l) + "\n</head>", 1)
+    return h
+
 def main():
     tpl = open("src/site.html", encoding="utf-8").read()
     nentries, arts = news.build_all(LANGS)
+    pentries, pgs = pages.build_all(LANGS)
+    nentries = pentries + nentries
     for l in LANGS:
         out = "index.html" if l == "en" else f"{PATH.get(l, l)}/index.html"
         os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
-        open(out, "w", encoding="utf-8").write(build(tpl, l).replace("<!--NEWS-->", news.latest_block(arts, l)))
+        open(out, "w", encoding="utf-8").write(home(tpl, l, arts, pgs))
     today = datetime.date.today().isoformat()
     links = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{o}" href="{url(o)}"/>' for o in LANGS) + f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{BASE}"/>'
     urls = "".join(f"\n  <url>\n    <loc>{url(l)}</loc>\n    <lastmod>{today}</lastmod>{links}\n  </url>" for l in LANGS)

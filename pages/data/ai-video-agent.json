@@ -1,0 +1,405 @@
+{
+ "id": "ai-video-agent",
+ "path": "ai-video-agent/",
+ "kind": "service",
+ "order": 2,
+ "updated": "2026-11-22",
+ "i18n": {
+  "en": {
+   "title": "AI video editor agent — reels made by AI | VA Corporation",
+   "desc": "Our AI video agent writes the script, animates scenes, adds subtitles and original music, and publishes reels to Instagram, Facebook and TikTok.",
+   "h1": "AI video editor agent",
+   "lead": "An AI agent that creates short videos from idea to publication: script, animation, subtitles, original techno music — and posting to Instagram, Facebook and TikTok.",
+   "body": [
+    {
+     "h": "From idea to finished reel"
+    },
+    {
+     "p": "The agent picks a topic, writes a hook, designs and animates every scene and renders a vertical 1080×1920 video. Subtitles are added in the languages you need."
+    },
+    {
+     "h": "Original music"
+    },
+    {
+     "p": "Every reel gets its own generated soundtrack timed to the scene cuts, so you do not depend on licensed tracks."
+    },
+    {
+     "h": "Publishing on schedule"
+    },
+    {
+     "p": "Finished videos are published on your accounts on the schedule you choose. All reels on our own website and social pages are made this way."
+    }
+   ],
+   "faq": [
+    [
+     "Can the videos match my brand?",
+     "Yes. Colors, fonts, logo and tone are described once in a brand guide that the agent follows in every video."
+    ],
+    [
+     "Which platforms are supported?",
+     "Instagram Reels, Facebook Reels and TikTok; other platforms can be added depending on the task."
+    ]
+   ]
+  },
+  "de": {
+   "title": "KI-Videoeditor-Agent — Reels von KI erstellt | VA Corporation",
+   "desc": "Unser KI-Video-Agent schreibt das Skript, animiert Szenen, fügt Untertitel und eigene Musik hinzu und veröffentlicht Reels auf Instagram, Facebook und TikTok.",
+   "h1": "KI-Videoeditor-Agent",
+   "lead": "Ein KI-Agent, der Kurzvideos von der Idee bis zur Veröffentlichung erstellt: Skript, Animation, Untertitel, eigene Techno-Musik — und Posting auf Instagram, Facebook und TikTok.",
+   "body": [
+    {
+     "h": "Von der Idee zum fertigen Reel"
+    },
+    {
+     "p": "Der Agent wählt ein Thema, schreibt einen Hook, gestaltet und animiert jede Szene und rendert ein vertikales Video in 1080×1920. Untertitel kommen in den gewünschten Sprachen dazu."
+    },
+    {
+     "h": "Eigene Musik"
+    },
+    {
+     "p": "Jedes Reel bekommt einen eigenen, generierten Soundtrack, abgestimmt auf die Szenenwechsel — ohne Abhängigkeit von lizenzierten Tracks."
+    },
+    {
+     "h": "Veröffentlichung nach Plan"
+    },
+    {
+     "p": "Fertige Videos werden nach Ihrem Zeitplan auf Ihren Kanälen veröffentlicht. Alle Reels auf unserer Website und in unseren Social-Media-Kanälen entstehen so."
+    }
+   ],
+   "faq": [
+    [
+     "Passen die Videos zu meiner Marke?",
+     "Ja. Farben, Schriften, Logo und Tonalität werden einmal in einem Brand Guide festgelegt, dem der Agent bei jedem Video folgt."
+    ],
+    [
+     "Welche Plattformen werden unterstützt?",
+     "Instagram Reels, Facebook Reels und TikTok; weitere Plattformen sind je nach Aufgabe möglich."
+    ]
+   ]
+  },
+  "es": {
+   "title": "Agente de IA editor de vídeo — reels creados por IA | VA Corporation",
+   "desc": "Nuestro agente de vídeo con IA escribe el guion, anima las escenas, añade subtítulos y música original y publica reels en Instagram, Facebook y TikTok.",
+   "h1": "Agente de IA editor de vídeo",
+   "lead": "Un agente de IA que crea vídeos cortos de la idea a la publicación: guion, animación, subtítulos, música techno original y publicación en Instagram, Facebook y TikTok.",
+   "body": [
+    {
+     "h": "De la idea al reel terminado"
+    },
+    {
+     "p": "El agente elige un tema, escribe un gancho, diseña y anima cada escena y renderiza un vídeo vertical de 1080×1920. Añade subtítulos en los idiomas que necesites."
+    },
+    {
+     "h": "Música original"
+    },
+    {
+     "p": "Cada reel recibe su propia banda sonora generada y sincronizada con los cambios de escena, sin depender de pistas con licencia."
+    },
+    {
+     "h": "Publicación programada"
+    },
+    {
+     "p": "Los vídeos terminados se publican en tus cuentas según el calendario que elijas. Todos los reels de nuestra web y redes se hacen así."
+    }
+   ],
+   "faq": [
+    [
+     "¿Los vídeos pueden seguir mi marca?",
+     "Sí. Colores, tipografías, logotipo y tono se definen una vez en una guía de marca que el agente sigue en cada vídeo."
+    ],
+    [
+     "¿Qué plataformas se admiten?",
+     "Instagram Reels, Facebook Reels y TikTok; se pueden añadir otras según la tarea."
+    ]
+   ]
+  },
+  "it": {
+   "title": "Agente IA video editor — reel creati dall'IA | VA Corporation",
+   "desc": "Il nostro agente video IA scrive il copione, anima le scene, aggiunge sottotitoli e musica originale e pubblica reel su Instagram, Facebook e TikTok.",
+   "h1": "Agente IA video editor",
+   "lead": "Un agente IA che crea video brevi dall'idea alla pubblicazione: copione, animazione, sottotitoli, musica techno originale e pubblicazione su Instagram, Facebook e TikTok.",
+   "body": [
+    {
+     "h": "Dall'idea al reel finito"
+    },
+    {
+     "p": "L'agente sceglie un tema, scrive un gancio, disegna e anima ogni scena e realizza un video verticale 1080×1920. I sottotitoli vengono aggiunti nelle lingue che servono."
+    },
+    {
+     "h": "Musica originale"
+    },
+    {
+     "p": "Ogni reel ha una colonna sonora generata apposta, sincronizzata con i cambi di scena, senza dipendere da brani su licenza."
+    },
+    {
+     "h": "Pubblicazione programmata"
+    },
+    {
+     "p": "I video finiti vengono pubblicati sui tuoi account secondo il calendario che scegli. Tutti i reel del nostro sito e dei nostri social sono fatti così."
+    }
+   ],
+   "faq": [
+    [
+     "I video possono seguire il mio brand?",
+     "Sì. Colori, font, logo e tono vengono definiti una volta in una guida del brand che l'agente segue in ogni video."
+    ],
+    [
+     "Quali piattaforme sono supportate?",
+     "Instagram Reels, Facebook Reels e TikTok; altre piattaforme si possono aggiungere in base al progetto."
+    ]
+   ]
+  },
+  "fr": {
+   "title": "Agent IA de montage vidéo — des reels créés par l'IA | VA Corporation",
+   "desc": "Notre agent vidéo IA écrit le script, anime les scènes, ajoute sous-titres et musique originale, et publie des reels sur Instagram, Facebook et TikTok.",
+   "h1": "Agent IA de montage vidéo",
+   "lead": "Un agent IA qui crée des vidéos courtes de l'idée à la publication : script, animation, sous-titres, musique techno originale et publication sur Instagram, Facebook et TikTok.",
+   "body": [
+    {
+     "h": "De l'idée au reel fini"
+    },
+    {
+     "p": "L'agent choisit un sujet, écrit une accroche, conçoit et anime chaque scène et produit une vidéo verticale 1080×1920. Les sous-titres sont ajoutés dans les langues voulues."
+    },
+    {
+     "h": "Musique originale"
+    },
+    {
+     "p": "Chaque reel reçoit sa propre bande-son générée, calée sur les changements de scène, sans dépendre de morceaux sous licence."
+    },
+    {
+     "h": "Publication planifiée"
+    },
+    {
+     "p": "Les vidéos terminées sont publiées sur vos comptes selon le calendrier choisi. Tous les reels de notre site et de nos réseaux sont réalisés ainsi."
+    }
+   ],
+   "faq": [
+    [
+     "Les vidéos peuvent-elles respecter ma marque ?",
+     "Oui. Couleurs, typographies, logo et ton sont définis une fois dans une charte que l'agent suit pour chaque vidéo."
+    ],
+    [
+     "Quelles plateformes sont prises en charge ?",
+     "Instagram Reels, Facebook Reels et TikTok ; d'autres plateformes peuvent être ajoutées selon le besoin."
+    ]
+   ]
+  },
+  "pl": {
+   "title": "Agent AI do montażu wideo — rolki tworzone przez AI | VA Corporation",
+   "desc": "Nasz agent wideo AI pisze scenariusz, animuje sceny, dodaje napisy i autorską muzykę oraz publikuje rolki na Instagramie, Facebooku i TikToku.",
+   "h1": "Agent AI do montażu wideo",
+   "lead": "Agent AI, który tworzy krótkie filmy od pomysłu do publikacji: scenariusz, animacja, napisy, autorska muzyka techno — i publikacja na Instagramie, Facebooku i TikToku.",
+   "body": [
+    {
+     "h": "Od pomysłu do gotowej rolki"
+    },
+    {
+     "p": "Agent wybiera temat, pisze haczyk, projektuje i animuje każdą scenę oraz renderuje pionowe wideo 1080×1920. Napisy dodaje w potrzebnych językach."
+    },
+    {
+     "h": "Autorska muzyka"
+    },
+    {
+     "p": "Każda rolka dostaje własną, wygenerowaną ścieżkę dźwiękową dopasowaną do zmian scen — bez zależności od licencjonowanych utworów."
+    },
+    {
+     "h": "Publikacja według planu"
+    },
+    {
+     "p": "Gotowe filmy są publikowane na Twoich kontach według wybranego harmonogramu. Wszystkie rolki na naszej stronie i w naszych social mediach powstają właśnie tak."
+    }
+   ],
+   "faq": [
+    [
+     "Czy filmy mogą pasować do mojej marki?",
+     "Tak. Kolory, czcionki, logo i ton opisujemy raz w księdze marki, której agent trzyma się w każdym filmie."
+    ],
+    [
+     "Jakie platformy są obsługiwane?",
+     "Instagram Reels, Facebook Reels i TikTok; inne platformy można dodać w zależności od zadania."
+    ]
+   ]
+  },
+  "uk": {
+   "title": "AI-агент відеоредактор — рілси, створені AI | VA Corporation",
+   "desc": "Наш AI-відеоагент пише сценарій, анімує сцени, додає субтитри й оригінальну музику та публікує рілси в Instagram, Facebook і TikTok.",
+   "h1": "AI-агент відеоредактор",
+   "lead": "AI-агент, який створює короткі відео від ідеї до публікації: сценарій, анімація, субтитри, оригінальна техно-музика — і публікація в Instagram, Facebook і TikTok.",
+   "body": [
+    {
+     "h": "Від ідеї до готового рілса"
+    },
+    {
+     "p": "Агент обирає тему, пише гачок, малює й анімує кожну сцену та рендерить вертикальне відео 1080×1920. Субтитри додаються потрібними мовами."
+    },
+    {
+     "h": "Оригінальна музика"
+    },
+    {
+     "p": "Кожен рілс отримує власний згенерований саундтрек під зміну сцен — без залежності від ліцензійних треків."
+    },
+    {
+     "h": "Публікація за розкладом"
+    },
+    {
+     "p": "Готові відео публікуються у ваших акаунтах за обраним графіком. Усі рілси на нашому сайті та в наших соцмережах зроблені саме так."
+    }
+   ],
+   "faq": [
+    [
+     "Чи можна зробити відео в стилі мого бренду?",
+     "Так. Кольори, шрифти, логотип і тон один раз описуються в брендбуці, якого агент дотримується в кожному відео."
+    ],
+    [
+     "Які платформи підтримуються?",
+     "Instagram Reels, Facebook Reels і TikTok; інші платформи можна додати залежно від задачі."
+    ]
+   ]
+  },
+  "ru": {
+   "title": "ИИ-агент видеоредактор — рилсы, созданные ИИ | VA Corporation",
+   "desc": "Наш ИИ-видеоагент пишет сценарий, анимирует сцены, добавляет субтитры и оригинальную музыку и публикует рилсы в Instagram, Facebook и TikTok.",
+   "h1": "ИИ-агент видеоредактор",
+   "lead": "ИИ-агент, который создаёт короткие видео от идеи до публикации: сценарий, анимация, субтитры, оригинальная техно-музыка — и публикация в Instagram, Facebook и TikTok.",
+   "body": [
+    {
+     "h": "От идеи до готового рилса"
+    },
+    {
+     "p": "Агент выбирает тему, пишет цепляющее начало, рисует и анимирует каждую сцену и рендерит вертикальное видео 1080×1920. Субтитры добавляются на нужных языках."
+    },
+    {
+     "h": "Оригинальная музыка"
+    },
+    {
+     "p": "Каждый рилс получает собственный сгенерированный саундтрек под смену сцен — без зависимости от лицензионных треков."
+    },
+    {
+     "h": "Публикация по расписанию"
+    },
+    {
+     "p": "Готовые видео публикуются в ваших аккаунтах по выбранному графику. Все рилсы на нашем сайте и в наших соцсетях сделаны именно так."
+    }
+   ],
+   "faq": [
+    [
+     "Можно ли сделать видео в стиле моего бренда?",
+     "Да. Цвета, шрифты, логотип и тон один раз описываются в брендбуке, которому агент следует в каждом видео."
+    ],
+    [
+     "Какие платформы поддерживаются?",
+     "Instagram Reels, Facebook Reels и TikTok; другие платформы можно добавить в зависимости от задачи."
+    ]
+   ]
+  },
+  "be": {
+   "title": "AI-агент відэарэдактар — рылсы, створаныя AI | VA Corporation",
+   "desc": "Наш AI-відэаагент піша сцэнар, аніміруе сцэны, дадае субцітры і арыгінальную музыку і публікуе рылсы ў Instagram, Facebook і TikTok.",
+   "h1": "AI-агент відэарэдактар",
+   "lead": "AI-агент, які стварае кароткія відэа ад ідэі да публікацыі: сцэнар, анімацыя, субцітры, арыгінальная тэхна-музыка — і публікацыя ў Instagram, Facebook і TikTok.",
+   "body": [
+    {
+     "h": "Ад ідэі да гатовага рылса"
+    },
+    {
+     "p": "Агент выбірае тэму, піша зачэпку, малюе і аніміруе кожную сцэну і рэндэрыць вертыкальнае відэа 1080×1920. Субцітры дадаюцца на патрэбных мовах."
+    },
+    {
+     "h": "Арыгінальная музыка"
+    },
+    {
+     "p": "Кожны рылс атрымлівае ўласны згенераваны саўндтрэк пад змену сцэн — без залежнасці ад ліцэнзійных трэкаў."
+    },
+    {
+     "h": "Публікацыя па раскладзе"
+    },
+    {
+     "p": "Гатовыя відэа публікуюцца ў вашых акаўнтах па выбраным графіку. Усе рылсы на нашым сайце і ў нашых сацсетках зроблены менавіта так."
+    }
+   ],
+   "faq": [
+    [
+     "Ці можна зрабіць відэа ў стылі майго брэнда?",
+     "Так. Колеры, шрыфты, лагатып і тон адзін раз апісваюцца ў брэндбуку, якому агент прытрымліваецца ў кожным відэа."
+    ],
+    [
+     "Якія платформы падтрымліваюцца?",
+     "Instagram Reels, Facebook Reels і TikTok; іншыя платформы можна дадаць у залежнасці ад задачы."
+    ]
+   ]
+  },
+  "ka": {
+   "title": "AI ვიდეო-რედაქტორი აგენტი — AI-ს მიერ შექმნილი რილსები | VA Corporation",
+   "desc": "ჩვენი AI ვიდეო-აგენტი წერს სცენარს, აცოცხლებს სცენებს, ამატებს სუბტიტრებს და ორიგინალურ მუსიკას და აქვეყნებს რილსებს Instagram-ზე, Facebook-სა და TikTok-ზე.",
+   "h1": "AI ვიდეო-რედაქტორი აგენტი",
+   "lead": "AI აგენტი, რომელიც ქმნის მოკლე ვიდეოებს იდეიდან გამოქვეყნებამდე: სცენარი, ანიმაცია, სუბტიტრები, ორიგინალური ტექნო მუსიკა — და გამოქვეყნება Instagram-ზე, Facebook-სა და TikTok-ზე.",
+   "body": [
+    {
+     "h": "იდეიდან მზა რილსამდე"
+    },
+    {
+     "p": "აგენტი ირჩევს თემას, წერს მიმზიდველ დასაწყისს, ხატავს და აცოცხლებს ყოველ სცენას და ქმნის ვერტიკალურ ვიდეოს 1080×1920 ფორმატში. სუბტიტრები საჭირო ენებზე ემატება."
+    },
+    {
+     "h": "ორიგინალური მუსიკა"
+    },
+    {
+     "p": "ყოველი რილსი იღებს საკუთარ გენერირებულ საუნდტრეკს სცენების ცვლილებასთან სინქრონში — ლიცენზირებულ ტრეკებზე დამოკიდებულების გარეშე."
+    },
+    {
+     "h": "გამოქვეყნება გრაფიკით"
+    },
+    {
+     "p": "მზა ვიდეოები თქვენს ანგარიშებზე არჩეული გრაფიკით ქვეყნდება. ჩვენს საიტსა და სოციალურ ქსელებში ყველა რილსი სწორედ ასე იქმნება."
+    }
+   ],
+   "faq": [
+    [
+     "შეიძლება ვიდეოები ჩემი ბრენდის სტილში იყოს?",
+     "დიახ. ფერები, შრიფტები, ლოგო და ტონი ერთხელ აღიწერება ბრენდბუქში, რომელსაც აგენტი ყოველ ვიდეოში მიჰყვება."
+    ],
+    [
+     "რომელი პლატფორმებია მხარდაჭერილი?",
+     "Instagram Reels, Facebook Reels და TikTok; სხვა პლატფორმების დამატება ამოცანის მიხედვით შეიძლება."
+    ]
+   ]
+  },
+  "hy": {
+   "title": "AI վիդեո-խմբագիր գործակալ — AI-ի ստեղծած ռիլսեր | VA Corporation",
+   "desc": "Մեր AI վիդեո գործակալը գրում է սցենարը, անիմացնում տեսարանները, ավելացնում ենթագրեր և օրիգինալ երաժշտություն և հրապարակում ռիլսեր Instagram-ում, Facebook-ում և TikTok-ում։",
+   "h1": "AI վիդեո-խմբագիր գործակալ",
+   "lead": "AI գործակալ, որը ստեղծում է կարճ տեսանյութեր գաղափարից մինչև հրապարակում՝ սցենար, անիմացիա, ենթագրեր, օրիգինալ տեխնո երաժշտություն և հրապարակում Instagram-ում, Facebook-ում և TikTok-ում։",
+   "body": [
+    {
+     "h": "Գաղափարից մինչև պատրաստի ռիլս"
+    },
+    {
+     "p": "Գործակալն ընտրում է թեման, գրում գրավիչ սկիզբ, նկարում և անիմացնում յուրաքանչյուր տեսարան և ստեղծում ուղղահայաց 1080×1920 տեսանյութ։ Ենթագրերն ավելացվում են անհրաժեշտ լեզուներով։"
+    },
+    {
+     "h": "Օրիգինալ երաժշտություն"
+    },
+    {
+     "p": "Յուրաքանչյուր ռիլս ստանում է սեփական գեներացված սաունդթրեք՝ համաժամեցված տեսարանների փոփոխությանը, առանց լիցենզավորված թրեքերից կախվածության։"
+    },
+    {
+     "h": "Հրապարակում ըստ ժամանակացույցի"
+    },
+    {
+     "p": "Պատրաստի տեսանյութերը հրապարակվում են ձեր հաշիվներում ձեր ընտրած ժամանակացույցով։ Մեր կայքի և սոցցանցերի բոլոր ռիլսերը ստեղծվում են հենց այսպես։"
+    }
+   ],
+   "faq": [
+    [
+     "Կարո՞ղ են տեսանյութերը համապատասխանել իմ բրենդին",
+     "Այո։ Գույները, տառատեսակները, լոգոն և տոնը մեկ անգամ նկարագրվում են բրենդբուքում, որին գործակալը հետևում է յուրաքանչյուր տեսանյութում։"
+    ],
+    [
+     "Ինչ հարթակներ են աջակցվում",
+     "Instagram Reels, Facebook Reels և TikTok. այլ հարթակներ կարելի է ավելացնել՝ կախված խնդրից։"
+    ]
+   ]
+  }
+ }
+}

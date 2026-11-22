@@ -1,0 +1,405 @@
+{
+ "id": "ai-agents",
+ "path": "ai-agents/",
+ "kind": "service",
+ "order": 1,
+ "updated": "2026-11-22",
+ "i18n": {
+  "en": {
+   "title": "AI agents for business — custom AI assistants | VA Corporation",
+   "desc": "We build custom AI agents that answer customers, process requests and work with data and documents — in many languages, around the clock.",
+   "h1": "AI agents for your business",
+   "lead": "Custom AI assistants that take over routine work — answering customers, processing requests, working with data and documents — so your team can focus on what matters.",
+   "body": [
+    {
+     "h": "What an AI agent can do"
+    },
+    {
+     "p": "An AI agent is a program that completes tasks on its own, following rules you set. It can reply to customers in chats and messengers, qualify leads, fill in forms and CRMs, prepare reports or sort documents — around the clock and in many languages."
+    },
+    {
+     "h": "How we build it"
+    },
+    {
+     "p": "We start with one clear task and a small pilot. Together we define what the agent may do, which data and tools it can use, and when it must hand over to a person. Then we test it on real cases and launch it step by step."
+    },
+    {
+     "h": "Safe by design"
+    },
+    {
+     "p": "An agent gets only the access it really needs. Sensitive actions can require human approval, and every step can be logged, so you always know what the agent did."
+    }
+   ],
+   "faq": [
+    [
+     "Will an AI agent replace my employees?",
+     "No — the goal is to remove repetitive work. Complex or sensitive cases are handed over to people."
+    ],
+    [
+     "Which tools can the agent work with?",
+     "Messengers, e-mail, websites, spreadsheets, CRMs and many other services that offer an API or connect through automation platforms such as n8n."
+    ]
+   ]
+  },
+  "de": {
+   "title": "KI-Agenten für Unternehmen — individuelle KI-Assistenten | VA Corporation",
+   "desc": "Wir entwickeln individuelle KI-Agenten, die Kunden antworten, Anfragen bearbeiten und mit Daten und Dokumenten arbeiten — mehrsprachig und rund um die Uhr.",
+   "h1": "KI-Agenten für Ihr Unternehmen",
+   "lead": "Individuelle KI-Assistenten übernehmen Routinearbeit — Kundenanfragen, Bearbeitung von Aufträgen, Daten und Dokumente —, damit sich Ihr Team auf das Wesentliche konzentrieren kann.",
+   "body": [
+    {
+     "h": "Was ein KI-Agent kann"
+    },
+    {
+     "p": "Ein KI-Agent ist ein Programm, das Aufgaben selbstständig nach Ihren Regeln erledigt. Er beantwortet Kunden in Chats und Messengern, qualifiziert Leads, füllt Formulare und CRMs aus, erstellt Berichte oder sortiert Dokumente — rund um die Uhr und in vielen Sprachen."
+    },
+    {
+     "h": "Wie wir ihn entwickeln"
+    },
+    {
+     "p": "Wir starten mit einer klaren Aufgabe und einem kleinen Pilotprojekt. Gemeinsam legen wir fest, was der Agent darf, welche Daten und Tools er nutzt und wann er an einen Menschen übergibt. Danach testen wir ihn an echten Fällen und führen ihn Schritt für Schritt ein."
+    },
+    {
+     "h": "Sicherheit von Anfang an"
+    },
+    {
+     "p": "Ein Agent erhält nur die Zugriffe, die er wirklich braucht. Sensible Aktionen können eine Freigabe durch einen Menschen erfordern, und jeder Schritt kann protokolliert werden — so wissen Sie immer, was der Agent getan hat."
+    }
+   ],
+   "faq": [
+    [
+     "Ersetzt ein KI-Agent meine Mitarbeiter?",
+     "Nein — das Ziel ist, wiederkehrende Arbeit abzunehmen. Komplexe oder sensible Fälle gehen an Menschen."
+    ],
+    [
+     "Mit welchen Tools arbeitet der Agent?",
+     "Messenger, E-Mail, Websites, Tabellen, CRMs und viele andere Dienste mit API oder Anbindung über Automatisierungsplattformen wie n8n."
+    ]
+   ]
+  },
+  "es": {
+   "title": "Agentes de IA para empresas — asistentes de IA a medida | VA Corporation",
+   "desc": "Creamos agentes de IA a medida que responden a clientes, gestionan solicitudes y trabajan con datos y documentos, en varios idiomas y las 24 horas.",
+   "h1": "Agentes de IA para tu negocio",
+   "lead": "Asistentes de IA a medida que se encargan del trabajo rutinario —responder a clientes, gestionar solicitudes, trabajar con datos y documentos— para que tu equipo se centre en lo importante.",
+   "body": [
+    {
+     "h": "Qué puede hacer un agente de IA"
+    },
+    {
+     "p": "Un agente de IA es un programa que realiza tareas por sí solo siguiendo las reglas que tú defines. Responde a clientes en chats y mensajería, califica leads, rellena formularios y CRM, prepara informes u ordena documentos, las 24 horas y en muchos idiomas."
+    },
+    {
+     "h": "Cómo lo creamos"
+    },
+    {
+     "p": "Empezamos con una tarea clara y un pequeño piloto. Juntos definimos qué puede hacer el agente, qué datos y herramientas usa y cuándo debe pasar el caso a una persona. Después lo probamos con casos reales y lo lanzamos paso a paso."
+    },
+    {
+     "h": "Seguro desde el diseño"
+    },
+    {
+     "p": "El agente solo recibe el acceso que realmente necesita. Las acciones sensibles pueden requerir aprobación humana y cada paso puede registrarse, así que siempre sabes qué hizo el agente."
+    }
+   ],
+   "faq": [
+    [
+     "¿Un agente de IA sustituirá a mis empleados?",
+     "No: el objetivo es eliminar el trabajo repetitivo. Los casos complejos o delicados pasan a las personas."
+    ],
+    [
+     "¿Con qué herramientas trabaja el agente?",
+     "Con mensajería, correo, sitios web, hojas de cálculo, CRM y muchos otros servicios con API o conectados mediante plataformas de automatización como n8n."
+    ]
+   ]
+  },
+  "it": {
+   "title": "Agenti IA per le aziende — assistenti IA su misura | VA Corporation",
+   "desc": "Creiamo agenti IA su misura che rispondono ai clienti, gestiscono richieste e lavorano con dati e documenti, in più lingue e 24 ore su 24.",
+   "h1": "Agenti IA per la tua azienda",
+   "lead": "Assistenti IA su misura che si occupano del lavoro ripetitivo — rispondere ai clienti, gestire richieste, lavorare con dati e documenti — così il team può concentrarsi su ciò che conta.",
+   "body": [
+    {
+     "h": "Cosa può fare un agente IA"
+    },
+    {
+     "p": "Un agente IA è un programma che svolge compiti in autonomia seguendo le regole che stabilisci tu. Risponde ai clienti in chat e app di messaggistica, qualifica i lead, compila moduli e CRM, prepara report o ordina documenti, a qualsiasi ora e in molte lingue."
+    },
+    {
+     "h": "Come lo realizziamo"
+    },
+    {
+     "p": "Partiamo da un compito chiaro e da un piccolo progetto pilota. Insieme definiamo cosa può fare l'agente, quali dati e strumenti usa e quando deve passare la richiesta a una persona. Poi lo testiamo su casi reali e lo introduciamo passo dopo passo."
+    },
+    {
+     "h": "Sicuro fin dal progetto"
+    },
+    {
+     "p": "L'agente riceve solo gli accessi di cui ha davvero bisogno. Le azioni delicate possono richiedere l'approvazione di una persona e ogni passaggio può essere registrato, così sai sempre cosa ha fatto l'agente."
+    }
+   ],
+   "faq": [
+    [
+     "Un agente IA sostituirà i miei dipendenti?",
+     "No: l'obiettivo è eliminare il lavoro ripetitivo. I casi complessi o delicati passano alle persone."
+    ],
+    [
+     "Con quali strumenti lavora l'agente?",
+     "App di messaggistica, e-mail, siti web, fogli di calcolo, CRM e molti altri servizi con API o collegati tramite piattaforme di automazione come n8n."
+    ]
+   ]
+  },
+  "fr": {
+   "title": "Agents IA pour entreprises — assistants IA sur mesure | VA Corporation",
+   "desc": "Nous créons des agents IA sur mesure qui répondent aux clients, traitent les demandes et travaillent avec vos données et documents, en plusieurs langues, 24 h/24.",
+   "h1": "Des agents IA pour votre entreprise",
+   "lead": "Des assistants IA sur mesure qui prennent en charge les tâches répétitives — réponses aux clients, traitement des demandes, données et documents — pour que votre équipe se concentre sur l'essentiel.",
+   "body": [
+    {
+     "h": "Ce que fait un agent IA"
+    },
+    {
+     "p": "Un agent IA est un programme qui accomplit des tâches seul, selon les règles que vous fixez. Il répond aux clients dans les chats et messageries, qualifie les prospects, remplit formulaires et CRM, prépare des rapports ou classe des documents, 24 h/24 et dans de nombreuses langues."
+    },
+    {
+     "h": "Comment nous le construisons"
+    },
+    {
+     "p": "Nous commençons par une tâche claire et un petit pilote. Ensemble, nous définissons ce que l'agent peut faire, les données et outils qu'il utilise et quand il doit passer la main à une personne. Puis nous le testons sur des cas réels et le déployons étape par étape."
+    },
+    {
+     "h": "Sécurisé dès la conception"
+    },
+    {
+     "p": "L'agent n'obtient que les accès dont il a vraiment besoin. Les actions sensibles peuvent exiger une validation humaine et chaque étape peut être journalisée : vous savez toujours ce que l'agent a fait."
+    }
+   ],
+   "faq": [
+    [
+     "Un agent IA va-t-il remplacer mes employés ?",
+     "Non : le but est de supprimer le travail répétitif. Les cas complexes ou délicats sont confiés à des personnes."
+    ],
+    [
+     "Avec quels outils l'agent travaille-t-il ?",
+     "Messageries, e-mail, sites web, tableurs, CRM et de nombreux autres services dotés d'une API ou connectés via des plateformes d'automatisation comme n8n."
+    ]
+   ]
+  },
+  "pl": {
+   "title": "Agenci AI dla firm — dedykowani asystenci AI | VA Corporation",
+   "desc": "Tworzymy dedykowanych agentów AI, którzy odpowiadają klientom, obsługują zgłoszenia i pracują z danymi i dokumentami — w wielu językach, całą dobę.",
+   "h1": "Agenci AI dla Twojej firmy",
+   "lead": "Dedykowani asystenci AI przejmują rutynę — odpowiedzi dla klientów, obsługę zgłoszeń, pracę z danymi i dokumentami — by zespół mógł skupić się na tym, co ważne.",
+   "body": [
+    {
+     "h": "Co potrafi agent AI"
+    },
+    {
+     "p": "Agent AI to program, który sam wykonuje zadania według ustalonych przez Ciebie zasad. Odpowiada klientom na czatach i w komunikatorach, kwalifikuje leady, wypełnia formularze i CRM, przygotowuje raporty i porządkuje dokumenty — całą dobę i w wielu językach."
+    },
+    {
+     "h": "Jak go budujemy"
+    },
+    {
+     "p": "Zaczynamy od jednego jasnego zadania i małego pilotażu. Wspólnie ustalamy, co agent może robić, z jakich danych i narzędzi korzysta i kiedy przekazuje sprawę człowiekowi. Potem testujemy go na prawdziwych przypadkach i wdrażamy krok po kroku."
+    },
+    {
+     "h": "Bezpieczeństwo od początku"
+    },
+    {
+     "p": "Agent dostaje tylko taki dostęp, jakiego naprawdę potrzebuje. Wrażliwe działania mogą wymagać zatwierdzenia przez człowieka, a każdy krok może być zapisywany, więc zawsze wiesz, co zrobił agent."
+    }
+   ],
+   "faq": [
+    [
+     "Czy agent AI zastąpi moich pracowników?",
+     "Nie — celem jest odciążenie od powtarzalnej pracy. Złożone lub delikatne sprawy trafiają do ludzi."
+    ],
+    [
+     "Z jakimi narzędziami pracuje agent?",
+     "Z komunikatorami, e-mailem, stronami, arkuszami, CRM i wieloma innymi usługami, które mają API lub łączą się przez platformy automatyzacji, np. n8n."
+    ]
+   ]
+  },
+  "uk": {
+   "title": "AI-агенти для бізнесу — індивідуальні AI-асистенти | VA Corporation",
+   "desc": "Створюємо AI-агентів, які відповідають клієнтам, обробляють заявки та працюють з даними й документами — різними мовами й цілодобово.",
+   "h1": "AI-агенти для вашого бізнесу",
+   "lead": "Індивідуальні AI-асистенти беруть на себе рутину — відповіді клієнтам, обробку заявок, роботу з даними й документами, — щоб команда займалася головним.",
+   "body": [
+    {
+     "h": "Що вміє AI-агент"
+    },
+    {
+     "p": "AI-агент — це програма, яка сама виконує задачі за вашими правилами. Він відповідає клієнтам у чатах і месенджерах, кваліфікує заявки, заповнює форми та CRM, готує звіти й сортує документи — цілодобово і багатьма мовами."
+    },
+    {
+     "h": "Як ми його створюємо"
+    },
+    {
+     "p": "Починаємо з однієї зрозумілої задачі й невеликого пілоту. Разом визначаємо, що агентові можна робити, які дані та інструменти йому доступні і коли він передає питання людині. Потім тестуємо на реальних випадках і запускаємо поетапно."
+    },
+    {
+     "h": "Безпека від початку"
+    },
+    {
+     "p": "Агент отримує лише той доступ, який йому справді потрібен. Важливі дії можуть вимагати підтвердження людиною, а кожен крок — записуватися в журнал, тож ви завжди знаєте, що зробив агент."
+    }
+   ],
+   "faq": [
+    [
+     "Чи замінить AI-агент моїх працівників?",
+     "Ні — мета в тому, щоб прибрати повторювану роботу. Складні й делікатні випадки передаються людям."
+    ],
+    [
+     "З якими сервісами працює агент?",
+     "З месенджерами, поштою, сайтами, таблицями, CRM та багатьма іншими сервісами, що мають API або підключаються через платформи автоматизації, наприклад n8n."
+    ]
+   ]
+  },
+  "ru": {
+   "title": "ИИ-агенты для бизнеса — индивидуальные ИИ-ассистенты | VA Corporation",
+   "desc": "Создаём ИИ-агентов, которые отвечают клиентам, обрабатывают заявки и работают с данными и документами — на разных языках и круглосуточно.",
+   "h1": "ИИ-агенты для вашего бизнеса",
+   "lead": "Индивидуальные ИИ-ассистенты берут на себя рутину — ответы клиентам, обработку заявок, работу с данными и документами, — чтобы команда занималась главным.",
+   "body": [
+    {
+     "h": "Что умеет ИИ-агент"
+    },
+    {
+     "p": "ИИ-агент — это программа, которая сама выполняет задачи по заданным вами правилам. Он отвечает клиентам в чатах и мессенджерах, квалифицирует заявки, заполняет формы и CRM, готовит отчёты и сортирует документы — круглосуточно и на многих языках."
+    },
+    {
+     "h": "Как мы его создаём"
+    },
+    {
+     "p": "Начинаем с одной понятной задачи и небольшого пилота. Вместе определяем, что агенту можно делать, какие данные и инструменты ему доступны и когда он передаёт вопрос человеку. Затем тестируем на реальных случаях и запускаем поэтапно."
+    },
+    {
+     "h": "Безопасность с самого начала"
+    },
+    {
+     "p": "Агент получает только тот доступ, который ему действительно нужен. Важные действия могут требовать подтверждения человеком, а каждый шаг — записываться в журнал, так что вы всегда знаете, что сделал агент."
+    }
+   ],
+   "faq": [
+    [
+     "Заменит ли ИИ-агент моих сотрудников?",
+     "Нет — цель в том, чтобы убрать повторяющуюся работу. Сложные и деликатные случаи передаются людям."
+    ],
+    [
+     "С какими сервисами работает агент?",
+     "С мессенджерами, почтой, сайтами, таблицами, CRM и многими другими сервисами, у которых есть API или подключение через платформы автоматизации, например n8n."
+    ]
+   ]
+  },
+  "be": {
+   "title": "AI-агенты для бізнесу — індывідуальныя AI-асістэнты | VA Corporation",
+   "desc": "Ствараем AI-агентаў, якія адказваюць кліентам, апрацоўваюць заяўкі і працуюць з данымі і дакументамі — на розных мовах і кругласутачна.",
+   "h1": "AI-агенты для вашага бізнесу",
+   "lead": "Індывідуальныя AI-асістэнты бяруць на сябе руціну — адказы кліентам, апрацоўку заявак, працу з данымі і дакументамі, — каб каманда займалася галоўным.",
+   "body": [
+    {
+     "h": "Што ўмее AI-агент"
+    },
+    {
+     "p": "AI-агент — гэта праграма, якая сама выконвае задачы паводле вашых правілаў. Ён адказвае кліентам у чатах і мэсэнджарах, кваліфікуе заяўкі, запаўняе формы і CRM, рыхтуе справаздачы і сартуе дакументы — кругласутачна і на многіх мовах."
+    },
+    {
+     "h": "Як мы яго ствараем"
+    },
+    {
+     "p": "Пачынаем з адной зразумелай задачы і невялікага пілота. Разам вызначаем, што агенту можна рабіць, якія даныя і інструменты яму даступныя і калі ён перадае пытанне чалавеку. Потым тэстуем на рэальных выпадках і запускаем паэтапна."
+    },
+    {
+     "h": "Бяспека з самага пачатку"
+    },
+    {
+     "p": "Агент атрымлівае толькі той доступ, які яму сапраўды патрэбны. Важныя дзеянні могуць патрабаваць пацверджання чалавекам, а кожны крок — запісвацца ў журнал, так што вы заўсёды ведаеце, што зрабіў агент."
+    }
+   ],
+   "faq": [
+    [
+     "Ці заменіць AI-агент маіх супрацоўнікаў?",
+     "Не — мэта ў тым, каб прыбраць паўтаральную працу. Складаныя і далікатныя выпадкі перадаюцца людзям."
+    ],
+    [
+     "З якімі сэрвісамі працуе агент?",
+     "З мэсэнджарамі, поштай, сайтамі, табліцамі, CRM і многімі іншымі сэрвісамі, якія маюць API або падключаюцца праз платформы аўтаматызацыі, напрыклад n8n."
+    ]
+   ]
+  },
+  "ka": {
+   "title": "AI აგენტები ბიზნესისთვის — ინდივიდუალური AI ასისტენტები | VA Corporation",
+   "desc": "ვქმნით AI აგენტებს, რომლებიც პასუხობენ მომხმარებლებს, ამუშავებენ მოთხოვნებს და მუშაობენ მონაცემებთან და დოკუმენტებთან — სხვადასხვა ენაზე, 24/7.",
+   "h1": "AI აგენტები თქვენი ბიზნესისთვის",
+   "lead": "ინდივიდუალური AI ასისტენტები, რომლებიც რუტინას საკუთარ თავზე იღებენ — მომხმარებლებთან პასუხი, მოთხოვნების დამუშავება, მონაცემები და დოკუმენტები — რათა გუნდი მთავარზე იყოს ფოკუსირებული.",
+   "body": [
+    {
+     "h": "რა შეუძლია AI აგენტს"
+    },
+    {
+     "p": "AI აგენტი არის პროგრამა, რომელიც დამოუკიდებლად ასრულებს ამოცანებს თქვენ მიერ დადგენილი წესებით. ის პასუხობს მომხმარებლებს ჩატებსა და მესენჯერებში, აფასებს მოთხოვნებს, ავსებს ფორმებს და CRM-ს, ამზადებს ანგარიშებს და ალაგებს დოკუმენტებს — მთელი დღე-ღამე და ბევრ ენაზე."
+    },
+    {
+     "h": "როგორ ვქმნით მას"
+    },
+    {
+     "p": "ვიწყებთ ერთი მკაფიო ამოცანით და მცირე პილოტით. ერთად ვადგენთ, რისი გაკეთება შეუძლია აგენტს, რომელ მონაცემებსა და ინსტრუმენტებს იყენებს და როდის უნდა გადასცეს საკითხი ადამიანს. შემდეგ ვამოწმებთ რეალურ შემთხვევებზე და ეტაპობრივად ვუშვებთ."
+    },
+    {
+     "h": "უსაფრთხოება თავიდანვე"
+    },
+    {
+     "p": "აგენტი იღებს მხოლოდ იმ წვდომას, რაც ნამდვილად სჭირდება. მნიშვნელოვანი მოქმედებები შეიძლება ადამიანის დადასტურებას მოითხოვდეს, ყოველი ნაბიჯი კი შეიძლება ჩაიწეროს — ასე ყოველთვის იცით, რა გააკეთა აგენტმა."
+    }
+   ],
+   "faq": [
+    [
+     "ჩაანაცვლებს თუ არა AI აგენტი ჩემს თანამშრომლებს?",
+     "არა — მიზანია განმეორებადი სამუშაოს მოხსნა. რთული ან დელიკატური შემთხვევები ადამიანებს გადაეცემა."
+    ],
+    [
+     "რა ინსტრუმენტებთან მუშაობს აგენტი?",
+     "მესენჯერებთან, ელფოსტასთან, საიტებთან, ცხრილებთან, CRM-თან და ბევრ სხვა სერვისთან, რომლებსაც აქვთ API ან უკავშირდებიან ავტომატიზაციის პლატფორმებს, მაგალითად n8n-ს."
+    ]
+   ]
+  },
+  "hy": {
+   "title": "AI գործակալներ բիզնեսի համար — անհատական AI օգնականներ | VA Corporation",
+   "desc": "Ստեղծում ենք AI գործակալներ, որոնք պատասխանում են հաճախորդներին, մշակում հայտերը և աշխատում տվյալների ու փաստաթղթերի հետ՝ տարբեր լեզուներով, շուրջօրյա։",
+   "h1": "AI գործակալներ ձեր բիզնեսի համար",
+   "lead": "Անհատական AI օգնականներ, որոնք իրենց վրա են վերցնում առօրյա աշխատանքը՝ պատասխաններ հաճախորդներին, հայտերի մշակում, տվյալներ և փաստաթղթեր, որպեսզի թիմը կենտրոնանա գլխավորի վրա։",
+   "body": [
+    {
+     "h": "Ինչ կարող է անել AI գործակալը"
+    },
+    {
+     "p": "AI գործակալը ծրագիր է, որն ինքնուրույն կատարում է առաջադրանքներ ձեր սահմանած կանոններով։ Այն պատասխանում է հաճախորդներին չատերում և մեսենջերներում, գնահատում հայտերը, լրացնում ձևեր և CRM, պատրաստում հաշվետվություններ և դասավորում փաստաթղթեր՝ շուրջօրյա և բազմաթիվ լեզուներով։"
+    },
+    {
+     "h": "Ինչպես ենք այն ստեղծում"
+    },
+    {
+     "p": "Սկսում ենք մեկ հստակ խնդրից և փոքր պիլոտից։ Միասին որոշում ենք, թե ինչ կարող է անել գործակալը, ինչ տվյալներ և գործիքներ է օգտագործում և երբ պետք է հարցը փոխանցի մարդուն։ Այնուհետև փորձարկում ենք իրական դեպքերի վրա և գործարկում քայլ առ քայլ։"
+    },
+    {
+     "h": "Անվտանգ ի սկզբանե"
+    },
+    {
+     "p": "Գործակալը ստանում է միայն այն հասանելիությունը, որն իրեն իսկապես անհրաժեշտ է։ Կարևոր գործողությունները կարող են պահանջել մարդու հաստատում, իսկ յուրաքանչյուր քայլ կարող է գրանցվել, այնպես որ դուք միշտ գիտեք, թե ինչ է արել գործակալը։"
+    }
+   ],
+   "faq": [
+    [
+     "Արդյո՞ք AI գործակալը կփոխարինի իմ աշխատակիցներին",
+     "Ոչ. նպատակը կրկնվող աշխատանքից ազատվելն է։ Բարդ կամ նուրբ դեպքերը փոխանցվում են մարդկանց։"
+    ],
+    [
+     "Ինչ գործիքների հետ է աշխատում գործակալը",
+     "Մեսենջերների, էլ. փոստի, կայքերի, աղյուսակների, CRM-ի և բազմաթիվ այլ ծառայությունների հետ, որոնք ունեն API կամ միանում են ավտոմատացման հարթակներով, օրինակ՝ n8n-ով։"
+    ]
+   ]
+  }
+ }
+}
