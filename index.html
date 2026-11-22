@@ -102,10 +102,46 @@ html[lang="en"] [data-l="en"],html[lang="de"] [data-l="de"],html[lang="ru"] [dat
 .plink{margin-top:auto;font-weight:800}
 @media (max-width:900px){.pgrid{grid-template-columns:1fr}}
 @media (min-width:600px) and (max-width:900px){.pgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.sico{font-size:34px!important;display:inline-flex!important;width:64px;height:64px;align-items:center;justify-content:center;border-radius:18px;background:rgba(250,204,21,.12);border:1px solid rgba(250,204,21,.35);animation:bob 4s ease-in-out infinite}
+.step:nth-child(2) .sico{animation-delay:.5s}.step:nth-child(3) .sico{animation-delay:1s}.step:nth-child(4) .sico{animation-delay:1.5s}
+@keyframes bob{50%{transform:translateY(-8px)}}
+/* shooting stars */
+.shoot{position:absolute;width:160px;height:2px;background:linear-gradient(90deg,rgba(255,255,255,0),#fff);border-radius:2px;opacity:0;transform:rotate(-24deg);animation:shoot 9s linear infinite}
+@keyframes shoot{0%{opacity:0;translate:0 0}2%{opacity:1}12%{opacity:0;translate:-700px 310px}100%{opacity:0;translate:-700px 310px}}
+/* floating planets */
+.planet{position:absolute;border-radius:50%;pointer-events:none;animation:float 14s ease-in-out infinite}
+.pl1{width:120px;height:120px;right:6%;top:118vh;background:radial-gradient(circle at 32% 30%,#FDE68A,#FB923C 35%,#7C3AED 75%,#1E1B4B);box-shadow:0 0 60px rgba(251,146,60,.35)}
+.pl1::after{content:"";position:absolute;left:-40%;top:42%;width:180%;height:18%;border:3px solid rgba(250,204,21,.8);border-radius:50%;transform:rotate(-16deg)}
+.pl2{width:60px;height:60px;left:4%;top:210vh;background:radial-gradient(circle at 35% 30%,#E0F2FE,#22D3EE 45%,#1E3A8A);box-shadow:0 0 40px rgba(34,211,238,.4);animation-duration:11s}
+.pl3{width:34px;height:34px;right:12%;top:330vh;background:radial-gradient(circle at 35% 30%,#ECFCCB,#84CC16 50%,#14532D);animation-duration:9s}
+@keyframes float{50%{transform:translate(-20px,-30px) rotate(8deg)}}
+.orbit .core{animation:pulse 3.5s ease-in-out infinite}
+@keyframes pulse{50%{box-shadow:0 0 120px 46px rgba(255,190,90,.6)}}
+/* chat widget */
+.chat-fab{position:fixed;right:22px;bottom:22px;z-index:60;width:64px;height:64px;border-radius:50%;border:0;cursor:pointer;background:radial-gradient(circle at 42% 35%,#FFF7DE,#FFC15E 48%,#F07A1A);box-shadow:0 10px 40px rgba(255,170,70,.55);display:flex;align-items:center;justify-content:center;animation:pulse 3s ease-in-out infinite}
+.chat-fab svg{width:30px;height:30px}
+.chat{position:fixed;right:22px;bottom:100px;z-index:60;width:min(380px,calc(100vw - 32px));max-height:min(560px,calc(100vh - 140px));display:none;flex-direction:column;border-radius:24px;overflow:hidden;background:rgba(11,16,51,.96);border:1px solid rgba(103,232,249,.35);box-shadow:0 24px 80px rgba(0,0,0,.5);backdrop-filter:blur(16px)}
+.chat.open{display:flex}
+.chat-h{display:flex;align-items:center;gap:12px;padding:16px 18px;border-bottom:1px solid var(--line)}
+.chat-h b{display:block;font:800 16px Montserrat,Inter,sans-serif}.chat-h small{color:#A3E635;font-size:12px;font-weight:700}
+.chat-x{margin-left:auto;background:none;border:0;color:var(--muted);font-size:26px;cursor:pointer;width:44px;height:44px}
+.chat-b{padding:16px;overflow-y:auto;display:flex;flex-direction:column;gap:10px;flex:1}
+.msg{max-width:85%;padding:11px 14px;border-radius:16px;font-size:15px;line-height:1.45;animation:pop .25s ease-out}
+@keyframes pop{from{opacity:0;transform:translateY(8px)}}
+.msg.bot{background:rgba(255,255,255,.08);border:1px solid var(--line);align-self:flex-start;border-bottom-left-radius:4px}
+.msg.me{background:linear-gradient(90deg,var(--gold),var(--amber));color:#0B1033;align-self:flex-end;font-weight:700;border-bottom-right-radius:4px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:0 16px 12px}
+.chip{background:rgba(34,211,238,.12);border:1px solid rgba(34,211,238,.4);color:#A5F3FC;font:700 13px Inter,sans-serif;padding:9px 13px;border-radius:999px;cursor:pointer;min-height:40px}
+.chat-f{padding:12px 16px 16px;border-top:1px solid var(--line);display:flex;gap:8px}
+.chat-f a{flex:1;text-align:center;padding:12px;border-radius:14px;font-weight:800;font-size:14px}
+.tg{background:#229ED9;color:#fff}.tg:hover{color:#fff;filter:brightness(1.1)}
+.ig{background:var(--glass);border:1px solid var(--line);color:#fff}
 </style>
 </head>
-<body>
-<div class="sky" aria-hidden="true"><div class="blob b1"></div><div class="blob b2"></div></div>
+<body style="position:relative">
+<div class="sky" aria-hidden="true"><div class="blob b1"></div><div class="blob b2"></div><div class="shoot" style="right:-10%;top:12%"></div><div class="shoot" style="right:20%;top:4%;animation-delay:3.5s"></div><div class="shoot" style="right:-5%;top:40%;animation-delay:6.5s"></div></div>
+<div aria-hidden="true" style="position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0"><div class="planet pl1"></div><div class="planet pl2"></div><div class="planet pl3"></div></div>
 
 <header><div class="wrap nav">
  <a class="logo" href="#top" aria-label="VA Corporation"><span class="sun">VA</span>VA Corporation</a>
@@ -134,7 +170,7 @@ html[lang="en"] [data-l="en"],html[lang="de"] [data-l="de"],html[lang="ru"] [dat
  <div class="orbit" aria-hidden="true">
   <div class="ring r2"></div><div class="ring r1"></div>
   <div class="spin"><div class="node" style="left:50%;top:0">AI</div><div class="node" style="left:100%;top:50%">GAME</div><div class="node" style="left:50%;top:100%">WEB</div><div class="node" style="left:0;top:50%">DATA</div></div>
-  <div class="spin s2"><div class="node" style="left:85%;top:15%">01</div><div class="node" style="left:15%;top:85%">02</div></div>
+  <div class="spin s2"><div class="node" style="left:85%;top:15%">BOT</div><div class="node" style="left:15%;top:85%">SMM</div></div>
   <div class="core">VA</div>
  </div>
 </div>
@@ -162,10 +198,10 @@ html[lang="en"] [data-l="en"],html[lang="de"] [data-l="de"],html[lang="ru"] [dat
  <div class="kicker"><span data-l="en">How we work</span><span data-l="de">So arbeiten wir</span><span data-l="ru">Как мы работаем</span></div>
  <h2><span data-l="en">From idea to launch</span><span data-l="de">Von der Idee zum Launch</span><span data-l="ru">От идеи до запуска</span></h2>
  <div class="steps">
-  <div class="step"><b>01</b><h3><span data-l="en">Idea</span><span data-l="de">Idee</span><span data-l="ru">Идея</span></h3><p><span data-l="en">We clarify the goal and the task.</span><span data-l="de">Wir klären Ziel und Aufgabe.</span><span data-l="ru">Разбираемся в цели и задаче.</span></p></div>
-  <div class="step"><b>02</b><h3><span data-l="en">Prototype</span><span data-l="de">Prototyp</span><span data-l="ru">Прототип</span></h3><p><span data-l="en">A first working version to test the concept.</span><span data-l="de">Eine erste funktionierende Version zum Testen.</span><span data-l="ru">Первая рабочая версия, чтобы проверить идею.</span></p></div>
-  <div class="step"><b>03</b><h3><span data-l="en">Build</span><span data-l="de">Entwicklung</span><span data-l="ru">Разработка</span></h3><p><span data-l="en">Development, design and testing.</span><span data-l="de">Entwicklung, Design und Tests.</span><span data-l="ru">Разработка, дизайн и тестирование.</span></p></div>
-  <div class="step"><b>04</b><h3><span data-l="en">Launch</span><span data-l="de">Launch</span><span data-l="ru">Запуск</span></h3><p><span data-l="en">Release and ongoing support.</span><span data-l="de">Veröffentlichung und laufender Support.</span><span data-l="ru">Релиз и дальнейшая поддержка.</span></p></div>
+  <div class="step"><b class="sico" aria-hidden="true">💡</b><h3><span data-l="en">Idea</span><span data-l="de">Idee</span><span data-l="ru">Идея</span></h3><p><span data-l="en">We clarify the goal and the task.</span><span data-l="de">Wir klären Ziel und Aufgabe.</span><span data-l="ru">Разбираемся в цели и задаче.</span></p></div>
+  <div class="step"><b class="sico" aria-hidden="true">🧪</b><h3><span data-l="en">Prototype</span><span data-l="de">Prototyp</span><span data-l="ru">Прототип</span></h3><p><span data-l="en">A first working version to test the concept.</span><span data-l="de">Eine erste funktionierende Version zum Testen.</span><span data-l="ru">Первая рабочая версия, чтобы проверить идею.</span></p></div>
+  <div class="step"><b class="sico" aria-hidden="true">🛠</b><h3><span data-l="en">Build</span><span data-l="de">Entwicklung</span><span data-l="ru">Разработка</span></h3><p><span data-l="en">Development, design and testing.</span><span data-l="de">Entwicklung, Design und Tests.</span><span data-l="ru">Разработка, дизайн и тестирование.</span></p></div>
+  <div class="step"><b class="sico" aria-hidden="true">🚀</b><h3><span data-l="en">Launch</span><span data-l="de">Launch</span><span data-l="ru">Запуск</span></h3><p><span data-l="en">Release and ongoing support.</span><span data-l="de">Veröffentlichung und laufender Support.</span><span data-l="ru">Релиз и дальнейшая поддержка.</span></p></div>
  </div>
 </div></section>
 
@@ -201,6 +237,14 @@ html[lang="en"] [data-l="en"],html[lang="de"] [data-l="de"],html[lang="ru"] [dat
 </div></section>
 </main>
 
+
+<button class="chat-fab" type="button" aria-label="Chat" aria-expanded="false" id="chatFab"><svg viewBox="0 0 24 24" fill="none" stroke="#3A1A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.5 7.2L4 20l1-4.5A8 8 0 1 1 21 12z"/></svg></button>
+<div class="chat" id="chat" role="dialog" aria-label="VA Corporation chat">
+ <div class="chat-h"><span class="sun" style="width:38px;height:38px;font-size:12px">VA</span><div><b>VA Assistant</b><small>● online</small></div><button class="chat-x" type="button" aria-label="Close" id="chatX">×</button></div>
+ <div class="chat-b" id="chatB" aria-live="polite"></div>
+ <div class="chips" id="chips"></div>
+ <div class="chat-f"><a class="tg" id="tgLink" href="#" target="_blank" rel="noopener">Telegram</a><a class="ig" href="https://ig.me/m/va_video_maker" target="_blank" rel="noopener">Instagram DM</a></div>
+</div>
 <footer><div class="wrap row">
  <span>© 2026 VA Corporation</span>
  <span>AI agents · Games · Software</span>
@@ -216,6 +260,26 @@ html[lang="en"] [data-l="en"],html[lang="de"] [data-l="de"],html[lang="ru"] [dat
  var nav=(navigator.language||'en').slice(0,2);setLang(saved||(nav==='de'||nav==='ru'?nav:'en'));
 
  document.querySelectorAll('.fbtn').forEach(function(b){b.addEventListener('click',function(){var f=b.dataset.f;document.querySelectorAll('.fbtn').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});document.querySelectorAll('.pcard').forEach(function(c){c.hidden=!(f==='all'||c.dataset.cat===f)})})});
+
+ /* ===== chat widget (scripted FAQ; set TG to your bot/username to enable Telegram) ===== */
+ var TG='';
+ var T={
+  en:{hi:"Hi! I'm the VA Corporation assistant 👋 What are you interested in?",q:[["agents","AI agents"],["games","Games"],["web","Websites & apps"],["price","Prices"],["contact","Contact a person"]],
+   a:{agents:"We build AI agents that take over routine work: answering customers, handling requests, working with data and documents. Tell us your task — we'll suggest a solution.",games:"We design and develop games — from the first prototype to release. One of our projects is Kulak Kombat, a browser fighting game.",web:"We build websites, web apps, bots and integrations around your business processes.",price:"Every project is different, so we estimate it after a short conversation about your task. Write to us — it's free.",contact:"Our team replies in English, German and Russian. Choose a channel below 👇"}},
+  de:{hi:"Hallo! Ich bin der Assistent von VA Corporation 👋 Wofür interessierst du dich?",q:[["agents","KI-Agenten"],["games","Spiele"],["web","Websites & Apps"],["price","Preise"],["contact","Mit Menschen sprechen"]],
+   a:{agents:"Wir bauen KI-Agenten, die Routinearbeit übernehmen: Kunden antworten, Anfragen bearbeiten, mit Daten und Dokumenten arbeiten. Erzähl uns deine Aufgabe — wir schlagen eine Lösung vor.",games:"Wir konzipieren und entwickeln Spiele — vom ersten Prototyp bis zum Release. Eines unserer Projekte ist Kulak Kombat, ein Browser-Kampfspiel.",web:"Wir bauen Websites, Web-Apps, Bots und Integrationen rund um deine Geschäftsprozesse.",price:"Jedes Projekt ist anders — wir schätzen es nach einem kurzen Gespräch über deine Aufgabe. Schreib uns, das ist kostenlos.",contact:"Unser Team antwortet auf Deutsch, Englisch und Russisch. Wähle unten einen Kanal 👇"}},
+  ru:{hi:"Привет! Я ассистент VA Corporation 👋 Что вас интересует?",q:[["agents","AI-агенты"],["games","Игры"],["web","Сайты и приложения"],["price","Цены"],["contact","Связаться с человеком"]],
+   a:{agents:"Мы создаём AI-агентов, которые берут на себя рутину: отвечают клиентам, обрабатывают заявки, работают с данными и документами. Расскажите о задаче — предложим решение.",games:"Мы придумываем и разрабатываем игры — от прототипа до релиза. Один из наших проектов — браузерный файтинг «Кулак Комбат».",web:"Делаем сайты, веб-приложения, ботов и интеграции под процессы вашего бизнеса.",price:"Каждый проект индивидуален, поэтому оцениваем его после короткого разговора о задаче. Напишите нам — это бесплатно.",contact:"Наша команда отвечает на русском, немецком и английском. Выберите канал ниже 👇"}}
+ };
+ var fab=document.getElementById('chatFab'),box=document.getElementById('chat'),body=document.getElementById('chatB'),chips=document.getElementById('chips'),tg=document.getElementById('tgLink');
+ if(TG){tg.href=TG}else{tg.style.display='none'}
+ function L(){return T[document.documentElement.lang]||T.en}
+ function say(t,who){var d=document.createElement('div');d.className='msg '+who;d.textContent=t;body.appendChild(d);body.scrollTop=body.scrollHeight}
+ function draw(){chips.innerHTML='';L().q.forEach(function(q){var c=document.createElement('button');c.type='button';c.className='chip';c.textContent=q[1];c.onclick=function(){say(q[1],'me');setTimeout(function(){say(L().a[q[0]],'bot')},450)};chips.appendChild(c)})}
+ function start(){body.innerHTML='';say(L().hi,'bot');draw()}
+ fab.onclick=function(){var o=box.classList.toggle('open');fab.setAttribute('aria-expanded',o);if(o&&!body.children.length)start()};
+ document.getElementById('chatX').onclick=function(){box.classList.remove('open');fab.setAttribute('aria-expanded','false')};
+ document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){if(body.children.length)start()})});
 })();
 </script>
 </body>
