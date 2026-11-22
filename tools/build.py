@@ -7,8 +7,8 @@ plus sitemap.xml with hreflang alternates.
 import re, datetime, os
 
 BASE = "https://va-corporation.github.io/"
-LANGS = ["en", "de", "es", "it", "fr", "ru", "be"]
-OG = {"en": "en_US", "de": "de_DE", "es": "es_ES", "it": "it_IT", "fr": "fr_FR", "ru": "ru_RU", "be": "be_BY"}
+LANGS = ["en", "de", "es", "it", "fr", "pl", "uk", "ru", "be", "ka", "hy"]
+OG = {"en": "en_US", "de": "de_DE", "es": "es_ES", "it": "it_IT", "fr": "fr_FR", "ru": "ru_RU", "be": "be_BY", "uk": "uk_UA", "pl": "pl_PL", "ka": "ka_GE", "hy": "hy_AM"}
 META = {
     "en": ("VA Corporation — AI agents, games & software",
            "VA Corporation builds AI agents, games and software: AI assistants for business, AI video agents, automation, websites and bots."),
@@ -24,9 +24,17 @@ META = {
            "VA Corporation создаёт AI-агентов, игры и софт: AI-ассистенты для бизнеса, AI-видеоагенты, автоматизация, сайты и боты."),
     "be": ("VA Corporation — AI-агенты, гульні і софт",
            "VA Corporation стварае AI-агентаў, гульні і софт: AI-асістэнты для бізнесу, AI-відэаагенты, аўтаматызацыя, сайты і боты."),
+    "uk": ("VA Corporation — AI-агенти, ігри та софт",
+           "VA Corporation створює AI-агентів, ігри та софт: AI-асистенти для бізнесу, AI-відеоагенти, автоматизація, сайти й боти."),
+    "pl": ("VA Corporation — agenci AI, gry i oprogramowanie",
+           "VA Corporation tworzy agentów AI, gry i oprogramowanie: asystentów AI dla firm, agentów wideo AI, automatyzację, strony i boty."),
+    "ka": ("VA Corporation — AI აგენტები, თამაშები და პროგრამები",
+           "VA Corporation ქმნის AI აგენტებს, თამაშებს და პროგრამებს: AI ასისტენტები ბიზნესისთვის, AI ვიდეო-აგენტები, ავტომატიზაცია, საიტები და ბოტები."),
+    "hy": ("VA Corporation — AI գործակալներ, խաղեր և ծրագրեր",
+           "VA Corporation-ը ստեղծում է AI գործակալներ, խաղեր և ծրագրեր՝ AI օգնականներ բիզնեսի համար, AI վիդեո գործակալներ, ավտոմատացում, կայքեր և բոտեր։"),
 }
 
-PATH = {"be": "by"}
+PATH = {"be": "by", "uk": "ua", "ka": "ge", "hy": "am"}
 
 def url(l):
     return BASE if l == "en" else f"{BASE}{PATH.get(l, l)}/"
