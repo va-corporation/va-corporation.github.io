@@ -1,5 +1,15 @@
 [
  {
+  "id": "2026-11-23-ru",
+  "date": "2026-11-23",
+  "lang": "ru",
+  "title": "Твой ИИ-монтажёр не спит",
+  "description": "Как наш ИИ-видеоагент пишет сценарий, монтирует сцены, добавляет субтитры на трёх языках и техно и публикует ролик. Этот рилс он сделал сам.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-23-ru.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-23-ru.jpg",
+  "duration": 14
+ },
+ {
   "id": "2026-11-22-en",
   "date": "2026-11-22",
   "lang": "en",
