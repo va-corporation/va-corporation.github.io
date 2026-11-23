@@ -4,7 +4,7 @@ Run from the repo root:  python3 tools/build.py
 Output: index.html (English, x-default) and <lang>/index.html for every other language,
 plus sitemap.xml with hreflang alternates.
 """
-import news, pages, videos, extra, re, datetime, os, html as _html
+import news, pages, videos, extra, legal, re, datetime, os, html as _html
 
 BASE = "https://va-corporation.github.io/"
 LANGS = ["en", "de", "es", "it", "fr", "pl", "uk", "ru", "be", "ka", "hy"]
@@ -102,7 +102,7 @@ def home(tpl, l, arts, pgs):
     h = h.replace("<!--SVCLINKS-->", svc).replace("<!--CASELINKS-->", case)
     foot = '<nav class="footlinks">' + "".join(
         f'<a href="/{news.prefix(l)}{p["path"]}">{news.e(p["i18n"][l]["h1"])}</a>' for p in pgs if l in p["i18n"]) + \
-        f'<a href="/{"" if l in EXTRA else news.prefix(l)}news/">{news.e(news.UI[l]["news"])}</a><a href="/{news.prefix(l)}videos/">{news.e(videos.UI[l][0])}</a></nav>'
+        f'<a href="/{"" if l in EXTRA else news.prefix(l)}news/">{news.e(news.UI[l]["news"])}</a><a href="/{news.prefix(l)}videos/">{news.e(videos.UI[l][0])}</a>' + legal.links(l) + '</nav>'
     h = h.replace("<!--FOOTLINKS-->", foot)
     h = h.replace("</head>", pages.faq_ld(h, l) + "\n</head>", 1)
     return h
@@ -117,7 +117,7 @@ def main():
         tpl = extra.inject(tpl, c, d)
     nentries, arts = news.build_all(CORE)
     pentries, pgs = pages.build_all(LANGS)
-    nentries = pentries + nentries + videos.build_all(LANGS)
+    nentries = pentries + nentries + videos.build_all(LANGS) + legal.build_all()
     vids = videos.load()
     for l in LANGS:
         out = "index.html" if l == "en" else f"{PATH.get(l, l)}/index.html"

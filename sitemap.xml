@@ -3428,4 +3428,46 @@
     <xhtml:link rel="alternate" hreflang="sl" href="https://va-corporation.github.io/sl/videos/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://va-corporation.github.io/sv/videos/"/>
   </url>
+  <url>
+    <loc>https://va-corporation.github.io/terms/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://va-corporation.github.io/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://va-corporation.github.io/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://va-corporation.github.io/ru/terms/"/>
+  </url>
+  <url>
+    <loc>https://va-corporation.github.io/de/terms/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://va-corporation.github.io/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://va-corporation.github.io/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://va-corporation.github.io/ru/terms/"/>
+  </url>
+  <url>
+    <loc>https://va-corporation.github.io/ru/terms/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://va-corporation.github.io/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://va-corporation.github.io/de/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://va-corporation.github.io/ru/terms/"/>
+  </url>
+  <url>
+    <loc>https://va-corporation.github.io/privacy/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://va-corporation.github.io/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://va-corporation.github.io/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://va-corporation.github.io/ru/privacy/"/>
+  </url>
+  <url>
+    <loc>https://va-corporation.github.io/de/privacy/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://va-corporation.github.io/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://va-corporation.github.io/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://va-corporation.github.io/ru/privacy/"/>
+  </url>
+  <url>
+    <loc>https://va-corporation.github.io/ru/privacy/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://va-corporation.github.io/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://va-corporation.github.io/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://va-corporation.github.io/ru/privacy/"/>
+  </url>
 </urlset>
