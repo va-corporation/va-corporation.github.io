@@ -4,7 +4,7 @@ Run from the repo root:  python3 tools/build.py
 Output: index.html (English, x-default) and <lang>/index.html for every other language,
 plus sitemap.xml with hreflang alternates.
 """
-import news, pages, videos, re, datetime, os
+import news, pages, videos, extra, re, datetime, os, html as _html
 
 BASE = "https://va-corporation.github.io/"
 LANGS = ["en", "de", "es", "it", "fr", "pl", "uk", "ru", "be", "ka", "hy"]
@@ -36,6 +36,19 @@ META = {
 
 PATH = {"be": "by", "uk": "ua", "ka": "ge", "hy": "am"}
 
+EXTRA = extra.load()
+CORE = list(LANGS)
+for _c, _d in EXTRA.items():
+    LANGS.append(_c)
+    OG[_c] = _d["og"]
+    META[_c] = tuple(_d["meta"])
+    news.OG[_c] = _d["og"]
+    news.LANG_NAME[_c] = _d["name"].split(" ")[0]
+    news.UI[_c] = dict(news.UI["en"], **_d.get("news", {}))
+    pages.UI[_c] = dict(pages.UI["en"], **_d.get("pages", {}))
+    videos.UI[_c] = tuple(_d.get("videos", videos.UI["en"]))
+
+
 def url(l):
     return BASE if l == "en" else f"{BASE}{PATH.get(l, l)}/"
 
@@ -66,20 +79,43 @@ def build(tpl, lang):
     s = s.replace('src="assets/', 'src="/assets/').replace('href="assets/', 'href="/assets/')
     return s
 
+def latest_extra(arts, l, n=3):
+    u = news.UI[l]
+    mine = [a for a in arts if "en" in a["i18n"]][:n]
+    if not mine:
+        return ""
+    e = news.e
+    cards = "".join(
+        f'<a class="ncard" href="/{news.art_path(a, "en")}" hreflang="en"><time datetime="{a["date"]}">{news.fmt_date(a["date"], l)}</time>'
+        f'<h3>{e(a["i18n"]["en"]["title"])}</h3><p>{e(a["i18n"]["en"]["desc"])}</p><span>{e(u["read"])} (EN) →</span></a>' for a in mine)
+    return (f'<section id="news"><div class="wrap"><div class="kicker">{e(u["news"])}</div><h2>{e(u["latest"])}</h2>'
+            f'<div class="ngrid">{cards}</div><p style="margin-top:22px"><a class="btn ghost" href="/news/">{e(u["all"])} →</a></p></div></section>')
+
+
 def home(tpl, l, arts, pgs):
-    h = build(tpl, l).replace("<!--NEWS-->", news.latest_block(arts, l))
+    h = build(tpl, l).replace("<!--NEWS-->", latest_extra(arts, l) if l in EXTRA else news.latest_block(arts, l))
+    if l in EXTRA:
+        h = h.replace('href="news/"', 'href="/news/"')
+        h = h.replace("</head>", f'<style>[data-l="{l}"]{{display:revert}}</style>\n</head>', 1)
+        h = h.replace("OK={en:", "OK={" + l + ":" + repr(EXTRA[l].get("ok", "Copied!")) + ",en:", 1)
     svc, case = pages.home_links(pgs, l)
     h = h.replace("<!--SVCLINKS-->", svc).replace("<!--CASELINKS-->", case)
     foot = '<nav class="footlinks">' + "".join(
         f'<a href="/{news.prefix(l)}{p["path"]}">{news.e(p["i18n"][l]["h1"])}</a>' for p in pgs if l in p["i18n"]) + \
-        f'<a href="/{news.prefix(l)}news/">{news.e(news.UI[l]["news"])}</a><a href="/{news.prefix(l)}videos/">{news.e(videos.UI[l][0])}</a></nav>'
+        f'<a href="/{"" if l in EXTRA else news.prefix(l)}news/">{news.e(news.UI[l]["news"])}</a><a href="/{news.prefix(l)}videos/">{news.e(videos.UI[l][0])}</a></nav>'
     h = h.replace("<!--FOOTLINKS-->", foot)
     h = h.replace("</head>", pages.faq_ld(h, l) + "\n</head>", 1)
     return h
 
 def main():
     tpl = open("src/site.html", encoding="utf-8").read()
-    nentries, arts = news.build_all(LANGS)
+    opts = "".join(f'<option value="{c}">{_html.escape(d["name"])}</option>' for c, d in EXTRA.items())
+    tpl = tpl.replace('<option value="hy">AM · Հայերեն</option>', '<option value="hy">AM · Հայերեն</option>' + opts, 1) if opts else tpl
+    tpl = tpl.replace("var SUP=['en','de','es','it','fr','ru','be','uk','pl','ka','hy'];",
+                      "var SUP=" + repr(CORE + list(EXTRA)).replace(" ", "") + ";", 1)
+    for c, d in EXTRA.items():
+        tpl = extra.inject(tpl, c, d)
+    nentries, arts = news.build_all(CORE)
     pentries, pgs = pages.build_all(LANGS)
     nentries = pentries + nentries + videos.build_all(LANGS)
     vids = videos.load()
@@ -87,6 +123,15 @@ def main():
         out = "index.html" if l == "en" else f"{PATH.get(l, l)}/index.html"
         os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
         open(out, "w", encoding="utf-8").write(home(tpl, l, arts, pgs).replace("<!--REELS-->", videos.home_block(vids, l)))
+    for l in LANGS:  # short, hashtag-free links for social posts: /<lang>/prices/ -> /<lang>/#prices
+        t = "/" if l == "en" else f"/{PATH.get(l, l)}/"
+        d = "prices" if l == "en" else f"{PATH.get(l, l)}/prices"
+        os.makedirs(d, exist_ok=True)
+        open(f"{d}/index.html", "w", encoding="utf-8").write(
+            f'<!DOCTYPE html><html lang="{l}"><head><meta charset="utf-8"><title>VA Corporation — Prices</title>'
+            f'<meta name="robots" content="noindex,follow"><link rel="canonical" href="{BASE[:-1]}{t}#prices">'
+            f'<meta http-equiv="refresh" content="0; url={t}#prices"><script>location.replace("{t}#prices")</script></head>'
+            f'<body><a href="{t}#prices">VA Corporation — Prices</a></body></html>')
     today = datetime.date.today().isoformat()
     links = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{o}" href="{url(o)}"/>' for o in LANGS) + f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{BASE}"/>'
     urls = "".join(f"\n  <url>\n    <loc>{url(l)}</loc>\n    <lastmod>{today}</lastmod>{links}\n  </url>" for l in LANGS)
