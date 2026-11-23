@@ -1,0 +1,358 @@
+{
+ "date": "2026-11-23",
+ "slug": "riemann-proof-inference-leaks-metr",
+ "sources": [
+  {
+   "name": "The Decoder",
+   "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+   "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/"
+  },
+  {
+   "name": "The Decoder",
+   "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+   "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/"
+  },
+  {
+   "name": "The Decoder",
+   "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+   "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/"
+  },
+  {
+   "name": "The Decoder",
+   "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+   "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/"
+  }
+ ],
+ "i18n": {
+  "en": {
+   "title": "AI digest: Claude-assisted Riemann proof, leaky inference resellers, METR warning",
+   "desc": "Lean checkers back a Claude-assisted Riemann proof, Dragos exposes leaky AI resellers, and METR says AI is outpacing safety tests.",
+   "body": [
+    {
+     "h": "Lean community backs a Claude-assisted Riemann hypothesis proof"
+    },
+    {
+     "p": "On November 20, Anthropic researcher Levent Alpöge released a proof of the generalized Riemann hypothesis, the 1859 problem tied to a $1 million Clay prize. The proof was developed with help from Claude and written as roughly 17 million lines of Lean code. Two days later the Lean and Mathlib community said dozens of independent runs confirmed the code checks and that it is fully confident in the result; a human-readable version is promised in the coming months. Machine-checkable proofs are becoming a practical way to trust AI-assisted work."
+    },
+    {
+     "h": "Cheap AI inference resellers caught reading and stealing data"
+    },
+    {
+     "p": "Security firm Dragos sent about two million test requests with fake credentials through AI inference providers between July and November 2026 and found at least three compromised services, none of which had noticed. In the worst case, hundreds of planted AWS keys were harvested, and zero-data-retention promises were often ignored, The Decoder reports. OpenRouter reacted by removing three providers and withdrawing zero-retention approval from 125 endpoints. Every middleman between an app and a model can see the prompts, so the cheapest route is not always the safest."
+    },
+    {
+     "h": "METR: AI capabilities are outpacing safety testing"
+    },
+    {
+     "p": "In its fourth-quarter update, the evaluation group METR says the length of tasks frontier models can finish keeps doubling about every 3.6 months, and that models such as Opus 5.5 and GPT-6 Astra beat experienced professionals on most well-defined coding tasks. According to The Decoder's summary, the models are still weaker on open-ended problems without quick feedback, and METR warns that easy-to-run benchmarks may overstate real-world performance. It adds that current evidence cannot rule out a sharp speed-up in AI research. For anyone deploying agents, benchmark scores are a starting point, not a guarantee."
+    },
+    {
+     "h": "What it means for business"
+    },
+    {
+     "p": "First, treat the AI supply chain like any other vendor chain: know which provider actually processes your requests, keep secrets out of prompts and rotate keys that may have passed through third parties. Second, test agents on your own real workflows instead of trusting public leaderboards. Third, where accuracy matters, build in verification such as automated checks, tests or human review. Whether you work with VA Corporation or another team, start an agent project with a narrow, measurable task and expand once the results hold up."
+    }
+   ]
+  },
+  "de": {
+   "title": "KI-Digest: Riemann-Beweis mit Claude, undichte KI-Anbieter, Warnung von METR",
+   "desc": "Lean-Prüfer bestätigen einen Riemann-Beweis mit Claude, Dragos entlarvt unsichere KI-Reseller, METR warnt vor zu schnellem KI-Fortschritt.",
+   "body": [
+    {
+     "h": "Lean-Community bestätigt Riemann-Beweis, an dem Claude mitgearbeitet hat"
+    },
+    {
+     "p": "Am 20. November veröffentlichte der Anthropic-Forscher Levent Alpöge einen Beweis der verallgemeinerten Riemannschen Vermutung – des Problems von 1859, auf das ein Clay-Preis von einer Million Dollar ausgesetzt ist. Entstanden ist der Beweis mithilfe von Claude, umgesetzt als rund 17 Millionen Zeilen Lean-Code. Zwei Tage später erklärte die Lean- und Mathlib-Community, Dutzende unabhängige Durchläufe hätten bestätigt, dass der Code fehlerfrei geprüft wird, und sie sei vom Ergebnis vollständig überzeugt; eine für Menschen lesbare Fassung soll in den kommenden Monaten folgen. Unabhängig vom Urteil der Mathematiker zeigt sich: Maschinell prüfbare Beweise werden zu einem praktischen Weg, Arbeit zu vertrauen, an der KI beteiligt war."
+    },
+    {
+     "h": "Günstige KI-Inferenz-Reseller lesen und stehlen Daten"
+    },
+    {
+     "p": "Das Sicherheitsunternehmen Dragos schickte zwischen Juli und November 2026 rund zwei Millionen Testanfragen mit gefälschten Zugangsdaten über KI-Inferenzanbieter und stieß auf mindestens drei kompromittierte Dienste – keiner davon hatte es bemerkt. Im schlimmsten Fall wurden Hunderte präparierte AWS-Schlüssel abgegriffen, und Zusagen, keine Daten zu speichern, wurden oft nicht eingehalten, berichtet The Decoder. OpenRouter entfernte daraufhin drei Anbieter und entzog 125 Endpunkten die Zero-Retention-Freigabe. Die Lehre: Jeder Zwischenhändler zwischen App und Modell kann die Prompts mitlesen, der billigste Weg ist also nicht immer der sicherste."
+    },
+    {
+     "h": "METR: KI-Fähigkeiten wachsen schneller als die Sicherheitstests"
+    },
+    {
+     "p": "In seinem Update für das vierte Quartal schreibt die Evaluierungsgruppe METR, dass sich die Länge der Aufgaben, die Spitzenmodelle bewältigen, weiterhin etwa alle 3,6 Monate verdoppelt; Modelle wie Opus 5.5 und GPT-6 Astra schlagen erfahrene Fachleute bei den meisten klar definierten Programmieraufgaben. Laut der Zusammenfassung von The Decoder schwächeln die Modelle noch bei offenen Problemen ohne schnelles Feedback, und METR warnt, dass leicht durchführbare Benchmarks die Leistung im Alltag überschätzen können. Zudem lasse sich mit den aktuellen Daten eine starke Beschleunigung der KI-Forschung in den nächsten Jahren nicht ausschließen. Wer Agenten einsetzt, sollte Benchmark-Werte als Ausgangspunkt sehen, nicht als Garantie."
+    },
+    {
+     "h": "Was das für Unternehmen bedeutet"
+    },
+    {
+     "p": "Erstens: Behandeln Sie die KI-Lieferkette wie jede andere Lieferantenkette – wissen Sie, welcher Anbieter Ihre Anfragen tatsächlich verarbeitet, halten Sie Geheimnisse aus Prompts heraus und tauschen Sie Schlüssel aus, die über Dritte gelaufen sein könnten. Zweitens: Testen Sie Agenten an Ihren echten Abläufen statt an öffentlichen Ranglisten, denn saubere Benchmarks verbergen Schwächen bei unübersichtlicher, offener Arbeit. Drittens: Wo Genauigkeit zählt, bauen Sie Prüfungen ein – automatische Checks, Tests oder menschliche Kontrolle –, damit KI-Ergebnisse bestätigt und nicht nur angenommen werden. Ob mit VA Corporation oder einem anderen Team: Beginnen Sie ein Agentenprojekt mit einer engen, messbaren Aufgabe und erweitern Sie es erst, wenn die Ergebnisse überzeugen."
+    }
+   ]
+  },
+  "es": {
+   "title": "Resumen IA: prueba de Riemann con Claude, revendedores con fugas y aviso de METR",
+   "desc": "Lean respalda una prueba de Riemann hecha con Claude, Dragos destapa revendedores de IA inseguros y METR avisa de que la IA supera a los tests.",
+   "body": [
+    {
+     "h": "La comunidad Lean respalda una prueba de la hipótesis de Riemann asistida por Claude"
+    },
+    {
+     "p": "El 20 de noviembre, el investigador de Anthropic Levent Alpöge publicó una prueba de la hipótesis de Riemann generalizada, el problema de 1859 ligado a un premio Clay de un millón de dólares. La prueba se desarrolló con ayuda de Claude y ocupa unos 17 millones de líneas de código Lean. Dos días después, la comunidad de Lean y Mathlib afirmó que decenas de ejecuciones independientes confirmaron que el código se verifica y que confía plenamente en el resultado; aún falta una versión legible para humanos, prometida para los próximos meses. Sea cual sea el veredicto de los matemáticos, las pruebas verificables por máquina se perfilan como una forma práctica de confiar en el trabajo en el que participa la IA."
+    },
+    {
+     "h": "Revendedores baratos de inferencia de IA, sorprendidos leyendo y robando datos"
+    },
+    {
+     "p": "La empresa de seguridad Dragos envió unos dos millones de solicitudes de prueba con credenciales falsas a través de proveedores de inferencia de IA entre julio y noviembre de 2026 y encontró al menos tres servicios comprometidos, sin que ninguno lo supiera. En el peor caso se recolectaron cientos de claves de AWS colocadas como cebo, y las promesas de no retener datos a menudo se incumplían, según The Decoder. OpenRouter respondió eliminando tres proveedores y retirando la aprobación de retención cero a 125 endpoints. La lección: cada intermediario entre la aplicación y el modelo puede ver los prompts, así que la ruta más barata no siempre es la más segura."
+    },
+    {
+     "h": "METR: las capacidades de la IA avanzan más rápido que las pruebas de seguridad"
+    },
+    {
+     "p": "En su actualización del cuarto trimestre, el grupo de evaluación METR señala que la duración de las tareas que completan los modelos punteros sigue duplicándose aproximadamente cada 3,6 meses, y que modelos como Opus 5.5 y GPT-6 Astra superan a profesionales experimentados en la mayoría de tareas de programación bien definidas. Según el resumen de The Decoder, siguen flojeando en problemas abiertos sin respuesta rápida, y METR advierte de que los benchmarks fáciles de ejecutar pueden exagerar el rendimiento real. Además, los datos actuales no permiten descartar una fuerte aceleración de la investigación en IA en pocos años. Para quien despliega agentes, las puntuaciones son un punto de partida, no una garantía."
+    },
+    {
+     "h": "Qué significa para las empresas"
+    },
+    {
+     "p": "Primero, trate la cadena de suministro de IA como cualquier otra cadena de proveedores: sepa qué proveedor procesa realmente sus solicitudes, no ponga secretos en los prompts y rote las claves que hayan podido pasar por terceros. Segundo, pruebe los agentes con sus propios flujos de trabajo reales en lugar de fiarse de rankings públicos, porque los benchmarks ordenados ocultan puntos débiles en el trabajo abierto y desordenado. Tercero, donde la precisión importe, incorpore verificación —comprobaciones automáticas, tests o revisión humana— para que el resultado de la IA se confirme y no se dé por supuesto. Ya trabaje con VA Corporation o con otro equipo, empiece un proyecto de agentes con una tarea concreta y medible y amplíelo cuando los resultados se sostengan."
+    }
+   ]
+  },
+  "it": {
+   "title": "Digest IA: prova di Riemann con Claude, rivenditori a rischio e allarme di METR",
+   "desc": "Lean conferma una prova di Riemann ottenuta con Claude, Dragos smaschera rivenditori IA insicuri e METR avverte: l'IA corre più dei test.",
+   "body": [
+    {
+     "h": "La comunità Lean conferma una prova dell'ipotesi di Riemann ottenuta con Claude"
+    },
+    {
+     "p": "Il 20 novembre il ricercatore di Anthropic Levent Alpöge ha pubblicato una dimostrazione dell'ipotesi di Riemann generalizzata, il problema del 1859 legato a un premio Clay da un milione di dollari. La prova è stata sviluppata con l'aiuto di Claude e scritta in circa 17 milioni di righe di codice Lean. Due giorni dopo la comunità di Lean e Mathlib ha dichiarato che decine di verifiche indipendenti hanno confermato che il codice viene accettato e di avere piena fiducia nel risultato, mentre una versione leggibile dagli esseri umani è attesa nei prossimi mesi. Al di là del giudizio dei matematici, le prove verificabili dalle macchine stanno diventando un modo concreto per fidarsi del lavoro svolto con l'aiuto dell'IA."
+    },
+    {
+     "h": "Rivenditori economici di inferenza IA sorpresi a leggere e rubare dati"
+    },
+    {
+     "p": "La società di sicurezza Dragos ha inviato circa due milioni di richieste di prova con credenziali false attraverso fornitori di inferenza IA tra luglio e novembre 2026, scoprendo almeno tre servizi compromessi, nessuno dei quali se n'era accorto. Nel caso peggiore sono state raccolte centinaia di chiavi AWS esca e le promesse di non conservare i dati spesso non venivano rispettate, riferisce The Decoder. OpenRouter ha reagito rimuovendo tre fornitori e revocando l'approvazione a ritenzione zero per 125 endpoint. La lezione: ogni intermediario tra l'app e il modello può leggere i prompt, quindi la strada più economica non è sempre la più sicura."
+    },
+    {
+     "h": "METR: le capacità dell'IA corrono più dei test di sicurezza"
+    },
+    {
+     "p": "Nel suo aggiornamento del quarto trimestre, il gruppo di valutazione METR afferma che la durata dei compiti che i modelli di punta riescono a portare a termine continua a raddoppiare circa ogni 3,6 mesi e che modelli come Opus 5.5 e GPT-6 Astra superano professionisti esperti nella maggior parte dei compiti di programmazione ben definiti. Secondo la sintesi di The Decoder, i modelli restano più deboli sui problemi aperti senza riscontro immediato, e METR avverte che i benchmark facili da eseguire possono sovrastimare le prestazioni reali. Il gruppo aggiunge che i dati attuali non escludono una forte accelerazione della ricerca sull'IA nei prossimi anni. Per chi adotta agenti, i punteggi dei benchmark sono un punto di partenza, non una garanzia."
+    },
+    {
+     "h": "Cosa significa per le aziende"
+    },
+    {
+     "p": "Primo, trattate la filiera dell'IA come qualsiasi altra catena di fornitori: sappiate quale provider elabora davvero le vostre richieste, tenete i segreti fuori dai prompt e ruotate le chiavi che potrebbero essere passate da terzi. Secondo, testate gli agenti sui vostri flussi di lavoro reali invece di affidarvi alle classifiche pubbliche, perché i benchmark ordinati nascondono i punti deboli nel lavoro aperto e disordinato. Terzo, dove conta la precisione, prevedete una verifica — controlli automatici, test o revisione umana — così che il risultato dell'IA venga confermato e non dato per scontato. Che lavoriate con VA Corporation o con un altro team, avviate un progetto di agenti con un compito ristretto e misurabile e ampliatelo quando i risultati reggono."
+    }
+   ]
+  },
+  "fr": {
+   "title": "Digest IA : preuve de Riemann avec Claude, revendeurs qui fuient, alerte de METR",
+   "desc": "Lean valide une preuve de Riemann obtenue avec Claude, Dragos dévoile des revendeurs IA peu sûrs et METR alerte : l'IA va plus vite que les tests.",
+   "body": [
+    {
+     "h": "La communauté Lean valide une preuve de l'hypothèse de Riemann obtenue avec Claude"
+    },
+    {
+     "p": "Le 20 novembre, le chercheur d'Anthropic Levent Alpöge a publié une preuve de l'hypothèse de Riemann généralisée, le problème de 1859 associé à un prix Clay d'un million de dollars. La preuve a été élaborée avec l'aide de Claude et rédigée en quelque 17 millions de lignes de code Lean. Deux jours plus tard, la communauté Lean et Mathlib a indiqué que des dizaines d'exécutions indépendantes confirmaient la validation du code et qu'elle avait pleinement confiance dans le résultat ; une version lisible par des humains est encore annoncée pour les prochains mois. Quel que soit le verdict des mathématiciens, les preuves vérifiables par machine deviennent un moyen concret de faire confiance à un travail auquel l'IA a contribué."
+    },
+    {
+     "h": "Des revendeurs d'inférence IA bon marché pris à lire et voler des données"
+    },
+    {
+     "p": "La société de sécurité Dragos a envoyé environ deux millions de requêtes de test avec de faux identifiants via des fournisseurs d'inférence IA entre juillet et novembre 2026 et a découvert au moins trois services compromis, dont aucun ne s'en était aperçu. Dans le pire des cas, des centaines de clés AWS appâts ont été récoltées, et les promesses de non-conservation des données étaient souvent bafouées, rapporte The Decoder. OpenRouter a réagi en retirant trois fournisseurs et en révoquant l'agrément « zéro rétention » de 125 endpoints. La leçon : chaque intermédiaire entre l'application et le modèle peut lire les prompts, donc la voie la moins chère n'est pas toujours la plus sûre."
+    },
+    {
+     "h": "METR : les capacités de l'IA progressent plus vite que les tests de sécurité"
+    },
+    {
+     "p": "Dans sa mise à jour du quatrième trimestre, le groupe d'évaluation METR affirme que la longueur des tâches que les modèles de pointe savent mener à bien continue de doubler environ tous les 3,6 mois, et que des modèles comme Opus 5.5 et GPT-6 Astra battent des professionnels expérimentés sur la plupart des tâches de programmation bien définies. Selon le résumé de The Decoder, ils restent plus faibles sur les problèmes ouverts sans retour rapide, et METR prévient que les benchmarks faciles à lancer peuvent surestimer les performances réelles. Le groupe estime aussi que les données actuelles n'excluent pas une forte accélération de la recherche en IA d'ici quelques années. Pour qui déploie des agents, les scores sont un point de départ, pas une garantie."
+    },
+    {
+     "h": "Ce que cela signifie pour les entreprises"
+    },
+    {
+     "p": "D'abord, traitez la chaîne d'approvisionnement IA comme n'importe quelle chaîne de fournisseurs : sachez quel prestataire traite réellement vos requêtes, gardez les secrets hors des prompts et renouvelez les clés qui ont pu transiter par des tiers. Ensuite, testez les agents sur vos propres processus réels plutôt que de vous fier aux classements publics, car des benchmarks bien rangés masquent les faiblesses dans un travail ouvert et désordonné. Enfin, là où la précision compte, prévoyez une vérification — contrôles automatiques, tests ou relecture humaine — pour que le résultat de l'IA soit confirmé et non supposé. Avec VA Corporation ou une autre équipe, commencez un projet d'agent par une tâche étroite et mesurable, puis élargissez quand les résultats tiennent."
+    }
+   ]
+  },
+  "pl": {
+   "title": "Przegląd AI: dowód Riemanna z Claude, dziurawi pośrednicy i ostrzeżenie METR",
+   "desc": "Lean potwierdza dowód Riemanna powstały z Claude, Dragos ujawnia niebezpiecznych pośredników AI, a METR ostrzega: AI wyprzedza testy.",
+   "body": [
+    {
+     "h": "Społeczność Lean potwierdza dowód hipotezy Riemanna powstały z pomocą Claude"
+    },
+    {
+     "p": "20 listopada badacz Anthropic Levent Alpöge opublikował dowód uogólnionej hipotezy Riemanna – problemu z 1859 roku, z którym wiąże się nagroda Clay w wysokości miliona dolarów. Dowód powstał z pomocą Claude i zapisano go w około 17 milionach linii kodu Lean. Dwa dni później społeczność Lean i Mathlib ogłosiła, że dziesiątki niezależnych uruchomień potwierdziły poprawną weryfikację kodu i że jest w pełni przekonana o wyniku; wersja czytelna dla ludzi ma pojawić się w najbliższych miesiącach. Niezależnie od ostatecznej oceny matematyków dowody sprawdzane maszynowo stają się praktycznym sposobem na zaufanie pracy, przy której pomagała AI."
+    },
+    {
+     "h": "Tani pośrednicy inferencji AI przyłapani na czytaniu i kradzieży danych"
+    },
+    {
+     "p": "Firma bezpieczeństwa Dragos wysłała w okresie od lipca do listopada 2026 roku około dwóch milionów testowych zapytań z fałszywymi danymi dostępowymi przez dostawców inferencji AI i wykryła co najmniej trzy przejęte usługi – żadna z nich tego nie zauważyła. W najgorszym przypadku przechwycono setki podrzuconych kluczy AWS, a obietnice nieprzechowywania danych często nie były dotrzymywane, podaje The Decoder. OpenRouter usunął trzech dostawców i cofnął zgodę na zerową retencję dla 125 endpointów. Wniosek: każdy pośrednik między aplikacją a modelem widzi prompty, więc najtańsza droga nie zawsze jest najbezpieczniejsza."
+    },
+    {
+     "h": "METR: możliwości AI rosną szybciej niż testy bezpieczeństwa"
+    },
+    {
+     "p": "W aktualizacji za czwarty kwartał grupa ewaluacyjna METR podaje, że długość zadań, z którymi radzą sobie czołowe modele, nadal podwaja się mniej więcej co 3,6 miesiąca, a modele takie jak Opus 5.5 i GPT-6 Astra wygrywają z doświadczonymi specjalistami w większości jasno określonych zadań programistycznych. Według podsumowania The Decoder modele wciąż słabiej radzą sobie z otwartymi problemami bez szybkiej informacji zwrotnej, a METR ostrzega, że łatwe w uruchomieniu benchmarki mogą zawyżać realną wydajność. Grupa dodaje, że obecne dane nie wykluczają gwałtownego przyspieszenia badań nad AI w ciągu kilku lat. Dla wdrażających agentów wyniki benchmarków to punkt wyjścia, a nie gwarancja."
+    },
+    {
+     "h": "Co to oznacza dla biznesu"
+    },
+    {
+     "p": "Po pierwsze, traktuj łańcuch dostaw AI jak każdy inny łańcuch dostawców: wiedz, który dostawca faktycznie przetwarza twoje zapytania, nie umieszczaj sekretów w promptach i wymieniaj klucze, które mogły przejść przez strony trzecie. Po drugie, testuj agentów na własnych, prawdziwych procesach zamiast ufać publicznym rankingom, bo uporządkowane benchmarki ukrywają słabości w chaotycznej, otwartej pracy. Po trzecie, tam gdzie liczy się dokładność, wbuduj weryfikację – automatyczne kontrole, testy lub przegląd przez człowieka – by wynik AI był potwierdzony, a nie zakładany. Niezależnie od tego, czy współpracujesz z VA Corporation, czy z innym zespołem, zacznij projekt agenta od wąskiego, mierzalnego zadania i rozszerzaj go, gdy wyniki się potwierdzą."
+    }
+   ]
+  },
+  "uk": {
+   "title": "AI-дайджест: доказ Рімана з Claude, ненадійні посередники та попередження METR",
+   "desc": "Lean підтверджує доказ гіпотези Рімана, створений із Claude, Dragos викриває небезпечних AI-посередників, а METR попереджає про відставання тестів.",
+   "body": [
+    {
+     "h": "Спільнота Lean підтвердила доказ гіпотези Рімана, створений за допомогою Claude"
+    },
+    {
+     "p": "20 листопада дослідник Anthropic Левент Алпьоґе (Levent Alpöge) оприлюднив доведення узагальненої гіпотези Рімана — задачі 1859 року, за розв'язання якої Інститут Клея обіцяє мільйон доларів. Доказ створено за допомогою Claude і записано приблизно 17 мільйонами рядків коду Lean. Через два дні спільнота Lean і Mathlib заявила, що десятки незалежних запусків підтвердили успішну перевірку коду і що вона повністю впевнена в результаті; версію, зрозумілу людям, обіцяють у найближчі місяці. Яким би не був вердикт математиків, машинно перевірювані докази стають практичним способом довіряти роботі, у якій допомагав AI."
+    },
+    {
+     "h": "Дешеві посередники AI-інференсу читали й крали дані"
+    },
+    {
+     "p": "Компанія з кібербезпеки Dragos з липня по листопад 2026 року надіслала близько двох мільйонів тестових запитів із фальшивими обліковими даними через провайдерів AI-інференсу й виявила щонайменше три скомпрометовані сервіси — жоден із них цього не помітив. У найгіршому випадку було зібрано сотні підкинутих ключів AWS, а обіцянки не зберігати дані часто порушувалися, пише The Decoder. OpenRouter відреагував, прибравши трьох провайдерів і відкликавши схвалення нульового зберігання для 125 ендпоінтів. Висновок: кожен посередник між застосунком і моделлю бачить промпти, тож найдешевший шлях не завжди найбезпечніший."
+    },
+    {
+     "h": "METR: можливості AI зростають швидше, ніж тести безпеки"
+    },
+    {
+     "p": "В оновленні за четвертий квартал дослідницька група METR повідомляє, що тривалість завдань, які виконують провідні моделі, і далі подвоюється приблизно кожні 3,6 місяця, а моделі на кшталт Opus 5.5 і GPT-6 Astra перевершують досвідчених фахівців у більшості чітко визначених завдань із програмування. За підсумком The Decoder, моделі досі слабші у відкритих задачах без швидкого зворотного зв'язку, а METR попереджає, що прості в запуску бенчмарки можуть завищувати реальну продуктивність. Група також вважає, що нинішні дані не дозволяють виключити різке прискорення досліджень AI протягом кількох років. Для тих, хто впроваджує агентів, результати бенчмарків — відправна точка, а не гарантія."
+    },
+    {
+     "h": "Що це означає для бізнесу"
+    },
+    {
+     "p": "По-перше, ставтеся до ланцюга постачання AI як до будь-якого іншого ланцюга постачальників: знайте, який провайдер насправді обробляє ваші запити, не передавайте секрети в промптах і змінюйте ключі, що могли пройти через треті сторони. По-друге, тестуйте агентів на власних реальних процесах, а не покладайтеся на публічні рейтинги, бо охайні бенчмарки приховують слабкі місця в заплутаній відкритій роботі. По-третє, там, де важлива точність, закладайте перевірку — автоматичні перевірки, тести або людський контроль, — щоб результат AI підтверджувався, а не приймався на віру. Працюєте ви з VA Corporation чи з іншою командою, починайте проєкт агента з вузького вимірюваного завдання й розширюйте його, коли результати підтвердяться."
+    }
+   ]
+  },
+  "ru": {
+   "title": "ИИ-дайджест: доказательство Римана с Claude, дырявые посредники и предупреждение METR",
+   "desc": "Lean подтверждает доказательство гипотезы Римана с помощью Claude, Dragos разоблачает опасных ИИ-посредников, а METR предупреждает об отставании тестов.",
+   "body": [
+    {
+     "h": "Сообщество Lean подтвердило доказательство гипотезы Римана, созданное с помощью Claude"
+    },
+    {
+     "p": "20 ноября исследователь Anthropic Левент Алпёге (Levent Alpöge) опубликовал доказательство обобщённой гипотезы Римана — задачи 1859 года, за решение которой Институт Клэя обещает миллион долларов. Доказательство создано с помощью Claude и записано примерно 17 миллионами строк кода на Lean. Через два дня сообщество Lean и Mathlib заявило, что десятки независимых запусков подтвердили успешную проверку кода и что оно полностью уверено в результате; понятную людям версию обещают в ближайшие месяцы. Каким бы ни оказался вердикт математиков, машинно проверяемые доказательства становятся практичным способом доверять работе, в которой участвовал ИИ."
+    },
+    {
+     "h": "Дешёвые посредники ИИ-инференса читали и крали данные"
+    },
+    {
+     "p": "Компания по кибербезопасности Dragos с июля по ноябрь 2026 года отправила около двух миллионов тестовых запросов с поддельными учётными данными через провайдеров ИИ-инференса и обнаружила как минимум три скомпрометированных сервиса — ни один из них этого не заметил. В худшем случае были собраны сотни подброшенных ключей AWS, а обещания не хранить данные часто не выполнялись, пишет The Decoder. OpenRouter в ответ убрал трёх провайдеров и отозвал одобрение нулевого хранения у 125 эндпоинтов. Вывод: каждый посредник между приложением и моделью видит промпты, поэтому самый дешёвый путь не всегда самый безопасный."
+    },
+    {
+     "h": "METR: возможности ИИ растут быстрее, чем тесты безопасности"
+    },
+    {
+     "p": "В обновлении за четвёртый квартал исследовательская группа METR сообщает, что длина задач, которые решают передовые модели, по-прежнему удваивается примерно каждые 3,6 месяца, а модели вроде Opus 5.5 и GPT-6 Astra обходят опытных специалистов в большинстве чётко поставленных задач по программированию. По итогам обзора The Decoder, модели пока слабее в открытых задачах без быстрой обратной связи, а METR предупреждает, что простые в запуске бенчмарки могут завышать реальную производительность. Группа также считает, что текущие данные не позволяют исключить резкое ускорение исследований ИИ в ближайшие годы. Для тех, кто внедряет агентов, результаты бенчмарков — отправная точка, а не гарантия."
+    },
+    {
+     "h": "Что это значит для бизнеса"
+    },
+    {
+     "p": "Во-первых, относитесь к цепочке поставок ИИ как к любой другой цепочке поставщиков: знайте, какой провайдер на самом деле обрабатывает ваши запросы, не передавайте секреты в промптах и меняйте ключи, которые могли пройти через третьи стороны. Во-вторых, тестируйте агентов на собственных реальных процессах, а не полагайтесь на публичные рейтинги: аккуратные бенчмарки скрывают слабые места в запутанной открытой работе. В-третьих, там, где важна точность, закладывайте проверку — автоматические проверки, тесты или контроль человеком, — чтобы результат ИИ подтверждался, а не принимался на веру. Работаете ли вы с VA Corporation или с другой командой, начинайте проект агента с узкой измеримой задачи и расширяйте его, когда результаты подтвердятся."
+    }
+   ]
+  },
+  "be": {
+   "title": "ШІ-дайджэст: доказ Рымана з Claude, ненадзейныя пасярэднікі і папярэджанне METR",
+   "desc": "Lean пацвярджае доказ гіпотэзы Рымана, створаны з Claude, Dragos выкрывае небяспечных ШІ-пасярэднікаў, а METR папярэджвае пра адставанне тэстаў.",
+   "body": [
+    {
+     "h": "Супольнасць Lean пацвердзіла доказ гіпотэзы Рымана, створаны з дапамогай Claude"
+    },
+    {
+     "p": "20 лістапада даследчык Anthropic Левент Алпёге (Levent Alpöge) апублікаваў доказ абагульненай гіпотэзы Рымана — задачы 1859 года, за рашэнне якой Інстытут Клэя абяцае мільён долараў. Доказ створаны з дапамогай Claude і запісаны прыкладна 17 мільёнамі радкоў кода на Lean. Праз два дні супольнасць Lean і Mathlib заявіла, што дзясяткі незалежных запускаў пацвердзілі паспяховую праверку кода і што яна цалкам упэўнена ў выніку; зразумелую людзям версію абяцаюць у бліжэйшыя месяцы. Якім бы ні аказаўся вердыкт матэматыкаў, машынна правяраемыя доказы становяцца практычным спосабам давяраць працы, у якой удзельнічаў ШІ."
+    },
+    {
+     "h": "Танныя пасярэднікі ШІ-інферэнсу чыталі і кралі даныя"
+    },
+    {
+     "p": "Кампанія па кібербяспецы Dragos з ліпеня па лістапад 2026 года адправіла каля двух мільёнаў тэставых запытаў з падробленымі ўліковымі данымі праз правайдараў ШІ-інферэнсу і выявіла як мінімум тры скампраметаваныя сэрвісы — ніводзін з іх гэтага не заўважыў. У найгоршым выпадку былі сабраныя сотні падкінутых ключоў AWS, а абяцанні не захоўваць даныя часта не выконваліся, піша The Decoder. OpenRouter у адказ прыбраў трох правайдараў і адклікаў адабрэнне нулявога захоўвання ў 125 эндпойнтаў. Выснова: кожны пасярэднік паміж праграмай і мадэллю бачыць промпты, таму самы танны шлях не заўсёды самы бяспечны."
+    },
+    {
+     "h": "METR: магчымасці ШІ растуць хутчэй, чым тэсты бяспекі"
+    },
+    {
+     "p": "У абнаўленні за чацвёрты квартал даследчая група METR паведамляе, што даўжыня задач, якія вырашаюць перадавыя мадэлі, па-ранейшаму падвойваецца прыкладна кожныя 3,6 месяца, а мадэлі накшталт Opus 5.5 і GPT-6 Astra пераўзыходзяць дасведчаных спецыялістаў у большасці дакладна пастаўленых задач па праграмаванні. Паводле агляду The Decoder, мадэлі пакуль слабейшыя ў адкрытых задачах без хуткай зваротнай сувязі, а METR папярэджвае, што простыя ў запуску бенчмаркі могуць завышаць рэальную прадукцыйнасць. Група таксама лічыць, што цяперашнія даныя не дазваляюць выключыць рэзкае паскарэнне даследаванняў ШІ ў бліжэйшыя гады. Для тых, хто ўкараняе агентаў, вынікі бенчмаркаў — адпраўная кропка, а не гарантыя."
+    },
+    {
+     "h": "Што гэта значыць для бізнесу"
+    },
+    {
+     "p": "Па-першае, стаўцеся да ланцуга паставак ШІ як да любога іншага ланцуга пастаўшчыкоў: ведайце, які правайдар насамрэч апрацоўвае вашы запыты, не перадавайце сакрэты ў промптах і мяняйце ключы, якія маглі прайсці праз трэція бакі. Па-другое, тэстуйце агентаў на ўласных рэальных працэсах, а не спадзявайцеся на публічныя рэйтынгі: акуратныя бенчмаркі хаваюць слабыя месцы ў заблытанай адкрытай працы. Па-трэцяе, там, дзе важная дакладнасць, закладвайце праверку — аўтаматычныя праверкі, тэсты або кантроль чалавекам, — каб вынік ШІ пацвярджаўся, а не прымаўся на веру. Працуеце вы з VA Corporation ці з іншай камандай, пачынайце праект агента з вузкай вымяральнай задачы і пашырайце яго, калі вынікі пацвердзяцца."
+    }
+   ]
+  },
+  "ka": {
+   "title": "AI დაიჯესტი: რიმანის დამტკიცება Claude-ით, სახიფათო შუამავლები და METR-ის გაფრთხილება",
+   "desc": "Lean ადასტურებს Claude-ის დახმარებით შექმნილ რიმანის დამტკიცებას, Dragos ამხელს სახიფათო AI შუამავლებს, METR კი აფრთხილებს.",
+   "body": [
+    {
+     "h": "Lean-ის საზოგადოებამ Claude-ის დახმარებით შექმნილი რიმანის ჰიპოთეზის დამტკიცება დაადასტურა"
+    },
+    {
+     "p": "20 ნოემბერს Anthropic-ის მკვლევარმა ლევენტ ალპოგემ (Levent Alpöge) გამოაქვეყნა განზოგადებული რიმანის ჰიპოთეზის დამტკიცება — 1859 წლის ამოცანისა, რომლის ამოხსნისთვისაც კლეის ინსტიტუტი მილიონ დოლარს გასცემს. დამტკიცება Claude-ის დახმარებით შეიქმნა და დაახლოებით 17 მილიონი ხაზი Lean-კოდისგან შედგება. ორი დღის შემდეგ Lean-ისა და Mathlib-ის საზოგადოებამ განაცხადა, რომ ათობით დამოუკიდებელმა გაშვებამ დაადასტურა კოდის წარმატებული შემოწმება და რომ შედეგში სრულად დარწმუნებულია; ადამიანისთვის გასაგები ვერსია უახლოეს თვეებში იქნება. მათემატიკოსების საბოლოო დასკვნის მიუხედავად, მანქანურად შემოწმებადი დამტკიცებები ხდება პრაქტიკული გზა, ვენდოთ სამუშაოს, რომელშიც AI მონაწილეობდა."
+    },
+    {
+     "h": "იაფი AI ინფერენსის შუამავლები მონაცემებს კითხულობდნენ და იპარავდნენ"
+    },
+    {
+     "p": "კიბერუსაფრთხოების კომპანია Dragos-მა 2026 წლის ივლისიდან ნოემბრამდე AI ინფერენსის პროვაიდერების გავლით ყალბი მონაცემებით დაახლოებით ორი მილიონი სატესტო მოთხოვნა გაგზავნა და სულ მცირე სამი კომპრომეტირებული სერვისი აღმოაჩინა — არცერთ მათგანს ეს არ შეუმჩნევია. ყველაზე ცუდ შემთხვევაში ასობით სატყუარა AWS-გასაღები მოიპარეს, ხოლო მონაცემების შეუნახაობის დაპირებები ხშირად ირღვეოდა, წერს The Decoder. OpenRouter-მა სამი პროვაიდერი ამოიღო და 125 ენდპოინტს ნულოვანი შენახვის დადასტურება ჩამოართვა. დასკვნა: აპლიკაციასა და მოდელს შორის ყოველი შუამავალი ხედავს პრომპტებს, ამიტომ ყველაზე იაფი გზა ყოველთვის ყველაზე უსაფრთხო არ არის."
+    },
+    {
+     "h": "METR: AI-ის შესაძლებლობები უსაფრთხოების ტესტებზე სწრაფად იზრდება"
+    },
+    {
+     "p": "მეოთხე კვარტლის განახლებაში შეფასების ჯგუფი METR აღნიშნავს, რომ ამოცანების ხანგრძლივობა, რომელსაც წამყვანი მოდელები ასრულებენ, კვლავ დაახლოებით ყოველ 3,6 თვეში ორმაგდება, ხოლო ისეთი მოდელები, როგორიცაა Opus 5.5 და GPT-6 Astra, მკაფიოდ განსაზღვრული პროგრამირების ამოცანების უმეტესობაში გამოცდილ სპეციალისტებს სჯობნიან. The Decoder-ის მიმოხილვის მიხედვით, მოდელები ჯერ კიდევ სუსტები არიან ღია ამოცანებში სწრაფი უკუკავშირის გარეშე, METR კი აფრთხილებს, რომ ადვილად გასაშვები ბენჩმარკები შეიძლება რეალურ შედეგებს აზვიადებდნენ. ჯგუფის თქმით, ამჟამინდელი მონაცემები ვერ გამორიცხავს AI კვლევების მკვეთრ დაჩქარებას უახლოეს წლებში. აგენტების დანერგვისას ბენჩმარკის ქულები საწყისი წერტილია და არა გარანტია."
+    },
+    {
+     "h": "რას ნიშნავს ეს ბიზნესისთვის"
+    },
+    {
+     "p": "პირველი: AI-ის მიწოდების ჯაჭვს მოეპყარით, როგორც მომწოდებლების ნებისმიერ სხვა ჯაჭვს — იცოდეთ, რომელი პროვაიდერი ამუშავებს რეალურად თქვენს მოთხოვნებს, ნუ ჩასვამთ საიდუმლოებებს პრომპტებში და შეცვალეთ გასაღებები, რომლებიც შესაძლოა მესამე მხარეებს გაევლოთ. მეორე: აგენტები შეამოწმეთ თქვენს რეალურ სამუშაო პროცესებზე და ნუ ენდობით საჯარო რეიტინგებს, რადგან მოწესრიგებული ბენჩმარკები მალავს სისუსტეებს ქაოსურ, ღია სამუშაოში. მესამე: სადაც სიზუსტე მნიშვნელოვანია, ჩააშენეთ შემოწმება — ავტომატური კონტროლი, ტესტები ან ადამიანის მიერ განხილვა — რათა AI-ის შედეგი დადასტურებული იყოს და არა ნავარაუდევი. VA Corporation-თან იმუშავებთ თუ სხვა გუნდთან, აგენტის პროექტი დაიწყეთ ვიწრო, გაზომვადი ამოცანით და გააფართოვეთ, როცა შედეგები დადასტურდება."
+    }
+   ]
+  },
+  "hy": {
+   "title": "AI ամփոփում. Ռիմանի ապացույց Claude-ով, վտանգավոր միջնորդներ, METR-ի զգուշացում",
+   "desc": "Lean-ը հաստատում է Claude-ի օգնությամբ ստեղծված Ռիմանի ապացույցը, Dragos-ը բացահայտում է վտանգավոր AI միջնորդների, METR-ը զգուշացնում է։",
+   "body": [
+    {
+     "h": "Lean համայնքը հաստատել է Claude-ի օգնությամբ ստեղծված Ռիմանի վարկածի ապացույցը"
+    },
+    {
+     "p": "Նոյեմբերի 20-ին Anthropic-ի հետազոտող Լևենտ Ալփյոգեն (Levent Alpöge) հրապարակեց Ռիմանի ընդհանրացված վարկածի ապացույցը․ 1859 թվականի այս խնդրի լուծման համար Քլեյի ինստիտուտը խոստանում է մեկ միլիոն դոլար։ Ապացույցը ստեղծվել է Claude-ի օգնությամբ և գրված է մոտ 17 միլիոն տող Lean կոդով։ Երկու օր անց Lean-ի և Mathlib-ի համայնքը հայտարարեց, որ տասնյակ անկախ գործարկումներ հաստատել են կոդի հաջող ստուգումը, և որ ինքը լիովին վստահ է արդյունքում․ մարդկանց համար ընթեռնելի տարբերակը խոստացված է առաջիկա ամիսներին։ Ինչպիսին էլ լինի մաթեմատիկոսների վերջնական եզրակացությունը, մեքենայով ստուգվող ապացույցները դառնում են գործնական միջոց՝ վստահելու այն աշխատանքին, որին մասնակցել է AI-ը։"
+    },
+    {
+     "h": "Էժան AI ինֆերենսի միջնորդները կարդում և գողանում էին տվյալներ"
+    },
+    {
+     "p": "Կիբերանվտանգության Dragos ընկերությունը 2026 թվականի հուլիսից նոյեմբեր AI ինֆերենսի մատակարարների միջոցով կեղծ մուտքի տվյալներով ուղարկեց մոտ երկու միլիոն փորձնական հարցում և հայտնաբերեց առնվազն երեք վտանգված ծառայություն, որոնցից ոչ մեկը դա չէր նկատել։ Ամենավատ դեպքում հավաքվել էին հարյուրավոր խայծ AWS բանալիներ, իսկ տվյալներ չպահելու խոստումները հաճախ չէին կատարվում, գրում է The Decoder-ը։ Ի պատասխան՝ OpenRouter-ը հեռացրեց երեք մատակարարի և 125 էնդփոինթից հետ վերցրեց զրոյական պահպանման հաստատումը։ Դասը պարզ է․ հավելվածի և մոդելի միջև յուրաքանչյուր միջնորդ տեսնում է պրոմպտերը, ուստի ամենաէժան ճանապարհը միշտ չէ, որ ամենաանվտանգն է։"
+    },
+    {
+     "h": "METR. AI-ի հնարավորություններն աճում են անվտանգության թեստերից արագ"
+    },
+    {
+     "p": "Չորրորդ եռամսյակի թարմացման մեջ գնահատման METR խումբը նշում է, որ առաջատար մոդելների կատարած առաջադրանքների տևողությունը շարունակում է կրկնապատկվել մոտավորապես յուրաքանչյուր 3,6 ամիսը մեկ, իսկ Opus 5.5-ի և GPT-6 Astra-ի նման մոդելները հստակ սահմանված ծրագրավորման առաջադրանքների մեծ մասում գերազանցում են փորձառու մասնագետներին։ The Decoder-ի ամփոփման համաձայն՝ մոդելները դեռ թույլ են բաց խնդիրներում, որտեղ արագ հետադարձ կապ չկա, և METR-ը զգուշացնում է, որ հեշտ գործարկվող բենչմարկները կարող են չափազանցնել իրական արդյունավետությունը։ Խումբը նաև նշում է, որ առկա տվյալները չեն բացառում AI հետազոտությունների կտրուկ արագացումը մոտակա տարիներին։ Գործակալներ ներդնողների համար բենչմարկի միավորները մեկնակետ են, ոչ թե երաշխիք։"
+    },
+    {
+     "h": "Ինչ է սա նշանակում բիզնեսի համար"
+    },
+    {
+     "p": "Առաջին՝ AI-ի մատակարարման շղթային վերաբերվեք ինչպես մատակարարների ցանկացած այլ շղթայի․ իմացեք, թե որ մատակարարն է իրականում մշակում ձեր հարցումները, գաղտնիքներ մի դրեք պրոմպտերում և փոխեք այն բանալիները, որոնք կարող էին անցնել երրորդ կողմերի միջով։ Երկրորդ՝ գործակալներին փորձարկեք ձեր իրական աշխատանքային գործընթացներում, այլ ոչ թե վստահեք հանրային վարկանիշներին, քանի որ կոկիկ բենչմարկները թաքցնում են թույլ կողմերը խառնաշփոթ, բաց աշխատանքում։ Երրորդ՝ որտեղ ճշգրտությունը կարևոր է, ներառեք ստուգում՝ ավտոմատ ստուգումներ, թեստեր կամ մարդու կողմից վերանայում, որպեսզի AI-ի արդյունքը հաստատվի, ոչ թե ենթադրվի։ Աշխատեք VA Corporation-ի, թե այլ թիմի հետ, գործակալի նախագիծը սկսեք նեղ, չափելի առաջադրանքով և ընդլայնեք այն, երբ արդյունքները հաստատվեն։"
+    }
+   ]
+  }
+ }
+}
