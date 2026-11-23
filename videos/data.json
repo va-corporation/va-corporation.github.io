@@ -1,5 +1,15 @@
 [
  {
+  "id": "2026-11-23-de",
+  "date": "2026-11-23",
+  "lang": "de",
+  "title": "Wir sind online: unsere neue Website ist live",
+  "description": "Eine kurze Tour durch unsere neue Website – KI-Agenten, Spiele, Software, Projekte, KI-Videos und 11 Sprachen. Das Reel hat unser KI-Video-Agent geschrieben, animiert und vertont.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-23-de.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-23-de.jpg",
+  "duration": 14
+ },
+ {
   "id": "2026-11-23-ru",
   "date": "2026-11-23",
   "lang": "ru",
