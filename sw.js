@@ -1,9 +1,9 @@
 /* VA Corporation — service worker for the installable app (PWA).
-   Pages: network first, so the site always shows the latest version;
+   Pages: network first and revalidated with the server (no 10-minute HTTP cache), so the app always shows the latest version;
    the cached copy is used only when there is no connection.
    Same-origin static files (fonts, images, icons): served from cache, refreshed in the background.
    Other sites (videos, Telegram, Instagram) and non-GET requests are not touched. */
-const VERSION = 'va-v1';
+const VERSION = 'va-v2';
 const PAGES = VERSION + '-pages';
 const STATIC = VERSION + '-static';
 const OFFLINE = '/offline.html';
@@ -29,7 +29,7 @@ self.addEventListener('fetch', (e) => {
 
   if (req.mode === 'navigate') {
     e.respondWith(
-      fetch(req)
+      fetch(req, { cache: 'no-cache' })
         .then((res) => {
           if (res.ok) { const copy = res.clone(); caches.open(PAGES).then((c) => c.put(req, copy)); }
           return res;
