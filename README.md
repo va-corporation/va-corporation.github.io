@@ -12,3 +12,8 @@ AI agents · Games · Software
 ## Videos (`/videos/`)
 - `videos/data.json` — newest first; format at the top of `tools/videos.py`. The daily reel task prepends each published reel (media hosted in benzogamesltd-ops/va-media via GitHub Pages) and runs `tools/build.py`.
 - The home page shows the 3 newest reels; `/<lang>/videos/` lists all with VideoObject schema.
+
+## App (PWA)
+- The site installs as a phone app: `manifest.webmanifest`, `sw.js`, `offline.html`, icons in `assets/app/`.
+- The manifest link and service-worker registration live in `src/site.html` and `tools/news.py` (`page()`), so `tools/build.py` keeps them on every page.
+- `sw.js` loads pages network-first (visitors always get the latest site) and only falls back to cache offline. Bump `VERSION` in `sw.js` to clear old caches.

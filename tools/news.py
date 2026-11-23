@@ -130,6 +130,9 @@ def page(lang, title, desc, canon, alternates, body, ld, ogtype="website"):
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#070A22">
 <link rel="icon" href="/assets/logo.png">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<script>if('serviceWorker' in navigator)addEventListener('load',function(){{navigator.serviceWorker.register('/sw.js').catch(function(){{}})}})</script>
 <style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head>
