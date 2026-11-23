@@ -152,7 +152,7 @@ def page(lang, title, desc, canon, alternates, body, ld, ogtype="website"):
 
 def cta(lang):
     u = UI[lang]
-    return f'<section class="cta"><h2>{e(u["cta_h"])}</h2><p>{e(u["cta_p"])}</p><a class="btn" href="https://wa.me/34641387122" rel="noopener" style="background:#1FA855;color:#fff">WhatsApp →</a> &nbsp; <a href="https://t.me/+34641387122" rel="noopener">Telegram</a> &nbsp;·&nbsp; <a href="{home_url(lang)}#contact">{e(u["cta"])}</a></section>'
+    return f'<section class="cta"><h2>{e(u["cta_h"])}</h2><p>{e(u["cta_p"])}</p><a class="btn" href="https://wa.me/34641387122" rel="noopener" style="background:#1FA855;color:#fff">WhatsApp →</a> &nbsp; <a href="https://t.me/vladimiramelchenko33" rel="noopener">Telegram</a> &nbsp;·&nbsp; <a href="{home_url(lang)}#contact">{e(u["cta"])}</a></section>'
 
 
 def build_all(langs):

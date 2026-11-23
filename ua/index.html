@@ -387,7 +387,7 @@ section>.wrap{position:relative;z-index:1}
    <a class="soc" href="https://www.facebook.com/1496590173530340" target="_blank" rel="noopener">Facebook</a>
    <a class="soc" href="https://www.tiktok.com/@benzogames.ltd" target="_blank" rel="noopener">TikTok</a>
    <a class="soc" href="https://wa.me/34641387122" target="_blank" rel="noopener" style="background:#1FA855;border-color:#1FA855">WhatsApp</a>
-   <a class="soc" href="https://t.me/+34641387122" target="_blank" rel="noopener" style="background:#229ED9;border-color:#229ED9">Telegram</a>
+   <a class="soc" href="https://t.me/vladimiramelchenko33" target="_blank" rel="noopener" style="background:#229ED9;border-color:#229ED9">Telegram</a>
   </div>
  </div>
 </div></section>
@@ -427,7 +427,7 @@ section>.wrap{position:relative;z-index:1}
  document.querySelectorAll('.fbtn').forEach(function(b){b.addEventListener('click',function(){var f=b.dataset.f;document.querySelectorAll('.fbtn').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});document.querySelectorAll('.pcard').forEach(function(c){c.hidden=!(f==='all'||c.dataset.cat===f)})})});
 
  /* ===== chat widget (scripted FAQ; set TG to your bot/username to enable Telegram) ===== */
- var TG='https://t.me/+34641387122';
+ var TG='https://t.me/vladimiramelchenko33';
  var T={
   en:{hi:"Hi! I'm the VA Corporation assistant 👋 What are you interested in?",q:[["agents","AI agents"],["games","Games"],["web","Websites & apps"],["price","Prices"],["contact","Contact a person"]],
    a:{agents:"We build AI agents that take over routine work: answering customers, handling requests, working with data and documents. Tell us your task — we'll suggest a solution.",games:"We design and develop games — from the first prototype to release. One of our projects is Kulak Kombat, a browser fighting game.",web:"We build websites, web apps, bots and integrations around your business processes.",price:"Every project is different, so we estimate it after a short conversation about your task. Write to us — it's free.",contact:"Our team replies in English, German and Russian. Choose a channel below 👇"}},
@@ -472,7 +472,7 @@ section>.wrap{position:relative;z-index:1}
   lf.addEventListener('submit',function(e){e.preventDefault();var f=new FormData(lf);
    if(!f.get('name')||!f.get('contact')||!f.get('task')){lf.reportValidity();return}
    var msg='VA Corporation — '+location.pathname+'\n'+f.get('name')+'\n'+f.get('contact')+'\n\n'+f.get('task');
-   var url=who==='ig'?'https://ig.me/m/va_video_maker':(who==='wa'?'https://wa.me/34641387122?text='+encodeURIComponent(msg):'https://t.me/+34641387122');
+   var url=who==='ig'?'https://ig.me/m/va_video_maker':(who==='wa'?'https://wa.me/34641387122?text='+encodeURIComponent(msg):'https://t.me/vladimiramelchenko33');
    function go(){lfOk.textContent=OK[document.documentElement.lang]||OK.en;window.open(url,'_blank','noopener')}
    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(msg).then(go,go)}else{go()}
   })}
