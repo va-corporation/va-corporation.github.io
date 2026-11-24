@@ -1,0 +1,353 @@
+{
+ "date": "2026-11-24",
+ "slug": "claude-ship-sierra-30b-nvidia-huang",
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+   "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+  },
+  {
+   "name": "TechCrunch",
+   "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+   "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+  },
+  {
+   "name": "NVIDIA (SEC filing)",
+   "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+  }
+ ],
+ "i18n": {
+  "en": {
+   "title": "AI digest: Claude Ship code agents, Sierra at $30B, Jensen Huang back at Nvidia",
+   "desc": "Anthropic lets AI agents fix and approve code, Sierra raises $1.75B for customer-service agents, and Nvidia reinstates Jensen Huang as CEO.",
+   "body": [
+    {
+     "h": "Anthropic's Claude Ship lets agents review, fix and approve code"
+    },
+    {
+     "p": "Anthropic on Monday introduced Claude Ship, AI agents that take routine code changes from review to approval. Next to the existing Code Review, the new PR Steward (beta) repairs failing CI checks, resolves merge conflicts and responds to review feedback. Claude Approvals (beta) signs off on changes according to a policy that the team writes in plain language and keeps in the repository. It is rolling out to Claude Team and Enterprise plans for GitHub repositories; Anthropic advises starting in observe-only mode."
+    },
+    {
+     "h": "Sierra doubles its valuation to $30 billion"
+    },
+    {
+     "p": "Sierra, the customer-service agent company co-founded by former Salesforce co-CEO Bret Taylor, raised $1.75 billion in a Series F led by Greenoaks and Lightspeed, TechCrunch reports. That doubles its valuation to $30 billion in about six months. According to Sierra, outcome-based pricing helped double its revenue run rate to $400 million, and it works with almost half of the Fortune 50. The round suggests investors see customer support as one of the first areas where AI agents pay off."
+    },
+    {
+     "h": "Nvidia reinstates Jensen Huang as CEO"
+    },
+    {
+     "p": "Nvidia's board voted unanimously on November 23 to bring back Jensen Huang as president, CEO and board member, according to a company press release filed with the SEC. The board says it received input from senior levels of the US government and concluded that the decision poses no national security risk; the investigation led by independent directors will continue. The board thanked Colette Kress, who led the company as interim CEO while remaining CFO. For the AI industry, the move restores continuity at the top of its most important chip supplier."
+    },
+    {
+     "h": "What it means for business"
+    },
+    {
+     "p": "AI agents are turning from helpers into participants in real workflows: they fix code, resolve support requests and approve changes within limits set by people. The practical lesson for companies is to define the rules first — what an agent may do alone, what goes to a human, and how each action is logged and reversed. Start with one narrow, measurable process, run the agent in observe-only mode and widen its permissions only after the results hold up. At VA Corporation we build AI agents on the same principle: clear policies and human checkpoints come before full automation."
+    }
+   ]
+  },
+  "de": {
+   "title": "KI-Digest: Claude Ship für Code-Agenten, Sierra bei 30 Mrd. $, Huang zurück bei Nvidia",
+   "desc": "Anthropic lässt KI-Agenten Code reparieren und freigeben, Sierra sammelt 1,75 Mrd. $ ein, und Nvidia holt Jensen Huang als CEO zurück.",
+   "body": [
+    {
+     "h": "Claude Ship: Agenten prüfen, reparieren und genehmigen Code"
+    },
+    {
+     "p": "Anthropic hat am Montag Claude Ship vorgestellt – KI-Agenten, die routinemäßige Codeänderungen vom Review bis zur Freigabe begleiten. Neben dem bereits verfügbaren Code Review behebt der neue PR Steward (Beta) fehlgeschlagene CI-Checks, löst Merge-Konflikte und reagiert auf Review-Hinweise. Claude Approvals (Beta) genehmigt Änderungen nach einer Richtlinie, die das Team in natürlicher Sprache formuliert und im Repository ablegt. Das Angebot wird für Claude Team und Enterprise bei GitHub-Repositories ausgerollt; Anthropic empfiehlt, zunächst im reinen Beobachtungsmodus zu starten."
+    },
+    {
+     "h": "Sierra verdoppelt Bewertung auf 30 Milliarden Dollar"
+    },
+    {
+     "p": "Sierra, das von Ex-Salesforce-Co-CEO Bret Taylor mitgegründete Unternehmen für Kundenservice-Agenten, hat laut TechCrunch 1,75 Milliarden Dollar in einer Series F unter Führung von Greenoaks und Lightspeed eingesammelt. Damit hat sich die Bewertung in rund sechs Monaten auf 30 Milliarden Dollar verdoppelt. Nach Angaben von Sierra hat die erfolgsbasierte Preisgestaltung die annualisierten Umsätze auf 400 Millionen Dollar verdoppelt; zu den Kunden zähle fast die Hälfte der Fortune 50. Die Runde zeigt, dass Investoren den Kundenservice als einen der ersten Bereiche sehen, in denen sich KI-Agenten rechnen."
+    },
+    {
+     "h": "Nvidia setzt Jensen Huang wieder als CEO ein"
+    },
+    {
+     "p": "Der Nvidia-Vorstand hat am 23. November einstimmig beschlossen, Jensen Huang als President, CEO und Board-Mitglied zurückzuholen – so steht es in einer bei der SEC eingereichten Pressemitteilung. Nach eigenen Angaben hat das Gremium Rückmeldungen von hochrangigen Stellen der US-Regierung erhalten und sieht in der Entscheidung kein Risiko für die nationale Sicherheit; die Untersuchung durch unabhängige Direktoren läuft weiter. Der Vorstand dankte Colette Kress, die als Interims-CEO amtierte und Finanzchefin blieb. Für die KI-Branche bringt der Schritt wieder Kontinuität an die Spitze ihres wichtigsten Chiplieferanten."
+    },
+    {
+     "h": "Was das für Unternehmen bedeutet"
+    },
+    {
+     "p": "KI-Agenten werden vom Helfer zum Teil echter Arbeitsabläufe: Sie reparieren Code, bearbeiten Supportanfragen und genehmigen Änderungen in Grenzen, die Menschen festlegen. Für Unternehmen heißt das: zuerst die Regeln definieren – was ein Agent allein darf, was an einen Menschen geht und wie jede Aktion protokolliert und rückgängig gemacht wird. Beginnen Sie mit einem eng umrissenen, messbaren Prozess, lassen Sie den Agenten zunächst nur beobachten und erweitern Sie seine Rechte erst, wenn die Ergebnisse überzeugen. Bei VA Corporation bauen wir KI-Agenten nach demselben Prinzip: klare Richtlinien und menschliche Kontrollpunkte kommen vor der vollen Automatisierung."
+    }
+   ]
+  },
+  "es": {
+   "title": "Resumen IA: agentes de código Claude Ship, Sierra vale 30.000 M$ y Huang vuelve a Nvidia",
+   "desc": "Anthropic deja que agentes de IA corrijan y aprueben código, Sierra capta 1.750 M$ y Nvidia restituye a Jensen Huang como CEO.",
+   "body": [
+    {
+     "h": "Claude Ship: agentes que revisan, corrigen y aprueban código"
+    },
+    {
+     "p": "Anthropic presentó el lunes Claude Ship, un conjunto de agentes de IA que llevan los cambios de código rutinarios desde la revisión hasta la aprobación. Junto al ya disponible Code Review, el nuevo PR Steward (beta) arregla comprobaciones de CI fallidas, resuelve conflictos de fusión y atiende los comentarios de revisión. Claude Approvals (beta) aprueba cambios según una política que el equipo redacta en lenguaje natural y guarda en el repositorio. Se está desplegando en los planes Claude Team y Enterprise para repositorios de GitHub, y Anthropic recomienda empezar en modo de solo observación."
+    },
+    {
+     "h": "Sierra duplica su valoración hasta 30.000 millones de dólares"
+    },
+    {
+     "p": "Sierra, la empresa de agentes de atención al cliente cofundada por el ex co-CEO de Salesforce Bret Taylor, ha levantado 1.750 millones de dólares en una Serie F liderada por Greenoaks y Lightspeed, según TechCrunch. Así duplica su valoración, hasta 30.000 millones, en unos seis meses. Según Sierra, su modelo de precios por resultados le ayudó a duplicar sus ingresos anualizados hasta 400 millones, y trabaja con casi la mitad de las empresas del Fortune 50. La ronda indica que los inversores ven la atención al cliente como uno de los primeros terrenos donde los agentes de IA resultan rentables."
+    },
+    {
+     "h": "Nvidia restituye a Jensen Huang como CEO"
+    },
+    {
+     "p": "El consejo de Nvidia votó por unanimidad el 23 de noviembre devolver a Jensen Huang los cargos de presidente, CEO y consejero, según un comunicado presentado ante la SEC. El consejo afirma haber recibido valoraciones de altos niveles del Gobierno de EE. UU. y concluye que la decisión no supone un riesgo para la seguridad nacional; la investigación dirigida por consejeros independientes continuará. El consejo agradeció a Colette Kress su labor como CEO interina, cargo que compaginó con el de directora financiera. Para la industria de la IA, la decisión devuelve la continuidad a la cúpula de su proveedor de chips más importante."
+    },
+    {
+     "h": "Qué significa para las empresas"
+    },
+    {
+     "p": "Los agentes de IA pasan de ser ayudantes a participar en procesos reales: corrigen código, resuelven consultas de soporte y aprueban cambios dentro de los límites que fijan las personas. La lección práctica es definir primero las reglas: qué puede hacer el agente por sí solo, qué pasa a una persona y cómo se registra y revierte cada acción. Empiece por un proceso concreto y medible, ponga el agente en modo de observación y amplíe sus permisos solo cuando los resultados lo justifiquen. En VA Corporation desarrollamos agentes de IA con el mismo principio: políticas claras y puntos de control humanos antes de la automatización completa."
+    }
+   ]
+  },
+  "it": {
+   "title": "Digest IA: agenti di codice Claude Ship, Sierra a 30 mld $, Jensen Huang torna in Nvidia",
+   "desc": "Anthropic fa correggere e approvare il codice agli agenti IA, Sierra raccoglie 1,75 mld $ e Nvidia reintegra Jensen Huang come CEO.",
+   "body": [
+    {
+     "h": "Claude Ship: agenti che revisionano, correggono e approvano il codice"
+    },
+    {
+     "p": "Lunedì Anthropic ha presentato Claude Ship, una serie di agenti IA che accompagnano le modifiche di routine al codice dalla revisione all'approvazione. Accanto al già disponibile Code Review, il nuovo PR Steward (beta) sistema i controlli CI falliti, risolve i conflitti di merge e risponde ai commenti di revisione. Claude Approvals (beta) approva le modifiche secondo una policy che il team scrive in linguaggio naturale e conserva nel repository. Il rilascio riguarda i piani Claude Team ed Enterprise per i repository GitHub; Anthropic consiglia di partire in modalità di sola osservazione."
+    },
+    {
+     "h": "Sierra raddoppia la valutazione a 30 miliardi di dollari"
+    },
+    {
+     "p": "Sierra, la società di agenti per il servizio clienti cofondata dall'ex co-CEO di Salesforce Bret Taylor, ha raccolto 1,75 miliardi di dollari in un round di Serie F guidato da Greenoaks e Lightspeed, riferisce TechCrunch. La valutazione raddoppia così a 30 miliardi in circa sei mesi. Secondo Sierra, il modello di prezzo basato sui risultati ha contribuito a raddoppiare i ricavi annualizzati a 400 milioni, e l'azienda lavora con quasi metà delle società Fortune 50. Il round indica che gli investitori vedono nell'assistenza clienti uno dei primi ambiti in cui gli agenti IA si ripagano."
+    },
+    {
+     "h": "Nvidia reintegra Jensen Huang come CEO"
+    },
+    {
+     "p": "Il 23 novembre il consiglio di Nvidia ha votato all'unanimità il ritorno di Jensen Huang come presidente, CEO e consigliere, secondo un comunicato depositato presso la SEC. Il consiglio afferma di aver ricevuto indicazioni da livelli elevati del governo statunitense e di ritenere che la decisione non comporti rischi per la sicurezza nazionale; l'indagine condotta da consiglieri indipendenti proseguirà. Il board ha ringraziato Colette Kress, che ha guidato l'azienda come CEO ad interim restando direttrice finanziaria. Per il settore dell'IA, la scelta riporta continuità al vertice del suo fornitore di chip più importante."
+    },
+    {
+     "h": "Cosa significa per le aziende"
+    },
+    {
+     "p": "Gli agenti IA passano da semplici assistenti a parte attiva dei processi reali: correggono codice, gestiscono richieste di supporto e approvano modifiche entro limiti fissati dalle persone. La lezione pratica è definire prima le regole: cosa può fare l'agente da solo, cosa va a un essere umano e come ogni azione viene registrata e annullata. Partite da un processo circoscritto e misurabile, fate lavorare l'agente in sola osservazione e ampliatene i permessi solo quando i risultati reggono. In VA Corporation sviluppiamo agenti IA con lo stesso principio: regole chiare e controlli umani vengono prima dell'automazione completa."
+    }
+   ]
+  },
+  "fr": {
+   "title": "Digest IA : agents de code Claude Ship, Sierra à 30 Md$, Huang de retour chez Nvidia",
+   "desc": "Anthropic confie la correction et l'approbation du code à des agents IA, Sierra lève 1,75 Md$ et Nvidia rétablit Jensen Huang comme CEO.",
+   "body": [
+    {
+     "h": "Claude Ship : des agents qui relisent, corrigent et approuvent le code"
+    },
+    {
+     "p": "Anthropic a présenté lundi Claude Ship, un ensemble d'agents IA qui accompagnent les modifications de code courantes de la relecture jusqu'à l'approbation. Aux côtés de Code Review, déjà disponible, le nouveau PR Steward (bêta) répare les contrôles CI en échec, résout les conflits de fusion et traite les remarques de relecture. Claude Approvals (bêta) valide les changements selon une politique que l'équipe rédige en langage naturel et conserve dans le dépôt. Le déploiement concerne les offres Claude Team et Enterprise pour les dépôts GitHub ; Anthropic conseille de commencer en mode observation seule."
+    },
+    {
+     "h": "Sierra double sa valorisation à 30 milliards de dollars"
+    },
+    {
+     "p": "Sierra, l'éditeur d'agents de service client cofondé par l'ancien co-CEO de Salesforce Bret Taylor, a levé 1,75 milliard de dollars lors d'une série F menée par Greenoaks et Lightspeed, rapporte TechCrunch. Sa valorisation double ainsi pour atteindre 30 milliards en six mois environ. Selon Sierra, sa tarification au résultat a contribué à doubler son chiffre d'affaires annualisé à 400 millions, et l'entreprise travaille avec près de la moitié du Fortune 50. Ce tour montre que les investisseurs voient le service client comme l'un des premiers domaines où les agents IA deviennent rentables."
+    },
+    {
+     "h": "Nvidia rétablit Jensen Huang au poste de CEO"
+    },
+    {
+     "p": "Le conseil d'administration de Nvidia a voté à l'unanimité le 23 novembre le retour de Jensen Huang comme président, CEO et administrateur, selon un communiqué déposé auprès de la SEC. Le conseil indique avoir reçu l'avis de hauts responsables du gouvernement américain et estime que cette décision ne présente aucun risque pour la sécurité nationale ; l'enquête menée par des administrateurs indépendants se poursuit. Il a remercié Colette Kress, qui a assuré l'intérim de la direction générale tout en restant directrice financière. Pour le secteur de l'IA, ce choix ramène de la continuité à la tête de son principal fournisseur de puces."
+    },
+    {
+     "h": "Ce que cela signifie pour les entreprises"
+    },
+    {
+     "p": "Les agents IA passent du statut d'assistants à celui d'acteurs des processus réels : ils corrigent du code, traitent des demandes de support et approuvent des changements dans des limites fixées par des humains. La leçon pratique : définir d'abord les règles — ce que l'agent peut faire seul, ce qui remonte à une personne, et comment chaque action est tracée et annulable. Commencez par un processus précis et mesurable, laissez l'agent en mode observation et n'élargissez ses droits que lorsque les résultats tiennent. Chez VA Corporation, nous concevons nos agents IA selon ce même principe : des règles claires et des contrôles humains avant l'automatisation complète."
+    }
+   ]
+  },
+  "pl": {
+   "title": "Przegląd AI: agenci kodu Claude Ship, Sierra wyceniona na 30 mld $, Huang wraca do Nvidii",
+   "desc": "Anthropic pozwala agentom AI naprawiać i zatwierdzać kod, Sierra zbiera 1,75 mld $, a Nvidia przywraca Jensena Huanga na stanowisko CEO.",
+   "body": [
+    {
+     "h": "Claude Ship: agenci przeglądają, naprawiają i zatwierdzają kod"
+    },
+    {
+     "p": "Anthropic zaprezentował w poniedziałek Claude Ship – zestaw agentów AI, którzy prowadzą rutynowe zmiany w kodzie od przeglądu aż po zatwierdzenie. Obok dostępnego już Code Review nowy PR Steward (beta) naprawia nieudane testy CI, rozwiązuje konflikty scalania i odpowiada na uwagi z przeglądu. Claude Approvals (beta) zatwierdza zmiany zgodnie z polityką, którą zespół spisuje zwykłym językiem i przechowuje w repozytorium. Usługa trafia do planów Claude Team i Enterprise dla repozytoriów na GitHubie; Anthropic radzi zacząć od trybu samej obserwacji."
+    },
+    {
+     "h": "Sierra podwaja wycenę do 30 mld dolarów"
+    },
+    {
+     "p": "Sierra, firma tworząca agentów obsługi klienta, współzałożona przez byłego współprezesa Salesforce Breta Taylora, pozyskała 1,75 mld dolarów w rundzie Series F prowadzonej przez Greenoaks i Lightspeed – podaje TechCrunch. Jej wycena wzrosła w ten sposób dwukrotnie, do 30 mld dolarów, w około pół roku. Według Sierry rozliczanie za efekty pomogło podwoić roczne przychody w ujęciu run rate do 400 mln dolarów, a firma współpracuje z niemal połową spółek z listy Fortune 50. Runda pokazuje, że inwestorzy widzą w obsłudze klienta jeden z pierwszych obszarów, w których agenci AI się opłacają."
+    },
+    {
+     "h": "Nvidia przywraca Jensena Huanga na stanowisko CEO"
+    },
+    {
+     "p": "Zarząd Nvidii jednogłośnie zdecydował 23 listopada o powrocie Jensena Huanga na stanowiska prezesa, CEO i członka rady – wynika z komunikatu złożonego w SEC. Rada podaje, że otrzymała opinie z wysokich szczebli rządu USA i uznała, że decyzja nie stanowi zagrożenia dla bezpieczeństwa narodowego; dochodzenie prowadzone przez niezależnych dyrektorów będzie kontynuowane. Rada podziękowała Colette Kress, która kierowała firmą jako tymczasowa CEO, pozostając dyrektorką finansową. Dla branży AI to powrót stabilności na szczycie jej najważniejszego dostawcy chipów."
+    },
+    {
+     "h": "Co to oznacza dla biznesu"
+    },
+    {
+     "p": "Agenci AI przestają być tylko pomocnikami i stają się uczestnikami realnych procesów: naprawiają kod, obsługują zgłoszenia i zatwierdzają zmiany w granicach wyznaczonych przez ludzi. Praktyczny wniosek dla firm: najpierw ustalić zasady – co agent może robić sam, co trafia do człowieka i jak każda akcja jest rejestrowana i odwracalna. Zacznij od jednego wąskiego, mierzalnego procesu, uruchom agenta w trybie obserwacji i poszerzaj jego uprawnienia dopiero wtedy, gdy wyniki się potwierdzą. W VA Corporation budujemy agentów AI według tej samej zasady: jasne reguły i ludzkie punkty kontrolne przed pełną automatyzacją."
+    }
+   ]
+  },
+  "uk": {
+   "title": "AI-дайджест: агенти коду Claude Ship, Sierra за $30 млрд, Jensen Huang знову в Nvidia",
+   "desc": "Anthropic дозволяє AI-агентам виправляти й схвалювати код, Sierra залучає $1,75 млрд, а Nvidia повертає Jensen Huang на посаду CEO.",
+   "body": [
+    {
+     "h": "Claude Ship: агенти перевіряють, виправляють і схвалюють код"
+    },
+    {
+     "p": "У понеділок Anthropic представила Claude Ship — набір AI-агентів, які ведуть рутинні зміни в коді від рев'ю до схвалення. Поряд із уже доступним Code Review новий PR Steward (бета) лагодить провалені перевірки CI, розв'язує конфлікти злиття та реагує на зауваження рев'юерів. Claude Approvals (бета) схвалює зміни за політикою, яку команда пише звичайною мовою і зберігає в репозиторії. Сервіс поступово стає доступним у планах Claude Team і Enterprise для репозиторіїв на GitHub; Anthropic радить починати з режиму лише спостереження."
+    },
+    {
+     "h": "Sierra подвоїла оцінку до $30 млрд"
+    },
+    {
+     "p": "Sierra — компанія, що створює агентів для служби підтримки, співзасновником якої є колишній співгендиректор Salesforce Bret Taylor, — залучила $1,75 млрд у раунді Series F на чолі з Greenoaks і Lightspeed, повідомляє TechCrunch. Так її оцінка приблизно за пів року подвоїлася до $30 млрд. За словами Sierra, оплата за результат допомогла подвоїти річний темп виручки до $400 млн, а серед клієнтів — майже половина компаній Fortune 50. Раунд показує, що інвестори бачать у клієнтській підтримці одну з перших сфер, де AI-агенти окуповуються."
+    },
+    {
+     "h": "Nvidia повернула Jensen Huang на посаду CEO"
+    },
+    {
+     "p": "Рада директорів Nvidia 23 листопада одностайно проголосувала за повернення Jensen Huang на посади президента, CEO і члена ради, йдеться в пресрелізі компанії, поданому до SEC. Рада заявляє, що отримала позицію високопосадовців уряду США й вважає, що рішення не несе загрози національній безпеці; розслідування під керівництвом незалежних директорів триватиме. Рада подякувала Colette Kress, яка виконувала обов'язки CEO, залишаючись фінансовою директоркою. Для AI-галузі це повернення стабільності на чолі її найважливішого постачальника чипів."
+    },
+    {
+     "h": "Що це означає для бізнесу"
+    },
+    {
+     "p": "AI-агенти перетворюються з помічників на учасників реальних процесів: вони виправляють код, обробляють звернення клієнтів і схвалюють зміни в межах, які задають люди. Практичний висновок для компаній — спершу визначити правила: що агент може робити сам, що передається людині і як кожна дія фіксується та скасовується. Почніть з одного вузького вимірюваного процесу, запустіть агента в режимі спостереження й розширюйте його права лише тоді, коли результати це підтвердять. У VA Corporation ми будуємо AI-агентів за тим самим принципом: чіткі правила й людський контроль — до повної автоматизації."
+    }
+   ]
+  },
+  "ru": {
+   "title": "ИИ-дайджест: агенты кода Claude Ship, Sierra за $30 млрд, Jensen Huang снова в Nvidia",
+   "desc": "Anthropic доверяет ИИ-агентам исправлять и одобрять код, Sierra привлекает $1,75 млрд, а Nvidia возвращает Jensen Huang на пост CEO.",
+   "body": [
+    {
+     "h": "Claude Ship: агенты проверяют, исправляют и одобряют код"
+    },
+    {
+     "p": "В понедельник Anthropic представила Claude Ship — набор ИИ-агентов, которые проводят рутинные изменения кода от ревью до одобрения. Рядом с уже доступным Code Review новый PR Steward (бета) чинит упавшие проверки CI, разрешает конфликты слияния и отвечает на замечания ревьюеров. Claude Approvals (бета) одобряет изменения по политике, которую команда пишет обычным языком и хранит в репозитории. Сервис постепенно открывается для тарифов Claude Team и Enterprise в репозиториях на GitHub; Anthropic советует начинать с режима только наблюдения."
+    },
+    {
+     "h": "Sierra удвоила оценку до $30 млрд"
+    },
+    {
+     "p": "Sierra — разработчик агентов для клиентской поддержки, сооснователем которого является бывший со-CEO Salesforce Bret Taylor, — привлекла $1,75 млрд в раунде Series F во главе с Greenoaks и Lightspeed, сообщает TechCrunch. Таким образом её оценка примерно за полгода удвоилась до $30 млрд. По данным Sierra, оплата за результат помогла удвоить годовой темп выручки до $400 млн, а среди клиентов — почти половина компаний Fortune 50. Раунд показывает: инвесторы считают клиентскую поддержку одной из первых сфер, где ИИ-агенты окупаются."
+    },
+    {
+     "h": "Nvidia вернула Jensen Huang на пост CEO"
+    },
+    {
+     "p": "Совет директоров Nvidia 23 ноября единогласно проголосовал за возвращение Jensen Huang на посты президента, CEO и члена совета, говорится в пресс-релизе компании, поданном в SEC. Совет заявляет, что получил позицию высокопоставленных представителей правительства США и считает, что решение не несёт угрозы национальной безопасности; расследование под руководством независимых директоров продолжится. Совет поблагодарил Colette Kress, которая временно руководила компанией, оставаясь финансовым директором. Для ИИ-отрасли это возвращение стабильности во главе её важнейшего поставщика чипов."
+    },
+    {
+     "h": "Что это значит для бизнеса"
+    },
+    {
+     "p": "ИИ-агенты превращаются из помощников в участников реальных процессов: они исправляют код, обрабатывают обращения клиентов и одобряют изменения в рамках, которые задают люди. Практический вывод для компаний — сначала определить правила: что агент может делать сам, что передаётся человеку и как каждое действие фиксируется и отменяется. Начните с одного узкого измеримого процесса, запустите агента в режиме наблюдения и расширяйте его права, только когда результаты это подтвердят. В VA Corporation мы строим ИИ-агентов по тому же принципу: понятные правила и человеческий контроль — до полной автоматизации."
+    }
+   ]
+  },
+  "be": {
+   "title": "AI-дайджэст: агенты кода Claude Ship, Sierra за $30 млрд, Jensen Huang зноў у Nvidia",
+   "desc": "Anthropic давярае AI-агентам выпраўляць і зацвярджаць код, Sierra прыцягвае $1,75 млрд, а Nvidia вяртае Jensen Huang на пасаду CEO.",
+   "body": [
+    {
+     "h": "Claude Ship: агенты правяраюць, выпраўляюць і зацвярджаюць код"
+    },
+    {
+     "p": "У панядзелак Anthropic прадставіла Claude Ship — набор AI-агентаў, якія вядуць руцінныя змены ў кодзе ад рэв'ю да зацвярджэння. Побач з ужо даступным Code Review новы PR Steward (бэта) выпраўляе няўдалыя праверкі CI, развязвае канфлікты зліцця і адказвае на заўвагі рэв'юераў. Claude Approvals (бэта) зацвярджае змены паводле палітыкі, якую каманда піша звычайнай мовай і захоўвае ў рэпазіторыі. Сэрвіс паступова адкрываецца для тарыфаў Claude Team і Enterprise у рэпазіторыях на GitHub; Anthropic раіць пачынаць з рэжыму толькі назірання."
+    },
+    {
+     "h": "Sierra падвоіла ацэнку да $30 млрд"
+    },
+    {
+     "p": "Sierra — распрацоўшчык агентаў для кліенцкай падтрымкі, сузаснавальнікам якога з'яўляецца былы сустаршыня Salesforce Bret Taylor, — прыцягнула $1,75 млрд у раўндзе Series F на чале з Greenoaks і Lightspeed, паведамляе TechCrunch. Такім чынам яе ацэнка прыкладна за паўгода падвоілася да $30 млрд. Паводле Sierra, аплата за вынік дапамагла падвоіць гадавы тэмп выручкі да $400 млн, а сярод кліентаў — амаль палова кампаній Fortune 50. Раўнд паказвае: інвестары лічаць кліенцкую падтрымку адной з першых сфер, дзе AI-агенты акупляюцца."
+    },
+    {
+     "h": "Nvidia вярнула Jensen Huang на пасаду CEO"
+    },
+    {
+     "p": "Савет дырэктараў Nvidia 23 лістапада аднагалосна прагаласаваў за вяртанне Jensen Huang на пасады прэзідэнта, CEO і члена савета, гаворыцца ў прэс-рэлізе кампаніі, пададзеным у SEC. Савет заяўляе, што атрымаў пазіцыю высокапастаўленых прадстаўнікоў урада ЗША і лічыць, што рашэнне не нясе пагрозы нацыянальнай бяспецы; расследаванне пад кіраўніцтвам незалежных дырэктараў працягнецца. Савет падзякаваў Colette Kress, якая часова кіравала кампаніяй, застаючыся фінансавым дырэктарам. Для AI-галіны гэта вяртанне стабільнасці на чале яе найважнейшага пастаўшчыка чыпаў."
+    },
+    {
+     "h": "Што гэта значыць для бізнесу"
+    },
+    {
+     "p": "AI-агенты ператвараюцца з памочнікаў ва ўдзельнікаў рэальных працэсаў: яны выпраўляюць код, апрацоўваюць звароты кліентаў і зацвярджаюць змены ў межах, якія задаюць людзі. Практычная выснова для кампаній — спачатку вызначыць правілы: што агент можа рабіць сам, што перадаецца чалавеку і як кожнае дзеянне фіксуецца і адмяняецца. Пачніце з аднаго вузкага вымернага працэсу, запусціце агента ў рэжыме назірання і пашырайце яго правы, толькі калі вынікі гэта пацвердзяць. У VA Corporation мы будуем AI-агентаў паводле таго ж прынцыпу: зразумелыя правілы і чалавечы кантроль — да поўнай аўтаматызацыі."
+    }
+   ]
+  },
+  "ka": {
+   "title": "AI დაიჯესტი: Claude Ship კოდის აგენტები, Sierra $30 მლრდ-ად, Jensen Huang ისევ Nvidia-ში",
+   "desc": "Anthropic AI აგენტებს კოდის გასწორებას და დამტკიცებას ანდობს, Sierra $1,75 მლრდ-ს იზიდავს, Nvidia კი Jensen Huang-ს CEO-დ აბრუნებს.",
+   "body": [
+    {
+     "h": "Claude Ship: აგენტები კოდს ამოწმებენ, ასწორებენ და ამტკიცებენ"
+    },
+    {
+     "p": "ორშაბათს Anthropic-მა წარადგინა Claude Ship — AI აგენტების ნაკრები, რომელიც კოდის რუტინულ ცვლილებებს განხილვიდან დამტკიცებამდე მიჰყვება. უკვე ხელმისაწვდომი Code Review-ს გვერდით ახალი PR Steward (ბეტა) ასწორებს ჩავარდნილ CI შემოწმებებს, აგვარებს შერწყმის კონფლიქტებს და პასუხობს განმხილველთა შენიშვნებს. Claude Approvals (ბეტა) ცვლილებებს ამტკიცებს პოლიტიკის მიხედვით, რომელსაც გუნდი ჩვეულებრივი ენით წერს და რეპოზიტორიაში ინახავს. სერვისი ეტაპობრივად ხელმისაწვდომი ხდება Claude Team და Enterprise გეგმებისთვის GitHub-ის რეპოზიტორიებში; Anthropic გირჩევთ, დაიწყოთ მხოლოდ დაკვირვების რეჟიმით."
+    },
+    {
+     "h": "Sierra-მ შეფასება $30 მილიარდამდე გააორმაგა"
+    },
+    {
+     "p": "Sierra-მ — კომპანიამ, რომელიც მომხმარებელთა მომსახურების აგენტებს ქმნის და რომლის თანადამფუძნებელია Salesforce-ის ყოფილი თანა-CEO Bret Taylor — Series F რაუნდში $1,75 მილიარდი მოიზიდა, რომელსაც Greenoaks და Lightspeed ხელმძღვანელობდნენ, იუწყება TechCrunch. ამით მისი შეფასება დაახლოებით ექვს თვეში $30 მილიარდამდე გაორმაგდა. Sierra-ს თქმით, შედეგზე დაფუძნებულმა ფასწარმოქმნამ წლიური შემოსავლის ტემპის $400 მილიონამდე გაორმაგებას შეუწყო ხელი, ხოლო კლიენტებს შორის Fortune 50-ის თითქმის ნახევარია. რაუნდი აჩვენებს, რომ ინვესტორები მომხმარებელთა მხარდაჭერას ერთ-ერთ პირველ სფეროდ მიიჩნევენ, სადაც AI აგენტები თავს იმართლებენ."
+    },
+    {
+     "h": "Nvidia-მ Jensen Huang CEO-ს თანამდებობაზე დააბრუნა"
+    },
+    {
+     "p": "Nvidia-ს საბჭომ 23 ნოემბერს ერთხმად დაუჭირა მხარი Jensen Huang-ის დაბრუნებას პრეზიდენტის, CEO-სა და საბჭოს წევრის პოსტებზე, ნათქვამია SEC-ში წარდგენილ კომპანიის პრესრელიზში. საბჭოს განცხადებით, მან აშშ-ის მთავრობის მაღალი დონის წარმომადგენლების პოზიცია მიიღო და მიიჩნევს, რომ გადაწყვეტილება ეროვნულ უსაფრთხოებას საფრთხეს არ უქმნის; დამოუკიდებელი დირექტორების ხელმძღვანელობით მიმდინარე გამოძიება გაგრძელდება. საბჭომ მადლობა გადაუხადა Colette Kress-ს, რომელიც კომპანიას დროებით ხელმძღვანელობდა და ფინანსურ დირექტორად რჩებოდა. AI ინდუსტრიისთვის ეს ნიშნავს სტაბილურობის დაბრუნებას მისი უმნიშვნელოვანესი ჩიპების მომწოდებლის სათავეში."
+    },
+    {
+     "h": "რას ნიშნავს ეს ბიზნესისთვის"
+    },
+    {
+     "p": "AI აგენტები დამხმარეებიდან რეალური პროცესების მონაწილეებად იქცევიან: ისინი კოდს ასწორებენ, მომხმარებელთა მიმართვებს ამუშავებენ და ცვლილებებს ამტკიცებენ ადამიანების მიერ დადგენილ ფარგლებში. კომპანიებისთვის პრაქტიკული დასკვნაა, ჯერ წესები განსაზღვრონ: რისი გაკეთება შეუძლია აგენტს დამოუკიდებლად, რა გადაეცემა ადამიანს და როგორ აღირიცხება და უქმდება ყოველი მოქმედება. დაიწყეთ ერთი ვიწრო, გაზომვადი პროცესით, აგენტი დაკვირვების რეჟიმში გაუშვით და მისი უფლებები მხოლოდ მაშინ გააფართოვეთ, როცა შედეგები ამას დაადასტურებს. VA Corporation-ში AI აგენტებს იმავე პრინციპით ვქმნით: მკაფიო წესები და ადამიანური კონტროლი — სრულ ავტომატიზაციამდე."
+    }
+   ]
+  },
+  "hy": {
+   "title": "AI ամփոփում. Claude Ship կոդի գործակալներ, Sierra՝ $30 մլրդ, Huang-ը վերադառնում է Nvidia",
+   "desc": "Anthropic-ը AI գործակալներին վստահում է կոդի ուղղումն ու հաստատումը, Sierra-ն ներգրավում է $1,75 մլրդ, Nvidia-ն վերադարձնում է Jensen Huang-ին։",
+   "body": [
+    {
+     "h": "Claude Ship. գործակալները ստուգում, ուղղում և հաստատում են կոդը"
+    },
+    {
+     "p": "Երկուշաբթի Anthropic-ը ներկայացրեց Claude Ship-ը՝ AI գործակալների հավաքածու, որը կոդի սովորական փոփոխություններն ուղեկցում է վերանայումից մինչև հաստատում։ Արդեն հասանելի Code Review-ի կողքին նոր PR Steward-ը (բետա) շտկում է ձախողված CI ստուգումները, լուծում միաձուլման կոնֆլիկտները և արձագանքում վերանայողների դիտողություններին։ Claude Approvals-ը (բետա) հաստատում է փոփոխությունները ըստ քաղաքականության, որը թիմը գրում է սովորական լեզվով և պահում ռեպոզիտորիայում։ Ծառայությունը աստիճանաբար հասանելի է դառնում Claude Team և Enterprise պլանների համար՝ GitHub-ի ռեպոզիտորիաներում, և Anthropic-ը խորհուրդ է տալիս սկսել միայն դիտարկման ռեժիմից։"
+    },
+    {
+     "h": "Sierra-ն կրկնապատկել է գնահատականը՝ հասցնելով $30 միլիարդի"
+    },
+    {
+     "p": "Sierra-ն՝ հաճախորդների սպասարկման գործակալներ ստեղծող ընկերությունը, որի համահիմնադիրը Salesforce-ի նախկին համագործադիր տնօրեն Bret Taylor-ն է, Series F փուլում ներգրավել է $1,75 միլիարդ՝ Greenoaks-ի և Lightspeed-ի գլխավորությամբ, հաղորդում է TechCrunch-ը։ Այսպիսով, մոտ վեց ամսում նրա գնահատականը կրկնապատկվել է՝ հասնելով $30 միլիարդի։ Sierra-ի խոսքով՝ արդյունքի համար վճարման մոդելն օգնել է կրկնապատկել եկամտի տարեկան տեմպը մինչև $400 միլիոն, իսկ հաճախորդների թվում են Fortune 50-ի գրեթե կեսը։ Փուլը ցույց է տալիս, որ ներդրողները հաճախորդների աջակցությունը համարում են առաջին ոլորտներից մեկը, որտեղ AI գործակալներն իրենց արդարացնում են։"
+    },
+    {
+     "h": "Nvidia-ն Jensen Huang-ին վերադարձրել է CEO-ի պաշտոնին"
+    },
+    {
+     "p": "Nvidia-ի տնօրենների խորհուրդը նոյեմբերի 23-ին միաձայն քվեարկել է Jensen Huang-ին նախագահի, CEO-ի և խորհրդի անդամի պաշտոններին վերադարձնելու օգտին, ասվում է SEC-ին ներկայացված ընկերության մամլո հաղորդագրությունում։ Խորհուրդը հայտնում է, որ ստացել է ԱՄՆ կառավարության բարձր մակարդակների դիրքորոշումը և գտնում է, որ որոշումը ազգային անվտանգությանը սպառնալիք չի ներկայացնում, իսկ անկախ տնօրենների գլխավորած հետաքննությունը կշարունակվի։ Խորհուրդը շնորհակալություն է հայտնել Colette Kress-ին, որը ժամանակավորապես ղեկավարում էր ընկերությունը՝ մնալով ֆինանսական տնօրեն։ AI ոլորտի համար սա կայունության վերադարձ է նրա ամենակարևոր չիպեր մատակարարողի ղեկավարությունում։"
+    },
+    {
+     "h": "Ինչ է սա նշանակում բիզնեսի համար"
+    },
+    {
+     "p": "AI գործակալները օգնականներից վերածվում են իրական գործընթացների մասնակիցների. նրանք ուղղում են կոդը, մշակում հաճախորդների հարցումները և հաստատում փոփոխությունները մարդկանց սահմանած շրջանակներում։ Ընկերությունների համար գործնական եզրակացությունն այն է, որ նախ պետք է սահմանել կանոնները՝ ինչ կարող է գործակալն անել ինքնուրույն, ինչն է փոխանցվում մարդուն և ինչպես է յուրաքանչյուր գործողություն գրանցվում ու չեղարկվում։ Սկսեք մեկ նեղ, չափելի գործընթացից, գործարկեք գործակալը դիտարկման ռեժիմում և ընդլայնեք նրա իրավունքները միայն այն ժամանակ, երբ արդյունքները դա հաստատեն։ VA Corporation-ում մենք AI գործակալներ ենք ստեղծում նույն սկզբունքով՝ հստակ կանոններ և մարդկային վերահսկողություն՝ մինչև լիարժեք ավտոմատացումը։"
+    }
+   ]
+  }
+ }
+}
