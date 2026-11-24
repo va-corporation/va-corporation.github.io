@@ -263,6 +263,8 @@ const SUPABASE_URL = 'https://buqmhbdilsoelacqcrfq.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_hlRAYH5kC71dDSeFBz8Yiw_kqKLsHqT'; // public key; data is protected by Row Level Security
 const sb = createClient(SUPABASE_URL, SUPABASE_KEY);
 const WA = 'https://wa.me/34641387122';
+const GOOGLE_ENABLED = false; // set true after enabling Google in Supabase → Authentication → Providers
+if(!GOOGLE_ENABLED){ document.getElementById('google').classList.add('hidden'); document.querySelector('.or').classList.add('hidden'); }
 
 const SERVICES = [
  ['agent-pilot','AI agent pilot (1 task)',490],['support-agent','24/7 support agent',790],['sales-assistant','AI sales assistant',990],
