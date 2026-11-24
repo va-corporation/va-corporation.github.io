@@ -57,7 +57,7 @@ SPAN = re.compile(r'<span data-l="(\w+)">((?:[^<]|<span[^>]*>[^<]*</span>|<(?!/?
 
 def build(tpl, lang):
     s = SPAN.sub(lambda m: m.group(0) if m.group(1) == lang else "", tpl)
-    s = s.replace('<html lang="en">', f'<html lang="{lang}">', 1)
+    s = s.replace('<html lang="en" translate="no">', f'<html lang="{lang}">', 1)
     title, desc = META[lang]
     s = re.sub(r"<title>.*?</title>", f"<title>{title}</title>", s, count=1, flags=re.S)
     s = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{desc}">', s, count=1)
@@ -128,7 +128,7 @@ def main():
         d = "prices" if l == "en" else f"{PATH.get(l, l)}/prices"
         os.makedirs(d, exist_ok=True)
         open(f"{d}/index.html", "w", encoding="utf-8").write(
-            f'<!DOCTYPE html><html lang="{l}"><head><meta charset="utf-8"><title>VA Corporation — Prices</title>'
+            f'<!DOCTYPE html><html lang="{l}" translate="no"><head><meta charset="utf-8"><meta name="google" content="notranslate"><title>VA Corporation — Prices</title>'
             f'<meta name="robots" content="noindex,follow"><link rel="canonical" href="{BASE[:-1]}{t}#prices">'
             f'<meta http-equiv="refresh" content="0; url={t}#prices"><script>location.replace("{t}#prices")</script></head>'
             f'<body><a href="{t}#prices">VA Corporation — Prices</a></body></html>')

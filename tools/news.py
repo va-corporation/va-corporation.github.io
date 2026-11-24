@@ -124,9 +124,9 @@ def page(lang, title, desc, canon, alternates, body, ld, ogtype="website"):
         alt += f'\n<link rel="alternate" hreflang="x-default" href="{dict(alternates).get("en", alternates[0][1])}">'
     feed = f'{index_url(lang)}feed.xml'
     return f"""<!DOCTYPE html>
-<html lang="{lang}">
+<html lang="{lang}" translate="no">
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8"><meta name="google" content="notranslate">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
