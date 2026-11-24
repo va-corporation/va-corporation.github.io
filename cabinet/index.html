@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Client area — VA Corporation</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#070A22">
+<link rel="icon" href="/assets/logo.png">
+<style>
+@font-face{font-family:Inter;src:url(/assets/fonts/inter-regular.woff) format("woff");font-weight:400}
+@font-face{font-family:Inter;src:url(/assets/fonts/inter-semibold.woff) format("woff");font-weight:600}
+@font-face{font-family:Inter;src:url(/assets/fonts/inter-bold.woff) format("woff");font-weight:700}
+@font-face{font-family:Montserrat;src:url(/assets/fonts/montserrat-var.woff) format("woff");font-weight:100 900}
+:root{--bg:#070A22;--panel:#10163A;--panel2:#161E4A;--line:rgba(255,255,255,.10);--text:#F2F5FA;--muted:#AAB4D4;--gold:#FACC15;--amber:#FFC15E;--orange:#F07A1A;--cyan:#22D3EE;--violet:#6D5BD0;--teal:#0E9F8E;--blue:#2563EB;--red:#EF4444;--green:#22C55E}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,sans-serif;background:radial-gradient(1200px 700px at 85% -10%,rgba(255,193,94,.16),transparent 60%),radial-gradient(900px 600px at -10% 20%,rgba(34,211,238,.10),transparent 60%),var(--bg);color:var(--text);min-height:100vh}
+a{color:var(--cyan)}
+button,input,select,textarea{font:inherit;color:inherit}
+.hidden{display:none!important}
+h1,h2,h3{font-family:Montserrat,Inter,sans-serif;letter-spacing:-.01em}
+.sun{width:44px;height:44px;border-radius:50%;background:radial-gradient(circle at 38% 35%,#FFF7DE,#FFC15E 45%,#F07A1A);box-shadow:0 0 28px rgba(255,193,94,.55);display:inline-flex;align-items:center;justify-content:center;font-weight:800;color:#3B1D00;font-family:Montserrat;flex:none}
+.btn{border:0;border-radius:14px;padding:11px 18px;font-weight:700;cursor:pointer;background:linear-gradient(90deg,var(--gold),var(--orange));color:#1A1030;display:inline-flex;gap:8px;align-items:center;justify-content:center;text-decoration:none}
+.btn.ghost{background:rgba(255,255,255,.08);color:var(--text);border:1px solid var(--line)}
+.btn.small{padding:7px 12px;border-radius:10px;font-size:.88rem}
+.btn:disabled{opacity:.5;cursor:default}
+input,select,textarea{width:100%;background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:12px;padding:11px 13px;outline:none}
+input:focus,select:focus,textarea:focus{border-color:var(--amber)}
+select option{background:#10163A}
+label{display:block;font-size:.85rem;color:var(--muted);margin:12px 0 6px}
+/* auth */
+.auth{max-width:440px;margin:8vh auto;padding:34px;background:rgba(16,22,58,.85);border:1px solid var(--line);border-radius:26px;backdrop-filter:blur(10px)}
+.auth h1{font-size:1.7rem;margin:18px 0 6px}
+.auth p{color:var(--muted)}
+.or{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:.85rem;margin:16px 0}
+.or:before,.or:after{content:"";flex:1;height:1px;background:var(--line)}
+.note{font-size:.88rem;color:var(--muted);margin-top:12px}
+.ok{color:var(--green)} .err{color:#FCA5A5}
+/* layout */
+.app{display:grid;grid-template-columns:250px 1fr;gap:22px;max-width:1440px;margin:0 auto;padding:22px}
+.side{position:sticky;top:22px;align-self:start;display:flex;flex-direction:column;gap:16px}
+.brand{background:linear-gradient(135deg,#1E2A78,#3B2A8A);border-radius:24px;padding:22px;display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--text);font-weight:800;font-family:Montserrat;font-size:1.15rem}
+.menu{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:10px}
+.menu button{width:100%;text-align:left;background:none;border:0;padding:11px 13px;border-radius:12px;cursor:pointer;color:var(--muted);display:flex;gap:10px;align-items:center}
+.menu button.on,.menu button:hover{background:rgba(255,193,94,.14);color:var(--text)}
+.menu hr{border:0;border-top:1px solid var(--line);margin:8px 4px}
+.mentor{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:18px;text-align:center}
+.bubble{background:linear-gradient(135deg,var(--red),#F97362);border-radius:16px;padding:12px 14px;text-align:left;font-size:.9rem;margin:12px 0}
+.top{display:flex;gap:12px;align-items:center;margin-bottom:18px;flex-wrap:wrap}
+.top .grow{flex:1}
+.chip{background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:9px 14px;font-size:.88rem;white-space:nowrap}
+.avatar{width:42px;height:42px;border-radius:50%;background:#fff;color:#10163A;font-weight:800;display:flex;align-items:center;justify-content:center;cursor:pointer;border:0}
+.hero{display:grid;grid-template-columns:1.6fr 1fr;gap:18px}
+.card{border-radius:24px;padding:22px;border:1px solid var(--line);background:var(--panel);min-width:0}
+.card h2{font-size:1.15rem;display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
+.welcome{display:flex;gap:26px;align-items:center}
+.welcome .big{width:120px;height:120px;font-size:2.4rem}
+.welcome h1{font-size:2rem;margin:6px 0}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}
+.tile{background:rgba(255,255,255,.06);border-radius:16px;padding:12px 14px}
+.tile small{color:var(--muted);font-size:.78rem}
+.tile b{display:block;font-size:1.5rem;margin-top:2px}
+.attn button{width:100%;text-align:left;margin-bottom:10px;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:14px;padding:12px 14px;cursor:pointer;display:flex;justify-content:space-between}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+.violet{background:linear-gradient(160deg,#4B3BA6,#2B2369)}
+.blue{background:linear-gradient(160deg,#1D4E89,#152B55)}
+.orange{background:linear-gradient(160deg,#E68A2E,#B85A12)}
+.teal{background:linear-gradient(160deg,#0F766E,#0B3F45)}
+.indigo{background:linear-gradient(160deg,#1E2A78,#141B4D)}
+.bar{height:8px;border-radius:9px;background:rgba(255,255,255,.18);overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--amber));border-radius:9px}
+.steps{list-style:none;margin-top:12px}
+.steps li{display:flex;gap:10px;align-items:center;padding:7px 0;font-size:.93rem}
+.steps li:before{content:"";width:18px;height:18px;border-radius:50%;border:2px solid rgba(255,255,255,.55);flex:none}
+.steps li.done{opacity:.75;text-decoration:line-through}
+.steps li.done:before{background:var(--green);border-color:var(--green)}
+.item{background:rgba(255,255,255,.08);border-radius:16px;padding:13px 14px;margin-bottom:10px}
+.item .row{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.muted{color:var(--muted);font-size:.85rem}
+.badge{font-size:.75rem;font-weight:700;border-radius:999px;padding:3px 9px;background:rgba(255,255,255,.16);white-space:nowrap}
+.badge.paid,.badge.accepted,.badge.done{background:rgba(34,197,94,.25)}
+.badge.sent,.badge.brief{background:rgba(250,204,21,.25)}
+.badge.overdue,.badge.cancelled{background:rgba(239,68,68,.3)}
+.pipe{display:flex;gap:4px;margin:10px 0 8px}
+.pipe span{flex:1;height:6px;border-radius:6px;background:rgba(255,255,255,.18)}
+.pipe span.on{background:var(--gold)}
+.chat{display:flex;flex-direction:column;gap:8px;max-height:340px;overflow:auto;padding-right:4px;margin:10px 0}
+.msg{max-width:85%;padding:10px 13px;border-radius:14px;background:rgba(255,255,255,.10);font-size:.92rem;white-space:pre-wrap;word-wrap:break-word}
+.msg.team{background:rgba(255,193,94,.22);align-self:flex-start}
+.msg.me{align-self:flex-end;background:rgba(34,211,238,.18)}
+.msg time{display:block;font-size:.72rem;color:var(--muted);margin-top:4px}
+.send{display:flex;gap:8px;align-items:flex-end}
+.send textarea{min-height:46px;max-height:140px;resize:vertical}
+.empty{color:rgba(255,255,255,.75);font-size:.92rem;padding:8px 0}
+.wide{grid-column:span 2}
+.full{grid-column:1/-1}
+dialog{margin:auto;border:1px solid var(--line);border-radius:22px;background:var(--panel);color:var(--text);padding:24px;width:min(520px,92vw)}
+dialog::backdrop{background:rgba(3,5,20,.7)}
+.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:#0B1030;border:1px solid var(--line);border-radius:14px;padding:12px 18px;z-index:9}
+.admin table{width:100%;border-collapse:collapse;font-size:.9rem}
+.admin td,.admin th{padding:9px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.admin th{color:var(--muted);font-weight:600}
+.admin select,.admin input{padding:7px 9px;border-radius:9px}
+.lang{background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:8px 12px;width:auto}
+@media(max-width:1100px){.grid{grid-template-columns:1fr 1fr}.hero{grid-template-columns:1fr}.wide{grid-column:span 2}}
+@media(max-width:760px){.app{grid-template-columns:1fr;padding:12px}.side{position:static}.mentor{display:none}.grid{grid-template-columns:1fr}.wide{grid-column:auto}.tiles{grid-template-columns:1fr 1fr}.welcome .big{width:70px;height:70px;font-size:1.5rem}.welcome h1{font-size:1.4rem}}
+</style>
+</head>
+<body>
+
+<!-- AUTH -->
+<section id="auth" class="auth hidden">
+ <a href="/" style="display:flex;align-items:center;gap:10px;color:var(--text);text-decoration:none;font-weight:800;font-family:Montserrat"><span class="sun">VA</span>VA Corporation</a>
+ <h1 data-t="authTitle">Client area</h1>
+ <p data-t="authSub">Track your projects, quotes and messages in one place.</p>
+ <button class="btn ghost" id="google" style="width:100%;margin-top:22px">
+  <svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>
+  <span data-t="google">Continue with Google</span></button>
+ <div class="or" data-t="or">or by e-mail</div>
+ <form id="emailForm">
+  <input type="email" id="email" required placeholder="you@company.com" autocomplete="email">
+  <button class="btn" style="width:100%;margin-top:12px" data-t="sendLink">Send me a login link</button>
+ </form>
+ <p class="note" id="authMsg"></p>
+ <p class="note" data-t="authNote">No password needed: we send a one-time link to your e-mail. By signing in you accept our terms and privacy policy.</p>
+ <p class="note"><a href="/terms/" data-t="terms">Terms</a> · <a href="/privacy/" data-t="privacy">Privacy</a> · <a href="/" data-t="back">← Back to the website</a></p>
+</section>
+
+<!-- APP -->
+<div id="app" class="app hidden">
+ <aside class="side">
+  <a class="brand" href="/"><span class="sun">VA</span>VA Corporation</a>
+  <nav class="menu" id="menu">
+   <button data-v="home" class="on">🏠 <span data-t="mHome">Overview</span></button>
+   <button data-v="projects">🚀 <span data-t="mProjects">My projects</span></button>
+   <button data-v="invoices">💶 <span data-t="mInvoices">Quotes & invoices</span></button>
+   <button data-v="messages">💬 <span data-t="mMessages">Messages & files</span></button>
+   <button data-v="order">➕ <span data-t="mOrder">New order</span></button>
+   <button data-v="profile">👤 <span data-t="mProfile">Profile</span></button>
+   <button data-v="admin" id="adminBtn" class="hidden">🛠 <span data-t="mAdmin">Admin</span></button>
+   <hr>
+   <button id="logout">↩ <span data-t="logout">Sign out</span></button>
+  </nav>
+  <div class="mentor">
+   <span class="sun" style="width:72px;height:72px;font-size:1.4rem">VA</span>
+   <div class="bubble" id="mentorTip"></div>
+   <button class="btn small" id="mentorGo" style="width:100%"></button>
+  </div>
+ </aside>
+
+ <main>
+  <div class="top">
+   <div class="grow"><h1 id="viewTitle" style="font-size:1.6rem"></h1></div>
+   <select class="lang" id="langSel" aria-label="Language"><option value="en">EN</option><option value="de">DE</option><option value="ru">RU</option></select>
+   <span class="chip" id="chipProfile"></span>
+   <span class="chip" id="chipPay"></span>
+   <button class="avatar" id="avatar" title="Profile"></button>
+  </div>
+
+  <!-- overview -->
+  <section data-view="home">
+   <div class="hero">
+    <div class="card indigo">
+     <div class="welcome"><span class="sun big">VA</span>
+      <div><div class="muted" id="hello"></div><h1 id="headline"></h1><div class="muted" data-t="heroSub">Projects, quotes and payments in one place.</div></div>
+     </div>
+     <div class="tiles">
+      <div class="tile"><small data-t="tActive">Active projects</small><b id="tActive">0</b></div>
+      <div class="tile"><small data-t="tQuotes">Quotes to review</small><b id="tQuotes">0</b></div>
+      <div class="tile"><small data-t="tUnpaid">Unpaid</small><b id="tUnpaid">0 €</b></div>
+      <div class="tile"><small data-t="tMsgs">Messages</small><b id="tMsgs">0</b></div>
+     </div>
+    </div>
+    <div class="card"><h2 data-t="attnTitle">Needs your attention</h2><div class="attn" id="attn"></div></div>
+   </div>
+   <div class="grid">
+    <div class="card violet">
+     <h2><span data-t="startTitle">Getting started</span><span class="badge" id="stepCount"></span></h2>
+     <div class="bar"><i id="stepBar" style="width:0"></i></div>
+     <ul class="steps" id="steps"></ul>
+    </div>
+    <div class="card blue">
+     <h2><span data-t="mProjects">My projects</span><button class="btn small ghost" data-go="projects" data-t="open">Open →</button></h2>
+     <div id="projMini"></div>
+     <button class="btn" data-go="order" data-t="newOrder" style="margin-top:6px">Place an order</button>
+    </div>
+    <div class="card orange">
+     <h2><span data-t="mInvoices">Quotes & invoices</span><button class="btn small ghost" data-go="invoices" data-t="open">Open →</button></h2>
+     <div style="font-size:2.2rem;font-weight:800" id="paidTotal">0 €</div>
+     <div class="muted" style="color:#FFE7C7" data-t="paidLbl">paid in total</div>
+     <div id="invMini" style="margin-top:12px"></div>
+    </div>
+   </div>
+  </section>
+
+  <!-- projects -->
+  <section data-view="projects" class="hidden"><div class="grid"><div class="card blue full" id="projList"></div></div></section>
+
+  <!-- invoices -->
+  <section data-view="invoices" class="hidden"><div class="grid"><div class="card orange full" id="invList"></div></div>
+   <p class="note" data-t="invNote">Payment terms: 50% before work starts, 50% on delivery. Prices + VAT. See our terms.</p></section>
+
+  <!-- messages -->
+  <section data-view="messages" class="hidden"><div class="grid"><div class="card teal full">
+   <h2><span data-t="mMessages">Messages & files</span><select id="msgProject" style="max-width:320px"></select></h2>
+   <div class="chat" id="chat"></div>
+   <form class="send" id="sendForm">
+    <textarea id="msgText" maxlength="5000" data-tp="msgPh" placeholder="Write a message…"></textarea>
+    <label class="btn ghost small" style="margin:0;cursor:pointer" title="File">📎<input type="file" id="msgFile" class="hidden"></label>
+    <button class="btn" data-t="send">Send</button>
+   </form>
+   <div class="note" id="fileName"></div>
+  </div></div></section>
+
+  <!-- order -->
+  <section data-view="order" class="hidden"><div class="grid"><div class="card violet full">
+   <h2 data-t="orderTitle">New order</h2>
+   <form id="orderForm">
+    <label data-t="service">Service</label><select id="service" required></select>
+    <label data-t="ptitle">Project name</label><input id="ptitle" required maxlength="120">
+    <label data-t="brief">Short brief: goal, audience, deadline, links</label><textarea id="brief" rows="6" maxlength="5000" required></textarea>
+    <p class="note" data-t="orderNote">After you send the brief we prepare a quote — usually within one working day. The first consultation is free.</p>
+    <button class="btn" style="margin-top:12px" data-t="sendBrief">Send brief</button>
+   </form>
+  </div></div></section>
+
+  <!-- profile -->
+  <section data-view="profile" class="hidden"><div class="grid"><div class="card indigo full">
+   <h2 data-t="mProfile">Profile</h2>
+   <form id="profForm">
+    <label data-t="name">Name</label><input id="pName" maxlength="100" required>
+    <label data-t="company">Company</label><input id="pCompany" maxlength="120">
+    <label data-t="phone">Phone / WhatsApp</label><input id="pPhone" maxlength="40">
+    <label data-t="messenger">Telegram or other contact</label><input id="pMessenger" maxlength="120">
+    <label>E-mail</label><input id="pEmail" disabled>
+    <button class="btn" style="margin-top:14px" data-t="save">Save</button>
+   </form>
+  </div></div></section>
+
+  <!-- admin -->
+  <section data-view="admin" class="hidden admin">
+   <div class="card indigo"><h2 data-t="aProjects">All projects</h2><div style="overflow:auto"><table id="aTable"></table></div></div>
+   <div class="card indigo" style="margin-top:18px"><h2 data-t="aInvoice">Create quote / invoice</h2>
+    <form id="aInvForm">
+     <label data-t="project">Project</label><select id="aInvProject" required></select>
+     <label data-t="type">Type</label><select id="aInvKind"><option value="quote">Quote</option><option value="invoice">Invoice</option></select>
+     <label data-t="ititle">Title</label><input id="aInvTitle" required placeholder="Prepayment 50% — Support agent">
+     <label data-t="amount">Amount, € (without VAT)</label><input id="aInvAmount" type="number" min="0" step="0.01" required>
+     <label data-t="due">Due date</label><input id="aInvDue" type="date">
+     <label data-t="payurl">Payment link (optional)</label><input id="aInvUrl" type="url" placeholder="https://…">
+     <button class="btn" style="margin-top:12px" data-t="create">Create</button>
+    </form>
+   </div>
+  </section>
+ </main>
+</div>
+
+<dialog id="dlg"><div id="dlgBody"></div><p style="margin-top:16px;text-align:right"><button class="btn small ghost" onclick="dlg.close()">OK</button></p></dialog>
+
+<script type="module">
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
+const SUPABASE_URL = 'https://buqmhbdilsoelacqcrfq.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_hlRAYH5kC71dDSeFBz8Yiw_kqKLsHqT'; // public key; data is protected by Row Level Security
+const sb = createClient(SUPABASE_URL, SUPABASE_KEY);
+const WA = 'https://wa.me/34641387122';
+
+const SERVICES = [
+ ['agent-pilot','AI agent pilot (1 task)',490],['support-agent','24/7 support agent',790],['sales-assistant','AI sales assistant',990],
+ ['booking-agent','Booking agent',690],['tutor-agent','AI tutor',890],['n8n','n8n automation',290],
+ ['smm-start','AI SMM Start (monthly)',299],['smm-business','AI SMM Business (monthly)',590],['reel','Single reel',39],['video-agent','Own AI video agent',1490],
+ ['pr-dashboard','PR war room / media dashboard',990],['dashboard','Business dashboard',590],
+ ['tg-simple','Simple Telegram bot',190],['tg-shop','Telegram bot with catalog & payments',490],['tg-miniapp','Telegram Mini App',1490],
+ ['landing','Landing page',390],['multisite','Multilingual website + SEO',990],['mini-game','Browser mini-game',1490],['game','Game like Kulak Kombat',4900],['etsy','Etsy digital set',99],['other','Other / not sure',0]];
+const STAGES = ['brief','prototype','development','launch','support','done'];
+
+const T = {
+ en:{authTitle:'Client area',authSub:'Track your projects, quotes and messages in one place.',google:'Continue with Google',or:'or by e-mail',sendLink:'Send me a login link',authNote:'No password needed: we send a one-time link to your e-mail. By signing in you accept our terms and privacy policy.',terms:'Terms',privacy:'Privacy',back:'← Back to the website',
+  linkSent:'Check your inbox: we sent a login link to ',mHome:'Overview',mProjects:'My projects',mInvoices:'Quotes & invoices',mMessages:'Messages & files',mOrder:'New order',mProfile:'Profile',mAdmin:'Admin',logout:'Sign out',
+  hello:'Hello',headAll:'Everything under control',headStart:"Let's start your project",heroSub:'Projects, quotes and payments in one place.',tActive:'Active projects',tQuotes:'Quotes to review',tUnpaid:'Unpaid',tMsgs:'Messages',
+  attnTitle:'Needs your attention',startTitle:'Getting started',open:'Open →',newOrder:'Place an order',paidLbl:'paid in total',invNote:'Payment terms: 50% before work starts, 50% on delivery. Prices + VAT. See our terms.',
+  msgPh:'Write a message…',send:'Send',orderTitle:'New order',service:'Service',ptitle:'Project name',brief:'Short brief: goal, audience, deadline, links',orderNote:'After you send the brief we prepare a quote — usually within one working day. The first consultation is free.',sendBrief:'Send brief',
+  name:'Name',company:'Company',phone:'Phone / WhatsApp',messenger:'Telegram or other contact',save:'Save',saved:'Saved ✓',aProjects:'All projects',aInvoice:'Create quote / invoice',project:'Project',type:'Type',ititle:'Title',amount:'Amount, € (without VAT)',due:'Due date',payurl:'Payment link (optional)',create:'Create',
+  s1:'Fill in your profile',s2:'Choose a service',s3:'Send a brief',s4:'Receive a quote',s5:'Accept the quote',s6:'Pay the 50% prepayment',s7:'Prototype review',s8:'Launch 🚀',
+  profPct:'Profile',payChip:'Paid',noProjects:'No projects yet — place your first order.',noInv:'No quotes or invoices yet.',noMsg:'No messages yet. Write to us — we answer in English, German and Russian.',
+  accept:'Accept quote',pay:'Pay',accepted:'Quote accepted ✓ We will send the invoice for the prepayment.',due2:'due',stage:{brief:'Brief',prototype:'Prototype',development:'Development',launch:'Launch',support:'Support',done:'Done',cancelled:'Cancelled'},
+  status:{draft:'Draft',sent:'Waiting',accepted:'Accepted',paid:'Paid',overdue:'Overdue',cancelled:'Cancelled'},quote:'Quote',invoice:'Invoice',vat:'+ VAT',
+  briefSent:'Brief sent ✓ We will reply with a quote shortly.',notifyWa:'Notify us on WhatsApp',tipProfile:'Start with your profile so we know how to reach you.',tipOrder:'Choose a service from the price list and send a short brief.',tipWait:'We are preparing your quote. You can already chat with us.',tipQuote:'A quote is waiting for you — have a look and accept it.',tipPay:'Pay the prepayment to start the work.',tipAll:'Everything is on track. Questions? Write to us.',
+  goProfile:'Fill in profile',goOrder:'New order',goChat:'Open chat',goQuotes:'View quote',goPay:'View invoice',attnNone:'Nothing needs your attention right now 👍',err:'Something went wrong: ',fileSaved:'File attached: ',deadline:'Deadline',client:'Client',progress:'Progress'},
+ de:{authTitle:'Kundenbereich',authSub:'Projekte, Angebote und Nachrichten an einem Ort.',google:'Weiter mit Google',or:'oder per E-Mail',sendLink:'Login-Link senden',authNote:'Kein Passwort nötig: Wir senden einen Einmal-Link an Ihre E-Mail. Mit der Anmeldung akzeptieren Sie AGB und Datenschutz.',terms:'AGB',privacy:'Datenschutz',back:'← Zur Website',
+  linkSent:'Bitte prüfen Sie Ihr Postfach: Login-Link gesendet an ',mHome:'Übersicht',mProjects:'Meine Projekte',mInvoices:'Angebote & Rechnungen',mMessages:'Nachrichten & Dateien',mOrder:'Neuer Auftrag',mProfile:'Profil',mAdmin:'Admin',logout:'Abmelden',
+  hello:'Hallo',headAll:'Alles im Griff',headStart:'Starten wir Ihr Projekt',heroSub:'Projekte, Angebote und Zahlungen an einem Ort.',tActive:'Aktive Projekte',tQuotes:'Offene Angebote',tUnpaid:'Offen',tMsgs:'Nachrichten',
+  attnTitle:'Braucht Ihre Aufmerksamkeit',startTitle:'Erste Schritte',open:'Öffnen →',newOrder:'Auftrag erteilen',paidLbl:'insgesamt bezahlt',invNote:'Zahlung: 50 % vor Arbeitsbeginn, 50 % bei Lieferung. Preise zzgl. MwSt. Siehe AGB.',
+  msgPh:'Nachricht schreiben…',send:'Senden',orderTitle:'Neuer Auftrag',service:'Leistung',ptitle:'Projektname',brief:'Kurzes Briefing: Ziel, Zielgruppe, Termin, Links',orderNote:'Nach dem Briefing erhalten Sie ein Angebot — meist innerhalb eines Werktags. Die Erstberatung ist kostenlos.',sendBrief:'Briefing senden',
+  name:'Name',company:'Firma',phone:'Telefon / WhatsApp',messenger:'Telegram oder anderer Kontakt',save:'Speichern',saved:'Gespeichert ✓',aProjects:'Alle Projekte',aInvoice:'Angebot / Rechnung erstellen',project:'Projekt',type:'Typ',ititle:'Titel',amount:'Betrag, € (netto)',due:'Fällig am',payurl:'Zahlungslink (optional)',create:'Erstellen',
+  s1:'Profil ausfüllen',s2:'Leistung wählen',s3:'Briefing senden',s4:'Angebot erhalten',s5:'Angebot annehmen',s6:'50 % Anzahlung leisten',s7:'Prototyp prüfen',s8:'Launch 🚀',
+  profPct:'Profil',payChip:'Bezahlt',noProjects:'Noch keine Projekte — erteilen Sie Ihren ersten Auftrag.',noInv:'Noch keine Angebote oder Rechnungen.',noMsg:'Noch keine Nachrichten. Schreiben Sie uns — wir antworten auf Deutsch, Englisch und Russisch.',
+  accept:'Angebot annehmen',pay:'Bezahlen',accepted:'Angebot angenommen ✓ Wir senden die Rechnung für die Anzahlung.',due2:'fällig',stage:{brief:'Briefing',prototype:'Prototyp',development:'Entwicklung',launch:'Launch',support:'Betreuung',done:'Fertig',cancelled:'Storniert'},
+  status:{draft:'Entwurf',sent:'Offen',accepted:'Angenommen',paid:'Bezahlt',overdue:'Überfällig',cancelled:'Storniert'},quote:'Angebot',invoice:'Rechnung',vat:'zzgl. MwSt.',
+  briefSent:'Briefing gesendet ✓ Sie erhalten bald ein Angebot.',notifyWa:'Per WhatsApp Bescheid geben',tipProfile:'Beginnen Sie mit Ihrem Profil, damit wir Sie erreichen.',tipOrder:'Wählen Sie eine Leistung aus der Preisliste und senden Sie ein kurzes Briefing.',tipWait:'Wir bereiten Ihr Angebot vor. Sie können uns schon schreiben.',tipQuote:'Ein Angebot wartet auf Sie — bitte prüfen und annehmen.',tipPay:'Leisten Sie die Anzahlung, damit wir starten können.',tipAll:'Alles läuft. Fragen? Schreiben Sie uns.',
+  goProfile:'Profil ausfüllen',goOrder:'Neuer Auftrag',goChat:'Chat öffnen',goQuotes:'Angebot ansehen',goPay:'Rechnung ansehen',attnNone:'Gerade ist nichts zu tun 👍',err:'Fehler: ',fileSaved:'Datei angehängt: ',deadline:'Termin',client:'Kunde',progress:'Fortschritt'},
+ ru:{authTitle:'Кабинет клиента',authSub:'Проекты, сметы и сообщения в одном месте.',google:'Войти через Google',or:'или по e-mail',sendLink:'Прислать ссылку для входа',authNote:'Пароль не нужен: мы отправим одноразовую ссылку на вашу почту. Входя, вы принимаете условия и политику конфиденциальности.',terms:'Условия',privacy:'Конфиденциальность',back:'← На сайт',
+  linkSent:'Проверьте почту: ссылка для входа отправлена на ',mHome:'Обзор',mProjects:'Мои проекты',mInvoices:'Сметы и счета',mMessages:'Сообщения и файлы',mOrder:'Новый заказ',mProfile:'Профиль',mAdmin:'Админ',logout:'Выйти',
+  hello:'Здравствуйте',headAll:'Всё под контролем',headStart:'Давайте начнём ваш проект',heroSub:'Проекты, сметы и оплаты в одном месте.',tActive:'Активные проекты',tQuotes:'Сметы на проверку',tUnpaid:'К оплате',tMsgs:'Сообщения',
+  attnTitle:'Требует внимания',startTitle:'Начало работы',open:'Открыть →',newOrder:'Разместить заказ',paidLbl:'оплачено всего',invNote:'Оплата: 50 % до начала работ, 50 % при сдаче. Цены + НДС. См. условия.',
+  msgPh:'Напишите сообщение…',send:'Отправить',orderTitle:'Новый заказ',service:'Услуга',ptitle:'Название проекта',brief:'Короткий бриф: цель, аудитория, сроки, ссылки',orderNote:'После брифа мы подготовим смету — обычно в течение рабочего дня. Первая консультация бесплатно.',sendBrief:'Отправить бриф',
+  name:'Имя',company:'Компания',phone:'Телефон / WhatsApp',messenger:'Telegram или другой контакт',save:'Сохранить',saved:'Сохранено ✓',aProjects:'Все проекты',aInvoice:'Создать смету / счёт',project:'Проект',type:'Тип',ititle:'Название',amount:'Сумма, € (без НДС)',due:'Оплатить до',payurl:'Ссылка на оплату (необязательно)',create:'Создать',
+  s1:'Заполнить профиль',s2:'Выбрать услугу',s3:'Отправить бриф',s4:'Получить смету',s5:'Принять смету',s6:'Внести предоплату 50 %',s7:'Посмотреть прототип',s8:'Запуск 🚀',
+  profPct:'Профиль',payChip:'Оплачено',noProjects:'Проектов пока нет — разместите первый заказ.',noInv:'Смет и счетов пока нет.',noMsg:'Сообщений пока нет. Напишите нам — отвечаем на русском, немецком и английском.',
+  accept:'Принять смету',pay:'Оплатить',accepted:'Смета принята ✓ Пришлём счёт на предоплату.',due2:'до',stage:{brief:'Бриф',prototype:'Прототип',development:'Разработка',launch:'Запуск',support:'Поддержка',done:'Готово',cancelled:'Отменён'},
+  status:{draft:'Черновик',sent:'Ожидает',accepted:'Принята',paid:'Оплачен',overdue:'Просрочен',cancelled:'Отменён'},quote:'Смета',invoice:'Счёт',vat:'+ НДС',
+  briefSent:'Бриф отправлен ✓ Скоро пришлём смету.',notifyWa:'Сообщить в WhatsApp',tipProfile:'Начните с профиля — так мы будем знать, как с вами связаться.',tipOrder:'Выберите услугу из прайса и отправьте короткий бриф.',tipWait:'Готовим вашу смету. Уже можно написать нам в чат.',tipQuote:'Вас ждёт смета — посмотрите и примите её.',tipPay:'Внесите предоплату, и мы начнём работу.',tipAll:'Всё идёт по плану. Вопросы? Пишите нам.',
+  goProfile:'Заполнить профиль',goOrder:'Новый заказ',goChat:'Открыть чат',goQuotes:'Смотреть смету',goPay:'Смотреть счёт',attnNone:'Сейчас ничего не требует внимания 👍',err:'Ошибка: ',fileSaved:'Файл прикреплён: ',deadline:'Срок',client:'Клиент',progress:'Прогресс'}};
+let L = (()=>{let s=null;try{s=new URLSearchParams(location.search).get('lang')||localStorage.getItem('va-lang')}catch(e){};s=(s||navigator.language||'en').slice(0,2);return T[s]?s:'en'})();
+const t = k => (T[L][k] ?? T.en[k] ?? k);
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const el = (tag, attrs={}, ...kids) => { const n=document.createElement(tag); for (const [k,v] of Object.entries(attrs)) { if(k==='class') n.className=v; else if(k.startsWith('on')) n.addEventListener(k.slice(2),v); else n.setAttribute(k,v);} for (const c of kids.flat()) if(c!=null) n.append(c instanceof Node?c:document.createTextNode(String(c))); return n; };
+const eur = n => new Intl.NumberFormat(L==='en'?'en-IE':L,{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(+n||0);
+const date = d => d ? new Date(d).toLocaleDateString(L==='en'?'en-GB':L) : '';
+const toast = m => { const n=el('div',{class:'toast'},m); document.body.append(n); setTimeout(()=>n.remove(),3500); };
+const say = html => { $('#dlgBody').replaceChildren(...html); $('#dlg').showModal(); };
+
+function applyLang(){
+ document.documentElement.lang=L; $('#langSel').value=L;
+ $$('[data-t]').forEach(n=>n.textContent=t(n.dataset.t));
+ $$('[data-tp]').forEach(n=>n.placeholder=t(n.dataset.tp));
+ $('#service').replaceChildren(...SERVICES.map(([k,n,p])=>el('option',{value:k},p?`${n} — ${L==='de'?'ab':L==='ru'?'от':'from'} ${eur(p)}`:n)));
+ try{localStorage.setItem('va-lang',L)}catch(e){}
+}
+$('#langSel').addEventListener('change',e=>{L=e.target.value;applyLang();render();});
+
+/* ---------- auth ---------- */
+const redirectTo = location.origin + location.pathname;
+$('#google').addEventListener('click', async ()=>{ const {error}=await sb.auth.signInWithOAuth({provider:'google',options:{redirectTo}}); if(error) $('#authMsg').textContent=t('err')+error.message; });
+$('#emailForm').addEventListener('submit', async e=>{ e.preventDefault(); const email=$('#email').value.trim(); const b=e.submitter; b.disabled=true;
+ const {error}=await sb.auth.signInWithOtp({email,options:{emailRedirectTo:redirectTo}}); b.disabled=false;
+ $('#authMsg').className='note '+(error?'err':'ok'); $('#authMsg').textContent= error? t('err')+error.message : t('linkSent')+email; });
+$('#logout').addEventListener('click', async ()=>{ await sb.auth.signOut(); location.reload(); });
+
+/* ---------- state ---------- */
+let user=null, isAdmin=false, profile=null, projects=[], invoices=[], messages=[], profilesById={};
+async function load(){
+ const [p,pr,inv,msg]=await Promise.all([
+  sb.from('profiles').select('*'), sb.from('projects').select('*').order('created_at',{ascending:false}),
+  sb.from('invoices').select('*').order('created_at',{ascending:false}), sb.from('messages').select('*').order('created_at')]);
+ for (const r of [p,pr,inv,msg]) if(r.error) console.warn(r.error);
+ profilesById=Object.fromEntries((p.data||[]).map(x=>[x.id,x])); profile=profilesById[user.id]||null;
+ projects=pr.data||[]; invoices=inv.data||[]; messages=msg.data||[];
+}
+
+/* ---------- views ---------- */
+let view='home';
+function show(v){ view=v; $$('#menu button[data-v]').forEach(b=>b.classList.toggle('on',b.dataset.v===v)); $$('[data-view]').forEach(s=>s.classList.toggle('hidden',s.dataset.view!==v));
+ $('#viewTitle').textContent= v==='home'? t('mHome') : t({projects:'mProjects',invoices:'mInvoices',messages:'mMessages',order:'mOrder',profile:'mProfile',admin:'mAdmin'}[v]);
+ if(v==='messages'){ renderChat(); } }
+$('#menu').addEventListener('click',e=>{const b=e.target.closest('button[data-v]'); if(b) show(b.dataset.v);});
+document.addEventListener('click',e=>{const g=e.target.closest('[data-go]'); if(g) show(g.dataset.go);});
+
+function profilePct(){ if(!profile) return 0; const f=['name','company','phone','messenger']; return Math.round(100*f.filter(k=>profile[k]).length/f.length); }
+function steps(){
+ const mine=projects.filter(p=>p.client_id===user.id), inv=invoices.filter(i=>i.client_id===user.id);
+ return [[t('s1'),profilePct()>=50],[t('s2'),mine.length>0],[t('s3'),mine.some(p=>p.brief)],[t('s4'),inv.some(i=>i.kind==='quote')],
+  [t('s5'),inv.some(i=>i.kind==='quote'&&['accepted','paid'].includes(i.status))],[t('s6'),inv.some(i=>i.kind==='invoice'&&i.status==='paid')],
+  [t('s7'),mine.some(p=>STAGES.indexOf(p.stage)>=2)],[t('s8'),mine.some(p=>['launch','support','done'].includes(p.stage))]];
+}
+function next(){
+ const mine=projects.filter(p=>p.client_id===user.id), inv=invoices.filter(i=>i.client_id===user.id);
+ if(profilePct()<50) return [t('tipProfile'),t('goProfile'),'profile'];
+ if(!mine.length) return [t('tipOrder'),t('goOrder'),'order'];
+ if(inv.some(i=>i.kind==='quote'&&i.status==='sent')) return [t('tipQuote'),t('goQuotes'),'invoices'];
+ if(inv.some(i=>i.kind==='invoice'&&['sent','overdue'].includes(i.status))) return [t('tipPay'),t('goPay'),'invoices'];
+ if(!inv.length) return [t('tipWait'),t('goChat'),'messages'];
+ return [t('tipAll'),t('goChat'),'messages'];
+}
+const stageBadge = s => el('span',{class:'badge '+s},t('stage')[s]||s);
+const statusBadge = s => el('span',{class:'badge '+s},t('status')[s]||s);
+const svcName = k => (SERVICES.find(s=>s[0]===k)||[,k||''])[1];
+function pipe(stage){ const i=STAGES.indexOf(stage); return el('div',{class:'pipe'},STAGES.slice(0,5).map((s,j)=>el('span',{class:j<=i?'on':''}))); }
+
+function projectItem(p){
+ return el('div',{class:'item'},
+  el('div',{class:'row'},el('b',{},p.title),stageBadge(p.stage)),
+  el('div',{class:'muted'},svcName(p.service), p.deadline? ` · ${t('deadline')}: ${date(p.deadline)}`:''),
+  pipe(p.stage), el('div',{class:'bar'},el('i',{style:`width:${p.progress||0}%`})),
+  el('div',{class:'muted',style:'margin-top:6px'},`${t('progress')}: ${p.progress||0}%`));
+}
+function invoiceItem(i){
+ const proj=projects.find(p=>p.id===i.project_id);
+ const actions=[];
+ if(i.client_id===user.id && i.kind==='quote' && i.status==='sent') actions.push(el('button',{class:'btn small',onclick:()=>acceptQuote(i)},t('accept')));
+ if(i.client_id===user.id && i.kind==='invoice' && ['sent','overdue'].includes(i.status) && i.pay_url) actions.push(el('a',{class:'btn small',href:i.pay_url,target:'_blank',rel:'noopener'},t('pay')));
+ return el('div',{class:'item'},
+  el('div',{class:'row'},el('b',{},`${i.kind==='quote'?t('quote'):t('invoice')}: ${i.title}`),statusBadge(i.status)),
+  el('div',{class:'row',style:'margin-top:6px'},el('span',{style:'font-size:1.25rem;font-weight:800'},`${eur(i.amount_eur)} `,el('small',{class:'muted'},t('vat'))),
+   el('span',{class:'muted'},proj?proj.title:'', i.due_date?` · ${t('due2')} ${date(i.due_date)}`:'')),
+  actions.length? el('div',{style:'margin-top:10px;display:flex;gap:8px'},actions):null,
+  isAdmin? adminStatus(i):null);
+}
+function adminStatus(i){
+ const s=el('select',{style:'margin-top:10px;max-width:220px'},...['draft','sent','accepted','paid','overdue','cancelled'].map(x=>{const o=el('option',{value:x},t('status')[x]); if(x===i.status) o.selected=true; return o;}));
+ s.addEventListener('change',async()=>{const {error}=await sb.from('invoices').update({status:s.value}).eq('id',i.id); if(error) return toast(t('err')+error.message); toast(t('saved')); await load(); render();});
+ return s;
+}
+
+function render(){
+ const mine=isAdmin?projects:projects.filter(p=>p.client_id===user.id);
+ const inv=isAdmin?invoices:invoices.filter(i=>i.client_id===user.id);
+ const name=(profile&&profile.name)||user.email.split('@')[0];
+ $('#avatar').textContent=name.slice(0,1).toUpperCase();
+ $('#hello').textContent=`${t('hello')}, ${name}`;
+ $('#headline').textContent= mine.length? t('headAll'):t('headStart');
+ const active=mine.filter(p=>!['done','cancelled'].includes(p.stage)).length;
+ const quotes=inv.filter(i=>i.kind==='quote'&&i.status==='sent').length;
+ const unpaid=inv.filter(i=>i.kind==='invoice'&&['sent','overdue'].includes(i.status)).reduce((a,i)=>a+ +i.amount_eur,0);
+ const paid=inv.filter(i=>i.status==='paid').reduce((a,i)=>a+ +i.amount_eur,0);
+ $('#tActive').textContent=active; $('#tQuotes').textContent=quotes; $('#tUnpaid').textContent=eur(unpaid); $('#tMsgs').textContent=messages.length;
+ $('#chipProfile').textContent=`${t('profPct')}: ${profilePct()}%`; $('#chipPay').textContent=`${t('payChip')}: ${eur(paid)}`;
+ $('#paidTotal').textContent=eur(paid);
+ const st=steps(), done=st.filter(s=>s[1]).length;
+ $('#stepCount').textContent=`${done}/${st.length}`; $('#stepBar').style.width=`${100*done/st.length}%`;
+ $('#steps').replaceChildren(...st.map(([n,d])=>el('li',{class:d?'done':''},n)));
+ const [tip,go,v]=next(); $('#mentorTip').textContent=tip; $('#mentorGo').textContent=go; $('#mentorGo').onclick=()=>show(v);
+ const attn=[];
+ if(profilePct()<50) attn.push([t('goProfile'),'profile']);
+ if(quotes) attn.push([`${t('goQuotes')} (${quotes})`,'invoices']);
+ if(unpaid) attn.push([`${t('goPay')} — ${eur(unpaid)}`,'invoices']);
+ if(!mine.length) attn.push([t('goOrder'),'order']);
+ $('#attn').replaceChildren(...(attn.length? attn.map(([n,v])=>el('button',{onclick:()=>show(v)},n,el('span',{},'→'))) : [el('p',{class:'empty'},t('attnNone'))]));
+ $('#projMini').replaceChildren(...(mine.length? mine.slice(0,2).map(projectItem) : [el('p',{class:'empty'},t('noProjects'))]));
+ $('#invMini').replaceChildren(...(inv.length? inv.slice(0,2).map(invoiceItem) : [el('p',{class:'empty'},t('noInv'))]));
+ $('#projList').replaceChildren(el('h2',{},t('mProjects')),...(mine.length? mine.map(projectItem):[el('p',{class:'empty'},t('noProjects'))]));
+ $('#invList').replaceChildren(el('h2',{},t('mInvoices')),...(inv.length? inv.map(invoiceItem):[el('p',{class:'empty'},t('noInv'))]));
+ const opts=mine.map(p=>el('option',{value:p.id},isAdmin?`${p.title} — ${(profilesById[p.client_id]||{}).name||''}`:p.title));
+ const cur=$('#msgProject').value; $('#msgProject').replaceChildren(...opts); if(cur) $('#msgProject').value=cur;
+ if(profile){ $('#pName').value=profile.name||''; $('#pCompany').value=profile.company||''; $('#pPhone').value=profile.phone||''; $('#pMessenger').value=profile.messenger||''; }
+ $('#pEmail').value=user.email;
+ if(isAdmin) renderAdmin();
+ if(view==='messages') renderChat();
+}
+
+/* ---------- chat ---------- */
+async function renderChat(){
+ const pid=$('#msgProject').value;
+ const list=messages.filter(m=>m.project_id===pid);
+ const items=await Promise.all(list.map(async m=>{
+  let file=null;
+  if(m.file_path){ const {data}=await sb.storage.from('files').createSignedUrl(m.file_path,3600); if(data) file=el('a',{href:data.signedUrl,target:'_blank',rel:'noopener'},'📎 '+m.file_path.split('/').pop()); }
+  const mineMsg=m.author_id===user.id;
+  return el('div',{class:'msg '+(m.from_team?'team':'')+(mineMsg?' me':'')}, m.from_team?el('b',{},'VA Corporation: '):null, m.body, file?el('div',{},file):null, el('time',{},new Date(m.created_at).toLocaleString(L==='en'?'en-GB':L)));
+ }));
+ $('#chat').replaceChildren(...(items.length?items:[el('p',{class:'empty'},pid?t('noMsg'):t('noProjects'))]));
+ $('#chat').scrollTop=1e9;
+}
+$('#msgProject').addEventListener('change',renderChat);
+$('#msgFile').addEventListener('change',e=>{$('#fileName').textContent=e.target.files[0]?t('fileSaved')+e.target.files[0].name:'';});
+$('#sendForm').addEventListener('submit',async e=>{ e.preventDefault(); const pid=$('#msgProject').value, body=$('#msgText').value.trim(), f=$('#msgFile').files[0];
+ if(!pid||(!body&&!f)) return; const b=e.submitter; b.disabled=true;
+ let file_path=null;
+ if(f){ const proj=projects.find(p=>p.id===pid); const owner=isAdmin?proj.client_id:user.id;
+  file_path=`${owner}/${pid}/${Date.now()}-${f.name.replace(/[^\w.\-]+/g,'_')}`;
+  const up=await sb.storage.from('files').upload(file_path,f); if(up.error){toast(t('err')+up.error.message); b.disabled=false; return;} }
+ const {error}=await sb.from('messages').insert({project_id:pid,author_id:user.id,from_team:isAdmin,body:body||('📎 '+f.name),file_path});
+ b.disabled=false; if(error) return toast(t('err')+error.message);
+ $('#msgText').value=''; $('#msgFile').value=''; $('#fileName').textContent=''; await load(); render(); renderChat(); });
+
+/* ---------- actions ---------- */
+$('#profForm').addEventListener('submit',async e=>{ e.preventDefault();
+ const row={id:user.id,name:$('#pName').value.trim(),company:$('#pCompany').value.trim(),phone:$('#pPhone').value.trim(),messenger:$('#pMessenger').value.trim(),lang:L};
+ const {error}=await sb.from('profiles').upsert(row); if(error) return toast(t('err')+error.message); toast(t('saved')); await load(); render(); });
+$('#service').addEventListener('change',()=>{ if(!$('#ptitle').value) $('#ptitle').value=svcName($('#service').value); });
+$('#orderForm').addEventListener('submit',async e=>{ e.preventDefault(); const b=e.submitter; b.disabled=true;
+ const svc=$('#service').value, title=$('#ptitle').value.trim(), brief=$('#brief').value.trim();
+ const {error}=await sb.from('projects').insert({client_id:user.id,title,service:svc,brief});
+ b.disabled=false; if(error) return toast(t('err')+error.message);
+ const wa=`${WA}?text=${encodeURIComponent(`VA Corporation — new brief: ${title} (${svcName(svc)}). ${user.email}`)}`;
+ say([el('p',{},t('briefSent')),el('p',{style:'margin-top:12px'},el('a',{class:'btn',href:wa,target:'_blank',rel:'noopener'},t('notifyWa')))]);
+ e.target.reset(); await load(); render(); show('projects'); });
+async function acceptQuote(i){ const {error}=await sb.from('invoices').update({status:'accepted'}).eq('id',i.id); if(error) return toast(t('err')+error.message); toast(t('accepted')); await load(); render(); }
+
+/* ---------- admin ---------- */
+function renderAdmin(){
+ const head=el('tr',{},...[t('project'),t('client'),'Stage',t('progress'),t('deadline'),''].map(h=>el('th',{},h)));
+ const rows=projects.map(p=>{
+  const c=profilesById[p.client_id]||{};
+  const st=el('select',{},...['brief','prototype','development','launch','support','done','cancelled'].map(s=>{const o=el('option',{value:s},t('stage')[s]); if(s===p.stage) o.selected=true; return o;}));
+  const pr=el('input',{type:'number',min:'0',max:'100',value:String(p.progress||0),style:'width:80px'});
+  const dl=el('input',{type:'date',value:p.deadline||''});
+  const save=el('button',{class:'btn small',onclick:async()=>{const {error}=await sb.from('projects').update({stage:st.value,progress:+pr.value,deadline:dl.value||null}).eq('id',p.id); if(error) return toast(t('err')+error.message); toast(t('saved')); await load(); render();}},t('save'));
+  return el('tr',{},el('td',{},el('b',{},p.title),el('div',{class:'muted'},svcName(p.service)),el('details',{},el('summary',{class:'muted'},'Brief'),el('div',{style:'white-space:pre-wrap'},p.brief||''))),
+   el('td',{},c.name||'—',el('div',{class:'muted'},[c.company,c.phone,c.messenger].filter(Boolean).join(' · '))),el('td',{},st),el('td',{},pr),el('td',{},dl),el('td',{},save));
+ });
+ $('#aTable').replaceChildren(head,...rows);
+ $('#aInvProject').replaceChildren(...projects.map(p=>el('option',{value:p.id},`${p.title} — ${(profilesById[p.client_id]||{}).name||''}`)));
+}
+$('#aInvForm').addEventListener('submit',async e=>{ e.preventDefault(); const p=projects.find(x=>x.id===$('#aInvProject').value); if(!p) return;
+ const row={project_id:p.id,client_id:p.client_id,kind:$('#aInvKind').value,title:$('#aInvTitle').value.trim(),amount_eur:+$('#aInvAmount').value,due_date:$('#aInvDue').value||null,pay_url:$('#aInvUrl').value||null,status:'sent'};
+ const {error}=await sb.from('invoices').insert(row); if(error) return toast(t('err')+error.message); toast(t('saved')); e.target.reset(); await load(); render(); });
+
+/* ---------- start ---------- */
+async function start(session){
+ applyLang();
+ if(!session){ $('#auth').classList.remove('hidden'); $('#app').classList.add('hidden'); return; }
+ user=session.user; $('#auth').classList.add('hidden'); $('#app').classList.remove('hidden');
+ const a=await sb.from('admins').select('email').eq('email',user.email); isAdmin=!!(a.data&&a.data.length);
+ $('#adminBtn').classList.toggle('hidden',!isAdmin);
+ await load(); render(); show(profilePct()<50&&!isAdmin?'profile':'home');
+ setInterval(async()=>{ await load(); render(); },30000);
+}
+sb.auth.getSession().then(({data})=>start(data.session));
+sb.auth.onAuthStateChange((ev,session)=>{ if(ev==='SIGNED_IN' && !user) start(session); });
+</script>
+</body>
+</html>
