@@ -616,6 +616,438 @@
      "Da — pišite nam na WhatsApp ili Telegram na +34 641 387 122 i pokazat ćemo vam demo."
     ]
    ]
+  },
+  "da": {
+   "title": "Udvikling af Telegram-bots og AI-chatbots | VA Corporation",
+   "desc": "Vi bygger Telegram-bots og AI-chatbots til hjemmesider: svar på spørgsmål, indsamling af henvendelser, bookinger og forbindelse til dine tjenester.",
+   "h1": "Telegram-bots og AI-chatbots",
+   "lead": "Bots, der taler med dine kunder dér, hvor de allerede er — på Telegram, på din hjemmeside og i andre beskedtjenester.",
+   "body": [
+    {
+     "h": "Hvad en bot kan"
+    },
+    {
+     "p": "Besvare ofte stillede spørgsmål, indsamle henvendelser og kontaktoplysninger, tage imod bookinger, sende påmindelser og give dit team besked om nye leads."
+    },
+    {
+     "h": "Smarte svar med AI"
+    },
+    {
+     "p": "Med en indbygget AI-model forstår botten spørgsmål skrevet med egne ord og svarer på kundens sprog ud fra dine egne oplysninger om produkter og ydelser."
+    },
+    {
+     "h": "Forbundet med dine værktøjer"
+    },
+    {
+     "p": "Botten kan sende data videre til regneark, CRM-systemer, e-mail eller automatiseringsplatforme, så ingen henvendelse går tabt."
+    }
+   ],
+   "faq": [
+    [
+     "Skal jeg have en hjemmeside for at få en bot?",
+     "Nej. En Telegram-bot fungerer helt selvstændigt, og den kan også kobles til en chat på din hjemmeside."
+    ],
+    [
+     "Kan jeg prøve en bot først?",
+     "Ja — skriv til os på WhatsApp eller Telegram på +34 641 387 122, så viser vi dig en demo."
+    ]
+   ]
+  },
+  "el": {
+   "title": "Ανάπτυξη Telegram bots και AI chatbots | VA Corporation",
+   "desc": "Δημιουργούμε Telegram bots και AI chatbots για ιστοσελίδες: απαντήσεις σε ερωτήσεις, συλλογή αιτημάτων, κρατήσεις και σύνδεση με τις υπηρεσίες σας.",
+   "h1": "Telegram bots και AI chatbots",
+   "lead": "Bots που μιλούν με τους πελάτες σας εκεί όπου ήδη βρίσκονται — στο Telegram, στην ιστοσελίδα σας και σε άλλα messengers.",
+   "body": [
+    {
+     "h": "Τι μπορεί να κάνει ένα bot"
+    },
+    {
+     "p": "Απαντά σε συχνές ερωτήσεις, συλλέγει αιτήματα και στοιχεία επικοινωνίας, δέχεται κρατήσεις, στέλνει υπενθυμίσεις και ενημερώνει την ομάδα σας για νέα leads."
+    },
+    {
+     "h": "Έξυπνες απαντήσεις με AI"
+    },
+    {
+     "p": "Με ενσωματωμένο μοντέλο AI, το bot κατανοεί ερωτήσεις διατυπωμένες ελεύθερα και απαντά στη γλώσσα του πελάτη, αξιοποιώντας τις δικές σας πληροφορίες για προϊόντα και υπηρεσίες."
+    },
+    {
+     "h": "Συνδεδεμένο με τα εργαλεία σας"
+    },
+    {
+     "p": "Το bot μπορεί να μεταφέρει δεδομένα σε υπολογιστικά φύλλα, CRM, e-mail ή πλατφόρμες αυτοματισμού, ώστε κανένα αίτημα να μη χάνεται."
+    }
+   ],
+   "faq": [
+    [
+     "Χρειάζομαι ιστοσελίδα για να έχω bot;",
+     "Όχι. Ένα Telegram bot λειτουργεί αυτόνομα και μπορεί επίσης να συνδεθεί με ένα chat στην ιστοσελίδα σας."
+    ],
+    [
+     "Μπορώ να δοκιμάσω πρώτα ένα bot;",
+     "Φυσικά — στείλτε μας μήνυμα στο WhatsApp ή στο Telegram στο +34 641 387 122 και θα σας δείξουμε ένα demo."
+    ]
+   ]
+  },
+  "et": {
+   "title": "Telegrami bottide ja AI-chatbotide arendus | VA Corporation",
+   "desc": "Loome Telegrami boteid ja veebilehtedele AI-chatboteid: vastused küsimustele, päringute kogumine, broneeringud ja ühendused sinu teenustega.",
+   "h1": "Telegrami botid ja AI-chatbotid",
+   "lead": "Botid, mis suhtlevad sinu klientidega seal, kus nad juba on — Telegramis, sinu veebilehel ja teistes sõnumirakendustes.",
+   "body": [
+    {
+     "h": "Mida bot oskab"
+    },
+    {
+     "p": "Vastab korduma kippuvatele küsimustele, kogub päringuid ja kontaktandmeid, võtab vastu broneeringuid, saadab meeldetuletusi ja teavitab sinu meeskonda uutest müügivihjetest."
+    },
+    {
+     "h": "Nutikad vastused AI abil"
+    },
+    {
+     "p": "Sisseehitatud AI-mudeliga mõistab bot vabas vormis kirjutatud küsimusi ja vastab kliendi keeles, kasutades sinu enda infot toodete ja teenuste kohta."
+    },
+    {
+     "h": "Ühendatud sinu tööriistadega"
+    },
+    {
+     "p": "Bot saab edastada andmeid tabelitesse, CRM-i, e-posti või automatiseerimisplatvormidele, nii et ükski päring ei lähe kaotsi."
+    }
+   ],
+   "faq": [
+    [
+     "Kas boti jaoks on veebilehte vaja?",
+     "Ei. Telegrami bot töötab iseseisvalt ja selle saab ühendada ka sinu veebilehe vestlusaknaga."
+    ],
+    [
+     "Kas saan botti enne proovida?",
+     "Jah — kirjuta meile WhatsAppis või Telegramis numbril +34 641 387 122 ja näitame sulle demot."
+    ]
+   ]
+  },
+  "fi": {
+   "title": "Telegram-botit ja tekoälychatbotit | VA Corporation",
+   "desc": "Rakennamme Telegram-botteja ja tekoälychatbotteja verkkosivuille: vastaukset kysymyksiin, yhteydenottojen keruu, varaukset ja liitännät palveluihisi.",
+   "h1": "Telegram-botit ja tekoälychatbotit",
+   "lead": "Botit, jotka keskustelevat asiakkaidesi kanssa siellä, missä he jo ovat — Telegramissa, verkkosivuillasi ja muissa pikaviestimissä.",
+   "body": [
+    {
+     "h": "Mitä botti osaa"
+    },
+    {
+     "p": "Vastata usein kysyttyihin kysymyksiin, kerätä yhteydenottoja ja yhteystietoja, ottaa vastaan varauksia, lähettää muistutuksia ja ilmoittaa tiimillesi uusista liideistä."
+    },
+    {
+     "h": "Fiksut vastaukset tekoälyllä"
+    },
+    {
+     "p": "Kun botissa on tekoälymalli, se ymmärtää vapaamuotoisesti kirjoitetut kysymykset ja vastaa asiakkaan kielellä omien tuote- ja palvelutietojesi pohjalta."
+    },
+    {
+     "h": "Yhteydessä työkaluihisi"
+    },
+    {
+     "p": "Botti voi välittää tietoja taulukoihin, CRM-järjestelmiin, sähköpostiin tai automaatioalustoille, joten yksikään yhteydenotto ei katoa."
+    }
+   ],
+   "faq": [
+    [
+     "Tarvitsenko verkkosivuston bottia varten?",
+     "Et tarvitse. Telegram-botti toimii itsenäisesti, ja sen voi myös liittää verkkosivustosi chattiin."
+    ],
+    [
+     "Voinko kokeilla bottia ensin?",
+     "Voit — lähetä meille viesti WhatsAppissa tai Telegramissa numeroon +34 641 387 122, niin näytämme sinulle demon."
+    ]
+   ]
+  },
+  "ga": {
+   "title": "Róbónna Telegram agus róbónna comhrá AI | VA Corporation",
+   "desc": "Tógaimid róbónna Telegram agus róbónna comhrá AI do shuíomhanna gréasáin: freagraí ar cheisteanna, iarratais a bhailiú, áirithintí agus nasc le do sheirbhísí.",
+   "h1": "Róbónna Telegram agus róbónna comhrá AI",
+   "lead": "Róbónna a labhraíonn le do chustaiméirí san áit a bhfuil siad cheana féin — ar Telegram, ar do shuíomh gréasáin agus in aipeanna teachtaireachtaí eile.",
+   "body": [
+    {
+     "h": "Cad is féidir le róbó a dhéanamh"
+    },
+    {
+     "p": "Ceisteanna coitianta a fhreagairt, iarratais agus sonraí teagmhála a bhailiú, áirithintí a ghlacadh, meabhrúcháin a sheoladh agus d'fhoireann a chur ar an eolas faoi leads nua."
+    },
+    {
+     "h": "Freagraí cliste le AI"
+    },
+    {
+     "p": "Le samhail AI istigh ann, tuigeann an róbó ceisteanna atá scríofa i bhfoirm shaor agus freagraíonn sé i dteanga an chustaiméara, ag baint úsáide as d'fhaisnéis féin faoi tháirgí agus seirbhísí."
+    },
+    {
+     "h": "Nasctha le d'uirlisí"
+    },
+    {
+     "p": "Is féidir leis an róbó sonraí a sheoladh chuig scarbhileoga, córais CRM, ríomhphost nó ardáin uathoibrithe, ionas nach gcailltear aon iarratas."
+    }
+   ],
+   "faq": [
+    [
+     "An bhfuil suíomh gréasáin ag teastáil uaim le haghaidh róbó?",
+     "Níl. Oibríonn róbó Telegram leis féin, agus is féidir é a nascadh le comhrá ar do shuíomh gréasáin freisin."
+    ],
+    [
+     "An féidir liom róbó a thriail ar dtús?",
+     "Is féidir — seol teachtaireacht chugainn ar WhatsApp nó ar Telegram ag +34 641 387 122 agus taispeánfaimid taispeántas duit."
+    ]
+   ]
+  },
+  "lt": {
+   "title": "Telegram botų ir DI pokalbių robotų kūrimas | VA Corporation",
+   "desc": "Kuriame Telegram botus ir DI pokalbių robotus svetainėms: atsakymai į klausimus, užklausų rinkimas, rezervacijos ir sujungimas su jūsų paslaugomis.",
+   "h1": "Telegram botai ir DI pokalbių robotai",
+   "lead": "Botai, kurie bendrauja su jūsų klientais ten, kur jie jau yra — Telegram, jūsų svetainėje ir kitose pranešimų programėlėse.",
+   "body": [
+    {
+     "h": "Ką gali botas"
+    },
+    {
+     "p": "Atsakyti į dažnus klausimus, rinkti užklausas ir kontaktus, priimti rezervacijas, siųsti priminimus ir pranešti jūsų komandai apie naujus potencialius klientus."
+    },
+    {
+     "h": "Išmanūs atsakymai su DI"
+    },
+    {
+     "p": "Su integruotu DI modeliu botas supranta laisva forma parašytus klausimus ir atsako kliento kalba, remdamasis jūsų pačių informacija apie produktus ir paslaugas."
+    },
+    {
+     "h": "Sujungtas su jūsų įrankiais"
+    },
+    {
+     "p": "Botas gali perduoti duomenis į skaičiuokles, CRM, el. paštą ar automatizavimo platformas, todėl nė viena užklausa nepasimeta."
+    }
+   ],
+   "faq": [
+    [
+     "Ar botui reikia svetainės?",
+     "Ne. Telegram botas veikia savarankiškai, be to, jį galima prijungti prie pokalbių lango jūsų svetainėje."
+    ],
+    [
+     "Ar galiu pirmiausia išbandyti botą?",
+     "Taip — parašykite mums per WhatsApp arba Telegram numeriu +34 641 387 122 ir parodysime demonstracinę versiją."
+    ]
+   ]
+  },
+  "lv": {
+   "title": "Telegram botu un MI tērzbotu izstrāde | VA Corporation",
+   "desc": "Izstrādājam Telegram botus un MI tērzbotus tīmekļa vietnēm: atbildes uz jautājumiem, pieprasījumu vākšana, rezervācijas un savienojums ar jūsu pakalpojumiem.",
+   "h1": "Telegram boti un MI tērzboti",
+   "lead": "Boti, kas sarunājas ar jūsu klientiem tur, kur viņi jau ir — Telegram, jūsu tīmekļa vietnē un citās ziņapmaiņas lietotnēs.",
+   "body": [
+    {
+     "h": "Ko spēj bots"
+    },
+    {
+     "p": "Atbildēt uz biežākajiem jautājumiem, vākt pieprasījumus un kontaktinformāciju, pieņemt rezervācijas, sūtīt atgādinājumus un informēt jūsu komandu par jauniem potenciālajiem klientiem."
+    },
+    {
+     "h": "Gudras atbildes ar MI"
+    },
+    {
+     "p": "Ar iebūvētu MI modeli bots saprot brīvā formā rakstītus jautājumus un atbild klienta valodā, izmantojot jūsu pašu informāciju par produktiem un pakalpojumiem."
+    },
+    {
+     "h": "Savienots ar jūsu rīkiem"
+    },
+    {
+     "p": "Bots var nodot datus uz izklājlapām, CRM, e-pastu vai automatizācijas platformām, lai neviens pieprasījums nepazustu."
+    }
+   ],
+   "faq": [
+    [
+     "Vai botam ir vajadzīga tīmekļa vietne?",
+     "Nē. Telegram bots darbojas patstāvīgi, un to var savienot arī ar tērzēšanu jūsu tīmekļa vietnē."
+    ],
+    [
+     "Vai varu vispirms izmēģināt botu?",
+     "Jā — rakstiet mums WhatsApp vai Telegram uz numuru +34 641 387 122, un mēs parādīsim demonstrāciju."
+    ]
+   ]
+  },
+  "mt": {
+   "title": "Bots tat-Telegram u chatbots tal-AI | VA Corporation",
+   "desc": "Nibnu bots tat-Telegram u chatbots tal-AI għall-websajts: tweġibiet għall-mistoqsijiet, ġbir ta' talbiet, prenotazzjonijiet u konnessjoni mas-servizzi tiegħek.",
+   "h1": "Bots tat-Telegram u chatbots tal-AI",
+   "lead": "Bots li jitkellmu mal-klijenti tiegħek fejn diġà jinsabu — fuq Telegram, fuq il-websajt tiegħek u f'messengers oħra.",
+   "body": [
+    {
+     "h": "X'jista' jagħmel bot"
+    },
+    {
+     "p": "Iwieġeb mistoqsijiet frekwenti, jiġbor talbiet u dettalji ta' kuntatt, jieħu prenotazzjonijiet, jibgħat tfakkiriet u javża lit-tim tiegħek dwar leads ġodda."
+    },
+    {
+     "h": "Tweġibiet intelliġenti bl-AI"
+    },
+    {
+     "p": "B'mudell tal-AI integrat, il-bot jifhem mistoqsijiet miktuba b'mod liberu u jwieġeb bil-lingwa tal-klijent, billi juża l-informazzjoni tiegħek stess dwar il-prodotti u s-servizzi."
+    },
+    {
+     "h": "Imqabbad mal-għodod tiegħek"
+    },
+    {
+     "p": "Il-bot jista' jgħaddi d-data lil spreadsheets, CRMs, e-mail jew pjattaformi tal-awtomazzjoni, biex l-ebda talba ma tintilef."
+    }
+   ],
+   "faq": [
+    [
+     "Għandi bżonn websajt għal bot?",
+     "Le. Bot tat-Telegram jaħdem waħdu, u jista' jiġi mqabbad ukoll ma' chat fuq il-websajt tiegħek."
+    ],
+    [
+     "Nista' nipprova bot l-ewwel?",
+     "Iva — ibgħatilna messaġġ fuq WhatsApp jew Telegram fuq +34 641 387 122 u nurulek demo."
+    ]
+   ]
+  },
+  "nl": {
+   "title": "Telegram-bots en AI-chatbots laten bouwen | VA Corporation",
+   "desc": "Wij bouwen Telegram-bots en AI-chatbots voor websites: vragen beantwoorden, aanvragen verzamelen, reserveringen en koppelingen met uw diensten.",
+   "h1": "Telegram-bots en AI-chatbots",
+   "lead": "Bots die met uw klanten praten waar ze al zijn — in Telegram, op uw website en in andere messengers.",
+   "body": [
+    {
+     "h": "Wat een bot kan"
+    },
+    {
+     "p": "Veelgestelde vragen beantwoorden, aanvragen en contactgegevens verzamelen, reserveringen aannemen, herinneringen sturen en uw team op de hoogte brengen van nieuwe leads."
+    },
+    {
+     "h": "Slimme antwoorden met AI"
+    },
+    {
+     "p": "Met een AI-model aan boord begrijpt de bot vragen in vrije bewoordingen en antwoordt hij in de taal van de klant, op basis van uw eigen informatie over producten en diensten."
+    },
+    {
+     "h": "Gekoppeld aan uw tools"
+    },
+    {
+     "p": "De bot kan gegevens doorsturen naar spreadsheets, CRM's, e-mail of automatiseringsplatforms, zodat geen enkele aanvraag verloren gaat."
+    }
+   ],
+   "faq": [
+    [
+     "Heb ik een website nodig voor een bot?",
+     "Nee. Een Telegram-bot werkt op zichzelf en kan ook worden gekoppeld aan een chat op uw website."
+    ],
+    [
+     "Kan ik eerst een bot uitproberen?",
+     "Ja — stuur ons een bericht via WhatsApp of Telegram op +34 641 387 122 en we laten u een demo zien."
+    ]
+   ]
+  },
+  "pt": {
+   "title": "Criação de bots Telegram e chatbots de IA | VA Corporation",
+   "desc": "Criamos bots Telegram e chatbots de IA para sites: respostas a perguntas, recolha de pedidos, reservas e ligação aos seus serviços.",
+   "h1": "Bots Telegram e chatbots de IA",
+   "lead": "Bots que falam com os seus clientes onde eles já estão — no Telegram, no seu site e noutras aplicações de mensagens.",
+   "body": [
+    {
+     "h": "O que um bot consegue fazer"
+    },
+    {
+     "p": "Responder a perguntas frequentes, recolher pedidos e contactos, aceitar reservas, enviar lembretes e avisar a sua equipa de novos leads."
+    },
+    {
+     "h": "Respostas inteligentes com IA"
+    },
+    {
+     "p": "Com um modelo de IA integrado, o bot compreende perguntas escritas livremente e responde na língua do cliente, usando as suas próprias informações sobre produtos e serviços."
+    },
+    {
+     "h": "Ligado às suas ferramentas"
+    },
+    {
+     "p": "O bot pode enviar dados para folhas de cálculo, CRM, e-mail ou plataformas de automação, para que nenhum pedido se perca."
+    }
+   ],
+   "faq": [
+    [
+     "Preciso de um site para ter um bot?",
+     "Não. Um bot Telegram funciona por si só e também pode ser ligado a um chat no seu site."
+    ],
+    [
+     "Posso experimentar um bot primeiro?",
+     "Sim — envie-nos uma mensagem no WhatsApp ou no Telegram para o +34 641 387 122 e mostramos-lhe uma demonstração."
+    ]
+   ]
+  },
+  "sl": {
+   "title": "Razvoj Telegram in AI klepetalnih botov | VA Corporation",
+   "desc": "Razvijamo Telegram bote in AI klepetalne bote za spletne strani: odgovori na vprašanja, zbiranje povpraševanj, rezervacije in povezave z vašimi storitvami.",
+   "h1": "Telegram boti in AI klepetalni boti",
+   "lead": "Boti, ki se z vašimi strankami pogovarjajo tam, kjer že so — v Telegramu, na vaši spletni strani in v drugih sporočilnikih.",
+   "body": [
+    {
+     "h": "Kaj zmore bot"
+    },
+    {
+     "p": "Odgovarja na pogosta vprašanja, zbira povpraševanja in kontaktne podatke, sprejema rezervacije, pošilja opomnike in obvešča vašo ekipo o novih potencialnih strankah."
+    },
+    {
+     "h": "Pametni odgovori z AI"
+    },
+    {
+     "p": "Z vgrajenim modelom AI bot razume prosto zapisana vprašanja in odgovarja v jeziku stranke, pri tem pa uporablja vaše lastne informacije o izdelkih in storitvah."
+    },
+    {
+     "h": "Povezan z vašimi orodji"
+    },
+    {
+     "p": "Bot lahko podatke posreduje v preglednice, CRM, e-pošto ali platforme za avtomatizacijo, zato se nobeno povpraševanje ne izgubi."
+    }
+   ],
+   "faq": [
+    [
+     "Ali za bota potrebujem spletno stran?",
+     "Ne. Telegram bot deluje samostojno, lahko pa ga povežemo tudi s klepetom na vaši spletni strani."
+    ],
+    [
+     "Ali lahko bota najprej preizkusim?",
+     "Da — pišite nam na WhatsApp ali Telegram na +34 641 387 122 in pokazali vam bomo predstavitev."
+    ]
+   ]
+  },
+  "sv": {
+   "title": "Vi bygger Telegram-botar och AI-chattbotar | VA Corporation",
+   "desc": "Vi bygger Telegram-botar och AI-chattbotar för webbplatser: svar på frågor, insamling av förfrågningar, bokningar och kopplingar till dina tjänster.",
+   "h1": "Telegram-botar och AI-chattbotar",
+   "lead": "Botar som pratar med dina kunder där de redan finns — i Telegram, på din webbplats och i andra meddelandeappar.",
+   "body": [
+    {
+     "h": "Vad en bot kan göra"
+    },
+    {
+     "p": "Svara på vanliga frågor, samla in förfrågningar och kontaktuppgifter, ta emot bokningar, skicka påminnelser och meddela ditt team om nya leads."
+    },
+    {
+     "h": "Smarta svar med AI"
+    },
+    {
+     "p": "Med en inbyggd AI-modell förstår boten frågor som är fritt formulerade och svarar på kundens språk utifrån din egen information om produkter och tjänster."
+    },
+    {
+     "h": "Kopplad till dina verktyg"
+    },
+    {
+     "p": "Boten kan skicka data vidare till kalkylark, CRM-system, e-post eller automatiseringsplattformar, så att ingen förfrågan går förlorad."
+    }
+   ],
+   "faq": [
+    [
+     "Behöver jag en webbplats för att ha en bot?",
+     "Nej. En Telegram-bot fungerar helt fristående och kan även kopplas till en chatt på din webbplats."
+    ],
+    [
+     "Kan jag testa en bot först?",
+     "Ja — skriv till oss på WhatsApp eller Telegram på +34 641 387 122 så visar vi en demo."
+    ]
+   ]
   }
  }
 }

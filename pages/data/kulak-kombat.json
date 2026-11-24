@@ -480,6 +480,342 @@
    ],
    "faq": [],
    "link_label": "Igraj"
+  },
+  "da": {
+   "title": "Kulak Kombat — satirisk browser-kampspil | VA Corporation",
+   "desc": "Kulak Kombat: et satirisk kampspil i browseren med 10 helte, en verdensturné, kombinationer, skjolde og en butik. Spilles på telefon og computer.",
+   "h1": "Kulak Kombat",
+   "lead": "Et satirisk kampspil i browseren, lavet af vores team — spil det direkte i browseren på telefon eller computer.",
+   "body": [
+    {
+     "h": "Spillet"
+    },
+    {
+     "p": "10 helte, en verdensturné af modstandere, kombinationsangreb, skjolde og en butik i spillet."
+    },
+    {
+     "h": "Ingen installation"
+    },
+    {
+     "p": "Spillet kører i browseren og virker på telefoner og computere."
+    },
+    {
+     "h": "Hvad projektet viser"
+    },
+    {
+     "p": "Hvordan vi tager et spil fra koncept til en spilbar udgivelse: mekanikker, karakterer, balance og brugerflade."
+    }
+   ],
+   "faq": [],
+   "link_label": "Spil"
+  },
+  "el": {
+   "title": "Kulak Kombat — σατιρικό παιχνίδι μάχης | VA Corporation",
+   "desc": "Kulak Kombat: σατιρικό παιχνίδι μάχης για browser με 10 ήρωες, παγκόσμια περιοδεία, combo, ασπίδες και κατάστημα. Παίζεται σε κινητά και υπολογιστές.",
+   "h1": "Kulak Kombat",
+   "lead": "Ένα σατιρικό παιχνίδι μάχης για browser από την ομάδα μας — παίξτε το απευθείας στον browser, σε κινητό ή υπολογιστή.",
+   "body": [
+    {
+     "h": "Το παιχνίδι"
+    },
+    {
+     "p": "10 ήρωες, παγκόσμια περιοδεία με αντιπάλους, συνδυαστικές επιθέσεις, ασπίδες και κατάστημα μέσα στο παιχνίδι."
+    },
+    {
+     "h": "Χωρίς εγκατάσταση"
+    },
+    {
+     "p": "Το παιχνίδι τρέχει στον browser και λειτουργεί σε κινητά και υπολογιστές."
+    },
+    {
+     "h": "Τι δείχνει αυτό το έργο"
+    },
+    {
+     "p": "Πώς οδηγούμε ένα παιχνίδι από την ιδέα σε μια έκδοση που παίζεται: μηχανισμοί, χαρακτήρες, ισορροπία και διεπαφή."
+    }
+   ],
+   "faq": [],
+   "link_label": "Παίξτε"
+  },
+  "et": {
+   "title": "Kulak Kombat — satiiriline võitlusmäng | VA Corporation",
+   "desc": "Kulak Kombat: satiiriline brauseri võitlusmäng 10 kangelase, maailmaturnee, kombode, kilpide ja poega. Mängi telefonis või arvutis.",
+   "h1": "Kulak Kombat",
+   "lead": "Meie meeskonna loodud satiiriline brauseri võitlusmäng — mängi otse brauseris, telefonis või arvutis.",
+   "body": [
+    {
+     "h": "Mäng"
+    },
+    {
+     "p": "10 kangelast, maailmaturnee vastastega, kombo-rünnakud, kilbid ja mängusisene pood."
+    },
+    {
+     "h": "Installimist pole vaja"
+    },
+    {
+     "p": "Mäng töötab brauseris nii telefonides kui ka arvutites."
+    },
+    {
+     "h": "Mida see projekt näitab"
+    },
+    {
+     "p": "Kuidas viime mängu kontseptsioonist mängitava väljalaskeni: mehaanikad, tegelased, tasakaal ja kasutajaliides."
+    }
+   ],
+   "faq": [],
+   "link_label": "Mängi"
+  },
+  "fi": {
+   "title": "Kulak Kombat: satiirinen selaintaistelupeli | VA Corporation",
+   "desc": "Kulak Kombat: satiirinen selaintaistelupeli, jossa on 10 sankaria, maailmankiertue, kombot, kilvet ja kauppa. Toimii puhelimella ja tietokoneella.",
+   "h1": "Kulak Kombat",
+   "lead": "Tiimimme tekemä satiirinen selaintaistelupeli — pelaa suoraan selaimessa puhelimella tai tietokoneella.",
+   "body": [
+    {
+     "h": "Peli"
+    },
+    {
+     "p": "10 sankaria, maailmankiertue vastustajia vastaan, komboiskut, kilvet ja pelinsisäinen kauppa."
+    },
+    {
+     "h": "Ei asennusta"
+    },
+    {
+     "p": "Peli toimii selaimessa puhelimilla ja tietokoneilla."
+    },
+    {
+     "h": "Mitä projekti osoittaa"
+    },
+    {
+     "p": "Miten viemme pelin konseptista pelattavaksi julkaisuksi: mekaniikat, hahmot, tasapaino ja käyttöliittymä."
+    }
+   ],
+   "faq": [],
+   "link_label": "Pelaa"
+  },
+  "ga": {
+   "title": "Kulak Kombat — cluiche troda aorach | VA Corporation",
+   "desc": "Kulak Kombat: cluiche troda aorach sa bhrabhsálaí le 10 laoch, camchuairt domhanda, combos, sciatha agus siopa. Imir é ar fhón nó ar ríomhaire.",
+   "h1": "Kulak Kombat",
+   "lead": "Cluiche troda aorach brabhsálaí a rinne ár bhfoireann — imir é díreach i do bhrabhsálaí, ar fhón nó ar ríomhaire.",
+   "body": [
+    {
+     "h": "An cluiche"
+    },
+    {
+     "p": "10 laoch, camchuairt domhanda i gcoinne céilí comhraic, ionsaithe combo, sciatha agus siopa sa chluiche."
+    },
+    {
+     "h": "Gan suiteáil"
+    },
+    {
+     "p": "Ritheann an cluiche sa bhrabhsálaí agus oibríonn sé ar fhóin agus ar ríomhairí."
+    },
+    {
+     "h": "Cad a léiríonn an tionscadal seo"
+    },
+    {
+     "p": "Conas a thugaimid cluiche ó choincheap go heisiúint inimeartha: meicnic, carachtair, cothromaíocht agus comhéadan."
+    }
+   ],
+   "faq": [],
+   "link_label": "Imir"
+  },
+  "lt": {
+   "title": "Kulak Kombat — satyrinis kovos žaidimas | VA Corporation",
+   "desc": "Kulak Kombat: satyrinis kovos žaidimas naršyklėje su 10 herojų, pasauliniu turu, kombinacijomis, skydais ir parduotuve. Žaiskite telefone ar kompiuteryje.",
+   "h1": "Kulak Kombat",
+   "lead": "Satyrinis kovos žaidimas naršyklėje, sukurtas mūsų komandos, — žaiskite tiesiog naršyklėje, telefone ar kompiuteryje.",
+   "body": [
+    {
+     "h": "Žaidimas"
+    },
+    {
+     "p": "10 herojų, pasaulinis varžovų turas, kombinuotos atakos, skydai ir žaidimo parduotuvė."
+    },
+    {
+     "h": "Be diegimo"
+    },
+    {
+     "p": "Žaidimas veikia naršyklėje — telefonuose ir kompiuteriuose."
+    },
+    {
+     "h": "Ką parodo šis projektas"
+    },
+    {
+     "p": "Kaip žaidimą nuo koncepcijos nuvedame iki žaidžiamos versijos: mechanika, personažai, balansas ir sąsaja."
+    }
+   ],
+   "faq": [],
+   "link_label": "Žaisti"
+  },
+  "lv": {
+   "title": "Kulak Kombat — satīriska cīņu spēle | VA Corporation",
+   "desc": "Kulak Kombat: satīriska pārlūka cīņu spēle ar 10 varoņiem, pasaules turneju, kombo, vairogiem un veikalu. Spēlējama telefonos un datoros.",
+   "h1": "Kulak Kombat",
+   "lead": "Satīriska pārlūka cīņu spēle, ko radījusi mūsu komanda — spēlējiet to tieši pārlūkā, telefonā vai datorā.",
+   "body": [
+    {
+     "h": "Spēle"
+    },
+    {
+     "p": "10 varoņi, pasaules turneja ar pretiniekiem, kombo uzbrukumi, vairogi un spēles veikals."
+    },
+    {
+     "h": "Bez instalēšanas"
+    },
+    {
+     "p": "Spēle darbojas pārlūkā gan telefonos, gan datoros."
+    },
+    {
+     "h": "Ko parāda šis projekts"
+    },
+    {
+     "p": "Kā mēs no koncepcijas nonākam līdz spēlējamai versijai: mehānika, tēli, balanss un saskarne."
+    }
+   ],
+   "faq": [],
+   "link_label": "Spēlēt"
+  },
+  "mt": {
+   "title": "Kulak Kombat — logħba tal-ġlied satirika | VA Corporation",
+   "desc": "Kulak Kombat: logħba tal-ġlied satirika fil-browser b'10 eroj, tour dinji, combos, tarki u ħanut. Tilgħabha fuq il-mowbajl u l-kompjuter.",
+   "h1": "Kulak Kombat",
+   "lead": "Logħba tal-ġlied satirika fil-browser magħmula mit-tim tagħna — ilgħabha direttament fil-browser, fuq il-mowbajl jew il-kompjuter.",
+   "body": [
+    {
+     "h": "Il-logħba"
+    },
+    {
+     "p": "10 eroj, tour dinji ta' avversarji, attakki combo, tarki u ħanut fil-logħba."
+    },
+    {
+     "h": "Mingħajr installazzjoni"
+    },
+    {
+     "p": "Il-logħba taħdem fil-browser, fuq il-mowbajl u l-kompjuter."
+    },
+    {
+     "h": "X'juri dan il-proġett"
+    },
+    {
+     "p": "Kif nieħdu logħba mill-kunċett sa verżjoni li tista' tintlagħab: mekkaniżmi, karattri, bilanċ u interfaċċja."
+    }
+   ],
+   "faq": [],
+   "link_label": "Ilgħab"
+  },
+  "nl": {
+   "title": "Kulak Kombat — satirisch browser-vechtspel | VA Corporation",
+   "desc": "Kulak Kombat: een satirisch browser-vechtspel met 10 helden, een wereldtour, combo's, schilden en een winkel. Speelbaar op telefoon en computer.",
+   "h1": "Kulak Kombat",
+   "lead": "Een satirisch browser-vechtspel van ons team — speel het direct in uw browser, op telefoon of computer.",
+   "body": [
+    {
+     "h": "De game"
+    },
+    {
+     "p": "10 helden, een wereldtour langs tegenstanders, combo-aanvallen, schilden en een winkel in de game."
+    },
+    {
+     "h": "Geen installatie"
+    },
+    {
+     "p": "De game draait in de browser en werkt op telefoons en computers."
+    },
+    {
+     "h": "Wat dit project laat zien"
+    },
+    {
+     "p": "Hoe we een game van concept naar een speelbare release brengen: mechanics, personages, balans en interface."
+    }
+   ],
+   "faq": [],
+   "link_label": "Spelen"
+  },
+  "pt": {
+   "title": "Kulak Kombat — jogo de luta satírico | VA Corporation",
+   "desc": "Kulak Kombat: um jogo de luta satírico para navegador com 10 heróis, volta ao mundo, combos, escudos e loja. Joga-se em telemóveis e computadores.",
+   "h1": "Kulak Kombat",
+   "lead": "Um jogo de luta satírico para navegador criado pela nossa equipa — jogue diretamente no navegador, no telemóvel ou no computador.",
+   "body": [
+    {
+     "h": "O jogo"
+    },
+    {
+     "p": "10 heróis, uma volta ao mundo contra adversários, ataques combo, escudos e uma loja dentro do jogo."
+    },
+    {
+     "h": "Sem instalação"
+    },
+    {
+     "p": "O jogo corre no navegador e funciona em telemóveis e computadores."
+    },
+    {
+     "h": "O que este projeto mostra"
+    },
+    {
+     "p": "Como levamos um jogo do conceito a uma versão jogável: mecânicas, personagens, equilíbrio e interface."
+    }
+   ],
+   "faq": [],
+   "link_label": "Jogar"
+  },
+  "sl": {
+   "title": "Kulak Kombat — satirična pretepaška igra | VA Corporation",
+   "desc": "Kulak Kombat: satirična pretepaška igra v brskalniku z 10 junaki, svetovno turnejo, kombinacijami, ščiti in trgovino. Igrate jo na telefonu ali računalniku.",
+   "h1": "Kulak Kombat",
+   "lead": "Satirična pretepaška igra, ki jo je razvila naša ekipa — igrajte kar v brskalniku, na telefonu ali računalniku.",
+   "body": [
+    {
+     "h": "Igra"
+    },
+    {
+     "p": "10 junakov, svetovna turneja nasprotnikov, kombinirani napadi, ščiti in trgovina v igri."
+    },
+    {
+     "h": "Brez namestitve"
+    },
+    {
+     "p": "Igra teče v brskalniku in deluje na telefonih in računalnikih."
+    },
+    {
+     "h": "Kaj pokaže ta projekt"
+    },
+    {
+     "p": "Kako igro pripeljemo od koncepta do igralne izdaje: mehanike, liki, ravnotežje in vmesnik."
+    }
+   ],
+   "faq": [],
+   "link_label": "Igraj"
+  },
+  "sv": {
+   "title": "Kulak Kombat — satiriskt fightingspel | VA Corporation",
+   "desc": "Kulak Kombat: ett satiriskt fightingspel i webbläsaren med 10 hjältar, en världsturné, kombon, sköldar och en butik. Fungerar på mobil och dator.",
+   "h1": "Kulak Kombat",
+   "lead": "Ett satiriskt fightingspel för webbläsaren, gjort av vårt team — spela direkt i webbläsaren, på mobilen eller datorn.",
+   "body": [
+    {
+     "h": "Spelet"
+    },
+    {
+     "p": "10 hjältar, en världsturné mot motståndare, kombinationsattacker, sköldar och en butik i spelet."
+    },
+    {
+     "h": "Ingen installation"
+    },
+    {
+     "p": "Spelet körs i webbläsaren och fungerar på mobiler och datorer."
+    },
+    {
+     "h": "Vad projektet visar"
+    },
+    {
+     "p": "Hur vi tar ett spel från koncept till spelbar release: mekanik, karaktärer, balans och gränssnitt."
+    }
+   ],
+   "faq": [],
+   "link_label": "Spela"
   }
  },
  "image": "/assets/kulak-kombat.jpg",

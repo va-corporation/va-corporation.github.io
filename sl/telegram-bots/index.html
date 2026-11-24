@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Razvoj Telegram in AI klepetalnih botov | VA Corporation</title>
+<meta name="description" content="Razvijamo Telegram bote in AI klepetalne bote za spletne strani: odgovori na vprašanja, zbiranje povpraševanj, rezervacije in povezave z vašimi storitvami.">
+<link rel="canonical" href="https://va-corporation.github.io/sl/telegram-bots/">
+<link rel="alternate" hreflang="en" href="https://va-corporation.github.io/telegram-bots/">
+<link rel="alternate" hreflang="de" href="https://va-corporation.github.io/de/telegram-bots/">
+<link rel="alternate" hreflang="es" href="https://va-corporation.github.io/es/telegram-bots/">
+<link rel="alternate" hreflang="it" href="https://va-corporation.github.io/it/telegram-bots/">
+<link rel="alternate" hreflang="fr" href="https://va-corporation.github.io/fr/telegram-bots/">
+<link rel="alternate" hreflang="pl" href="https://va-corporation.github.io/pl/telegram-bots/">
+<link rel="alternate" hreflang="uk" href="https://va-corporation.github.io/ua/telegram-bots/">
+<link rel="alternate" hreflang="ru" href="https://va-corporation.github.io/ru/telegram-bots/">
+<link rel="alternate" hreflang="be" href="https://va-corporation.github.io/by/telegram-bots/">
+<link rel="alternate" hreflang="ka" href="https://va-corporation.github.io/ge/telegram-bots/">
+<link rel="alternate" hreflang="hy" href="https://va-corporation.github.io/am/telegram-bots/">
+<link rel="alternate" hreflang="bg" href="https://va-corporation.github.io/bg/telegram-bots/">
+<link rel="alternate" hreflang="cs" href="https://va-corporation.github.io/cs/telegram-bots/">
+<link rel="alternate" hreflang="da" href="https://va-corporation.github.io/da/telegram-bots/">
+<link rel="alternate" hreflang="el" href="https://va-corporation.github.io/el/telegram-bots/">
+<link rel="alternate" hreflang="et" href="https://va-corporation.github.io/et/telegram-bots/">
+<link rel="alternate" hreflang="fi" href="https://va-corporation.github.io/fi/telegram-bots/">
+<link rel="alternate" hreflang="ga" href="https://va-corporation.github.io/ga/telegram-bots/">
+<link rel="alternate" hreflang="hr" href="https://va-corporation.github.io/hr/telegram-bots/">
+<link rel="alternate" hreflang="hu" href="https://va-corporation.github.io/hu/telegram-bots/">
+<link rel="alternate" hreflang="lt" href="https://va-corporation.github.io/lt/telegram-bots/">
+<link rel="alternate" hreflang="lv" href="https://va-corporation.github.io/lv/telegram-bots/">
+<link rel="alternate" hreflang="mt" href="https://va-corporation.github.io/mt/telegram-bots/">
+<link rel="alternate" hreflang="nl" href="https://va-corporation.github.io/nl/telegram-bots/">
+<link rel="alternate" hreflang="pt" href="https://va-corporation.github.io/pt/telegram-bots/">
+<link rel="alternate" hreflang="ro" href="https://va-corporation.github.io/ro/telegram-bots/">
+<link rel="alternate" hreflang="sk" href="https://va-corporation.github.io/sk/telegram-bots/">
+<link rel="alternate" hreflang="sl" href="https://va-corporation.github.io/sl/telegram-bots/">
+<link rel="alternate" hreflang="sv" href="https://va-corporation.github.io/sv/telegram-bots/">
+<link rel="alternate" hreflang="x-default" href="https://va-corporation.github.io/telegram-bots/">
+<link rel="alternate" type="application/rss+xml" title="VA Corporation — Novice" href="https://va-corporation.github.io/sl/news/feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Razvoj Telegram in AI klepetalnih botov | VA Corporation">
+<meta property="og:description" content="Razvijamo Telegram bote in AI klepetalne bote za spletne strani: odgovori na vprašanja, zbiranje povpraševanj, rezervacije in povezave z vašimi storitvami.">
+<meta property="og:url" content="https://va-corporation.github.io/sl/telegram-bots/">
+<meta property="og:image" content="https://va-corporation.github.io/assets/og.jpg">
+<meta property="og:locale" content="sl_SI">
+<meta property="og:site_name" content="VA Corporation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#070A22">
+<link rel="icon" href="/assets/logo.png">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<script>if('serviceWorker' in navigator)addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){})})</script>
+<style>@font-face{font-family:Montserrat;src:url(/assets/fonts/montserrat-var.woff) format("woff");font-weight:100 900;font-display:swap}
+@font-face{font-family:Inter;src:url(/assets/fonts/inter-regular.woff) format("woff");font-weight:400;font-display:swap}
+@font-face{font-family:Inter;src:url(/assets/fonts/inter-semibold.woff) format("woff");font-weight:600;font-display:swap}
+@font-face{font-family:Inter;src:url(/assets/fonts/inter-bold.woff) format("woff");font-weight:700;font-display:swap}
+:root{--bg:#070A22;--cyan:#22D3EE;--cyan2:#67E8F9;--gold:#FACC15;--amber:#FFC15E;--text:#F2F5FA;--muted:#AAB4D4;--glass:rgba(255,255,255,.06);--line:rgba(255,255,255,.14)}
+*{box-sizing:border-box}html,body{margin:0}
+body{font-family:Inter,"Noto Sans Georgian","Noto Sans Armenian",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--text);line-height:1.65;background:radial-gradient(1200px 700px at 85% -10%,rgba(34,211,238,.16),transparent 60%),radial-gradient(900px 600px at -10% 30%,rgba(30,42,120,.55),transparent 60%),radial-gradient(800px 500px at 50% 120%,rgba(255,193,94,.10),transparent 60%),var(--bg);min-height:100vh}
+a{color:var(--cyan2);text-decoration:none}a:hover{color:#fff}
+.wrap{max-width:860px;margin:0 auto;padding:0 22px}
+header{border-bottom:1px solid var(--line);background:rgba(7,10,34,.7);backdrop-filter:blur(10px);position:sticky;top:0;z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:68px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:12px;color:#fff;font:800 18px Montserrat,Inter,sans-serif}
+.sun{width:38px;height:38px;border-radius:50%;background:radial-gradient(circle at 42% 35%,#FFF7DE 0%,#FFC15E 48%,#F07A1A 100%);box-shadow:0 0 22px 5px rgba(255,190,90,.4);display:flex;align-items:center;justify-content:center;color:#3A1A00;font-weight:800;font-size:13px}
+.links{display:flex;gap:18px;font-weight:600;font-size:15px}.links a{color:var(--muted)}.links a:hover,.links a[aria-current]{color:#fff}
+h1,h2,h3{font-family:Montserrat,Inter,"Noto Sans Georgian","Noto Sans Armenian",sans-serif;line-height:1.2}
+h1{font-size:clamp(30px,5vw,46px);margin:46px 0 14px}
+.kicker{color:var(--cyan);font:700 13px Montserrat,Inter,sans-serif;letter-spacing:.18em;text-transform:uppercase;margin-top:42px}
+.lead{color:var(--muted);font-size:18px;max-width:720px}
+.card{display:block;background:var(--glass);border:1px solid var(--line);border-radius:20px;padding:24px 26px;margin:18px 0;color:var(--text);transition:transform .25s,border-color .25s}
+.card:hover{transform:translateY(-3px);border-color:rgba(103,232,249,.55);color:var(--text)}
+.card time{color:var(--cyan2);font-size:14px;font-weight:600}.card h2{font-size:22px;margin:6px 0 8px}.card p{color:var(--muted);margin:0}
+.more{display:inline-block;margin-top:12px;color:var(--gold);font-weight:700}
+article{padding-bottom:20px}article time{color:var(--cyan2);font-weight:600}
+article h2{font-size:24px;margin:34px 0 10px}article p{font-size:17.5px;margin:0 0 16px}
+.src{margin-top:34px;padding:20px 24px;border:1px solid var(--line);border-radius:18px;background:var(--glass)}
+.src h2{font-size:18px;margin:0 0 10px}.src ul{margin:0;padding-left:18px}.src li{margin:6px 0}
+.cta{margin:40px 0;padding:30px;border-radius:24px;background:linear-gradient(135deg,rgba(34,211,238,.14),rgba(250,204,21,.12));border:1px solid rgba(250,204,21,.35)}
+.cta h2{margin:0 0 8px;font-size:24px}.cta p{color:var(--muted);margin:0 0 18px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:999px;font-weight:800;background:linear-gradient(90deg,var(--gold),var(--amber));color:#0B1033;min-height:48px}.btn:hover{color:#0B1033;filter:brightness(1.08)}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 0}.langs a{padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:13px;font-weight:700;color:var(--muted)}.langs a[aria-current]{background:var(--cyan);color:#06122B;border-color:var(--cyan)}
+footer{border-top:1px solid var(--line);margin-top:50px;padding:26px 0;color:var(--muted);font-size:14px}footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media(max-width:600px){.links{gap:14px;font-size:14px}.logo{font-size:16px}article p{font-size:17px}}
+
+.hero-img{width:100%;border-radius:22px;border:1px solid var(--line);margin:22px 0 6px;display:block}
+.faq details{background:var(--glass);border:1px solid var(--line);border-radius:16px;padding:16px 20px;margin:10px 0}
+.faq summary{cursor:pointer;font-weight:700;font-size:17px}.faq details p{color:var(--muted);margin:10px 0 0}
+.crumbs{font-size:14px;color:var(--muted);margin-top:30px}.crumbs a{color:var(--muted)}.crumbs a:hover{color:#fff}
+.rel{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin:14px 0}
+.rel a{display:block;padding:18px 20px;border-radius:18px;background:var(--glass);border:1px solid var(--line);color:var(--text);font-weight:700}
+.rel a:hover{border-color:rgba(103,232,249,.55)}.rel a span{display:block;color:var(--gold);font-size:13px;margin-top:6px}
+.btn.ghost{background:var(--glass);border:1px solid var(--line);color:#fff}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domov", "item": "https://va-corporation.github.io/sl/"}, {"@type": "ListItem", "position": 2, "name": "Telegram boti in AI klepetalni boti", "item": "https://va-corporation.github.io/sl/telegram-bots/"}]}, {"@type": "Service", "name": "Telegram boti in AI klepetalni boti", "description": "Razvijamo Telegram bote in AI klepetalne bote za spletne strani: odgovori na vprašanja, zbiranje povpraševanj, rezervacije in povezave z vašimi storitvami.", "url": "https://va-corporation.github.io/sl/telegram-bots/", "inLanguage": "sl", "provider": {"@type": "Organization", "name": "VA Corporation", "url": "https://va-corporation.github.io/"}, "areaServed": "Worldwide"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Ali za bota potrebujem spletno stran?", "acceptedAnswer": {"@type": "Answer", "text": "Ne. Telegram bot deluje samostojno, lahko pa ga povežemo tudi s klepetom na vaši spletni strani."}}, {"@type": "Question", "name": "Ali lahko bota najprej preizkusim?", "acceptedAnswer": {"@type": "Answer", "text": "Da — pišite nam na WhatsApp ali Telegram na +34 641 387 122 in pokazali vam bomo predstavitev."}}]}]}</script>
+</head>
+<body>
+<header><div class="wrap nav">
+ <a class="logo" href="https://va-corporation.github.io/sl/"><span class="sun">VA</span>VA Corporation</a>
+ <nav class="links"><a href="https://va-corporation.github.io/sl/">Domov</a><a href="https://va-corporation.github.io/sl/news/">Novice</a><a href="https://va-corporation.github.io/sl/#contact">Pišite nam</a></nav>
+</div></header>
+<main class="wrap">
+<p class="crumbs"><a href="https://va-corporation.github.io/sl/">Domov</a> › Storitve</p><h1 style="margin-top:14px">Telegram boti in AI klepetalni boti</h1><p class="lead">Boti, ki se z vašimi strankami pogovarjajo tam, kjer že so — v Telegramu, na vaši spletni strani in v drugih sporočilnikih.</p><h2>Kaj zmore bot</h2><p>Odgovarja na pogosta vprašanja, zbira povpraševanja in kontaktne podatke, sprejema rezervacije, pošilja opomnike in obvešča vašo ekipo o novih potencialnih strankah.</p><h2>Pametni odgovori z AI</h2><p>Z vgrajenim modelom AI bot razume prosto zapisana vprašanja in odgovarja v jeziku stranke, pri tem pa uporablja vaše lastne informacije o izdelkih in storitvah.</p><h2>Povezan z vašimi orodji</h2><p>Bot lahko podatke posreduje v preglednice, CRM, e-pošto ali platforme za avtomatizacijo, zato se nobeno povpraševanje ne izgubi.</p><h2>Vprašanja in odgovori</h2><div class="faq"><details><summary>Ali za bota potrebujem spletno stran?</summary><p>Ne. Telegram bot deluje samostojno, lahko pa ga povežemo tudi s klepetom na vaši spletni strani.</p></details><details><summary>Ali lahko bota najprej preizkusim?</summary><p>Da — pišite nam na WhatsApp ali Telegram na +34 641 387 122 in pokazali vam bomo predstavitev.</p></details></div><section class="cta"><h2>Želite AI agenta za svoje podjetje?</h2><p>Razvijamo AI agente, igre in programsko opremo. Povejte nam o svoji nalogi.</p><a class="btn" href="https://wa.me/34641387122" rel="noopener" style="background:#1FA855;color:#fff">WhatsApp →</a> &nbsp; <a href="https://t.me/vladimiramelchenko33" rel="noopener">Telegram</a> &nbsp;·&nbsp; <a href="https://va-corporation.github.io/sl/#contact">Pišite nam</a></section><h2>Naše storitve</h2><nav class="rel"><a href="/sl/ai-agents/">AI agenti za vaše podjetje<span>Več o tem →</span></a><a href="/sl/ai-video-agent/">AI agent za montažo videa<span>Več o tem →</span></a><a href="/sl/game-development/">Razvoj iger<span>Več o tem →</span></a><a href="/sl/work/kulak-kombat/">Kulak Kombat<span>Več o tem →</span></a><a href="/sl/work/ai-smm-studio/">AI SMM studio<span>Več o tem →</span></a></nav><nav class="langs" aria-label="Language"><a href="/telegram-bots/" hreflang="en">EN</a><a href="/de/telegram-bots/" hreflang="de">DE</a><a href="/es/telegram-bots/" hreflang="es">ES</a><a href="/it/telegram-bots/" hreflang="it">IT</a><a href="/fr/telegram-bots/" hreflang="fr">FR</a><a href="/pl/telegram-bots/" hreflang="pl">PL</a><a href="/ua/telegram-bots/" hreflang="uk">UA</a><a href="/ru/telegram-bots/" hreflang="ru">RU</a><a href="/by/telegram-bots/" hreflang="be">BY</a><a href="/ge/telegram-bots/" hreflang="ka">GE</a><a href="/am/telegram-bots/" hreflang="hy">AM</a><a href="/bg/telegram-bots/" hreflang="bg">BG</a><a href="/cs/telegram-bots/" hreflang="cs">CS</a><a href="/da/telegram-bots/" hreflang="da">DA</a><a href="/el/telegram-bots/" hreflang="el">EL</a><a href="/et/telegram-bots/" hreflang="et">ET</a><a href="/fi/telegram-bots/" hreflang="fi">FI</a><a href="/ga/telegram-bots/" hreflang="ga">GA</a><a href="/hr/telegram-bots/" hreflang="hr">HR</a><a href="/hu/telegram-bots/" hreflang="hu">HU</a><a href="/lt/telegram-bots/" hreflang="lt">LT</a><a href="/lv/telegram-bots/" hreflang="lv">LV</a><a href="/mt/telegram-bots/" hreflang="mt">MT</a><a href="/nl/telegram-bots/" hreflang="nl">NL</a><a href="/pt/telegram-bots/" hreflang="pt">PT</a><a href="/ro/telegram-bots/" hreflang="ro">RO</a><a href="/sk/telegram-bots/" hreflang="sk">SK</a><a href="/sl/telegram-bots/" hreflang="sl" aria-current="true">SL</a><a href="/sv/telegram-bots/" hreflang="sv">SV</a></nav>
+</main>
+<footer><div class="wrap"><span>© 2026 VA Corporation</span><span>AI agents · Games · Software</span><span><a href="/terms/">Terms</a> · <a href="/privacy/">Privacy</a></span></div></footer>
+</body>
+</html>

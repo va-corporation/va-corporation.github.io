@@ -616,6 +616,438 @@
      "Da — primjerice za likove koji reagiraju na igrače, za generiranje sadržaja ili za automatizirano testiranje."
     ]
    ]
+  },
+  "da": {
+   "title": "Spiludvikling — browserspil til mobil og pc | VA Corporation",
+   "desc": "Spildesign, mekanikker og produktion fra den første prototype til lancering: browserspil, der kører på telefoner og computere.",
+   "h1": "Spiludvikling",
+   "lead": "Fra den første idé og prototype til et færdigt spil, der kører i browseren på telefoner og computere.",
+   "body": [
+    {
+     "h": "Spildesign og mekanikker"
+    },
+    {
+     "p": "Vi designer det centrale gameplay-loop, karakterer, progression og de små detaljer, der gør et spil sjovt at spille igen og igen."
+    },
+    {
+     "h": "Prototypen først"
+    },
+    {
+     "p": "Vi starter med en spilbar prototype, så idéerne kan testes tidligt — før de store investeringer."
+    },
+    {
+     "h": "Eksempel: Kulak Kombat"
+    },
+    {
+     "p": "Vores satiriske kampspil i browseren har 10 helte, en verdensturné, kombinationsangreb, skjolde og en butik og kører på telefoner og computere."
+    }
+   ],
+   "faq": [
+    [
+     "Hvilke platforme udvikler I til?",
+     "Browserspil (HTML5), der virker på telefoner og computere uden installation; andre platforme afhænger af projektet."
+    ],
+    [
+     "Kan AI bruges i spil?",
+     "Ja — for eksempel til karakterer, der reagerer på spillerne, til generering af indhold eller til automatiseret test."
+    ]
+   ]
+  },
+  "el": {
+   "title": "Ανάπτυξη παιχνιδιών browser για κινητά & PC | VA Corporation",
+   "desc": "Σχεδιασμός παιχνιδιών, μηχανισμοί και παραγωγή από το πρώτο πρωτότυπο ως την κυκλοφορία: παιχνίδια browser που τρέχουν σε κινητά και υπολογιστές.",
+   "h1": "Ανάπτυξη παιχνιδιών",
+   "lead": "Από την πρώτη ιδέα και το πρωτότυπο ως ένα ολοκληρωμένο παιχνίδι που τρέχει στον browser, σε κινητά και υπολογιστές.",
+   "body": [
+    {
+     "h": "Σχεδιασμός παιχνιδιού και μηχανισμοί"
+    },
+    {
+     "p": "Σχεδιάζουμε τον βασικό κύκλο gameplay, τους χαρακτήρες, την πρόοδο και τις μικρές λεπτομέρειες που σε κάνουν να θέλεις να παίζεις ξανά και ξανά."
+    },
+    {
+     "h": "Πρώτα το πρωτότυπο"
+    },
+    {
+     "p": "Πρώτα φτιάχνουμε ένα πρωτότυπο που παίζεται, ώστε οι ιδέες να δοκιμάζονται νωρίς — πριν από μεγάλες επενδύσεις."
+    },
+    {
+     "h": "Παράδειγμα: Kulak Kombat"
+    },
+    {
+     "p": "Το σατιρικό μας παιχνίδι μάχης για browser έχει 10 ήρωες, παγκόσμια περιοδεία, συνδυαστικές επιθέσεις, ασπίδες και κατάστημα, και τρέχει σε κινητά και υπολογιστές."
+    }
+   ],
+   "faq": [
+    [
+     "Για ποιες πλατφόρμες αναπτύσσετε παιχνίδια;",
+     "Παιχνίδια browser (HTML5) που λειτουργούν σε κινητά και υπολογιστές χωρίς εγκατάσταση· για άλλες πλατφόρμες εξαρτάται από το έργο."
+    ],
+    [
+     "Μπορεί να αξιοποιηθεί η AI στα παιχνίδια;",
+     "Ναι — για παράδειγμα σε χαρακτήρες που αντιδρούν στους παίκτες, στη δημιουργία περιεχομένου ή στον αυτοματοποιημένο έλεγχο."
+    ]
+   ]
+  },
+  "et": {
+   "title": "Brauserimängude arendus telefonile ja PC-le | VA Corporation",
+   "desc": "Mängudisain, mehaanikad ja tootmine esimesest prototüübist väljalaskeni: brauserimängud, mis töötavad telefonides ja arvutites.",
+   "h1": "Mänguarendus",
+   "lead": "Esimesest ideest ja prototüübist valmis mänguni, mis töötab brauseris nii telefonis kui ka arvutis.",
+   "body": [
+    {
+     "h": "Mängudisain ja mehaanikad"
+    },
+    {
+     "p": "Kujundame mängu põhitsükli, tegelased, progressiooni ja need pisidetailid, mis panevad mängu ikka ja jälle uuesti mängima."
+    },
+    {
+     "h": "Kõigepealt prototüüp"
+    },
+    {
+     "p": "Esmalt valmib mängitav prototüüp, et ideid saaks testida varakult — enne suuri investeeringuid."
+    },
+    {
+     "h": "Näide: Kulak Kombat"
+    },
+    {
+     "p": "Meie satiirilises brauseri võitlusmängus on 10 kangelast, maailmaturnee, kombo-rünnakud, kilbid ja pood ning see töötab telefonides ja arvutites."
+    }
+   ],
+   "faq": [
+    [
+     "Milliste platvormide jaoks te arendate?",
+     "Brauserimängud (HTML5), mis töötavad telefonides ja arvutites ilma installimiseta; teised platvormid sõltuvad projektist."
+    ],
+    [
+     "Kas AI-d saab mängudes kasutada?",
+     "Jah — näiteks tegelaste jaoks, kes reageerivad mängijatele, sisu genereerimiseks või automaattestimiseks."
+    ]
+   ]
+  },
+  "fi": {
+   "title": "Selainpelien kehitys mobiiliin ja PC:lle | VA Corporation",
+   "desc": "Pelisuunnittelu, mekaniikat ja tuotanto ensimmäisestä prototyypistä julkaisuun: selainpelit, jotka toimivat puhelimilla ja tietokoneilla.",
+   "h1": "Pelinkehitys",
+   "lead": "Ensimmäisestä ideasta ja prototyypistä valmiiseen peliin, joka toimii selaimessa puhelimilla ja tietokoneilla.",
+   "body": [
+    {
+     "h": "Pelisuunnittelu ja mekaniikat"
+    },
+    {
+     "p": "Suunnittelemme pelin ydinsilmukan, hahmot, etenemisen ja ne pienet yksityiskohdat, joiden ansiosta peliä haluaa pelata yhä uudelleen."
+    },
+    {
+     "h": "Ensin prototyyppi"
+    },
+    {
+     "p": "Ensin syntyy pelattava prototyyppi, jotta ideoita voidaan testata aikaisin — ennen suuria investointeja."
+    },
+    {
+     "h": "Esimerkki: Kulak Kombat"
+    },
+    {
+     "p": "Satiirisessa selaintaistelupelissämme on 10 sankaria, maailmankiertue, komboiskut, kilvet ja kauppa, ja se toimii puhelimilla ja tietokoneilla."
+    }
+   ],
+   "faq": [
+    [
+     "Mille alustoille kehitätte?",
+     "Selainpelejä (HTML5), jotka toimivat puhelimilla ja tietokoneilla ilman asennusta; muut alustat riippuvat projektista."
+    ],
+    [
+     "Voiko tekoälyä hyödyntää peleissä?",
+     "Kyllä — esimerkiksi pelaajiin reagoivissa hahmoissa, sisällön generoinnissa tai automatisoidussa testauksessa."
+    ]
+   ]
+  },
+  "ga": {
+   "title": "Forbairt cluichí brabhsálaí d'fhón agus PC | VA Corporation",
+   "desc": "Dearadh cluichí, meicnic agus léiriú ón gcéad fhréamhshamhail go dtí an eisiúint: cluichí brabhsálaí a ritheann ar fhóin agus ar ríomhairí.",
+   "h1": "Forbairt cluichí",
+   "lead": "Ón gcéad smaoineamh agus fréamhshamhail go cluiche críochnaithe a ritheann sa bhrabhsálaí ar fhóin agus ar ríomhairí.",
+   "body": [
+    {
+     "h": "Dearadh cluichí agus meicnic"
+    },
+    {
+     "p": "Dearaimid lúb lárnach an chluiche, na carachtair, an dul chun cinn agus na mionsonraí a fhágann gur mhaith leat an cluiche a imirt arís agus arís eile."
+    },
+    {
+     "h": "Fréamhshamhail ar dtús"
+    },
+    {
+     "p": "Tagann fréamhshamhail inimeartha ar dtús, ionas gur féidir smaointe a thástáil go luath — roimh infheistíochtaí móra."
+    },
+    {
+     "h": "Sampla: Kulak Kombat"
+    },
+    {
+     "p": "Tá 10 laoch, camchuairt domhanda, ionsaithe combo, sciatha agus siopa inár gcluiche troda aorach brabhsálaí, agus ritheann sé ar fhóin agus ar ríomhairí."
+    }
+   ],
+   "faq": [
+    [
+     "Cé na hardáin a bhforbraíonn sibh dóibh?",
+     "Cluichí brabhsálaí (HTML5) a oibríonn ar fhóin agus ar ríomhairí gan suiteáil; braitheann ardáin eile ar an tionscadal."
+    ],
+    [
+     "An féidir AI a úsáid i gcluichí?",
+     "Is féidir — mar shampla do charachtair a fhreagraíonn d'imreoirí, chun ábhar a ghiniúint nó le haghaidh tástála uathoibrithe."
+    ]
+   ]
+  },
+  "lt": {
+   "title": "Naršyklės žaidimų kūrimas telefonui ir PC | VA Corporation",
+   "desc": "Žaidimų dizainas, mechanika ir gamyba nuo pirmojo prototipo iki išleidimo: naršyklės žaidimai, veikiantys telefonuose ir kompiuteriuose.",
+   "h1": "Žaidimų kūrimas",
+   "lead": "Nuo pirmosios idėjos ir prototipo iki baigto žaidimo, kuris veikia naršyklėje telefonuose ir kompiuteriuose.",
+   "body": [
+    {
+     "h": "Žaidimų dizainas ir mechanika"
+    },
+    {
+     "p": "Kuriame pagrindinį žaidimo ciklą, personažus, progresiją ir smulkias detales, dėl kurių žaidimą norisi žaisti vėl ir vėl."
+    },
+    {
+     "h": "Pirmiausia prototipas"
+    },
+    {
+     "p": "Pirmiausia sukuriamas žaidžiamas prototipas, kad idėjas būtų galima išbandyti anksti — dar prieš dideles investicijas."
+    },
+    {
+     "h": "Pavyzdys: Kulak Kombat"
+    },
+    {
+     "p": "Mūsų satyrinis kovos žaidimas naršyklėje turi 10 herojų, pasaulinį turą, kombinuotas atakas, skydus ir parduotuvę, o žaisti jį galima telefonuose ir kompiuteriuose."
+    }
+   ],
+   "faq": [
+    [
+     "Kokioms platformoms kuriate?",
+     "Naršyklės žaidimus (HTML5), kurie veikia telefonuose ir kompiuteriuose be diegimo; kitos platformos priklauso nuo projekto."
+    ],
+    [
+     "Ar žaidimuose galima naudoti DI?",
+     "Taip — pavyzdžiui, personažams, reaguojantiems į žaidėjus, turiniui generuoti ar automatizuotam testavimui."
+    ]
+   ]
+  },
+  "lv": {
+   "title": "Pārlūka spēļu izstrāde telefonam un PC | VA Corporation",
+   "desc": "Spēļu dizains, mehānika un izstrāde no pirmā prototipa līdz izlaidumam: pārlūka spēles, kas darbojas telefonos un datoros.",
+   "h1": "Spēļu izstrāde",
+   "lead": "No pirmās idejas un prototipa līdz gatavai spēlei, kas darbojas pārlūkā telefonos un datoros.",
+   "body": [
+    {
+     "h": "Spēļu dizains un mehānika"
+    },
+    {
+     "p": "Izstrādājam spēles pamatciklu, tēlus, progresiju un tās sīkās detaļas, kuru dēļ spēli gribas spēlēt atkal un atkal."
+    },
+    {
+     "h": "Vispirms prototips"
+    },
+    {
+     "p": "Vispirms top spēlējams prototips, lai idejas varētu pārbaudīt laikus — pirms lieliem ieguldījumiem."
+    },
+    {
+     "h": "Piemērs: Kulak Kombat"
+    },
+    {
+     "p": "Mūsu satīriskajai pārlūka cīņu spēlei ir 10 varoņi, pasaules turneja, kombo uzbrukumi, vairogi un veikals, un tā darbojas telefonos un datoros."
+    }
+   ],
+   "faq": [
+    [
+     "Kurām platformām jūs izstrādājat?",
+     "Pārlūka spēles (HTML5), kas darbojas telefonos un datoros bez instalēšanas; citas platformas atkarīgas no projekta."
+    ],
+    [
+     "Vai spēlēs var izmantot MI?",
+     "Jā — piemēram, tēliem, kas reaģē uz spēlētājiem, satura ģenerēšanai vai automatizētai testēšanai."
+    ]
+   ]
+  },
+  "mt": {
+   "title": "Żvilupp ta' logħob tal-browser | VA Corporation",
+   "desc": "Disinn tal-logħob, mekkaniżmi u produzzjoni mill-ewwel prototip sal-ħruġ: logħob fil-browser li jaħdem fuq il-mowbajl u l-kompjuter.",
+   "h1": "Żvilupp tal-logħob",
+   "lead": "Mill-ewwel idea u prototip sa logħba lesta li taħdem fil-browser fuq il-mowbajl u l-kompjuter.",
+   "body": [
+    {
+     "h": "Disinn tal-logħob u mekkaniżmi"
+    },
+    {
+     "p": "Niddisinjaw il-gameplay loop ewlieni, il-karattri, il-progressjoni u d-dettalji żgħar li jagħmlu logħba pjaċevoli biex terġa' tilgħabha darba wara l-oħra."
+    },
+    {
+     "h": "L-ewwel il-prototip"
+    },
+    {
+     "p": "L-ewwel jinbena prototip li tista' tilgħab bih, biex l-ideat jiġu ttestjati kmieni — qabel investimenti kbar."
+    },
+    {
+     "h": "Eżempju: Kulak Kombat"
+    },
+    {
+     "p": "Il-logħba tal-ġlied satirika tagħna fil-browser għandha 10 eroj, tour dinji, attakki combo, tarki u ħanut, u taħdem fuq il-mowbajl u l-kompjuter."
+    }
+   ],
+   "faq": [
+    [
+     "Għal liema pjattaformi tiżviluppaw?",
+     "Logħob fil-browser (HTML5) li jaħdem fuq il-mowbajl u l-kompjuter mingħajr installazzjoni; pjattaformi oħra jiddependu mill-proġett."
+    ],
+    [
+     "L-AI tista' tintuża fil-logħob?",
+     "Iva — pereżempju għal karattri li jirreaġixxu għall-plejers, għall-ġenerazzjoni tal-kontenut jew għall-ittestjar awtomatizzat."
+    ]
+   ]
+  },
+  "nl": {
+   "title": "Browsergames voor mobiel en pc ontwikkelen | VA Corporation",
+   "desc": "Gamedesign, mechanics en productie van het eerste prototype tot de release: browsergames die draaien op telefoons en computers.",
+   "h1": "Gameontwikkeling",
+   "lead": "Van het eerste idee en prototype tot een afgeronde game die in de browser draait, op telefoons en computers.",
+   "body": [
+    {
+     "h": "Gamedesign en mechanics"
+    },
+    {
+     "p": "We ontwerpen de kern-gameplayloop, personages, progressie en de kleine details die een game leuk maken om steeds opnieuw te spelen."
+    },
+    {
+     "h": "Eerst een prototype"
+    },
+    {
+     "p": "We beginnen met een speelbaar prototype, zodat ideeën vroeg getest kunnen worden — vóór grote investeringen."
+    },
+    {
+     "h": "Voorbeeld: Kulak Kombat"
+    },
+    {
+     "p": "Ons satirische browser-vechtspel heeft 10 helden, een wereldtour, combo-aanvallen, schilden en een winkel, en draait op telefoons en computers."
+    }
+   ],
+   "faq": [
+    [
+     "Voor welke platforms ontwikkelen jullie?",
+     "Browsergames (HTML5) die zonder installatie werken op telefoons en computers; andere platforms hangen af van het project."
+    ],
+    [
+     "Kan AI worden ingezet in games?",
+     "Ja — bijvoorbeeld voor personages die op spelers reageren, voor het genereren van content of voor geautomatiseerd testen."
+    ]
+   ]
+  },
+  "pt": {
+   "title": "Desenvolvimento de jogos — telemóvel e PC | VA Corporation",
+   "desc": "Game design, mecânicas e produção do primeiro protótipo ao lançamento: jogos de navegador que funcionam em telemóveis e computadores.",
+   "h1": "Desenvolvimento de jogos",
+   "lead": "Da primeira ideia e protótipo a um jogo concluído que funciona no navegador, em telemóveis e computadores.",
+   "body": [
+    {
+     "h": "Game design e mecânicas"
+    },
+    {
+     "p": "Concebemos o ciclo de jogo principal, as personagens, a progressão e os pequenos detalhes que dão vontade de voltar a jogar uma e outra vez."
+    },
+    {
+     "h": "Primeiro, o protótipo"
+    },
+    {
+     "p": "Começamos por um protótipo jogável, para que as ideias possam ser testadas cedo — antes de grandes investimentos."
+    },
+    {
+     "h": "Exemplo: Kulak Kombat"
+    },
+    {
+     "p": "O nosso jogo de luta satírico para navegador tem 10 heróis, uma volta ao mundo, ataques combo, escudos e uma loja, e funciona em telemóveis e computadores."
+    }
+   ],
+   "faq": [
+    [
+     "Para que plataformas desenvolvem?",
+     "Jogos de navegador (HTML5) que funcionam em telemóveis e computadores sem instalação; outras plataformas dependem do projeto."
+    ],
+    [
+     "A IA pode ser usada em jogos?",
+     "Sim — por exemplo, em personagens que reagem aos jogadores, na geração de conteúdo ou em testes automatizados."
+    ]
+   ]
+  },
+  "sl": {
+   "title": "Razvoj iger v brskalniku za telefon in PC | VA Corporation",
+   "desc": "Oblikovanje iger, mehanike in produkcija od prvega prototipa do izida: igre v brskalniku, ki delujejo na telefonih in računalnikih.",
+   "h1": "Razvoj iger",
+   "lead": "Od prve ideje in prototipa do dokončane igre, ki deluje v brskalniku na telefonih in računalnikih.",
+   "body": [
+    {
+     "h": "Oblikovanje iger in mehanike"
+    },
+    {
+     "p": "Zasnujemo osnovno igralno zanko, like, napredovanje in drobne podrobnosti, zaradi katerih se igre želite lotiti znova in znova."
+    },
+    {
+     "h": "Najprej prototip"
+    },
+    {
+     "p": "Najprej nastane igralni prototip, da je mogoče ideje preizkusiti zgodaj — še pred velikimi naložbami."
+    },
+    {
+     "h": "Primer: Kulak Kombat"
+    },
+    {
+     "p": "Naša satirična pretepaška igra v brskalniku ima 10 junakov, svetovno turnejo, kombinirane napade, ščite in trgovino ter deluje na telefonih in računalnikih."
+    }
+   ],
+   "faq": [
+    [
+     "Za katere platforme razvijate?",
+     "Igre v brskalniku (HTML5), ki delujejo na telefonih in računalnikih brez namestitve; druge platforme so odvisne od projekta."
+    ],
+    [
+     "Ali je AI mogoče uporabiti v igrah?",
+     "Da — na primer za like, ki se odzivajo na igralce, za generiranje vsebine ali za avtomatizirano testiranje."
+    ]
+   ]
+  },
+  "sv": {
+   "title": "Spelutveckling — webbspel för mobil och pc | VA Corporation",
+   "desc": "Speldesign, mekanik och produktion från första prototyp till release: webbläsarspel som fungerar på mobiler och datorer.",
+   "h1": "Spelutveckling",
+   "lead": "Från första idé och prototyp till ett färdigt spel som körs i webbläsaren på mobiler och datorer.",
+   "body": [
+    {
+     "h": "Speldesign och mekanik"
+    },
+    {
+     "p": "Vi designar den grundläggande spelloopen, karaktärer, progression och de små detaljerna som gör ett spel roligt att spela om och om igen."
+    },
+    {
+     "h": "Prototypen först"
+    },
+    {
+     "p": "Först kommer en spelbar prototyp, så att idéerna kan testas tidigt — innan de stora investeringarna."
+    },
+    {
+     "h": "Exempel: Kulak Kombat"
+    },
+    {
+     "p": "Vårt satiriska fightingspel i webbläsaren har 10 hjältar, en världsturné, kombinationsattacker, sköldar och en butik, och fungerar på mobiler och datorer."
+    }
+   ],
+   "faq": [
+    [
+     "Vilka plattformar utvecklar ni för?",
+     "Webbläsarspel (HTML5) som fungerar på mobiler och datorer utan installation; andra plattformar beror på projektet."
+    ],
+    [
+     "Kan AI användas i spel?",
+     "Ja — till exempel för karaktärer som reagerar på spelarna, för att generera innehåll eller för automatiserade tester."
+    ]
+   ]
   }
  }
 }
