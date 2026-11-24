@@ -312,6 +312,174 @@
    ],
    "faq": [],
    "link_label": "Խաղալ"
+  },
+  "cs": {
+   "title": "Kulak Kombat — satirická browserová bojovka | VA Corporation",
+   "desc": "Kulak Kombat: satirická bojovka v prohlížeči s 10 hrdiny, světovým turné, komby, štíty a obchodem. Hraje se na telefonech i počítačích.",
+   "h1": "Kulak Kombat",
+   "lead": "Satirická bojovka v prohlížeči od našeho týmu — hrajte přímo v prohlížeči, na telefonu nebo počítači.",
+   "body": [
+    {
+     "h": "Hra"
+    },
+    {
+     "p": "10 hrdinů, světové turné soupeřů, kombo útoky, štíty a herní obchod."
+    },
+    {
+     "h": "Bez instalace"
+    },
+    {
+     "p": "Hra běží v prohlížeči a funguje na telefonech i počítačích."
+    },
+    {
+     "h": "Co projekt ukazuje"
+    },
+    {
+     "p": "Jak dovedeme hru od konceptu k hratelnému vydání: mechaniky, postavy, balanc a rozhraní."
+    }
+   ],
+   "faq": [],
+   "link_label": "Hrát"
+  },
+  "sk": {
+   "title": "Kulak Kombat — satirická webová bojovka | VA Corporation",
+   "desc": "Kulak Kombat: satirická bojovka v prehliadači s 10 hrdinami, svetovým turné, kombami, štítmi a obchodom. Hrá sa na telefónoch aj počítačoch.",
+   "h1": "Kulak Kombat",
+   "lead": "Satirická bojovka v prehliadači od nášho tímu — hrajte priamo v prehliadači, na telefóne alebo počítači.",
+   "body": [
+    {
+     "h": "Hra"
+    },
+    {
+     "p": "10 hrdinov, svetové turné súperov, kombo útoky, štíty a herný obchod."
+    },
+    {
+     "h": "Bez inštalácie"
+    },
+    {
+     "p": "Hra beží v prehliadači a funguje na telefónoch aj počítačoch."
+    },
+    {
+     "h": "Čo projekt ukazuje"
+    },
+    {
+     "p": "Ako dovedieme hru od konceptu k hrateľnému vydaniu: mechaniky, postavy, balans a rozhranie."
+    }
+   ],
+   "faq": [],
+   "link_label": "Hrať"
+  },
+  "hu": {
+   "title": "Kulak Kombat — szatirikus verekedős játék | VA Corporation",
+   "desc": "Kulak Kombat: szatirikus böngészős verekedős játék 10 hőssel, világkörüli turnéval, kombókkal, pajzsokkal és bolttal. Telefonon és számítógépen is játszható.",
+   "h1": "Kulak Kombat",
+   "lead": "Csapatunk szatirikus böngészős verekedős játéka — játsszon vele közvetlenül a böngészőben, telefonon vagy számítógépen.",
+   "body": [
+    {
+     "h": "A játék"
+    },
+    {
+     "p": "10 hős, világkörüli turné ellenfelekkel, kombótámadások, pajzsok és játékon belüli bolt."
+    },
+    {
+     "h": "Telepítés nélkül"
+    },
+    {
+     "p": "A játék böngészőben fut, és telefonon és számítógépen is működik."
+    },
+    {
+     "h": "Mit mutat meg ez a projekt"
+    },
+    {
+     "p": "Hogyan visszük el a játékot a koncepciótól a játszható kiadásig: mechanikák, karakterek, egyensúly és felület."
+    }
+   ],
+   "faq": [],
+   "link_label": "Játék indítása"
+  },
+  "ro": {
+   "title": "Kulak Kombat — joc satiric de lupte online | VA Corporation",
+   "desc": "Kulak Kombat: un joc satiric de lupte în browser, cu 10 eroi, un turneu mondial, combo-uri, scuturi și un magazin. Se joacă pe telefoane și computere.",
+   "h1": "Kulak Kombat",
+   "lead": "Un joc satiric de lupte în browser creat de echipa noastră — joacă-l direct în browser, pe telefon sau pe computer.",
+   "body": [
+    {
+     "h": "Jocul"
+    },
+    {
+     "p": "10 eroi, un turneu mondial de adversari, atacuri combo, scuturi și un magazin în joc."
+    },
+    {
+     "h": "Fără instalare"
+    },
+    {
+     "p": "Jocul rulează în browser și funcționează pe telefoane și computere."
+    },
+    {
+     "h": "Ce arată acest proiect"
+    },
+    {
+     "p": "Cum ducem un joc de la concept la o versiune jucabilă: mecanici, personaje, echilibru și interfață."
+    }
+   ],
+   "faq": [],
+   "link_label": "Joacă"
+  },
+  "bg": {
+   "title": "Kulak Kombat — сатирична браузър бойна игра | VA Corporation",
+   "desc": "Kulak Kombat: сатирична бойна игра в браузъра с 10 героя, световно турне, комбота, щитове и магазин. Играе се на телефони и компютри.",
+   "h1": "Kulak Kombat",
+   "lead": "Сатирична бойна игра в браузъра, създадена от нашия екип — играйте директно в браузъра, на телефон или компютър.",
+   "body": [
+    {
+     "h": "Играта"
+    },
+    {
+     "p": "10 героя, световно турне срещу противници, комбо атаки, щитове и магазин в играта."
+    },
+    {
+     "h": "Без инсталация"
+    },
+    {
+     "p": "Играта работи в браузъра — на телефони и компютри."
+    },
+    {
+     "h": "Какво показва този проект"
+    },
+    {
+     "p": "Как довеждаме една игра от концепцията до играема версия: механики, герои, баланс и интерфейс."
+    }
+   ],
+   "faq": [],
+   "link_label": "Играй"
+  },
+  "hr": {
+   "title": "Kulak Kombat — satirična web borilačka igra | VA Corporation",
+   "desc": "Kulak Kombat: satirična borilačka igra u pregledniku s 10 heroja, svjetskom turnejom, kombo napadima, štitovima i trgovinom. Igra se na mobitelima i računalima.",
+   "h1": "Kulak Kombat",
+   "lead": "Satirična borilačka igra u pregledniku koju je izradio naš tim — igrajte izravno u pregledniku, na mobitelu ili računalu.",
+   "body": [
+    {
+     "h": "Igra"
+    },
+    {
+     "p": "10 heroja, svjetska turneja protivnika, kombo napadi, štitovi i trgovina u igri."
+    },
+    {
+     "h": "Bez instalacije"
+    },
+    {
+     "p": "Igra radi u pregledniku, na mobitelima i računalima."
+    },
+    {
+     "h": "Što ovaj projekt pokazuje"
+    },
+    {
+     "p": "Kako igru vodimo od koncepta do igrive verzije: mehanike, likovi, balans i sučelje."
+    }
+   ],
+   "faq": [],
+   "link_label": "Igraj"
   }
  },
  "image": "/assets/kulak-kombat.jpg",

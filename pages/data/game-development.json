@@ -400,6 +400,222 @@
      "Այո, օրինակ՝ խաղացողին արձագանքող կերպարների, բովանդակության գեներացման կամ ավտոմատ թեստավորման համար։"
     ]
    ]
+  },
+  "cs": {
+   "title": "Vývoj her — hry v prohlížeči pro mobil a PC | VA Corporation",
+   "desc": "Herní design, mechaniky a produkce od prvního prototypu po vydání: hry v prohlížeči, které běží na telefonech i počítačích.",
+   "h1": "Vývoj her",
+   "lead": "Od prvního nápadu a prototypu po hotovou hru, která běží v prohlížeči na telefonech i počítačích.",
+   "body": [
+    {
+     "h": "Herní design a mechaniky"
+    },
+    {
+     "p": "Navrhujeme základní herní smyčku, postavy, progresi a drobné detaily, díky kterým chcete hru hrát znovu a znovu."
+    },
+    {
+     "h": "Nejdřív prototyp"
+    },
+    {
+     "p": "Na začátku vzniká hratelný prototyp, aby se nápady daly otestovat včas — ještě před velkými investicemi."
+    },
+    {
+     "h": "Příklad: Kulak Kombat"
+    },
+    {
+     "p": "Naše satirická bojovka v prohlížeči má 10 hrdinů, světové turné, kombo útoky, štíty a obchod a běží na telefonech i počítačích."
+    }
+   ],
+   "faq": [
+    [
+     "Pro jaké platformy vyvíjíte?",
+     "Hry v prohlížeči (HTML5), které fungují na telefonech i počítačích bez instalace; další platformy záleží na projektu."
+    ],
+    [
+     "Dá se AI využít ve hrách?",
+     "Ano — například pro postavy, které reagují na hráče, pro generování obsahu nebo pro automatizované testování."
+    ]
+   ]
+  },
+  "sk": {
+   "title": "Vývoj hier — webové hry pre mobil a PC | VA Corporation",
+   "desc": "Herný dizajn, mechaniky a produkcia od prvého prototypu po vydanie: hry v prehliadači, ktoré bežia na telefónoch aj počítačoch.",
+   "h1": "Vývoj hier",
+   "lead": "Od prvého nápadu a prototypu po hotovú hru, ktorá beží v prehliadači na telefónoch aj počítačoch.",
+   "body": [
+    {
+     "h": "Herný dizajn a mechaniky"
+    },
+    {
+     "p": "Navrhujeme základnú hernú slučku, postavy, progres a drobné detaily, vďaka ktorým chcete hru hrať znova a znova."
+    },
+    {
+     "h": "Najprv prototyp"
+    },
+    {
+     "p": "Na začiatku vzniká hrateľný prototyp, aby sa nápady dali otestovať včas — ešte pred veľkými investíciami."
+    },
+    {
+     "h": "Príklad: Kulak Kombat"
+    },
+    {
+     "p": "Naša satirická bojovka v prehliadači má 10 hrdinov, svetové turné, kombo útoky, štíty a obchod a beží na telefónoch aj počítačoch."
+    }
+   ],
+   "faq": [
+    [
+     "Pre aké platformy vyvíjate?",
+     "Hry v prehliadači (HTML5), ktoré fungujú na telefónoch aj počítačoch bez inštalácie; ďalšie platformy závisia od projektu."
+    ],
+    [
+     "Dá sa AI využiť v hrách?",
+     "Áno — napríklad pre postavy, ktoré reagujú na hráčov, na generovanie obsahu alebo na automatizované testovanie."
+    ]
+   ]
+  },
+  "hu": {
+   "title": "Játékfejlesztés — böngészős játékok | VA Corporation",
+   "desc": "Játéktervezés, mechanikák és gyártás az első prototípustól a megjelenésig: böngészős játékok, amelyek telefonon és számítógépen is futnak.",
+   "h1": "Játékfejlesztés",
+   "lead": "Az első ötlettől és prototípustól a kész játékig, amely böngészőben fut telefonon és számítógépen.",
+   "body": [
+    {
+     "h": "Játéktervezés és mechanikák"
+    },
+    {
+     "p": "Megtervezzük az alapvető játékmenetet, a karaktereket, a fejlődési rendszert és azokat az apró részleteket, amelyek miatt egy játékhoz újra és újra vissza akarunk térni."
+    },
+    {
+     "h": "Először a prototípus"
+    },
+    {
+     "p": "Először egy játszható prototípus készül, így az ötletek korán tesztelhetők — még a nagy befektetések előtt."
+    },
+    {
+     "h": "Példa: Kulak Kombat"
+    },
+    {
+     "p": "Szatirikus böngészős verekedős játékunkban 10 hős, világkörüli turné, kombótámadások, pajzsok és bolt vár, és telefonon és számítógépen is fut."
+    }
+   ],
+   "faq": [
+    [
+     "Milyen platformokra fejlesztenek?",
+     "Böngészős játékokra (HTML5), amelyek telepítés nélkül működnek telefonon és számítógépen; más platformok a projekttől függenek."
+    ],
+    [
+     "Használható MI a játékokban?",
+     "Igen — például a játékosokra reagáló karakterekhez, tartalomgeneráláshoz vagy automatizált teszteléshez."
+    ]
+   ]
+  },
+  "ro": {
+   "title": "Dezvoltare de jocuri — browser, mobil și PC | VA Corporation",
+   "desc": "Game design, mecanici și producție de la primul prototip până la lansare: jocuri în browser care rulează pe telefoane și computere.",
+   "h1": "Dezvoltare de jocuri",
+   "lead": "De la prima idee și primul prototip la un joc finalizat care rulează în browser, pe telefoane și computere.",
+   "body": [
+    {
+     "h": "Game design și mecanici"
+    },
+    {
+     "p": "Proiectăm bucla de joc de bază, personajele, progresia și micile detalii care fac un joc plăcut de jucat iar și iar."
+    },
+    {
+     "h": "Întâi prototipul"
+    },
+    {
+     "p": "Mai întâi apare un prototip jucabil, ca ideile să poată fi testate din timp — înainte de investiții mari."
+    },
+    {
+     "h": "Exemplu: Kulak Kombat"
+    },
+    {
+     "p": "Jocul nostru satiric de lupte în browser are 10 eroi, un turneu mondial, atacuri combo, scuturi și un magazin și rulează pe telefoane și computere."
+    }
+   ],
+   "faq": [
+    [
+     "Pentru ce platforme dezvoltați?",
+     "Jocuri în browser (HTML5) care funcționează pe telefoane și computere fără instalare; alte platforme depind de proiect."
+    ],
+    [
+     "Se poate folosi AI în jocuri?",
+     "Da — de exemplu pentru personaje care reacționează la jucători, pentru generarea de conținut sau pentru testare automată."
+    ]
+   ]
+  },
+  "bg": {
+   "title": "Разработка на браузър игри за телефон и PC | VA Corporation",
+   "desc": "Гейм дизайн, механики и продукция от първия прототип до премиерата: браузър игри, които работят на телефони и компютри.",
+   "h1": "Разработка на игри",
+   "lead": "От първата идея и прототип до готова игра, която работи в браузъра на телефони и компютри.",
+   "body": [
+    {
+     "h": "Гейм дизайн и механики"
+    },
+    {
+     "p": "Проектираме основния геймплей цикъл, героите, прогресията и малките детайли, заради които една игра се играе отново и отново."
+    },
+    {
+     "h": "Първо прототип"
+    },
+    {
+     "p": "Първо се прави играем прототип, за да могат идеите да се тестват рано — преди големите инвестиции."
+    },
+    {
+     "h": "Пример: Kulak Kombat"
+    },
+    {
+     "p": "Нашата сатирична бойна игра за браузър има 10 героя, световно турне, комбо атаки, щитове и магазин и работи на телефони и компютри."
+    }
+   ],
+   "faq": [
+    [
+     "За кои платформи разработвате?",
+     "Браузър игри (HTML5), които работят на телефони и компютри без инсталация; други платформи зависят от проекта."
+    ],
+    [
+     "Може ли AI да се използва в игрите?",
+     "Да — например за герои, които реагират на играчите, за генериране на съдържание или за автоматизирано тестване."
+    ]
+   ]
+  },
+  "hr": {
+   "title": "Razvoj igara za preglednik, mobitel i PC | VA Corporation",
+   "desc": "Dizajn igara, mehanike i produkcija od prvog prototipa do izlaska: igre u pregledniku koje rade na mobitelima i računalima.",
+   "h1": "Razvoj igara",
+   "lead": "Od prve ideje i prototipa do gotove igre koja radi u pregledniku na mobitelima i računalima.",
+   "body": [
+    {
+     "h": "Dizajn igara i mehanike"
+    },
+    {
+     "p": "Osmišljavamo osnovnu petlju igranja, likove, napredovanje i sitne detalje zbog kojih se igri želite vraćati iznova i iznova."
+    },
+    {
+     "h": "Prvo prototip"
+    },
+    {
+     "p": "Najprije nastaje igrivi prototip, kako bi se ideje mogle rano testirati — prije velikih ulaganja."
+    },
+    {
+     "h": "Primjer: Kulak Kombat"
+    },
+    {
+     "p": "Naša satirična borilačka igra u pregledniku ima 10 heroja, svjetsku turneju, kombo napade, štitove i trgovinu te radi na mobitelima i računalima."
+    }
+   ],
+   "faq": [
+    [
+     "Za koje platforme razvijate?",
+     "Igre u pregledniku (HTML5) koje rade na mobitelima i računalima bez instalacije; ostale platforme ovise o projektu."
+    ],
+    [
+     "Može li se AI koristiti u igrama?",
+     "Da — primjerice za likove koji reagiraju na igrače, za generiranje sadržaja ili za automatizirano testiranje."
+    ]
+   ]
   }
  }
 }

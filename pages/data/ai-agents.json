@@ -400,6 +400,222 @@
      "Մեսենջերների, էլ. փոստի, կայքերի, աղյուսակների, CRM-ի և բազմաթիվ այլ ծառայությունների հետ, որոնք ունեն API կամ միանում են ավտոմատացման հարթակներով, օրինակ՝ n8n-ով։"
     ]
    ]
+  },
+  "cs": {
+   "title": "AI agenti pro firmy — AI asistenti na míru | VA Corporation",
+   "desc": "Vyvíjíme AI agenty na míru, kteří odpovídají zákazníkům, zpracovávají požadavky a pracují s daty a dokumenty — v mnoha jazycích, nonstop.",
+   "h1": "AI agenti pro vaši firmu",
+   "lead": "AI asistenti na míru, kteří převezmou rutinní práci — odpovídají zákazníkům, zpracovávají požadavky, pracují s daty a dokumenty — aby se váš tým mohl věnovat tomu podstatnému.",
+   "body": [
+    {
+     "h": "Co AI agent umí"
+    },
+    {
+     "p": "AI agent je program, který samostatně plní úkoly podle pravidel, která mu nastavíte. Umí odpovídat zákazníkům v chatech a messengerech, kvalifikovat leady, vyplňovat formuláře a CRM, připravovat reporty nebo třídit dokumenty — nonstop a v mnoha jazycích."
+    },
+    {
+     "h": "Jak ho stavíme"
+    },
+    {
+     "p": "Začínáme jedním jasným úkolem a malým pilotem. Společně určíme, co agent smí dělat, jaká data a nástroje může používat a kdy musí předat práci člověku. Pak ho otestujeme na reálných případech a spouštíme krok za krokem."
+    },
+    {
+     "h": "Bezpečnost od základu"
+    },
+    {
+     "p": "Agent dostane jen přístupy, které opravdu potřebuje. Citlivé akce mohou vyžadovat schválení člověkem a každý krok lze zaznamenat, takže vždy víte, co agent udělal."
+    }
+   ],
+   "faq": [
+    [
+     "Nahradí AI agent moje zaměstnance?",
+     "Ne — cílem je odstranit opakující se práci. Složité nebo citlivé případy se předávají lidem."
+    ],
+    [
+     "S jakými nástroji může agent pracovat?",
+     "S messengery, e-mailem, weby, tabulkami, CRM a mnoha dalšími službami, které nabízejí API nebo se připojují přes automatizační platformy, jako je n8n."
+    ]
+   ]
+  },
+  "sk": {
+   "title": "AI agenti pre firmy — AI asistenti na mieru | VA Corporation",
+   "desc": "Vyvíjame AI agentov na mieru, ktorí odpovedajú zákazníkom, spracúvajú požiadavky a pracujú s dátami a dokumentmi — v mnohých jazykoch, nonstop.",
+   "h1": "AI agenti pre vašu firmu",
+   "lead": "AI asistenti na mieru, ktorí prevezmú rutinnú prácu — odpovedajú zákazníkom, spracúvajú požiadavky, pracujú s dátami a dokumentmi — aby sa váš tím mohol venovať tomu podstatnému.",
+   "body": [
+    {
+     "h": "Čo dokáže AI agent"
+    },
+    {
+     "p": "AI agent je program, ktorý samostatne plní úlohy podľa pravidiel, ktoré mu nastavíte. Dokáže odpovedať zákazníkom v chatoch a messengeroch, kvalifikovať leady, vypĺňať formuláre a CRM, pripravovať reporty alebo triediť dokumenty — nonstop a v mnohých jazykoch."
+    },
+    {
+     "h": "Ako ho staviame"
+    },
+    {
+     "p": "Začíname jednou jasnou úlohou a malým pilotom. Spoločne určíme, čo agent smie robiť, aké dáta a nástroje môže používať a kedy musí odovzdať prácu človeku. Potom ho otestujeme na reálnych prípadoch a spúšťame krok za krokom."
+    },
+    {
+     "h": "Bezpečnosť od základu"
+    },
+    {
+     "p": "Agent dostane iba prístupy, ktoré naozaj potrebuje. Citlivé akcie môžu vyžadovať schválenie človekom a každý krok sa dá zaznamenať, takže vždy viete, čo agent urobil."
+    }
+   ],
+   "faq": [
+    [
+     "Nahradí AI agent mojich zamestnancov?",
+     "Nie — cieľom je odstrániť opakujúcu sa prácu. Zložité alebo citlivé prípady sa odovzdávajú ľuďom."
+    ],
+    [
+     "S akými nástrojmi môže agent pracovať?",
+     "S messengermi, e-mailom, webmi, tabuľkami, CRM a mnohými ďalšími službami, ktoré ponúkajú API alebo sa pripájajú cez automatizačné platformy, ako je n8n."
+    ]
+   ]
+  },
+  "hu": {
+   "title": "MI-ügynökök cégeknek — egyedi asszisztensek | VA Corporation",
+   "desc": "Egyedi MI-ügynököket fejlesztünk: válaszolnak az ügyfeleknek, kezelik a kéréseket, adatokkal és dokumentumokkal dolgoznak — sok nyelven, éjjel-nappal.",
+   "h1": "MI-ügynökök az Ön vállalkozásának",
+   "lead": "Egyedi MI-asszisztensek, amelyek átveszik a rutinmunkát — válaszolnak az ügyfeleknek, feldolgozzák a kéréseket, adatokkal és dokumentumokkal dolgoznak —, így csapata a lényegre koncentrálhat.",
+   "body": [
+    {
+     "h": "Mire képes egy MI-ügynök"
+    },
+    {
+     "p": "Az MI-ügynök olyan program, amely önállóan végez el feladatokat az Ön által megadott szabályok szerint. Válaszolhat az ügyfeleknek chaten és üzenetküldőkben, minősítheti a leadeket, kitöltheti az űrlapokat és a CRM-et, riportokat készíthet vagy dokumentumokat rendszerezhet — éjjel-nappal és sok nyelven."
+    },
+    {
+     "h": "Hogyan építjük fel"
+    },
+    {
+     "p": "Egyetlen világos feladattal és egy kis pilottal kezdünk. Közösen meghatározzuk, mit tehet az ügynök, milyen adatokat és eszközöket használhat, és mikor kell átadnia az ügyet egy embernek. Ezután valós eseteken teszteljük, és lépésről lépésre vezetjük be."
+    },
+    {
+     "h": "Biztonság a tervezéstől kezdve"
+    },
+    {
+     "p": "Az ügynök csak azokat a hozzáféréseket kapja meg, amelyekre valóban szüksége van. Az érzékeny műveletekhez emberi jóváhagyás írható elő, és minden lépés naplózható, így mindig tudja, mit csinált az ügynök."
+    }
+   ],
+   "faq": [
+    [
+     "Leváltja egy MI-ügynök a munkatársaimat?",
+     "Nem — a cél az ismétlődő munka kiváltása. Az összetett vagy érzékeny eseteket emberek kapják meg."
+    ],
+    [
+     "Milyen eszközökkel tud dolgozni az ügynök?",
+     "Üzenetküldőkkel, e-maillel, weboldalakkal, táblázatokkal, CRM-ekkel és sok más szolgáltatással, amely API-t kínál, vagy automatizálási platformokon, például az n8n-en keresztül kapcsolható."
+    ]
+   ]
+  },
+  "ro": {
+   "title": "Agenți AI pentru firme — asistenți dedicați | VA Corporation",
+   "desc": "Creăm agenți AI la comandă care răspund clienților, procesează solicitări și lucrează cu date și documente — în multe limbi, non-stop.",
+   "h1": "Agenți AI pentru afacerea ta",
+   "lead": "Asistenți AI la comandă care preiau munca de rutină — răspund clienților, procesează solicitări, lucrează cu date și documente — ca echipa ta să se poată concentra pe ce contează.",
+   "body": [
+    {
+     "h": "Ce poate face un agent AI"
+    },
+    {
+     "p": "Un agent AI este un program care îndeplinește singur sarcini, după regulile pe care le stabilești tu. Poate răspunde clienților în chat și în aplicațiile de mesagerie, poate califica lead-uri, completa formulare și CRM-uri, pregăti rapoarte sau sorta documente — non-stop și în multe limbi."
+    },
+    {
+     "h": "Cum îl construim"
+    },
+    {
+     "p": "Pornim de la o singură sarcină clară și un pilot mic. Stabilim împreună ce are voie să facă agentul, ce date și instrumente poate folosi și când trebuie să predea cazul unui om. Apoi îl testăm pe cazuri reale și îl lansăm pas cu pas."
+    },
+    {
+     "h": "Siguranță din proiectare"
+    },
+    {
+     "p": "Un agent primește doar accesul de care are cu adevărat nevoie. Acțiunile sensibile pot necesita aprobare umană, iar fiecare pas poate fi înregistrat, așa că știi mereu ce a făcut agentul."
+    }
+   ],
+   "faq": [
+    [
+     "Îmi va înlocui un agent AI angajații?",
+     "Nu — scopul este să elimine munca repetitivă. Cazurile complexe sau sensibile sunt predate oamenilor."
+    ],
+    [
+     "Cu ce instrumente poate lucra agentul?",
+     "Cu aplicații de mesagerie, e-mail, site-uri, foi de calcul, CRM-uri și multe alte servicii care oferă un API sau se conectează prin platforme de automatizare precum n8n."
+    ]
+   ]
+  },
+  "bg": {
+   "title": "AI агенти за бизнеса — асистенти по поръчка | VA Corporation",
+   "desc": "Създаваме AI агенти по поръчка, които отговарят на клиенти, обработват заявки и работят с данни и документи — на много езици, денонощно.",
+   "h1": "AI агенти за вашия бизнес",
+   "lead": "AI асистенти по поръчка, които поемат рутинната работа — отговарят на клиенти, обработват заявки, работят с данни и документи — за да може екипът ви да се съсредоточи върху важното.",
+   "body": [
+    {
+     "h": "Какво може AI агентът"
+    },
+    {
+     "p": "AI агентът е програма, която изпълнява задачи самостоятелно, по правила, които вие задавате. Той може да отговаря на клиенти в чатове и месинджъри, да квалифицира потенциални клиенти, да попълва формуляри и CRM системи, да подготвя отчети или да сортира документи — денонощно и на много езици."
+    },
+    {
+     "h": "Как го изграждаме"
+    },
+    {
+     "p": "Започваме с една ясна задача и малък пилотен проект. Заедно определяме какво може да прави агентът, какви данни и инструменти може да използва и кога трябва да предаде случая на човек. След това го тестваме с реални случаи и го внедряваме стъпка по стъпка."
+    },
+    {
+     "h": "Сигурност по замисъл"
+    },
+    {
+     "p": "Агентът получава само достъпа, от който наистина се нуждае. Чувствителните действия могат да изискват одобрение от човек, а всяка стъпка може да се записва, така че винаги знаете какво е направил агентът."
+    }
+   ],
+   "faq": [
+    [
+     "Ще замени ли AI агентът служителите ми?",
+     "Не — целта е да се премахне повтарящата се работа. Сложните или чувствителните случаи се предават на хора."
+    ],
+    [
+     "С какви инструменти може да работи агентът?",
+     "С месинджъри, имейл, уебсайтове, таблици, CRM системи и много други услуги, които предлагат API или се свързват чрез платформи за автоматизация като n8n."
+    ]
+   ]
+  },
+  "hr": {
+   "title": "AI agenti za tvrtke — AI asistenti po mjeri | VA Corporation",
+   "desc": "Razvijamo AI agente po mjeri koji odgovaraju klijentima, obrađuju upite i rade s podacima i dokumentima — na mnogo jezika, danonoćno.",
+   "h1": "AI agenti za vašu tvrtku",
+   "lead": "AI asistenti po mjeri koji preuzimaju rutinske poslove — odgovaraju klijentima, obrađuju upite, rade s podacima i dokumentima — kako bi se vaš tim mogao posvetiti onome što je važno.",
+   "body": [
+    {
+     "h": "Što AI agent može"
+    },
+    {
+     "p": "AI agent je program koji samostalno obavlja zadatke prema pravilima koja vi postavite. Može odgovarati klijentima u chatovima i messengerima, kvalificirati potencijalne klijente, ispunjavati obrasce i CRM, pripremati izvještaje ili razvrstavati dokumente — danonoćno i na mnogo jezika."
+    },
+    {
+     "h": "Kako ga gradimo"
+    },
+    {
+     "p": "Počinjemo s jednim jasnim zadatkom i malim pilotom. Zajedno određujemo što agent smije raditi, koje podatke i alate može koristiti i kada mora predmet predati čovjeku. Zatim ga testiramo na stvarnim slučajevima i uvodimo korak po korak."
+    },
+    {
+     "h": "Sigurnost od samog početka"
+    },
+    {
+     "p": "Agent dobiva samo pristup koji mu je stvarno potreban. Osjetljive radnje mogu zahtijevati odobrenje čovjeka, a svaki korak može se bilježiti, tako da uvijek znate što je agent napravio."
+    }
+   ],
+   "faq": [
+    [
+     "Hoće li AI agent zamijeniti moje zaposlenike?",
+     "Ne — cilj je ukloniti posao koji se ponavlja. Složeni ili osjetljivi slučajevi predaju se ljudima."
+    ],
+    [
+     "S kojim alatima agent može raditi?",
+     "S messengerima, e-poštom, web stranicama, tablicama, CRM sustavima i mnogim drugim uslugama koje nude API ili se povezuju putem platformi za automatizaciju kao što je n8n."
+    ]
+   ]
   }
  }
 }
