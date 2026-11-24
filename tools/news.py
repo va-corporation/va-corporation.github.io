@@ -150,7 +150,7 @@ def page(lang, title, desc, canon, alternates, body, ld, ogtype="website"):
 </head>
 <body>
 <header><div class="wrap nav">
- <a class="logo" href="{home_url(lang)}"><span class="sun">VA</span>VA Corporation</a>
+ <a class="logo notranslate" translate="no" href="{home_url(lang)}"><span class="sun notranslate" translate="no">VA</span>VA Corporation</a>
  <nav class="links"><a href="{home_url(lang)}">{e(u['home'])}</a><a href="{index_url(lang)}" aria-current="page">{e(u['news'])}</a><a href="{home_url(lang)}#contact">{e(u['cta'])}</a></nav>
 </div></header>
 <main class="wrap">
