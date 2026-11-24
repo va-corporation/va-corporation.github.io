@@ -373,7 +373,7 @@ function adminStatus(i){
 function render(){
  const mine=isAdmin?projects:projects.filter(p=>p.client_id===user.id);
  const inv=isAdmin?invoices:invoices.filter(i=>i.client_id===user.id);
- const name=(profile&&profile.name)||user.email.split('@')[0];
+ const meta=user.user_metadata||{}; const name=(profile&&profile.name)||meta.full_name||meta.name||user.email.split('@')[0];
  $('#avatar').textContent=name.slice(0,1).toUpperCase();
  $('#hello').textContent=`${t('hello')}, ${name}`;
  $('#headline').textContent= mine.length? t('headAll'):t('headStart');
@@ -401,7 +401,7 @@ function render(){
  const opts=mine.map(p=>el('option',{value:p.id},isAdmin?`${p.title} — ${(profilesById[p.client_id]||{}).name||''}`:p.title));
  const cur=$('#msgProject').value; $('#msgProject').replaceChildren(...opts); if(cur) $('#msgProject').value=cur;
  if(profile){ $('#pName').value=profile.name||''; $('#pCompany').value=profile.company||''; $('#pPhone').value=profile.phone||''; $('#pMessenger').value=profile.messenger||''; }
- $('#pEmail').value=user.email;
+ $('#pEmail').value=user.email; if(!profile&&!$('#pName').value) $('#pName').value=(user.user_metadata||{}).full_name||'';
  if(isAdmin) renderAdmin();
  if(view==='messages') renderChat();
 }
