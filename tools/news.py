@@ -105,8 +105,20 @@ footer{border-top:1px solid var(--line);margin-top:50px;padding:26px 0;color:var
 """
 
 
+def fit(text, n):
+    """Cut text to at most n characters at a word boundary (SEO snippet length)."""
+    if len(text) <= n:
+        return text
+    cut = text[:n - 1].rsplit(" ", 1)[0].rstrip(" ,.;:—-")
+    return cut + "…"
+
+
 def page(lang, title, desc, canon, alternates, body, ld, ogtype="website"):
     u = UI[lang]
+    for suf in (" — VA Corporation", " | VA Corporation"):  # drop the brand suffix when the title is too long
+        if len(title) > 65 and title.endswith(suf):
+            title = title[: -len(suf)]
+    desc = fit(desc, 160)
     alt = "".join(f'\n<link rel="alternate" hreflang="{l}" href="{h}">' for l, h in alternates)
     if alternates:
         alt += f'\n<link rel="alternate" hreflang="x-default" href="{dict(alternates).get("en", alternates[0][1])}">'
