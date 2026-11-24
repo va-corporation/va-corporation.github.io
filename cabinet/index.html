@@ -288,7 +288,7 @@ const toast = m => { const n=el('div',{class:'toast'},m); document.body.append(n
 const say = html => { $('#dlgBody').replaceChildren(...html); $('#dlg').showModal(); };
 
 function applyLang(){
- document.documentElement.lang=L; $('#langSel').value=L;
+ document.documentElement.lang=L; $('#langSel').value=L; document.title=t('authTitle')+' — VA Corporation';
  $$('[data-t]').forEach(n=>n.textContent=t(n.dataset.t));
  $$('[data-tp]').forEach(n=>n.placeholder=t(n.dataset.tp));
  $('#service').replaceChildren(...SERVICES.map(([k,n,p])=>el('option',{value:k},p?`${n} — ${t('from')} ${eur(p)}`:n)));
