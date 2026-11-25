@@ -4,7 +4,7 @@
    The choice is remembered in localStorage ("va-consent"). */
 (function () {
   var CFG = {
-    metaPixel: '',      // Meta (Facebook/Instagram) Pixel ID, e.g. '123456789012345'
+    metaPixel: '1173640052020235',      // Meta (Facebook/Instagram) Pixel ID, e.g. '123456789012345'
     googleTag: ''       // Google Ads / GA4 tag ID, e.g. 'AW-123456789' or 'G-XXXXXXX'
   };
   if (!CFG.metaPixel && !CFG.googleTag) return;
