@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-11-25-de",
+    "date": "2026-11-25",
+    "lang": "de",
+    "title": "Deine Idee verdient eine App.",
+    "description": "Ein Aurora-Reel in drei Schritten – gemeinsam planen, bauen, live gehen – und die Frage, was du als Nächstes baust: KI-Agent, Spiel oder Software. Erstellt von unserem KI-Video-Agenten.",
+    "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-25-de.mp4",
+    "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-25-de.jpg",
+    "duration": 23
+  },
+  {
     "id": "2026-11-24-en",
     "date": "2026-11-24",
     "lang": "en",
