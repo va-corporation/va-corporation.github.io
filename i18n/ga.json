@@ -14,7 +14,6 @@
   "News": "Nuacht",
   "FAQ": "CCanna",
   "Contact": "Teagmháil",
-  "We build <span class=\"grad\">AI agents</span>, games and software.": "Tógaimid <span class=\"grad\">gníomhairí AI</span>, cluichí agus bogearraí.",
   "VA Corporation is a technology studio at the intersection of artificial intelligence, game development and digital products.": "Is stiúideo teicneolaíochta é VA Corporation ag crosbhealach na hintleachta saorga, forbairt cluichí agus táirgí digiteacha.",
   "Start a project": "Tosaigh tionscadal",
   "See our work": "Féach ar ár saothar",
@@ -165,7 +164,8 @@
   "Send via WhatsApp": "Seol trí WhatsApp",
   "Send via Telegram": "Seol trí Telegram",
   "Send via Instagram": "Seol trí Instagram",
-  "Your message is copied automatically — just paste it into the chat and send.": "Cóipeáiltear do theachtaireacht go huathoibríoch — níl le déanamh ach í a ghreamú sa chomhrá agus í a sheoladh."
+  "Your message is copied automatically — just paste it into the chat and send.": "Cóipeáiltear do theachtaireacht go huathoibríoch — níl le déanamh ach í a ghreamú sa chomhrá agus í a sheoladh.",
+  "We build <span class=\"grad\">AI agents</span>, AI chatbots for business and games.": "Tógaimid <span class=\"grad\">gníomhairí AI</span>, cluichí agus bogearraí."
  },
  "news": {
   "news": "Nuacht",

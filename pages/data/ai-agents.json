@@ -3,12 +3,12 @@
  "path": "ai-agents/",
  "kind": "service",
  "order": 1,
- "updated": "2026-11-22",
+ "updated": "2026-11-25",
  "i18n": {
   "en": {
-   "title": "AI agents for business — custom AI assistants | VA Corporation",
-   "desc": "We build custom AI agents that answer customers, process requests and work with data and documents — in many languages, around the clock.",
-   "h1": "AI agents for your business",
+   "title": "AI Agent Development for Business — from €490 | VA Corporation",
+   "desc": "Custom AI agent development: AI agents and AI chatbots for business that answer customers, handle requests and work with your data 24/7. From €490 + VAT.",
+   "h1": "AI agent development for your business",
    "lead": "Custom AI assistants that take over routine work — answering customers, processing requests, working with data and documents — so your team can focus on what matters.",
    "body": [
     {
@@ -32,6 +32,14 @@
    ],
    "faq": [
     [
+     "How much does AI agent development cost?",
+     "A pilot AI agent for one task starts at €490 + VAT, a 24/7 customer support agent at €790 + VAT. The exact quote comes after a short free consultation; monthly maintenance depends on project complexity."
+    ],
+    [
+     "What is the difference between an AI agent and an AI chatbot for business?",
+     "A chatbot mainly answers questions. An AI agent also acts: it books appointments, fills in CRMs and tables, prepares reports and hands complex cases to your team."
+    ],
+    [
      "Will an AI agent replace my employees?",
      "No — the goal is to remove repetitive work. Complex or sensitive cases are handed over to people."
     ],
@@ -42,9 +50,9 @@
    ]
   },
   "de": {
-   "title": "KI-Agenten für Unternehmen — individuelle KI-Assistenten | VA Corporation",
-   "desc": "Wir entwickeln individuelle KI-Agenten, die Kunden antworten, Anfragen bearbeiten und mit Daten und Dokumenten arbeiten — mehrsprachig und rund um die Uhr.",
-   "h1": "KI-Agenten für Ihr Unternehmen",
+   "title": "KI-Agenten erstellen lassen ab 490 € | VA Corporation",
+   "desc": "KI-Agenten für Unternehmen erstellen lassen: KI-Agenten und KI-Chatbots beantworten Kundenanfragen rund um die Uhr. Ab 490 € zzgl. MwSt.",
+   "h1": "KI-Agenten für Unternehmen erstellen lassen",
    "lead": "Individuelle KI-Assistenten übernehmen Routinearbeit — Kundenanfragen, Bearbeitung von Aufträgen, Daten und Dokumente —, damit sich Ihr Team auf das Wesentliche konzentrieren kann.",
    "body": [
     {
@@ -67,6 +75,14 @@
     }
    ],
    "faq": [
+    [
+     "Was kostet es, einen KI-Agenten erstellen zu lassen?",
+     "Ein Pilot-KI-Agent für eine Aufgabe startet ab 490 € zzgl. MwSt., ein KI-Kundenservice-Agent rund um die Uhr ab 790 € zzgl. MwSt. Das genaue Angebot folgt nach einer kurzen kostenlosen Beratung; die monatliche Wartung hängt von der Komplexität des Projekts ab."
+    ],
+    [
+     "Was ist der Unterschied zwischen einem KI-Agenten und einem KI-Chatbot für Unternehmen?",
+     "Ein Chatbot beantwortet vor allem Fragen. Ein KI-Agent handelt auch: Er bucht Termine, pflegt CRM und Tabellen, erstellt Berichte und übergibt komplexe Fälle an Ihr Team."
+    ],
     [
      "Ersetzt ein KI-Agent meine Mitarbeiter?",
      "Nein — das Ziel ist, wiederkehrende Arbeit abzunehmen. Komplexe oder sensible Fälle gehen an Menschen."
@@ -258,9 +274,9 @@
    ]
   },
   "ru": {
-   "title": "ИИ-агенты для бизнеса — индивидуальные ИИ-ассистенты | VA Corporation",
-   "desc": "Создаём ИИ-агентов, которые отвечают клиентам, обрабатывают заявки и работают с данными и документами — на разных языках и круглосуточно.",
-   "h1": "ИИ-агенты для вашего бизнеса",
+   "title": "Разработка ИИ-агентов для бизнеса — от 490 € | VA Corporation",
+   "desc": "Разработка ИИ-агентов на заказ: ИИ-агент и чат-бот для бизнеса отвечают клиентам, обрабатывают заявки и работают с данными 24/7. От 490 € + НДС.",
+   "h1": "Разработка ИИ-агентов для бизнеса",
    "lead": "Индивидуальные ИИ-ассистенты берут на себя рутину — ответы клиентам, обработку заявок, работу с данными и документами, — чтобы команда занималась главным.",
    "body": [
     {
@@ -283,6 +299,14 @@
     }
    ],
    "faq": [
+    [
+     "Сколько стоит разработка ИИ-агента?",
+     "Пилотный ИИ-агент для одной задачи — от 490 € + НДС, ИИ-агент поддержки клиентов 24/7 — от 790 € + НДС. Точная цена — после короткой бесплатной консультации; ежемесячное обслуживание зависит от сложности проекта."
+    ],
+    [
+     "Чем ИИ-агент отличается от чат-бота для бизнеса?",
+     "Чат-бот в основном отвечает на вопросы. ИИ-агент ещё и действует: записывает клиентов, заполняет CRM и таблицы, готовит отчёты и передаёт сложные случаи вашей команде."
+    ],
     [
      "Заменит ли ИИ-агент моих сотрудников?",
      "Нет — цель в том, чтобы убрать повторяющуюся работу. Сложные и деликатные случаи передаются людям."

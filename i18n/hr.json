@@ -14,7 +14,6 @@
   "News": "Vijesti",
   "FAQ": "FAQ",
   "Contact": "Kontakt",
-  "We build <span class=\"grad\">AI agents</span>, games and software.": "Razvijamo <span class=\"grad\">AI agente</span>, igre i softver.",
   "VA Corporation is a technology studio at the intersection of artificial intelligence, game development and digital products.": "VA Corporation je tehnološki studio na sjecištu umjetne inteligencije, razvoja igara i digitalnih proizvoda.",
   "Start a project": "Pokrenite projekt",
   "See our work": "Pogledajte naše radove",
@@ -165,7 +164,8 @@
   "Send via WhatsApp": "Pošalji putem WhatsAppa",
   "Send via Telegram": "Pošalji putem Telegrama",
   "Send via Instagram": "Pošalji putem Instagrama",
-  "Your message is copied automatically — just paste it into the chat and send.": "Vaša poruka kopira se automatski — samo je zalijepite u chat i pošaljite."
+  "Your message is copied automatically — just paste it into the chat and send.": "Vaša poruka kopira se automatski — samo je zalijepite u chat i pošaljite.",
+  "We build <span class=\"grad\">AI agents</span>, AI chatbots for business and games.": "Razvijamo <span class=\"grad\">AI agente</span>, igre i softver."
  },
  "news": {
   "news": "Vijesti",

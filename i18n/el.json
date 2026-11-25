@@ -14,7 +14,6 @@
   "News": "Νέα",
   "FAQ": "FAQ",
   "Contact": "Επικοινωνία",
-  "We build <span class=\"grad\">AI agents</span>, games and software.": "Δημιουργούμε <span class=\"grad\">πράκτορες AI</span>, παιχνίδια και λογισμικό.",
   "VA Corporation is a technology studio at the intersection of artificial intelligence, game development and digital products.": "Η VA Corporation είναι ένα τεχνολογικό στούντιο στη συνάντηση της τεχνητής νοημοσύνης, της ανάπτυξης παιχνιδιών και των ψηφιακών προϊόντων.",
   "Start a project": "Ξεκινήστε ένα έργο",
   "See our work": "Δείτε τη δουλειά μας",
@@ -165,7 +164,8 @@
   "Send via WhatsApp": "Αποστολή μέσω WhatsApp",
   "Send via Telegram": "Αποστολή μέσω Telegram",
   "Send via Instagram": "Αποστολή μέσω Instagram",
-  "Your message is copied automatically — just paste it into the chat and send.": "Το μήνυμά σας αντιγράφεται αυτόματα — απλώς επικολλήστε το στο chat και στείλτε το."
+  "Your message is copied automatically — just paste it into the chat and send.": "Το μήνυμά σας αντιγράφεται αυτόματα — απλώς επικολλήστε το στο chat και στείλτε το.",
+  "We build <span class=\"grad\">AI agents</span>, AI chatbots for business and games.": "Δημιουργούμε <span class=\"grad\">πράκτορες AI</span>, παιχνίδια και λογισμικό."
  },
  "news": {
   "news": "Νέα",

@@ -157,7 +157,7 @@ def page(lang, title, desc, canon, alternates, body, ld, ogtype="website"):
 {body}
 </main>
 <footer><div class="wrap"><span>© {datetime.date.today().year} VA Corporation</span><span>AI agents · Games · Software</span><span><a href="/{"" if lang == "en" else (prefix(lang) if lang in ("de", "ru") else "")}terms/">Terms</a> · <a href="/{"" if lang == "en" else (prefix(lang) if lang in ("de", "ru") else "")}privacy/">Privacy</a></span></div></footer>
-</body>
+<script src="/track.js" defer></script></body>
 </html>
 """
 

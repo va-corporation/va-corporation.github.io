@@ -14,7 +14,6 @@
   "News": "Uutiset",
   "FAQ": "UKK",
   "Contact": "Yhteystiedot",
-  "We build <span class=\"grad\">AI agents</span>, games and software.": "Rakennamme <span class=\"grad\">tekoälyagentteja</span>, pelejä ja ohjelmistoja.",
   "VA Corporation is a technology studio at the intersection of artificial intelligence, game development and digital products.": "VA Corporation on teknologiastudio tekoälyn, pelikehityksen ja digitaalisten tuotteiden risteyksessä.",
   "Start a project": "Aloita projekti",
   "See our work": "Katso töitämme",
@@ -165,7 +164,8 @@
   "Send via WhatsApp": "Lähetä WhatsAppilla",
   "Send via Telegram": "Lähetä Telegramilla",
   "Send via Instagram": "Lähetä Instagramilla",
-  "Your message is copied automatically — just paste it into the chat and send.": "Viestisi kopioidaan automaattisesti — liitä se vain chattiin ja lähetä."
+  "Your message is copied automatically — just paste it into the chat and send.": "Viestisi kopioidaan automaattisesti — liitä se vain chattiin ja lähetä.",
+  "We build <span class=\"grad\">AI agents</span>, AI chatbots for business and games.": "Rakennamme <span class=\"grad\">tekoälyagentteja</span>, pelejä ja ohjelmistoja."
  },
  "news": {
   "news": "Uutiset",

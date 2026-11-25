@@ -3,12 +3,12 @@
  "path": "telegram-bots/",
  "kind": "service",
  "order": 3,
- "updated": "2026-11-22",
+ "updated": "2026-11-25",
  "i18n": {
   "en": {
-   "title": "Telegram bot development and AI chatbots | VA Corporation",
-   "desc": "We build Telegram bots and AI chatbots for websites: answering questions, collecting requests, bookings and connections to your services.",
-   "h1": "Telegram bots & AI chatbots",
+   "title": "AI Chatbot for Business & Telegram Bots | VA Corporation",
+   "desc": "AI chatbots for business and Telegram bot development: answers, requests, bookings and payments. Telegram bot from €190 + VAT.",
+   "h1": "AI chatbots for business & Telegram bots",
    "lead": "Bots that talk to your customers where they already are — in Telegram, on your website and in other messengers.",
    "body": [
     {
@@ -32,6 +32,10 @@
    ],
    "faq": [
     [
+     "How much does a Telegram bot cost?",
+     "A simple Telegram bot starts at €190 + VAT, a bot with catalog and payments at €490 + VAT, a Telegram Mini App at €1,490 + VAT."
+    ],
+    [
      "Do I need a website for a bot?",
      "No. A Telegram bot works on its own, and it can also be connected to a chat on your website."
     ],
@@ -42,9 +46,9 @@
    ]
   },
   "de": {
-   "title": "Telegram-Bot-Entwicklung und KI-Chatbots | VA Corporation",
-   "desc": "Wir entwickeln Telegram-Bots und KI-Chatbots für Websites: Fragen beantworten, Anfragen sammeln, Buchungen und Anbindung an Ihre Dienste.",
-   "h1": "Telegram-Bots & KI-Chatbots",
+   "title": "KI-Chatbot & Telegram-Bot erstellen lassen | VA Corporation",
+   "desc": "KI-Chatbots für Unternehmen und Telegram-Bots erstellen lassen: Antworten, Anfragen, Buchungen und Zahlungen. Telegram-Bot ab 190 € zzgl. MwSt.",
+   "h1": "KI-Chatbots für Unternehmen & Telegram-Bots",
    "lead": "Bots, die mit Ihren Kunden dort sprechen, wo sie ohnehin sind — in Telegram, auf Ihrer Website und in anderen Messengern.",
    "body": [
     {
@@ -67,6 +71,10 @@
     }
    ],
    "faq": [
+    [
+     "Was kostet ein Telegram-Bot?",
+     "Ein einfacher Telegram-Bot startet ab 190 € zzgl. MwSt., ein Bot mit Katalog und Zahlungen ab 490 € zzgl. MwSt., eine Telegram Mini App ab 1.490 € zzgl. MwSt."
+    ],
     [
      "Brauche ich für einen Bot eine Website?",
      "Nein. Ein Telegram-Bot funktioniert eigenständig und kann zusätzlich mit einem Chat auf Ihrer Website verbunden werden."
@@ -258,9 +266,9 @@
    ]
   },
   "ru": {
-   "title": "Разработка Telegram-ботов и ИИ-чат-ботов | VA Corporation",
-   "desc": "Создаём Telegram-ботов и ИИ-чат-ботов для сайтов: ответы на вопросы, сбор заявок, бронирования и связь с вашими сервисами.",
-   "h1": "Telegram-боты и ИИ-чат-боты",
+   "title": "Чат-бот для бизнеса и Telegram-бот от 190 € | VA Corporation",
+   "desc": "Чат-боты для бизнеса и создание Telegram-ботов: ответы, заявки, бронирования и оплата. Telegram-бот — от 190 € + НДС.",
+   "h1": "Чат-боты для бизнеса и Telegram-боты",
    "lead": "Боты, которые общаются с вашими клиентами там, где они уже есть, — в Telegram, на сайте и в других мессенджерах.",
    "body": [
     {
@@ -283,6 +291,10 @@
     }
    ],
    "faq": [
+    [
+     "Сколько стоит создание Telegram-бота?",
+     "Простой Telegram-бот — от 190 € + НДС, бот с каталогом и оплатой — от 490 € + НДС, Telegram Mini App — от 1 490 € + НДС."
+    ],
     [
      "Нужен ли для бота сайт?",
      "Нет. Telegram-бот работает самостоятельно, а при желании его можно подключить и к чату на сайте."

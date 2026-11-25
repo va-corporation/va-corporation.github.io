@@ -14,7 +14,6 @@
   "News": "Nyheder",
   "FAQ": "FAQ",
   "Contact": "Kontakt",
-  "We build <span class=\"grad\">AI agents</span>, games and software.": "Vi bygger <span class=\"grad\">AI-agenter</span>, spil og software.",
   "VA Corporation is a technology studio at the intersection of artificial intelligence, game development and digital products.": "VA Corporation er et teknologistudie i krydsfeltet mellem kunstig intelligens, spiludvikling og digitale produkter.",
   "Start a project": "Start et projekt",
   "See our work": "Se vores arbejde",
@@ -165,7 +164,8 @@
   "Send via WhatsApp": "Send via WhatsApp",
   "Send via Telegram": "Send via Telegram",
   "Send via Instagram": "Send via Instagram",
-  "Your message is copied automatically — just paste it into the chat and send.": "Din besked kopieres automatisk — indsæt den bare i chatten og send."
+  "Your message is copied automatically — just paste it into the chat and send.": "Din besked kopieres automatisk — indsæt den bare i chatten og send.",
+  "We build <span class=\"grad\">AI agents</span>, AI chatbots for business and games.": "Vi bygger <span class=\"grad\">AI-agenter</span>, spil og software."
  },
  "news": {
   "news": "Nyheder",

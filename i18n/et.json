@@ -14,7 +14,6 @@
   "News": "Uudised",
   "FAQ": "KKK",
   "Contact": "Kontakt",
-  "We build <span class=\"grad\">AI agents</span>, games and software.": "Loome <span class=\"grad\">AI-agente</span>, mänge ja tarkvara.",
   "VA Corporation is a technology studio at the intersection of artificial intelligence, game development and digital products.": "VA Corporation on tehnoloogiastuudio tehisintellekti, mänguarenduse ja digitaalsete toodete ristumiskohas.",
   "Start a project": "Alusta projekti",
   "See our work": "Vaata meie töid",
@@ -165,7 +164,8 @@
   "Send via WhatsApp": "Saada WhatsAppis",
   "Send via Telegram": "Saada Telegramis",
   "Send via Instagram": "Saada Instagramis",
-  "Your message is copied automatically — just paste it into the chat and send.": "Sinu sõnum kopeeritakse automaatselt — kleebi see lihtsalt vestlusesse ja saada."
+  "Your message is copied automatically — just paste it into the chat and send.": "Sinu sõnum kopeeritakse automaatselt — kleebi see lihtsalt vestlusesse ja saada.",
+  "We build <span class=\"grad\">AI agents</span>, AI chatbots for business and games.": "Loome <span class=\"grad\">AI-agente</span>, mänge ja tarkvara."
  },
  "news": {
   "news": "Uudised",

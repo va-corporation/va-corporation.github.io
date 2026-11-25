@@ -14,7 +14,6 @@
   "News": "Aħbarijiet",
   "FAQ": "FAQ",
   "Contact": "Kuntatt",
-  "We build <span class=\"grad\">AI agents</span>, games and software.": "Nibnu <span class=\"grad\">aġenti tal-AI</span>, logħob u software.",
   "VA Corporation is a technology studio at the intersection of artificial intelligence, game development and digital products.": "VA Corporation hija studjo teknoloġiku fejn jiltaqgħu l-intelliġenza artifiċjali, l-iżvilupp tal-logħob u l-prodotti diġitali.",
   "Start a project": "Ibda proġett",
   "See our work": "Ara x-xogħol tagħna",
@@ -165,7 +164,8 @@
   "Send via WhatsApp": "Ibgħat permezz ta' WhatsApp",
   "Send via Telegram": "Ibgħat permezz ta' Telegram",
   "Send via Instagram": "Ibgħat permezz ta' Instagram",
-  "Your message is copied automatically — just paste it into the chat and send.": "Il-messaġġ tiegħek jiġi kkupjat awtomatikament — sempliċement waħħlu fiċ-chat u ibgħatu."
+  "Your message is copied automatically — just paste it into the chat and send.": "Il-messaġġ tiegħek jiġi kkupjat awtomatikament — sempliċement waħħlu fiċ-chat u ibgħatu.",
+  "We build <span class=\"grad\">AI agents</span>, AI chatbots for business and games.": "Nibnu <span class=\"grad\">aġenti tal-AI</span>, logħob u software."
  },
  "news": {
   "news": "Aħbarijiet",

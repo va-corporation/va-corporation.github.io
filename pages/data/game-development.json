@@ -3,12 +3,12 @@
  "path": "game-development/",
  "kind": "service",
  "order": 4,
- "updated": "2026-11-22",
+ "updated": "2026-11-25",
  "i18n": {
   "en": {
-   "title": "Game development — browser games for phone and PC | VA Corporation",
-   "desc": "Game design, mechanics and production from the first prototype to release: browser games that run on phones and computers.",
-   "h1": "Game development",
+   "title": "Game Development Studio — Custom Browser Games | VA Corporation",
+   "desc": "Game development studio for hire: custom browser games for phone and PC, from prototype to release. Mini-games from €1,490 + VAT.",
+   "h1": "Custom game development studio",
    "lead": "From the first idea and prototype to a finished game that runs in the browser on phones and computers.",
    "body": [
     {
@@ -32,6 +32,10 @@
    ],
    "faq": [
     [
+     "How much does custom game development cost?",
+     "A browser mini-game starts at €1,490 + VAT; a bigger game like Kulak Kombat starts at €4,900 + VAT. The exact quote comes after a free consultation."
+    ],
+    [
      "Which platforms do you develop for?",
      "Browser games (HTML5) that work on phones and computers without installation; other platforms depend on the project."
     ],
@@ -42,9 +46,9 @@
    ]
   },
   "de": {
-   "title": "Spieleentwicklung — Browserspiele für Smartphone und PC | VA Corporation",
-   "desc": "Game Design, Mechaniken und Produktion vom ersten Prototyp bis zum Release: Browserspiele, die auf Smartphones und Computern laufen.",
-   "h1": "Spieleentwicklung",
+   "title": "Spiel entwickeln lassen — Spieleentwicklung | VA Corporation",
+   "desc": "Spiel entwickeln lassen: individuelle Browserspiele für Smartphone und PC, vom Prototyp bis zum Release. Mini-Games ab 1.490 € zzgl. MwSt.",
+   "h1": "Spiel entwickeln lassen",
    "lead": "Von der ersten Idee und dem Prototyp bis zum fertigen Spiel, das im Browser auf Smartphones und Computern läuft.",
    "body": [
     {
@@ -67,6 +71,10 @@
     }
    ],
    "faq": [
+    [
+     "Was kostet es, ein Spiel entwickeln zu lassen?",
+     "Ein Browser-Minispiel startet ab 1.490 € zzgl. MwSt., ein größeres Spiel wie Kulak Kombat ab 4.900 € zzgl. MwSt. Das genaue Angebot folgt nach einer kostenlosen Beratung."
+    ],
     [
      "Für welche Plattformen entwickeln Sie?",
      "Browserspiele (HTML5), die ohne Installation auf Smartphones und Computern laufen; andere Plattformen je nach Projekt."
@@ -258,9 +266,9 @@
    ]
   },
   "ru": {
-   "title": "Разработка игр — браузерные игры для телефона и ПК | VA Corporation",
-   "desc": "Геймдизайн, механики и продакшн от первого прототипа до релиза: браузерные игры, которые работают на телефонах и компьютерах.",
-   "h1": "Разработка игр",
+   "title": "Разработка игр на заказ — браузерные игры | VA Corporation",
+   "desc": "Разработка игр на заказ: браузерные игры для телефона и ПК, от прототипа до релиза. Мини-игра — от 1 490 € + НДС.",
+   "h1": "Разработка игр на заказ",
    "lead": "От первой идеи и прототипа до готовой игры, которая запускается в браузере на телефоне и компьютере.",
    "body": [
     {
@@ -283,6 +291,10 @@
     }
    ],
    "faq": [
+    [
+     "Сколько стоит разработка игры на заказ?",
+     "Браузерная мини-игра — от 1 490 € + НДС, игра масштаба Kulak Kombat — от 4 900 € + НДС. Точная цена — после бесплатной консультации."
+    ],
     [
      "Под какие платформы вы разрабатываете?",
      "Браузерные игры (HTML5), которые работают на телефонах и компьютерах без установки; другие платформы — в зависимости от проекта."

@@ -14,7 +14,6 @@
   "News": "Hírek",
   "FAQ": "GYIK",
   "Contact": "Kapcsolat",
-  "We build <span class=\"grad\">AI agents</span>, games and software.": "<span class=\"grad\">MI-ügynököket</span>, játékokat és szoftvereket fejlesztünk.",
   "VA Corporation is a technology studio at the intersection of artificial intelligence, game development and digital products.": "A VA Corporation technológiai stúdió a mesterséges intelligencia, a játékfejlesztés és a digitális termékek metszéspontjában.",
   "Start a project": "Projekt indítása",
   "See our work": "Munkáink",
@@ -165,7 +164,8 @@
   "Send via WhatsApp": "Küldés WhatsAppon",
   "Send via Telegram": "Küldés Telegramon",
   "Send via Instagram": "Küldés Instagramon",
-  "Your message is copied automatically — just paste it into the chat and send.": "Üzenete automatikusan a vágólapra kerül — csak illessze be a chatbe és küldje el."
+  "Your message is copied automatically — just paste it into the chat and send.": "Üzenete automatikusan a vágólapra kerül — csak illessze be a chatbe és küldje el.",
+  "We build <span class=\"grad\">AI agents</span>, AI chatbots for business and games.": "<span class=\"grad\">MI-ügynököket</span>, játékokat és szoftvereket fejlesztünk."
  },
  "news": {
   "news": "Hírek",
