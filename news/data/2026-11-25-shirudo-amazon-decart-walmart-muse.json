@@ -1,0 +1,368 @@
+{
+ "date": "2026-11-25",
+ "slug": "shirudo-amazon-decart-walmart-muse",
+ "sources": [
+  {
+   "name": "OpenAI",
+   "title": "OpenAI and Cisco introduce Shirudo",
+   "url": "https://openai.com/index/introducing-shirudo/"
+  },
+  {
+   "name": "Cisco",
+   "title": "Cisco and OpenAI Launch Shirudo, A New Project to Safeguard Agentic AI",
+   "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html"
+  },
+  {
+   "name": "Help Net Security",
+   "title": "Linux patches can take weeks, and OpenAI and Cisco built Shirudo to help in the meantime",
+   "url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/"
+  },
+  {
+   "name": "TechCrunch",
+   "title": "Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+  },
+  {
+   "name": "TechCrunch",
+   "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+   "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/"
+  },
+  {
+   "name": "The Shelby Report",
+   "title": "Gopuff Joins Walmart In Letting Meta's Muse AI Agent Shop For Customers",
+   "url": "https://theshelbyreport.com/2026/11/24/gopuff-joins-walmart-in-letting-metas-muse-ai-agent-shop-for-customers/"
+  }
+ ],
+ "i18n": {
+  "en": {
+   "title": "AI digest: OpenAI and Cisco's Shirudo, Amazon buys Decart tech, Walmart opens to Muse",
+   "desc": "Open-source shields for unpatched Linux, a reported $7.5B bet on chip software, and AI agents shopping Black Friday deals at Walmart and Gopuff.",
+   "body": [
+    {
+     "h": "OpenAI and Cisco release Shirudo to shield unpatched Linux"
+    },
+    {
+     "p": "OpenAI and Cisco have released Shirudo, an open-source runtime for Linux built on eBPF. The idea is to load small, cryptographically signed “shields” into a running system that block a known exploit while the real patch is still being rolled out, with no restart. According to OpenAI, a shield written by its Codex agent stopped a Java4Shell exploit against a live Elasticsearch service in a controlled test run by the developers themselves. Help Net Security notes that production use needs a patched Linux kernel and a TPM 2.0 chip, so this is an early project rather than a drop-in product."
+    },
+    {
+     "h": "Amazon buys Decart's chip-optimization tech and team"
+    },
+    {
+     "p": "Amazon has agreed to acquire the technology behind Decart's optimization stack together with the Israeli startup's founders and researchers; Bloomberg puts the price at about $7.5 billion. The software helps AI models run efficiently on chips from Nvidia, Google and Amazon itself. The deal comes as Amazon prepares to sell its Trainium accelerators to outside customers. It shows that the AI hardware race is increasingly decided by software that squeezes more out of every chip."
+    },
+    {
+     "h": "Walmart and Gopuff let Meta's Muse agent shop for customers"
+    },
+    {
+     "p": "Walmart has opened its Black Friday deals to Meta's Muse assistant through Walmart Agent Gateway, launched in October to let outside AI agents connect directly to its online store. Shoppers link their Walmart account and describe what they want, and the agent searches, compares and builds a cart; Walmart says users can set spending limits, require approval for purchases and review the agent's orders. On the same day, delivery service Gopuff launched its own Muse connector covering more than 5,000 products. Retailers now have to decide whether to block shopping agents or open a controlled door for them."
+    },
+    {
+     "h": "What it means for business"
+    },
+    {
+     "p": "All three stories point to one shift: AI agents are moving from chat windows into systems that act — protecting servers, placing orders, running on cheaper hardware. For companies, the practical lesson is to design the guardrails first: signed and logged actions, clear permission and spending limits, and human approval for anything irreversible. It is also worth preparing your catalog, API or internal data so agents can use them in a structured way instead of scraping web pages. Start with one narrow, measurable process, and scale only after it proves reliable; if you are planning such a project, VA Corporation is happy to talk it through."
+    }
+   ]
+  },
+  "de": {
+   "title": "KI-Digest: Shirudo von OpenAI und Cisco, Amazon kauft Decart-Technik, Walmart und Muse",
+   "desc": "Open-Source-Schutz für ungepatchtes Linux, eine kolportierte 7,5-Mrd.-Dollar-Wette auf Chip-Software und KI-Agenten beim Black-Friday-Einkauf.",
+   "body": [
+    {
+     "h": "OpenAI und Cisco veröffentlichen Shirudo für ungepatchte Linux-Systeme"
+    },
+    {
+     "p": "OpenAI und Cisco haben Shirudo vorgestellt, eine quelloffene Laufzeitumgebung für Linux auf Basis von eBPF. Sie lädt kleine, kryptografisch signierte „Schilde“ in ein laufendes System, die eine bekannte Schwachstelle blockieren, bis der eigentliche Patch eingespielt ist – ganz ohne Neustart. Laut OpenAI hat ein vom Codex-Agenten geschriebener Schild in einem von den Entwicklern selbst durchgeführten Test einen Java4Shell-Angriff auf einen laufenden Elasticsearch-Dienst gestoppt. Help Net Security weist darauf hin, dass der Produktiveinsatz einen gepatchten Linux-Kernel und einen TPM-2.0-Chip voraussetzt; es handelt sich also um ein frühes Projekt, nicht um ein fertiges Produkt."
+    },
+    {
+     "h": "Amazon übernimmt Decarts Chip-Optimierung samt Team"
+    },
+    {
+     "p": "Amazon hat vereinbart, die Technologie hinter dem Optimierungs-Stack von Decart sowie die Gründer und Forscher des israelischen Start-ups zu übernehmen; Bloomberg beziffert den Preis auf rund 7,5 Milliarden Dollar. Die Software sorgt dafür, dass KI-Modelle effizient auf Chips von Nvidia, Google und Amazon selbst laufen. Der Deal kommt, während Amazon den Verkauf seiner Trainium-Beschleuniger an externe Kunden vorbereitet. Er zeigt, dass das Rennen um KI-Hardware zunehmend von Software entschieden wird, die mehr aus jedem Chip herausholt."
+    },
+    {
+     "h": "Walmart und Gopuff lassen Metas Agenten Muse einkaufen"
+    },
+    {
+     "p": "Walmart hat seine Black-Friday-Angebote für Metas Assistenten Muse geöffnet – über das im Oktober gestartete Walmart Agent Gateway, mit dem sich externe KI-Agenten direkt an den Onlineshop anbinden. Kunden verknüpfen ihr Walmart-Konto, beschreiben ihren Wunsch, und der Agent sucht, vergleicht und füllt den Warenkorb; laut Walmart lassen sich Ausgabelimits setzen, Käufe freigeben und Bestellungen des Agenten prüfen. Am selben Tag startete der Lieferdienst Gopuff einen eigenen Muse-Connector für mehr als 5.000 Produkte. Händler müssen nun entscheiden, ob sie Einkaufsagenten aussperren oder ihnen eine kontrollierte Tür öffnen."
+    },
+    {
+     "h": "Was das für Unternehmen bedeutet"
+    },
+    {
+     "p": "Alle drei Meldungen zeigen denselben Trend: KI-Agenten wandern vom Chatfenster in Systeme, die handeln – sie schützen Server, bestellen Waren und laufen auf günstigerer Hardware. Für Unternehmen heißt das: zuerst die Leitplanken entwerfen – signierte und protokollierte Aktionen, klare Berechtigungs- und Ausgabegrenzen sowie menschliche Freigabe für alles Unumkehrbare. Es lohnt sich auch, Katalog, API oder interne Daten so aufzubereiten, dass Agenten sie strukturiert nutzen können, statt Webseiten auszulesen. Beginnen Sie mit einem eng umrissenen, messbaren Prozess und skalieren Sie erst, wenn er zuverlässig läuft; wenn Sie ein solches Projekt planen, spricht VA Corporation gern mit Ihnen darüber."
+    }
+   ]
+  },
+  "es": {
+   "title": "Resumen IA: Shirudo de OpenAI y Cisco, Amazon compra tecnología de Decart, Walmart y Muse",
+   "desc": "Escudos de código abierto para Linux sin parchear, una apuesta de 7.500 millones por el software de chips y agentes de IA comprando en Black Friday.",
+   "body": [
+    {
+     "h": "OpenAI y Cisco lanzan Shirudo para proteger Linux sin parchear"
+    },
+    {
+     "p": "OpenAI y Cisco han publicado Shirudo, un entorno de ejecución de código abierto para Linux basado en eBPF. Permite cargar en un sistema en marcha pequeños «escudos» firmados criptográficamente que bloquean una vulnerabilidad conocida mientras se despliega el parche definitivo, sin reiniciar. Según OpenAI, un escudo escrito por su agente Codex detuvo un exploit de Java4Shell contra un servicio Elasticsearch activo en una prueba controlada realizada por los propios desarrolladores. Help Net Security señala que para usarlo en producción hacen falta un kernel de Linux parcheado y un chip TPM 2.0, así que es un proyecto temprano y no un producto listo para instalar."
+    },
+    {
+     "h": "Amazon compra la tecnología de optimización de Decart y su equipo"
+    },
+    {
+     "p": "Amazon ha acordado adquirir la tecnología del stack de optimización de Decart junto con los fundadores e investigadores de la startup israelí; según Bloomberg, el precio ronda los 7.500 millones de dólares. Este software ayuda a que los modelos de IA funcionen de forma eficiente en chips de Nvidia, Google y la propia Amazon. La operación llega cuando Amazon se prepara para vender sus aceleradores Trainium a clientes externos. Muestra que la carrera por el hardware de IA se decide cada vez más en el software que exprime cada chip."
+    },
+    {
+     "h": "Walmart y Gopuff dejan que el agente Muse de Meta compre por los clientes"
+    },
+    {
+     "p": "Walmart ha abierto sus ofertas de Black Friday al asistente Muse de Meta mediante Walmart Agent Gateway, un sistema lanzado en octubre que conecta agentes de IA externos directamente con su tienda online. El usuario vincula su cuenta de Walmart, explica lo que busca y el agente compara opciones y arma el carrito; Walmart afirma que se pueden fijar límites de gasto, exigir aprobación de las compras y revisar los pedidos del agente. Ese mismo día, el servicio de reparto Gopuff lanzó su propio conector para Muse con más de 5.000 productos. Los minoristas tienen que decidir ahora si bloquean a los agentes de compra o les abren una puerta controlada."
+    },
+    {
+     "h": "Qué significa para las empresas"
+    },
+    {
+     "p": "Las tres noticias apuntan a un mismo cambio: los agentes de IA pasan del chat a sistemas que actúan, ya sea protegiendo servidores, haciendo pedidos o funcionando en hardware más barato. Para las empresas, la lección práctica es diseñar primero las salvaguardas: acciones firmadas y registradas, límites claros de permisos y de gasto, y aprobación humana para todo lo irreversible. También conviene preparar el catálogo, la API o los datos internos para que los agentes los usen de forma estructurada en lugar de leer páginas web. Empiece por un proceso concreto y medible y escale solo cuando funcione de forma fiable; si está planeando un proyecto así, en VA Corporation estaremos encantados de comentarlo."
+    }
+   ]
+  },
+  "it": {
+   "title": "Digest IA: Shirudo di OpenAI e Cisco, Amazon compra tecnologia Decart, Walmart e Muse",
+   "desc": "Scudi open source per Linux non aggiornato, una scommessa da 7,5 miliardi sul software per chip e agenti IA che fanno acquisti per il Black Friday.",
+   "body": [
+    {
+     "h": "OpenAI e Cisco presentano Shirudo per proteggere Linux senza patch"
+    },
+    {
+     "p": "OpenAI e Cisco hanno rilasciato Shirudo, un runtime open source per Linux basato su eBPF. Il sistema carica in una macchina in funzione piccoli «scudi» firmati crittograficamente che bloccano una vulnerabilità nota mentre la vera patch viene distribuita, senza riavvio. Secondo OpenAI, uno scudo scritto dal suo agente Codex ha fermato un exploit Java4Shell contro un servizio Elasticsearch attivo, in un test controllato condotto dagli stessi sviluppatori. Help Net Security osserva che per l'uso in produzione servono un kernel Linux modificato e un chip TPM 2.0: è quindi un progetto agli inizi, non un prodotto pronto."
+    },
+    {
+     "h": "Amazon acquisisce la tecnologia di ottimizzazione di Decart e il suo team"
+    },
+    {
+     "p": "Amazon ha concordato l'acquisizione della tecnologia alla base dello stack di ottimizzazione di Decart, insieme ai fondatori e ai ricercatori della startup israeliana; secondo Bloomberg il prezzo è di circa 7,5 miliardi di dollari. Il software permette ai modelli di IA di girare in modo efficiente sui chip di Nvidia, Google e della stessa Amazon. L'accordo arriva mentre Amazon si prepara a vendere i suoi acceleratori Trainium a clienti esterni. Conferma che la corsa all'hardware per l'IA si gioca sempre più sul software che spreme ogni chip."
+    },
+    {
+     "h": "Walmart e Gopuff fanno fare la spesa all'agente Muse di Meta"
+    },
+    {
+     "p": "Walmart ha aperto le offerte del Black Friday all'assistente Muse di Meta tramite Walmart Agent Gateway, un sistema lanciato a ottobre che collega gli agenti IA esterni direttamente al suo negozio online. L'utente collega il proprio account Walmart, descrive ciò che cerca e l'agente confronta i prodotti e compone il carrello; Walmart afferma che si possono impostare limiti di spesa, richiedere l'approvazione degli acquisti e controllare gli ordini dell'agente. Lo stesso giorno il servizio di consegne Gopuff ha lanciato un proprio connettore per Muse con oltre 5.000 prodotti. I rivenditori devono ora scegliere se bloccare gli agenti di acquisto o aprire loro una porta controllata."
+    },
+    {
+     "h": "Cosa significa per le aziende"
+    },
+    {
+     "p": "Le tre notizie indicano lo stesso cambiamento: gli agenti IA passano dalla chat a sistemi che agiscono, proteggendo server, effettuando ordini e funzionando su hardware più economico. Per le aziende la lezione pratica è progettare prima le protezioni: azioni firmate e tracciate, limiti chiari di permessi e di spesa, approvazione umana per tutto ciò che è irreversibile. Conviene anche preparare catalogo, API o dati interni perché gli agenti possano usarli in modo strutturato invece di leggere pagine web. Partite da un processo circoscritto e misurabile e scalate solo quando si dimostra affidabile; se state pianificando un progetto simile, VA Corporation è disponibile a parlarne."
+    }
+   ]
+  },
+  "fr": {
+   "title": "Digest IA : Shirudo d'OpenAI et Cisco, Amazon rachète la tech de Decart, Walmart et Muse",
+   "desc": "Des boucliers open source pour Linux non corrigé, un pari de 7,5 Md$ sur le logiciel des puces et des agents IA qui font le Black Friday.",
+   "body": [
+    {
+     "h": "OpenAI et Cisco lancent Shirudo pour protéger Linux avant les correctifs"
+    },
+    {
+     "p": "OpenAI et Cisco ont publié Shirudo, un environnement d'exécution open source pour Linux reposant sur eBPF. Il charge dans un système en marche de petits « boucliers » signés cryptographiquement qui bloquent une faille connue pendant le déploiement du vrai correctif, sans redémarrage. Selon OpenAI, un bouclier écrit par son agent Codex a stoppé un exploit Java4Shell visant un service Elasticsearch actif, lors d'un test contrôlé mené par les développeurs eux-mêmes. Help Net Security précise qu'un usage en production exige un noyau Linux modifié et une puce TPM 2.0 : il s'agit donc d'un projet naissant plutôt que d'un produit clé en main."
+    },
+    {
+     "h": "Amazon rachète la technologie d'optimisation de Decart et son équipe"
+    },
+    {
+     "p": "Amazon a accepté d'acquérir la technologie de la pile d'optimisation de Decart ainsi que les fondateurs et chercheurs de la start-up israélienne ; Bloomberg évalue le montant à environ 7,5 milliards de dollars. Ce logiciel aide les modèles d'IA à tourner efficacement sur les puces de Nvidia, de Google et d'Amazon. L'opération intervient alors qu'Amazon se prépare à vendre ses accélérateurs Trainium à des clients externes. Elle montre que la course au matériel d'IA se joue de plus en plus sur le logiciel qui tire le maximum de chaque puce."
+    },
+    {
+     "h": "Walmart et Gopuff laissent l'agent Muse de Meta faire les courses"
+    },
+    {
+     "p": "Walmart a ouvert ses promotions du Black Friday à l'assistant Muse de Meta via Walmart Agent Gateway, un système lancé en octobre qui relie directement des agents IA externes à sa boutique en ligne. Le client associe son compte Walmart, décrit ce qu'il veut, et l'agent compare les offres puis remplit le panier ; Walmart indique qu'on peut fixer des plafonds de dépense, exiger une validation des achats et consulter les commandes de l'agent. Le même jour, le service de livraison Gopuff a lancé son propre connecteur Muse couvrant plus de 5 000 produits. Les distributeurs doivent désormais choisir entre bloquer les agents d'achat et leur ouvrir une porte contrôlée."
+    },
+    {
+     "h": "Ce que cela signifie pour les entreprises"
+    },
+    {
+     "p": "Ces trois actualités traduisent un même basculement : les agents IA passent de la fenêtre de chat à des systèmes qui agissent — protéger des serveurs, passer des commandes, tourner sur du matériel moins cher. Pour les entreprises, la leçon pratique est de concevoir d'abord les garde-fous : actions signées et journalisées, limites claires de droits et de dépenses, validation humaine pour tout ce qui est irréversible. Il vaut aussi la peine de préparer catalogue, API ou données internes pour que les agents les exploitent de façon structurée plutôt que d'analyser des pages web. Commencez par un processus restreint et mesurable, puis élargissez une fois sa fiabilité prouvée ; si vous préparez un tel projet, VA Corporation en discutera volontiers avec vous."
+    }
+   ]
+  },
+  "pl": {
+   "title": "Przegląd AI: Shirudo od OpenAI i Cisco, Amazon kupuje technologię Decart, Walmart i Muse",
+   "desc": "Otwarte „tarcze” dla niezałatanego Linuksa, zakład za 7,5 mld USD na oprogramowanie do chipów i agenci AI na zakupach w Black Friday.",
+   "body": [
+    {
+     "h": "OpenAI i Cisco udostępniają Shirudo do ochrony niezałatanego Linuksa"
+    },
+    {
+     "p": "OpenAI i Cisco opublikowały Shirudo — otwartoźródłowe środowisko uruchomieniowe dla Linuksa oparte na eBPF. Pozwala ono załadować do działającego systemu niewielkie, podpisane kryptograficznie „tarcze”, które blokują znaną lukę do czasu wdrożenia właściwej poprawki, bez restartu. Według OpenAI tarcza napisana przez agenta Codex zatrzymała exploit Java4Shell wymierzony w działającą usługę Elasticsearch w kontrolowanym teście przeprowadzonym przez samych twórców. Help Net Security zaznacza, że użycie produkcyjne wymaga zmodyfikowanego jądra Linuksa i układu TPM 2.0, więc to raczej wczesny projekt niż gotowy produkt."
+    },
+    {
+     "h": "Amazon przejmuje technologię optymalizacji Decart wraz z zespołem"
+    },
+    {
+     "p": "Amazon zgodził się przejąć technologię stojącą za stosem optymalizacyjnym Decart oraz założycieli i badaczy izraelskiego startupu; według Bloomberga cena wynosi około 7,5 mld dolarów. To oprogramowanie pomaga modelom AI wydajnie działać na chipach Nvidii, Google'a i samego Amazona. Transakcja następuje w chwili, gdy Amazon przygotowuje się do sprzedaży akceleratorów Trainium klientom zewnętrznym. Pokazuje, że wyścig o sprzęt AI coraz częściej rozstrzyga oprogramowanie, które wyciska więcej z każdego układu."
+    },
+    {
+     "h": "Walmart i Gopuff pozwalają agentowi Muse od Mety robić zakupy"
+    },
+    {
+     "p": "Walmart udostępnił swoje promocje z okazji Black Friday asystentowi Muse firmy Meta za pośrednictwem Walmart Agent Gateway — uruchomionego w październiku systemu, który łączy zewnętrznych agentów AI bezpośrednio ze sklepem internetowym. Klient łączy konto Walmart, opisuje, czego szuka, a agent porównuje oferty i kompletuje koszyk; według Walmartu można ustawić limity wydatków, wymagać zatwierdzania zakupów i przeglądać zamówienia agenta. Tego samego dnia firma dostawcza Gopuff uruchomiła własny konektor Muse obejmujący ponad 5000 produktów. Detaliści muszą teraz zdecydować, czy blokować agentów zakupowych, czy otworzyć im kontrolowane drzwi."
+    },
+    {
+     "h": "Co to oznacza dla biznesu"
+    },
+    {
+     "p": "Wszystkie trzy wiadomości wskazują na tę samą zmianę: agenci AI przechodzą z okna czatu do systemów, które działają — chronią serwery, składają zamówienia, pracują na tańszym sprzęcie. Dla firm praktyczny wniosek brzmi: najpierw zaprojektuj zabezpieczenia — podpisane i rejestrowane działania, jasne limity uprawnień i wydatków oraz zatwierdzanie przez człowieka wszystkiego, czego nie da się cofnąć. Warto też przygotować katalog, API lub dane wewnętrzne tak, by agenci korzystali z nich w uporządkowany sposób zamiast przeszukiwać strony WWW. Zacznij od jednego wąskiego, mierzalnego procesu i skaluj dopiero wtedy, gdy okaże się niezawodny; jeśli planujesz taki projekt, VA Corporation chętnie o nim porozmawia."
+    }
+   ]
+  },
+  "uk": {
+   "title": "AI-дайджест: Shirudo від OpenAI і Cisco, Amazon купує технології Decart, Walmart і Muse",
+   "desc": "Відкриті «щити» для Linux без патчів, ставка у $7,5 млрд на софт для чипів і AI-агенти, що купують знижки Black Friday у Walmart і Gopuff.",
+   "body": [
+    {
+     "h": "OpenAI і Cisco випустили Shirudo для захисту Linux до виходу патчів"
+    },
+    {
+     "p": "OpenAI і Cisco представили Shirudo — відкрите середовище виконання для Linux на основі eBPF. Воно завантажує в працюючу систему невеликі криптографічно підписані «щити», які блокують відому вразливість, поки розгортається справжній патч, і не вимагає перезавантаження. За словами OpenAI, щит, написаний агентом Codex, зупинив експлойт Java4Shell проти робочого сервісу Elasticsearch у контрольованому тесті, який провели самі розробники. Help Net Security зазначає, що для продакшну потрібні модифіковане ядро Linux і чип TPM 2.0, тож це радше ранній проєкт, ніж готовий продукт."
+    },
+    {
+     "h": "Amazon купує технологію оптимізації Decart разом із командою"
+    },
+    {
+     "p": "Amazon погодився придбати технологію, що лежить в основі оптимізаційного стека Decart, а також засновників і дослідників ізраїльського стартапу; за даними Bloomberg, ціна становить близько $7,5 млрд. Це програмне забезпечення допомагає AI-моделям ефективно працювати на чипах Nvidia, Google і самого Amazon. Угода відбувається тоді, коли Amazon готується продавати свої прискорювачі Trainium стороннім клієнтам. Вона показує, що перегони AI-заліза дедалі більше вирішує софт, який вичавлює максимум із кожного чипа."
+    },
+    {
+     "h": "Walmart і Gopuff дозволили агенту Muse від Meta робити покупки"
+    },
+    {
+     "p": "Walmart відкрив свої пропозиції Black Friday для асистента Muse від Meta через Walmart Agent Gateway — систему, запущену в жовтні, яка напряму підключає сторонніх AI-агентів до онлайн-магазину. Покупець прив'язує акаунт Walmart, описує, що шукає, а агент порівнює варіанти й формує кошик; за словами Walmart, можна задати ліміти витрат, вимагати підтвердження покупок і переглядати замовлення агента. Того ж дня сервіс доставки Gopuff запустив власний конектор для Muse з понад 5000 товарів. Тепер ритейлерам доводиться вирішувати: блокувати агентів-покупців чи відчинити їм контрольовані двері."
+    },
+    {
+     "h": "Що це означає для бізнесу"
+    },
+    {
+     "p": "Усі три новини свідчать про один зсув: AI-агенти переходять із вікна чату в системи, що діють, — захищають сервери, оформлюють замовлення, працюють на дешевшому залізі. Практичний висновок для компаній — спершу спроєктувати запобіжники: підписані й журнальовані дії, чіткі межі прав і витрат, підтвердження людиною всього незворотного. Варто також підготувати каталог, API чи внутрішні дані так, щоб агенти користувалися ними структуровано, а не розбирали вебсторінки. Почніть з одного вузького, вимірюваного процесу й масштабуйте лише тоді, коли він працює надійно; якщо ви плануєте такий проєкт, VA Corporation охоче його обговорить."
+    }
+   ]
+  },
+  "ru": {
+   "title": "ИИ-дайджест: Shirudo от OpenAI и Cisco, Amazon покупает технологии Decart, Walmart и Muse",
+   "desc": "Открытые «щиты» для Linux без патчей, ставка в $7,5 млрд на софт для чипов и ИИ-агенты, покупающие скидки Black Friday в Walmart и Gopuff.",
+   "body": [
+    {
+     "h": "OpenAI и Cisco выпустили Shirudo для защиты Linux до выхода патчей"
+    },
+    {
+     "p": "OpenAI и Cisco представили Shirudo — открытую среду выполнения для Linux на базе eBPF. Она загружает в работающую систему небольшие криптографически подписанные «щиты», которые блокируют известную уязвимость, пока раскатывается настоящий патч, и не требует перезагрузки. По данным OpenAI, щит, написанный агентом Codex, остановил эксплойт Java4Shell против рабочего сервиса Elasticsearch в контролируемом тесте, который провели сами разработчики. Help Net Security отмечает, что для продакшена нужны модифицированное ядро Linux и чип TPM 2.0, так что это скорее ранний проект, чем готовый продукт."
+    },
+    {
+     "h": "Amazon покупает технологию оптимизации Decart вместе с командой"
+    },
+    {
+     "p": "Amazon договорился приобрести технологию, лежащую в основе оптимизационного стека Decart, а также основателей и исследователей израильского стартапа; по данным Bloomberg, сумма составляет около $7,5 млрд. Этот софт помогает ИИ-моделям эффективно работать на чипах Nvidia, Google и самого Amazon. Сделка совпала с подготовкой Amazon к продаже ускорителей Trainium внешним клиентам. Она показывает, что гонку ИИ-железа всё чаще решает программное обеспечение, выжимающее максимум из каждого чипа."
+    },
+    {
+     "h": "Walmart и Gopuff разрешили агенту Muse от Meta делать покупки"
+    },
+    {
+     "p": "Walmart открыл свои предложения Black Friday для ассистента Muse от Meta через Walmart Agent Gateway — запущенную в октябре систему, которая напрямую подключает сторонних ИИ-агентов к интернет-магазину. Покупатель привязывает аккаунт Walmart, описывает, что ищет, а агент сравнивает варианты и собирает корзину; по словам Walmart, можно задать лимиты трат, требовать подтверждения покупок и просматривать заказы агента. В тот же день сервис доставки Gopuff запустил собственный коннектор для Muse с более чем 5000 товаров. Теперь ритейлерам приходится выбирать: блокировать агентов-покупателей или открыть им контролируемую дверь."
+    },
+    {
+     "h": "Что это значит для бизнеса"
+    },
+    {
+     "p": "Все три новости говорят об одном сдвиге: ИИ-агенты переходят из окна чата в системы, которые действуют, — защищают серверы, оформляют заказы, работают на более дешёвом железе. Практический вывод для компаний — сначала спроектировать ограничители: подписанные и журналируемые действия, чёткие лимиты прав и расходов, подтверждение человеком всего необратимого. Стоит также подготовить каталог, API или внутренние данные так, чтобы агенты пользовались ими структурированно, а не разбирали веб-страницы. Начните с одного узкого, измеримого процесса и масштабируйте его, только когда он работает надёжно; если вы планируете такой проект, VA Corporation с радостью его обсудит."
+    }
+   ]
+  },
+  "be": {
+   "title": "ШІ-дайджэст: Shirudo ад OpenAI і Cisco, Amazon купляе тэхналогіі Decart, Walmart і Muse",
+   "desc": "Адкрытыя «шчыты» для Linux без патчаў, стаўка ў $7,5 млрд на софт для чыпаў і AI-агенты, што купляюць зніжкі Black Friday у Walmart і Gopuff.",
+   "body": [
+    {
+     "h": "OpenAI і Cisco выпусцілі Shirudo для абароны Linux да выхаду патчаў"
+    },
+    {
+     "p": "OpenAI і Cisco прадставілі Shirudo — адкрытае асяроддзе выканання для Linux на аснове eBPF. Яно загружае ў працуючую сістэму невялікія крыптаграфічна падпісаныя «шчыты», якія блакуюць вядомую ўразлівасць, пакуль разгортваецца сапраўдны патч, і не патрабуе перазагрузкі. Паводле OpenAI, шчыт, напісаны агентам Codex, спыніў эксплойт Java4Shell супраць працоўнага сэрвісу Elasticsearch у кантраляваным тэсце, які правялі самі распрацоўшчыкі. Help Net Security адзначае, што для прадакшэну патрэбныя мадыфікаванае ядро Linux і чып TPM 2.0, таму гэта хутчэй ранні праект, чым гатовы прадукт."
+    },
+    {
+     "h": "Amazon купляе тэхналогію аптымізацыі Decart разам з камандай"
+    },
+    {
+     "p": "Amazon дамовіўся набыць тэхналогію, што ляжыць у аснове аптымізацыйнага стэка Decart, а таксама заснавальнікаў і даследчыкаў ізраільскага стартапа; паводле Bloomberg, сума складае каля $7,5 млрд. Гэта праграмнае забеспячэнне дапамагае AI-мадэлям эфектыўна працаваць на чыпах Nvidia, Google і самога Amazon. Здзелка супала з падрыхтоўкай Amazon да продажу паскаральнікаў Trainium знешнім кліентам. Яна паказвае, што гонку AI-жалеза ўсё часцей вырашае софт, які выціскае максімум з кожнага чыпа."
+    },
+    {
+     "h": "Walmart і Gopuff дазволілі агенту Muse ад Meta рабіць пакупкі"
+    },
+    {
+     "p": "Walmart адкрыў свае прапановы Black Friday для асістэнта Muse ад Meta праз Walmart Agent Gateway — запушчаную ў кастрычніку сістэму, якая напрамую падключае старонніх AI-агентаў да інтэрнэт-крамы. Пакупнік прывязвае акаўнт Walmart, апісвае, што шукае, а агент параўноўвае варыянты і збірае кошык; паводле Walmart, можна задаць ліміты выдаткаў, патрабаваць пацверджання пакупак і праглядаць заказы агента. У той жа дзень сэрвіс дастаўкі Gopuff запусціў уласны канектар для Muse з больш чым 5000 тавараў. Цяпер рытэйлерам даводзіцца выбіраць: блакаваць агентаў-пакупнікоў ці адчыніць ім кантраляваныя дзверы."
+    },
+    {
+     "h": "Што гэта значыць для бізнесу"
+    },
+    {
+     "p": "Усе тры навіны сведчаць пра адзін зрух: AI-агенты пераходзяць з акна чата ў сістэмы, якія дзейнічаюць, — абараняюць серверы, афармляюць заказы, працуюць на танейшым жалезе. Практычная выснова для кампаній — спачатку спраектаваць абмежавальнікі: падпісаныя і зафіксаваныя ў журнале дзеянні, выразныя ліміты правоў і выдаткаў, пацвярджэнне чалавекам усяго незваротнага. Варта таксама падрыхтаваць каталог, API або ўнутраныя даныя так, каб агенты карысталіся імі структуравана, а не разбіралі вэб-старонкі. Пачніце з аднаго вузкага, вымернага працэсу і маштабуйце яго, толькі калі ён працуе надзейна; калі вы плануеце такі праект, VA Corporation з радасцю яго абмяркуе."
+    }
+   ]
+  },
+  "ka": {
+   "title": "AI დაიჯესტი: Shirudo, Amazon Decart-ის ტექნოლოგიას იძენს, Walmart Muse-ს ეხსნება",
+   "desc": "ღია „ფარები“ განუახლებელი Linux-ისთვის, $7,5 მლრდ-იანი ფსონი ჩიპების პროგრამულ უზრუნველყოფაზე და AI აგენტები Black Friday-ის შოპინგზე.",
+   "body": [
+    {
+     "h": "OpenAI-მ და Cisco-მ Shirudo გამოუშვეს განუახლებელი Linux-ის დასაცავად"
+    },
+    {
+     "p": "OpenAI-მ და Cisco-მ წარადგინეს Shirudo — Linux-ისთვის განკუთვნილი ღია კოდის გაშვების გარემო, რომელიც eBPF-ზეა აგებული. ის მომუშავე სისტემაში ტვირთავს პატარა, კრიპტოგრაფიულად ხელმოწერილ „ფარებს“, რომლებიც ცნობილ მოწყვლადობას ბლოკავენ, სანამ ნამდვილი პატჩი ვრცელდება, და გადატვირთვა არ სჭირდება. OpenAI-ის თქმით, Codex აგენტის მიერ დაწერილმა ფარმა შეაჩერა Java4Shell ექსპლოიტი მოქმედი Elasticsearch სერვისის წინააღმდეგ — კონტროლირებად ტესტში, რომელიც თავად დეველოპერებმა ჩაატარეს. Help Net Security აღნიშნავს, რომ საწარმოო გამოყენებისთვის საჭიროა მოდიფიცირებული Linux-ის ბირთვი და TPM 2.0 ჩიპი, ამიტომ ეს უფრო ადრეული პროექტია, ვიდრე მზა პროდუქტი."
+    },
+    {
+     "h": "Amazon Decart-ის ოპტიმიზაციის ტექნოლოგიას გუნდთან ერთად ყიდულობს"
+    },
+    {
+     "p": "Amazon შეთანხმდა, შეიძინოს Decart-ის ოპტიმიზაციის სტეკის ტექნოლოგია, ასევე ისრაელური სტარტაპის დამფუძნებლები და მკვლევრები; Bloomberg-ის ცნობით, ფასი დაახლოებით 7,5 მილიარდი დოლარია. ეს პროგრამა AI მოდელებს ეხმარება, ეფექტიანად იმუშაონ Nvidia-ს, Google-ისა და თავად Amazon-ის ჩიპებზე. გარიგება იმ დროს დაიდო, როცა Amazon თავისი Trainium ამაჩქარებლების გარე კლიენტებზე გაყიდვას ემზადება. ის აჩვენებს, რომ AI აპარატურის რბოლას სულ უფრო ხშირად წყვეტს პროგრამული უზრუნველყოფა, რომელიც თითოეული ჩიპიდან მაქსიმუმს იღებს."
+    },
+    {
+     "h": "Walmart-მა და Gopuff-მა Meta-ს Muse აგენტს შოპინგის უფლება მისცეს"
+    },
+    {
+     "p": "Walmart-მა Black Friday-ის შეთავაზებები Meta-ს ასისტენტ Muse-სთვის გახსნა Walmart Agent Gateway-ის მეშვეობით — ოქტომბერში გაშვებული სისტემით, რომელიც გარე AI აგენტებს პირდაპირ აკავშირებს ონლაინ მაღაზიასთან. მყიდველი აკავშირებს Walmart-ის ანგარიშს, აღწერს, რას ეძებს, აგენტი კი ადარებს ვარიანტებს და კალათას ავსებს; Walmart-ის თქმით, შესაძლებელია ხარჯვის ლიმიტების დაწესება, შესყიდვების დადასტურების მოთხოვნა და აგენტის შეკვეთების ნახვა. იმავე დღეს მიწოდების სერვისმა Gopuff-მა Muse-სთვის საკუთარი კონექტორი გაუშვა 5000-ზე მეტი პროდუქტით. ახლა საცალო ვაჭრებს უწევთ არჩევანი: დაბლოკონ შოპინგ-აგენტები თუ კონტროლირებადი კარი გაუღონ მათ."
+    },
+    {
+     "h": "რას ნიშნავს ეს ბიზნესისთვის"
+    },
+    {
+     "p": "სამივე ამბავი ერთსა და იმავე ცვლილებაზე მიუთითებს: AI აგენტები ჩატის ფანჯრიდან გადადიან სისტემებში, რომლებიც მოქმედებენ — იცავენ სერვერებს, აფორმებენ შეკვეთებს, მუშაობენ უფრო იაფ აპარატურაზე. კომპანიებისთვის პრაქტიკული დასკვნაა, ჯერ დამცავი მექანიზმები დააპროექტონ: ხელმოწერილი და ჟურნალში აღრიცხული ქმედებები, უფლებებისა და ხარჯების მკაფიო ლიმიტები, ადამიანის დადასტურება ყველაფრისთვის, რისი უკან დაბრუნებაც შეუძლებელია. ასევე ღირს კატალოგის, API-ის ან შიდა მონაცემების ისე მომზადება, რომ აგენტებმა ისინი სტრუქტურირებულად გამოიყენონ და ვებგვერდების გარჩევა არ დასჭირდეთ. დაიწყეთ ერთი ვიწრო, გაზომვადი პროცესით და გააფართოვეთ მხოლოდ მაშინ, როცა ის საიმედოდ მუშაობს; თუ ასეთ პროექტს გეგმავთ, VA Corporation სიამოვნებით განიხილავს მას თქვენთან ერთად."
+    }
+   ]
+  },
+  "hy": {
+   "title": "AI ամփոփում. Shirudo, Amazon-ը գնում է Decart-ի տեխնոլոգիան, Walmart-ը՝ Muse-ի համար",
+   "desc": "Բաց «վահաններ» չթարմացված Linux-ի համար, $7,5 մլրդ խաղադրույք չիպերի ծրագրային ապահովման վրա և AI գործակալներ Black Friday-ի գնումներում։",
+   "body": [
+    {
+     "h": "OpenAI-ն և Cisco-ն թողարկել են Shirudo՝ չթարմացված Linux-ը պաշտպանելու համար"
+    },
+    {
+     "p": "OpenAI-ն և Cisco-ն ներկայացրել են Shirudo՝ eBPF-ի վրա հիմնված բաց կոդով գործարկման միջավայր Linux-ի համար։ Այն աշխատող համակարգում բեռնում է փոքր, կրիպտոգրաֆիկորեն ստորագրված «վահաններ», որոնք արգելափակում են հայտնի խոցելիությունը, մինչ իրական թարմացումը տարածվում է, և վերագործարկում չի պահանջվում։ Ըստ OpenAI-ի՝ Codex գործակալի գրած վահանը կանգնեցրել է Java4Shell էքսպլոյթը գործող Elasticsearch ծառայության դեմ՝ վերահսկվող թեստում, որն անցկացրել են հենց մշակողները։ Help Net Security-ն նշում է, որ արտադրական օգտագործման համար անհրաժեշտ են փոփոխված Linux միջուկ և TPM 2.0 չիպ, ուստի սա ավելի շուտ վաղ փուլի նախագիծ է, քան պատրաստի արտադրանք։"
+    },
+    {
+     "h": "Amazon-ը գնում է Decart-ի օպտիմալացման տեխնոլոգիան թիմի հետ միասին"
+    },
+    {
+     "p": "Amazon-ը համաձայնել է ձեռք բերել Decart-ի օպտիմալացման ստեկի տեխնոլոգիան, ինչպես նաև իսրայելական ստարտափի հիմնադիրներին ու հետազոտողներին. Bloomberg-ի տվյալներով՝ գինը մոտ 7,5 միլիարդ դոլար է։ Այս ծրագիրն օգնում է AI մոդելներին արդյունավետ աշխատել Nvidia-ի, Google-ի և հենց Amazon-ի չիպերի վրա։ Գործարքը համընկել է այն պահին, երբ Amazon-ը պատրաստվում է իր Trainium արագացուցիչները վաճառել արտաքին հաճախորդներին։ Այն ցույց է տալիս, որ AI սարքավորումների մրցավազքը գնալով ավելի հաճախ որոշում է ծրագրային ապահովումը, որը յուրաքանչյուր չիպից առավելագույնն է քամում։"
+    },
+    {
+     "h": "Walmart-ը և Gopuff-ը թույլ են տվել Meta-ի Muse գործակալին գնումներ կատարել"
+    },
+    {
+     "p": "Walmart-ը Black Friday-ի առաջարկները բացել է Meta-ի Muse օգնականի համար Walmart Agent Gateway-ի միջոցով՝ հոկտեմբերին գործարկված համակարգ, որն արտաքին AI գործակալներին ուղղակիորեն միացնում է առցանց խանութին։ Գնորդը կապում է իր Walmart հաշիվը, նկարագրում, թե ինչ է փնտրում, իսկ գործակալը համեմատում է տարբերակները և լրացնում զամբյուղը. ըստ Walmart-ի՝ կարելի է սահմանել ծախսերի սահմանաչափեր, պահանջել գնումների հաստատում և դիտել գործակալի պատվերները։ Նույն օրը առաքման ծառայություն Gopuff-ը գործարկել է Muse-ի իր սեփական կոնեկտորը՝ ավելի քան 5000 ապրանքով։ Այժմ մանրածախ առևտրականները պետք է ընտրեն՝ արգելափակե՞լ գնումների գործակալներին, թե՞ նրանց համար վերահսկվող դուռ բացել։"
+    },
+    {
+     "h": "Ինչ է սա նշանակում բիզնեսի համար"
+    },
+    {
+     "p": "Երեք լուրերն էլ վկայում են նույն փոփոխության մասին. AI գործակալները չատի պատուհանից տեղափոխվում են գործող համակարգեր՝ պաշտպանում են սերվերներ, ձևակերպում պատվերներ, աշխատում ավելի էժան սարքավորումների վրա։ Ընկերությունների համար գործնական եզրակացությունն այն է, որ նախ պետք է նախագծել պաշտպանիչ մեխանիզմները՝ ստորագրված և գրանցվող գործողություններ, իրավունքների ու ծախսերի հստակ սահմանաչափեր, մարդու հաստատում այն ամենի համար, ինչն անշրջելի է։ Արժե նաև կատալոգը, API-ն կամ ներքին տվյալները պատրաստել այնպես, որ գործակալներն օգտագործեն դրանք կառուցվածքային ձևով, այլ ոչ թե վերլուծեն վեբ էջեր։ Սկսեք մեկ նեղ, չափելի գործընթացից և ընդլայնեք այն միայն այն ժամանակ, երբ այն հուսալիորեն աշխատի. եթե նման նախագիծ եք պլանավորում, VA Corporation-ը սիրով կքննարկի այն ձեզ հետ։"
+    }
+   ]
+  }
+ }
+}
