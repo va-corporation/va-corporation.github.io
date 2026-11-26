@@ -3,7 +3,7 @@
    if the network takes longer than 1.5 s, the saved copy is shown at once and refreshed in the background.
    Same-origin static files (fonts, images, icons): served from cache, refreshed in the background.
    Other sites (videos, Telegram, Instagram) and non-GET requests are not touched. */
-const VERSION = 'va-v4';
+const VERSION = 'va-v5';
 const PAGES = VERSION + '-pages';
 const STATIC = VERSION + '-static';
 const OFFLINE = '/offline.html';
@@ -46,7 +46,7 @@ self.addEventListener('fetch', (e) => {
   }
 
   // Only cache static files; data and feeds (json, xml) always come from the network.
-  if (!/\.(png|jpe?g|webp|gif|svg|ico|woff2?|css|js)$/i.test(url.pathname) || url.pathname === '/sw.js') return;
+  if (!/\.(png|jpe?g|webp|gif|svg|ico|woff2?|css|js)$/i.test(url.pathname) || url.pathname === '/sw.js' || url.pathname === '/track.js') return;
   e.respondWith(
     caches.open(STATIC).then((c) =>
       c.match(req).then((hit) => {
