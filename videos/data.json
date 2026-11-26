@@ -1,122 +1,132 @@
 [
-  {
-    "id": "2026-11-25-de",
-    "date": "2026-11-25",
-    "lang": "de",
-    "title": "Deine Idee verdient eine App.",
-    "description": "Ein Aurora-Reel in drei Schritten – gemeinsam planen, bauen, live gehen – und die Frage, was du als Nächstes baust: KI-Agent, Spiel oder Software. Erstellt von unserem KI-Video-Agenten.",
-    "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-25-de.mp4",
-    "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-25-de.jpg",
-    "duration": 23
-  },
-  {
-    "id": "2026-11-24-en",
-    "date": "2026-11-24",
-    "lang": "en",
-    "title": "Agent. Game. App. Pick one.",
-    "description": "A synthwave reel showing the three things we build – an AI agent that answers while you sleep, a playable game world and business software – and asking which one you need. Made by our AI video agent.",
-    "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-24-en.mp4",
-    "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-24-en.jpg",
-    "duration": 10
-  },
-  {
-    "id": "2026-11-24-de",
-    "date": "2026-11-24",
-    "lang": "de",
-    "title": "3 Uhr nachts. Wer antwortet?",
-    "description": "Nachts schreibt eine Kundin – das Team schläft, aber ein KI-Agent antwortet sofort und bietet einen Termin an. Das Reel hat unser KI-Video-Agent erstellt.",
-    "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-24-de.mp4",
-    "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-24-de.jpg",
-    "duration": 10
-  },
-  {
-    "id": "2026-11-24-ru",
-    "date": "2026-11-24",
-    "lang": "ru",
-    "title": "Хватит делать это руками",
-    "description": "Ответы клиентам, таблицы и отчёты — короткий рилс о том, какую рутину может взять на себя ИИ-агент. Видео целиком создал наш ИИ-видеоагент.",
-    "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-24-ru.mp4",
-    "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-24-ru.jpg",
-    "duration": 10
-  },
-  {
-    "id": "2026-11-23-en",
-    "date": "2026-11-23",
-    "lang": "en",
-    "title": "No human edited this video",
-    "description": "A 10-second look at the 5 steps our AI video agent took to make this very reel: script, scenes, subtitles in 3 languages, a Mozart-meets-techno track and publishing. Made entirely by our AI video agent.",
-    "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-23-en.mp4",
-    "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-23-en.jpg",
-    "duration": 10
-  },
-  {
-    "id": "2026-11-23-de",
-    "date": "2026-11-23",
-    "lang": "de",
-    "title": "Wir sind online: unsere neue Website ist live",
-    "description": "Eine kurze Tour durch unsere neue Website – KI-Agenten, Spiele, Software, Projekte, KI-Videos und 11 Sprachen. Das Reel hat unser KI-Video-Agent geschrieben, animiert und vertont.",
-    "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-23-de.mp4",
-    "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-23-de.jpg",
-    "duration": 14
-  },
-  {
-    "id": "2026-11-23-ru",
-    "date": "2026-11-23",
-    "lang": "ru",
-    "title": "Твой ИИ-монтажёр не спит",
-    "description": "Как наш ИИ-видеоагент пишет сценарий, монтирует сцены, добавляет субтитры на трёх языках и техно и публикует ролик. Этот рилс он сделал сам.",
-    "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-23-ru.mp4",
-    "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-23-ru.jpg",
-    "duration": 14
-  },
-  {
-    "id": "2026-11-22-en",
-    "date": "2026-11-22",
-    "lang": "en",
-    "title": "How an AI agent thinks: see, plan, act, check",
-    "description": "Four steps of an AI agent — see, plan, act, check — animated by our AI video agent, with original techno music.",
-    "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-22-en.mp4",
-    "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-22-en.jpg",
-    "duration": 14
-  },
-  {
-    "id": "2026-11-22-tiktok-empire",
-    "date": "2026-11-22",
-    "lang": "en",
-    "title": "Build your AI agent empire",
-    "description": "The AI revolution has already started: a cinematic reel about building a team of AI agents, made entirely by AI.",
-    "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-22-tiktok-empire.mp4",
-    "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-22-tiktok-empire.jpg",
-    "duration": 12
-  },
-  {
-    "id": "va-viral-ai",
-    "date": "2026-11-22",
-    "lang": "ru",
-    "title": "Этот рилс сделал ИИ. Даже этот текст",
-    "description": "Яркий рилс с быстрыми сменами цвета: всё в нём — от идеи до текста и музыки — создал ИИ.",
-    "video": "https://benzogamesltd-ops.github.io/va-media/reels/va-viral-ai.mp4",
-    "cover": "https://benzogamesltd-ops.github.io/va-media/covers/va-viral-ai.jpg",
-    "duration": 10
-  },
-  {
-    "id": "va-solar-subs",
-    "date": "2026-11-22",
-    "lang": "ru",
-    "title": "Всё вращается вокруг идеи",
-    "description": "Солнечная система VA Corporation: планеты-идеи вращаются вокруг золотого солнца. Рилс с субтитрами, созданный ИИ.",
-    "video": "https://benzogamesltd-ops.github.io/va-media/reels/va-solar-subs.mp4",
-    "cover": "https://benzogamesltd-ops.github.io/va-media/covers/va-solar.jpg",
-    "duration": 12
-  },
-  {
-    "id": "va-sunrise",
-    "date": "2026-11-22",
-    "lang": "ru",
-    "title": "Каждый день — новый восход для идей",
-    "description": "Восход над планетой и появление логотипа VA Corporation — первый рилс нашего ИИ-видеоагента.",
-    "video": "https://benzogamesltd-ops.github.io/va-media/reels/va-sunrise.mp4",
-    "cover": "",
-    "duration": 12
-  }
+ {
+  "id": "2026-11-26-hotel-en",
+  "date": "2026-11-26",
+  "lang": "en",
+  "title": "Guests write at 3 AM. Who answers? AI concierge for hotels",
+  "description": "An AI concierge that answers hotel guests 24/7, takes booking requests and offers upgrades and transfers. Made by our AI video agent.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-26-hotel-en.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-26-hotel-en.jpg",
+  "duration": 25
+ },
+ {
+  "id": "2026-11-25-de",
+  "date": "2026-11-25",
+  "lang": "de",
+  "title": "Deine Idee verdient eine App.",
+  "description": "Ein Aurora-Reel in drei Schritten – gemeinsam planen, bauen, live gehen – und die Frage, was du als Nächstes baust: KI-Agent, Spiel oder Software. Erstellt von unserem KI-Video-Agenten.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-25-de.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-25-de.jpg",
+  "duration": 23
+ },
+ {
+  "id": "2026-11-24-en",
+  "date": "2026-11-24",
+  "lang": "en",
+  "title": "Agent. Game. App. Pick one.",
+  "description": "A synthwave reel showing the three things we build – an AI agent that answers while you sleep, a playable game world and business software – and asking which one you need. Made by our AI video agent.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-24-en.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-24-en.jpg",
+  "duration": 10
+ },
+ {
+  "id": "2026-11-24-de",
+  "date": "2026-11-24",
+  "lang": "de",
+  "title": "3 Uhr nachts. Wer antwortet?",
+  "description": "Nachts schreibt eine Kundin – das Team schläft, aber ein KI-Agent antwortet sofort und bietet einen Termin an. Das Reel hat unser KI-Video-Agent erstellt.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-24-de.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-24-de.jpg",
+  "duration": 10
+ },
+ {
+  "id": "2026-11-24-ru",
+  "date": "2026-11-24",
+  "lang": "ru",
+  "title": "Хватит делать это руками",
+  "description": "Ответы клиентам, таблицы и отчёты — короткий рилс о том, какую рутину может взять на себя ИИ-агент. Видео целиком создал наш ИИ-видеоагент.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-24-ru.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-24-ru.jpg",
+  "duration": 10
+ },
+ {
+  "id": "2026-11-23-en",
+  "date": "2026-11-23",
+  "lang": "en",
+  "title": "No human edited this video",
+  "description": "A 10-second look at the 5 steps our AI video agent took to make this very reel: script, scenes, subtitles in 3 languages, a Mozart-meets-techno track and publishing. Made entirely by our AI video agent.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-23-en.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-23-en.jpg",
+  "duration": 10
+ },
+ {
+  "id": "2026-11-23-de",
+  "date": "2026-11-23",
+  "lang": "de",
+  "title": "Wir sind online: unsere neue Website ist live",
+  "description": "Eine kurze Tour durch unsere neue Website – KI-Agenten, Spiele, Software, Projekte, KI-Videos und 11 Sprachen. Das Reel hat unser KI-Video-Agent geschrieben, animiert und vertont.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-23-de.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-23-de.jpg",
+  "duration": 14
+ },
+ {
+  "id": "2026-11-23-ru",
+  "date": "2026-11-23",
+  "lang": "ru",
+  "title": "Твой ИИ-монтажёр не спит",
+  "description": "Как наш ИИ-видеоагент пишет сценарий, монтирует сцены, добавляет субтитры на трёх языках и техно и публикует ролик. Этот рилс он сделал сам.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-23-ru.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-23-ru.jpg",
+  "duration": 14
+ },
+ {
+  "id": "2026-11-22-en",
+  "date": "2026-11-22",
+  "lang": "en",
+  "title": "How an AI agent thinks: see, plan, act, check",
+  "description": "Four steps of an AI agent — see, plan, act, check — animated by our AI video agent, with original techno music.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-22-en.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-22-en.jpg",
+  "duration": 14
+ },
+ {
+  "id": "2026-11-22-tiktok-empire",
+  "date": "2026-11-22",
+  "lang": "en",
+  "title": "Build your AI agent empire",
+  "description": "The AI revolution has already started: a cinematic reel about building a team of AI agents, made entirely by AI.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/2026-11-22-tiktok-empire.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/2026-11-22-tiktok-empire.jpg",
+  "duration": 12
+ },
+ {
+  "id": "va-viral-ai",
+  "date": "2026-11-22",
+  "lang": "ru",
+  "title": "Этот рилс сделал ИИ. Даже этот текст",
+  "description": "Яркий рилс с быстрыми сменами цвета: всё в нём — от идеи до текста и музыки — создал ИИ.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/va-viral-ai.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/va-viral-ai.jpg",
+  "duration": 10
+ },
+ {
+  "id": "va-solar-subs",
+  "date": "2026-11-22",
+  "lang": "ru",
+  "title": "Всё вращается вокруг идеи",
+  "description": "Солнечная система VA Corporation: планеты-идеи вращаются вокруг золотого солнца. Рилс с субтитрами, созданный ИИ.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/va-solar-subs.mp4",
+  "cover": "https://benzogamesltd-ops.github.io/va-media/covers/va-solar.jpg",
+  "duration": 12
+ },
+ {
+  "id": "va-sunrise",
+  "date": "2026-11-22",
+  "lang": "ru",
+  "title": "Каждый день — новый восход для идей",
+  "description": "Восход над планетой и появление логотипа VA Corporation — первый рилс нашего ИИ-видеоагента.",
+  "video": "https://benzogamesltd-ops.github.io/va-media/reels/va-sunrise.mp4",
+  "cover": "",
+  "duration": 12
+ }
 ]
